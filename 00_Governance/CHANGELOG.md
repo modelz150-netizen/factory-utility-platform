@@ -7,6 +7,8 @@ All notable project changes are recorded here. Entries use calendar dates and re
 - `GOV-008`, `GOV-021` Chapter 9 approved and merged through PR #10 without modification after CTO review.
 - `GOV-022` Authorized the comprehensive Chapters 1 through 9 Master Charter Architecture Audit before Chapter 10.
 - `GOV-022` Completed the formal Architecture Audit with result `PASS WITH RECOMMENDATIONS`; no constitutional defect was found and Master Charter v1.0 remains not ready.
+- `GOV-022` Architecture Audit approved; its completeness gaps are mandatory gates before v1.0.
+- `GOV-023` Authorized a v1.0 Completion Plan before any Chapter 10 drafting.
 - `GOV-008`, `GOV-021` Added Chapter 9, Constitutional Change and Integrity, covering amendment authority, constraints, stability, review, version governance, effective date, and preservation.
 - `GOV-021` Completed independent Chapter 9 validation without modifying approved Chapters 1 through 8 or introducing Chapter 10.
 - `GOV-007`, `GOV-020` Approved and merged Master Project Charter Chapter 8 through PR #9 after final constitutional scope validation.
