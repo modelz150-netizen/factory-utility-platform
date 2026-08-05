@@ -6,11 +6,11 @@
 | Architecture status | Approved and frozen |
 | Governance status | Approved and frozen; Phase 1 review passed |
 | Project status | Foundation Complete |
-| Current phase | Master Charter Chapter 7 Review |
-| Active backlog item | `GOV-005`, `GOV-006`, `GOV-019` |
-| Active branch | `agent/master-charter-chapter-7` |
-| Active pull request | Draft PR #8 |
-| Next approved action | CTO review of Chapter 7; merge only after explicit approval |
+| Current phase | Master Charter Chapter 8 Review |
+| Active backlog item | `GOV-007`, `GOV-020` |
+| Active branch | `agent/master-charter-chapter-8` |
+| Active pull request | Draft PR #9 |
+| Next approved action | CTO review of Chapter 8; merge only after explicit approval |
 | Blockers | None |
 
 ## Scope Guard
@@ -24,8 +24,10 @@
 - Milestone 1 is complete; accepted follow-up items remain `GOV-010`, `GOV-011`, and `GOV-016`.
 - Chapter 6 is approved and must not be modified without a constitutional defect.
 - Master Charter milestone v0.2, Chapters 4 through 6, is complete.
-- Chapter 7 is limited to AI Organization and Chief AI Responsibilities at the constitutional level.
-- Chapter 8 is blocked until Chapter 7 is reviewed, approved, and merged.
+- Chapter 7 is approved and must not be modified without a constitutional defect.
+- Master Charter v0.3 checkpoint records Chapter 7 complete; the Chapters 7 through 9 milestone remains in progress.
+- Chapter 8 is limited to Governance Structure and Constitutional Stewardship at the constitutional level.
+- Chapter 9 is blocked until Chapter 8 is reviewed, approved, and merged.
 - Accepted recommendations are backlog requirements, not retroactive Chapter 1 defects.
 - Governance architecture changes require a separate proposal and explicit approval.
 

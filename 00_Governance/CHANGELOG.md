@@ -29,6 +29,10 @@ All notable project changes are recorded here. Entries use calendar dates and re
 - `GOV-018` Chapter 6 approved and merged through PR #7; Master Charter milestone v0.2 is complete.
 - `GOV-005`, `GOV-006`, `GOV-019` Added Chapter 7, AI Organization and Chief AI Responsibilities, with explicit Founder, Chief AI, human authority, evidence, escalation, and lifecycle boundaries.
 - `GOV-019` Completed Chapter 7 QA and independent review and recorded the v0.2 constitutional milestone validation.
+- `GOV-005`, `GOV-006`, `GOV-019` Chapter 7 approved after final authority-boundary validation and merged through PR #8.
+- `GOV-019` Recorded the v0.3 milestone checkpoint: Chapter 7 is complete; the Chapters 7 through 9 milestone remains in progress.
+- `GOV-007`, `GOV-020` Added Chapter 8, Governance Structure and Constitutional Stewardship, covering authority hierarchy, decision rights, conflict resolution, continuity, and Founder succession.
+- `GOV-020` Completed Chapter 8 QA and independent review without modifying approved Chapters 1 through 7.
 
 ### Planned
 
@@ -43,6 +47,7 @@ All notable project changes are recorded here. Entries use calendar dates and re
 - `GOV-015` Submit Chapter 5 only for independent review and complete the five-chapter Milestone Review before Chapter 6 begins.
 - `GOV-018` Obtain explicit CTO approval for Chapter 6 before merging PR #7 or beginning Chapter 7.
 - `GOV-019` Obtain explicit CTO approval for Chapter 7 before merging PR #8 or beginning Chapter 8.
+- `GOV-020` Obtain explicit CTO approval for Chapter 8 before merging PR #9 or beginning Chapter 9.
 
 ## [2026-08-05]
 
