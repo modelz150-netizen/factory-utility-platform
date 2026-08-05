@@ -8,9 +8,9 @@
 | Project status | Foundation Complete |
 | Current phase | Master Charter v1.0 Completion Planning |
 | Active backlog item | `GOV-023` |
-| Active branch | Pending completion-plan branch after audit merge |
-| Active pull request | Architecture Audit PR - Approved and merged |
-| Next approved action | Create and review the v1.0 Completion Plan; do not begin Chapter 10 |
+| Active branch | agent/master-charter-v1-completion-plan |
+| Active pull request | Draft v1.0 Completion Plan PR |
+| Next approved action | CTO review of the v1.0 Completion Plan; do not begin Chapter 10 |
 | Blockers | None |
 
 ## Scope Guard
