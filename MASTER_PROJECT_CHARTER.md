@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Chapters 1 through 12 Approved |
+| Status | Draft - Chapter 13 Pending Review |
 | Version | 0.3.0-draft |
 | Approved chapters | Chapters 1 through 12 |
-| Proposed chapter | None |
+| Proposed chapter | Chapter 13 |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
@@ -922,3 +922,85 @@ This chapter defines constitutional Sprint and Workflow Governance: planning, re
 It does not prescribe Agile implementation, Scrum ceremonies, Kanban implementation, daily meetings, task management, Git workflow, Pull Request workflow, CI/CD, Release workflow, operational checklists, templates, dashboards, or tool-specific guidance.
 
 Lower-level Standards and operational documents shall implement these principles. Chapter 13 remains reserved for GitHub Governance, Chapter 14 for Release Governance, Chapter 15 for Continuous Improvement, and Chapter 16 for Success Criteria and Constitutional Completion. Chapter 12 is approved and becomes authoritative upon merge of PR #18; Chapter 13 and later chapters remain unauthorized.
+
+## Chapter 13 - GitHub Governance
+
+### 13.1 Constitutional Purpose
+
+Repository Governance shall preserve the authoritative, attributable, reviewable, and recoverable state of the Factory Utility Platform across contributors, tools, providers, and time.
+
+This chapter defines enduring constitutional responsibilities for Repository integrity. It does not prescribe Git or GitHub operations, configuration, access administration, automation, or provider-specific procedures.
+
+### 13.2 Approved Repository State as Source of Truth
+
+The approved Repository state is the constitutional Source of Truth for governed Project artifacts. Approval shall arise only through the authority and evidence required by this Charter and applicable Governance.
+
+GitHub is the current implementation platform that hosts and supports Repository Governance. GitHub, any successor provider, and their technical capabilities do not possess constitutional authority and do not determine external Engineering Truth.
+
+The Source-of-Truth principle shall remain portable. A change of hosting provider, interface, account, or tooling shall not change constitutional ownership, authority, provenance, or continuity duties.
+
+### 13.3 Repository Ownership and Stewardship
+
+The Repository is a governed Project asset held for the long-term interests of the Platform. Constitutional ownership, delegated stewardship, operational custody, hosting custody, and technical access shall remain distinguishable.
+
+Stewards shall protect Repository integrity, availability, provenance, and continuity within delegated authority. Custody or technical control shall not create ownership, approval authority, or a right to conceal, rewrite, withhold, or abandon governed state.
+
+### 13.4 Repository Change Integrity
+
+Material Repository change shall be attributable to an approved purpose, accountable participants, applicable requirements, competent review, sufficient evidence, and an explicit resulting state.
+
+Unapproved work may exist as a bounded proposal, but it shall not be represented as authoritative. Urgency, automation, organizational rank, provider permissions, or technical capability shall not convert proposed state into approved state or waive Governance obligations.
+
+Chapter 12 continues to govern planning, review, approval, completion, and handover accountability associated with change.
+
+### 13.5 Branch Governance Principles
+
+A branch is a bounded context for proposed or preserved Repository state. Unless explicitly designated by applicable Governance, it shall not be treated as the authoritative line of approved state.
+
+Branch existence, naming, age, technical protection, or contributor control shall not establish approval. Integration into an authoritative line shall preserve applicable decision authority, evidence, traceability, and version integrity.
+
+### 13.6 Pull Request Governance Principles
+
+A Pull Request is a governed decision boundary through which material Repository change may be examined, challenged, evidenced, and accepted. It supports accountability but does not itself create constitutional authority.
+
+Review, validation, approval, and merge capability shall remain distinguishable. A technical action or platform status shall not substitute for the competent human accountability, separation of duties, and evidence required by Chapters 5, 6, 8, and 12.
+
+### 13.7 Traceability and Auditability
+
+Material Repository state shall remain traceable to its governing purpose, accountable actors, relevant decisions, reviews, approvals, validation evidence, exceptions, changes, and resulting version.
+
+Auditability shall support reconstruction and professional challenge without requiring indiscriminate disclosure. Corrections, reversals, supersession, and justified restrictions shall remain visible to the extent necessary to preserve truthful history and accountability.
+
+Chapter 10 governs documentary integrity, and Chapter 11 governs preservation of the resulting Project Memory.
+
+### 13.8 Version Integrity
+
+An authoritative reference, version, or identifier shall correspond to a controlled Repository state whose approval and scope can be established. Version identity shall not be reused, silently redirected, or described in a manner that misrepresents its contents, authority, validation, or lifecycle status.
+
+Repository version integrity does not by itself establish Release approval, deployment readiness, or production acceptance. Those responsibilities remain reserved for Chapter 14.
+
+### 13.9 Governance Evidence Preservation
+
+Material approval, review, validation, exception, amendment, and decision evidence associated with Repository state shall remain durable, attributable, protected from unauthorized alteration, and available for proportionate review.
+
+Loss, corruption, incompleteness, or disputed provenance of material evidence shall remain visible. The accountable authority shall determine whether affected state must be recovered, reconstructed, revalidated, restricted, superseded, or treated as non-authoritative.
+
+### 13.10 Repository Continuity and Portability
+
+Repository continuity shall not depend on the permanent availability of a particular provider, account, maintainer, integration, device, or operational environment. The Project shall preserve the ownership, knowledge, provenance, recoverability, and authority necessary to continue governed work.
+
+Continuity measures shall respect security, privacy, confidentiality, legal, contractual, and intellectual-property obligations. Provider migration or recovery shall preserve authoritative identity and evidence rather than silently creating a new constitutional history.
+
+### 13.11 Constitutional Repository Responsibilities
+
+Repository authorities and stewards shall ensure that approved state remains identifiable, unauthorized change cannot masquerade as authority, material evidence remains reviewable, and technical capability stays subordinate to human accountability and this Charter.
+
+Where Repository state conflicts with a higher constitutional authority or verified external Engineering Truth, the conflict shall be made visible and escalated under Chapter 8. Repository status shall not be used to legitimize error, conceal uncertainty, or override professional responsibility.
+
+### 13.12 Chapter Boundary
+
+This chapter defines constitutional Repository Governance: approved Repository state as Source of Truth, ownership, stewardship, change integrity, branch and Pull Request principles, traceability, auditability, version integrity, evidence preservation, continuity, portability, and constitutional responsibility.
+
+It does not prescribe Git commands, GitHub CLI, branch procedures, Pull Request procedures, merge strategies, CI/CD, GitHub Actions, Repository configuration, access management, release procedures, operational checklists, or tool-specific implementation.
+
+Lower-level Standards and operational documents shall implement these principles. Chapter 14 remains reserved for Release Governance, Chapter 15 for Continuous Improvement, and Chapter 16 for Success Criteria and Constitutional Completion. This chapter becomes authoritative only after explicit approval and merge; Chapter 14 and later chapters remain unauthorized.
