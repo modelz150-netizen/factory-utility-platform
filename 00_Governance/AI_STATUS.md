@@ -10,7 +10,7 @@
 | Active backlog item | `GOV-009`, `GOV-012` |
 | Active branch | `agent/master-charter-chapter-2` |
 | Active pull request | Draft PR #3 |
-| Next approved action | Review Chapter 2; do not begin Chapter 3 before approval and merge |
+| Next approved action | Merge approved Chapter 2 PR #3; do not begin Chapter 3 before merge |
 | Blockers | None |
 
 ## Scope Guard

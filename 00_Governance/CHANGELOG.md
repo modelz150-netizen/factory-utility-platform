@@ -11,6 +11,7 @@ All notable project changes are recorded here. Entries use calendar dates and re
 - `GOV-005` through `GOV-011` Recorded accepted CTO review recommendations as future Governance requirements rather than Chapter 1 defects.
 - `GOV-012` Started Chapter 2, Engineering Philosophy, under the one-chapter-per-PR policy.
 - `GOV-009`, `GOV-012` Completed Chapter 2 drafting and validation for independent review.
+- `GOV-009`, `GOV-012` Independent CTO and Engineering Review Board result: `PASS WITH RECOMMENDATIONS`; PR #3 is merge-ready.
 
 ### Planned
 
