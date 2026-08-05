@@ -2,9 +2,9 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Chapters 1 through 9 Approved |
+| Status | Draft - Chapters 1 through 10 Approved |
 | Version | 0.3.0-draft |
-| Approved chapters | Chapters 1 through 9 |
+| Approved chapters | Chapters 1 through 10 |
 | Proposed chapter | None |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
@@ -636,3 +636,121 @@ If an approved amendment creates an unforeseen contradiction or material loss of
 This chapter defines the constitutional principles, authority, constraints, review obligations, version identity, effectiveness, and integrity requirements governing change to the Master Project Charter. It does not prescribe proposal forms, review schedules, repository operations, documentation workflows, release processes, approval tools, or publication mechanics.
 
 Lower-level Governance documents may implement those mechanics only within this chapter and the Governance hierarchy established by Chapter 8. This chapter becomes authoritative only after Chapter 9 is explicitly approved and merged. Chapter 10 and later chapters remain unauthorized.
+
+## Chapter 10 - Documentation Governance
+
+### 10.1 Constitutional Purpose of Documentation
+
+Documentation is the governed expression of the Platform's authority, Engineering Truth, decisions, obligations, evidence, and state. It shall make consequential knowledge understandable, attributable, reviewable, and distinguishable from informal communication, transient implementation state, and unsupported assertion.
+
+Documentation Governance exists to protect trust and accountable action across technical, organizational, and temporal boundaries. It shall favor clarity, truthfulness, accessibility, and one coherent authority model over volume, ceremony, or the appearance of completeness.
+
+The existence of a document does not by itself create authority. Authority arises from the Charter, the Governance hierarchy, a valid mandate, accountable approval, and evidence appropriate to the claim or decision.
+
+### 10.2 Documentation Authority and Classification
+
+Governed documentation shall state or make discoverable its authority, purpose, scope, accountable steward, lifecycle state, and relationship to higher authority. A document may be:
+
+1. **constitutional**, defining the highest enduring principles and authority;
+2. **normative**, translating higher authority into binding Standards or policy within a stated responsibility;
+3. **decisional**, recording an accountable choice, its context, and its consequences;
+4. **evidentiary**, recording observed facts, validation, review, or execution results;
+5. **operational**, reporting current plans, work, state, or coordination;
+6. **historical**, representing authority or state that no longer governs current action; or
+7. **informative**, providing explanation or reference without creating an obligation.
+
+Classification shall reflect actual authority rather than title, location, author, tool, recency, or audience. A lower class may support or implement a higher class but shall not silently override it. The precedence rules of Chapter 8 remain controlling.
+
+### 10.3 Authoritative Source and Controlled Duplication
+
+Every governed responsibility shall have one identifiable authoritative source. Other documents shall reference that source or state their bounded derivative purpose. Repetition is acceptable only when it improves necessary comprehension without creating a competing statement of authority.
+
+When two records appear authoritative, the responsible stewards shall resolve the conflict through the Governance hierarchy, responsible mandate, approval state, effective context, and evidence. Popularity, convenience, technical access, or later timestamp alone shall not decide authority.
+
+Summaries, dashboards, generated views, exports, and AI-produced explanations remain derivative unless separately granted authority. They shall not conceal qualification, uncertainty, lifecycle state, or the source on which they depend.
+
+### 10.4 Ownership and Stewardship
+
+Every authoritative document shall have one accountable steward responsible for its fitness, clarity, review state, and alignment with higher authority. Contributors, reviewers, approvers, custodians, and publishers may be distinct, but their participation shall not obscure accountability.
+
+Stewardship grants responsibility within a mandate; it does not grant ownership of the underlying constitutional authority or permission to exceed it. A steward shall seek competent review where content materially affects another discipline and shall escalate conflicts that exceed the steward's authority or competence.
+
+Unassigned, unavailable, or changing stewardship shall not make an authoritative obligation disappear. The accountable Governance authority shall establish an appropriate successor or interim steward without silently changing the document's force.
+
+### 10.5 Documentation Integrity
+
+Authoritative documentation shall be materially complete for its stated purpose, internally coherent, attributable, and honest about uncertainty, assumptions, limitations, exceptions, and unresolved conflict. It shall distinguish observed fact, validated claim, decision, requirement, recommendation, estimate, and opinion.
+
+No person, role, organization, or AI system may fabricate authority, approval, evidence, provenance, or completion; conceal a material qualification; or present generated or inferred content as verified fact. Confidentiality and access control may limit disclosure, but they shall not erase accountability or material risk.
+
+Correction shall preserve the ability to understand what changed, why it changed, who held authority, and which decisions or obligations are affected. Documentation integrity shall not be sacrificed to cosmetic consistency or schedule pressure.
+
+### 10.6 Documentation Lifecycle
+
+Governed documentation shall have a truthful lifecycle state:
+
+- **Draft** — proposed content without approved authority;
+- **Review** — content submitted for required challenge or approval;
+- **Active** — approved content currently governing its stated responsibility;
+- **Superseded** — content replaced as current authority by an identified successor;
+- **Withdrawn** — content explicitly removed from use without a direct successor; and
+- **Archived** — content retained as non-current history or reference.
+
+Approval and effectiveness are distinct when a transition or effective date applies. Draft or Review content shall not be represented as Active. Superseded, Withdrawn, or Archived content shall not silently resume authority.
+
+The responsible Standard may define additional states and transitions, provided they remain compatible with these meanings and do not create a new constitutional authority.
+
+### 10.7 Traceability and Change Accountability
+
+Material documentation shall make its governing source, accountable decision, evidence basis, approval state, effective context, and affected responsibilities traceable in proportion to consequence. Traceability shall support explanation and review, not merely prove that an activity occurred.
+
+A material change shall identify the authority exercised, reason, scope, reviewer or approver where required, and relationship to the prior governing state. Changes to wording that alter duty, permission, scope, accountability, precedence, or interpretation shall not be mislabeled as editorial.
+
+Traceability gaps shall be visible. Missing or inconclusive evidence shall not be converted into certainty by repetition, formatting, automation, or approval outside the responsible mandate.
+
+### 10.8 Constitutional Terminology
+
+The following terms govern interpretation throughout the Charter and its derived Governance system:
+
+- **Platform** means the enduring socio-technical engineering system comprising governed capabilities, knowledge, architecture, data, integrations, operations, and responsibilities that serve Factory Utility Platform users.
+- **Product** means the coherent user-facing and operational offering delivered through the Platform to achieve defined outcomes.
+- **Project** means a time-bounded, governed initiative that changes, validates, or delivers part of the Product or Platform.
+- **Repository** means the governed technical record and collaboration surface containing source, documentation, evidence, and history; it represents but is not identical to the Platform.
+- **Organization** means the people, roles, teams, and accountable relationships that govern, build, operate, or support the Platform; organizational position alone does not create constitutional authority.
+
+The title Master Project Charter names the constitutional document governing the long-term Platform and its projects. The word Project in the title does not limit the Charter to a temporary initiative or make the Repository, Product, Platform, and Organization interchangeable.
+
+Where a lower-level document requires a narrower domain meaning, it shall state that context explicitly and shall not contradict these constitutional distinctions. This section resolves GOV-010.
+
+### 10.9 Normative Modal Language
+
+Normative terms shall be interpreted consistently:
+
+- **shall** states a binding constitutional duty, prohibition, or required condition;
+- **must** states an equally binding necessity arising from an explicit precondition, unavoidable constraint, or applicable legal, safety, professional, or higher-authority obligation;
+- **should** states a strong expectation from which deviation requires a proportionate, accountable justification;
+- **may** grants permission or identifies an allowed option without creating a duty;
+- **shall not** and **must not** state binding prohibition;
+- **may not** states absence of permission and shall not be used where physical impossibility is intended;
+- **can** and **cannot** describe capability or possibility and do not grant or remove authority by themselves; and
+- **will** describes a committed or expected future state and creates a duty only when the surrounding authoritative text clearly establishes one.
+
+Headings, descriptive statements, examples, and explanatory language shall be interpreted in context and shall not override an explicit normative provision. Where two normative provisions conflict, Chapter 8's authority hierarchy and conflict process apply.
+
+These definitions clarify existing approved language without reducing any duty, prohibition, human accountability, or protection established by Chapters 1 through 9. This section resolves GOV-011.
+
+### 10.10 Accessibility, Discoverability, and Interpretation
+
+Governed documentation shall be discoverable and understandable by authorized people expected to act on it, in a form proportionate to consequence, context, accessibility needs, and legitimate confidentiality. Access to a tool or repository shall not be treated as proof that a person received, understood, or accepted a material obligation.
+
+Interpretation shall consider the document's purpose, classification, defined terms, lifecycle state, authority, and relationship to the Charter as a whole. Ambiguity with material consequence shall be made visible and escalated to the accountable steward; it shall not be resolved through silent assumption or AI inference.
+
+Translation, summary, visualization, and accessible representation may improve use, but they remain faithful derivatives unless valid authority establishes otherwise.
+
+### 10.11 Chapter Boundary
+
+This chapter defines the constitutional principles of documentation authority, classification, source-of-truth discipline, stewardship, integrity, lifecycle, traceability, terminology, normative language, accessibility, and interpretation.
+
+It does not define Project Memory, institutional recall, retention schedules, archival storage, recovery procedures, Sprint or Workflow Governance, GitHub Governance, Release Governance, documentation templates, directory structures, metadata schemas, review schedules, publishing mechanics, or tool-specific guidance.
+
+The Document Standard and responsible operational documents implement these principles. Chapter 11 remains reserved for Project Memory and Institutional Continuity. This chapter becomes authoritative only after Chapter 10 is explicitly approved and merged; Chapter 11 and later chapters remain unauthorized.
