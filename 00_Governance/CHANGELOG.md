@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-08-06 — Chapter 15 Drafted
+
+- Added Chapter 15, Continuous Improvement, for PR #24 review under `GOV-035`.
+- Defined constitutional evidence-based learning, improvement Governance and accountability, organizational learning, continuous validation, sustainability, traceability, and stability during improvement.
+- Excluded PDCA, Kaizen, Lean, Six Sigma, KPI procedures, operational metrics, retrospectives, tools, templates, workflows, and implementation guidance.
+- Preserved approved Chapters 1 through 14 and the frozen Governance Architecture; Chapter 16 was not started.
+- Recorded independent QA as PASS WITH RECOMMENDATIONS with no Critical or Major issue.
+
+## 2026-08-06 — Chapter 15 Scope Approved
+
+- CTO approved the Chapter 15 Continuous Improvement Scope Proposal through PR #23.
+- Closed `GOV-034` and authorized `GOV-035` for PR #24.
+- Limited Chapter 15 to constitutional learning, improvement Governance, accountability, sustainability, traceability, continuous validation, and constitutional stability.
+- Preserved the frozen Governance Architecture and did not begin Chapter 16.
+
 ## 2026-08-06 — Chapter 15 Scope Proposed
 
 - Added a formal scope proposal for Chapter 15, Continuous Improvement, under `GOV-034`.

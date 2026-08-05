@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 0.1.0 |
+| Status | Approved |
+| Version | 1.0.0 |
 | Updated | 2026-08-06 |
 | Owner | Constitutional steward |
 | Backlog ID | GOV-034 |
@@ -161,4 +161,14 @@ This Scope Proposal is accepted only when the CTO confirms that:
 9. no approved chapter or frozen Governance structure requires change; and
 10. approval authorizes Chapter 15 drafting only, not Chapter 16 or later work.
 
-Until explicit approval is recorded, Chapter 15 remains unauthorized.
+## 10. Approval Record
+
+| Field | Value |
+|---|---|
+| Decision date | 2026-08-06 |
+| CTO review result | Approved |
+| Authorized implementation | PR #24, Chapter 15 only |
+| Approved responsibility | Constitutional Continuous Improvement principles only |
+| Excluded continuation | Chapter 16 remains unauthorized until Chapter 15 is reviewed, approved, and merged. |
+
+This approval authorizes implementation of Chapter 15 within the accepted scope. It does not authorize operational improvement procedures, changes to the frozen Governance Architecture, or Chapter 16.

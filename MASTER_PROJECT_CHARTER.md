@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Chapters 1 through 14 Approved |
+| Status | Draft - Chapter 15 Pending Review |
 | Version | 0.3.0-draft |
 | Approved chapters | Chapters 1 through 14 |
-| Proposed chapter | None |
+| Proposed chapter | Chapter 15 - Continuous Improvement |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
@@ -1096,3 +1096,113 @@ This chapter defines constitutional Release Governance: Release authority, accou
 It does not prescribe Release checklists, Release workflows, deployment or rollback procedures, CI/CD, build pipelines, Release automation, Release tools, operational runbooks, environment configuration, Repository procedures, or product-specific rollout implementation.
 
 Lower-level Standards and operational documents shall implement those responsibilities. Chapter 15 remains reserved for Continuous Improvement and Chapter 16 for Success Criteria and Constitutional Completion. Chapter 14 is approved and becomes authoritative upon merge of PR #22; Chapter 15 and later work remain unauthorized until separately scoped and approved.
+
+## Chapter 15 - Continuous Improvement
+
+### 15.1 Constitutional Purpose
+
+Continuous Improvement shall preserve the Factory Utility Platform's ability to learn from evidence, correct material weakness, strengthen trusted outcomes, and remain sustainable as knowledge, risks, technologies, users, and operating conditions change.
+
+This chapter defines the enduring constitutional duties governing learning and improvement. It does not prescribe an improvement methodology, ceremony, metric system, operational workflow, or tool.
+
+### 15.2 Continuous Improvement as a Constitutional Duty
+
+The Project shall respond when credible evidence demonstrates a material defect, risk, unmet need, changed condition, recurring failure, avoidable burden, or justified opportunity to strengthen the Platform and its Governance.
+
+Improvement shall serve the Mission, Engineering Truth, Core Principles, and Project Promise. Activity, novelty, speed, adoption of a named method, or numerical movement shall not by itself establish improvement.
+
+The duty to improve does not require indiscriminate or perpetual change. Stability, safety, trust, continuity, and the cost of disruption shall remain part of the evidence-based decision.
+
+### 15.3 Learning from Evidence
+
+Material learning shall distinguish observation, source, context, interpretation, assumption, hypothesis, decision, result, uncertainty, and unresolved question at a level proportionate to consequence.
+
+Evidence that challenges an approved belief, design, calculation, process, Standard, or Governance assumption shall be examined rather than concealed because of prior investment, authority, schedule, or reputation. Learning shall remain open to correction when better evidence appears.
+
+Chapter 2 continues to govern Engineering Truth, and Chapter 6 continues to govern Validation Rules. Continuous Improvement shall use their authority without redefining evidence or validation.
+
+### 15.4 Feedback and Outcome Learning
+
+User feedback, engineering review, validation results, Release outcomes, operational experience, incidents, defects, exceptions, unsuccessful work, and observed consequences may provide evidence for improvement.
+
+Feedback shall retain its context, affected perspective, limitations, and uncertainty. Volume, popularity, organizational rank, urgency, commercial pressure, or fluency shall not give feedback automatic authority or allow it to override verified evidence and competent professional judgment.
+
+Positive outcomes shall also be examined proportionately. Success shall not be used to hide untested assumptions, transferred risk, exclusion, fragility, or conditions that may not remain valid.
+
+### 15.5 Improvement Governance
+
+Material improvement shall have an explicit purpose, accountable authority, bounded scope, applicable evidence, affected responsibilities, review basis, validation obligation, and resulting disposition.
+
+Improvement authority shall remain subordinate to the Governance hierarchy and decision rights established by Chapters 4, 8, and 9. Repeated practice, local optimization, automation, technical access, or claimed urgency shall not create authority to alter approved state or obligations.
+
+Improvement shall be proportionate to consequence, uncertainty, reversibility, exposure, and lifecycle impact. Lower-level Governance shall define implementation controls without weakening these duties.
+
+### 15.6 Improvement Accountability
+
+Every material improvement decision shall retain identifiable human accountability for the decision, evidence, accepted uncertainty, change, validation, communication, and unresolved obligations within the authority assigned to each responsibility.
+
+Accountable learning shall encourage truthful reporting, professional challenge, and early visibility of error. It shall not become an excuse to conceal negligence, misconduct, unsupported claims, avoidable harm, or failure to perform an assigned duty.
+
+Where improvement cannot proceed, the constraint, consequence, owner, residual risk, and decision basis shall remain visible and subject to appropriate escalation.
+
+### 15.7 Corrective and Preventive Improvement
+
+Verified material weakness shall receive an accountable disposition proportionate to its consequence and recurrence risk. The disposition shall distinguish containment of immediate consequence, correction of affected state, and prevention of justified recurrence without prescribing a universal procedure.
+
+Correction shall not erase the evidence that made it necessary. Prevention shall address supported causes and enabling conditions rather than merely increase ceremony, assign unsupported blame, or optimize a visible symptom while transferring risk elsewhere.
+
+Chapters 5 and 6 continue to govern Quality and Validation. This chapter governs the duty to convert their material findings into controlled learning and accountable improvement.
+
+### 15.8 Organizational Learning and Project Memory
+
+Durable lessons shall become available to the roles and future contributors who need them, with sufficient context to understand what was learned, why it matters, where it applies, what remains uncertain, and what prior state may be affected.
+
+Organizational learning shall compound rather than depend on individual memory, provider availability, informal custom, or repeated rediscovery. Chapter 10 governs documentary integrity, and Chapter 11 governs Project Memory and Institutional Continuity.
+
+Learning shall preserve legitimate historical context. A later conclusion shall supersede affected understanding transparently rather than rewrite the record as though prior decisions, evidence, or uncertainty never existed.
+
+### 15.9 Debt and Constraint Visibility
+
+Material technical, product, engineering, documentation, quality, security, privacy, accessibility, operational, Release, and Governance debt or constraint shall remain visible to the authorities whose decisions it may affect.
+
+Visible debt is not automatically a defect or immediate commitment. It requires an accountable disposition appropriate to consequence, including action, acceptance, mitigation, monitoring, dependency, escalation, or justified deferral.
+
+Deferral shall not silently convert temporary compromise into approved principle, conceal accumulated risk, or transfer obligation to future contributors without context and ownership.
+
+### 15.10 Continuous Validation
+
+Material assumptions, evidence, controls, capabilities, and accepted conditions shall remain subject to proportionate revalidation when change, elapsed time, new evidence, operating experience, dependency movement, or discovered error may affect their validity.
+
+Continuous Validation is an enduring duty to preserve justified confidence; it is not a requirement for constant testing, universal monitoring, or a specific automation system. Chapter 6 retains authority for validation sufficiency, independence, failure handling, and revalidation.
+
+Where continued validity cannot be supported, uncertainty and affected reliance shall become visible and receive an accountable disposition.
+
+### 15.11 Governance Evolution and Constitutional Stability
+
+Governance shall be capable of learning from its effects, resolving ambiguity, removing unjustified burden, closing verified gaps, and adapting to material change. Evolution shall preserve authority, traceability, review, and the distinction among Constitution, Standards, decisions, and operational procedures.
+
+Continuous Improvement shall not serve as an informal amendment path. Constitutional change remains governed exclusively by Chapter 9. Lower-level Governance may evolve only within its authority and shall not silently weaken this Charter, redefine normative obligations, or legitimize noncompliance through repetition.
+
+Approved chapters shall not be modified merely to incorporate recommendations or preferences. Verified defects and authorized constitutional change remain the required bases for amendment.
+
+### 15.12 Long-Term Sustainability
+
+Improvement decisions shall consider the Platform's long-term engineering trust, safety, maintainability, operability, security, accessibility, environmental responsibility, knowledge continuity, organizational capacity, and freedom from avoidable provider or technology dependence.
+
+Short-term optimization shall not conceal lifecycle cost, depleted capability, fragile ownership, transferred risk, or obligations that undermine future stewardship. Sustainability does not require preservation of obsolete implementation; it requires preservation of the Mission and the capacity to fulfill it responsibly.
+
+### 15.13 Improvement Traceability and Continuity
+
+Material improvement shall remain traceable from originating evidence and affected authority through decision, change, validation, outcome, learning, residual obligation, and supersession.
+
+Traceability shall make failed, partial, deferred, reversed, and inconclusive improvement distinguishable. It shall support future review without representing uncertainty as failure or activity as success.
+
+Improvement knowledge and accountability shall remain portable across personnel, provider, tool, environment, and organizational change. Chapters 11, 13, and 14 govern the associated memory, Repository state, and Release evidence.
+
+### 15.14 Chapter Boundary
+
+This chapter defines constitutional Continuous Improvement: evidence-based learning, feedback and outcome learning, improvement Governance and accountability, corrective and preventive improvement, organizational learning, debt visibility, continuous validation, Governance evolution, constitutional stability, long-term sustainability, traceability, and continuity.
+
+It does not prescribe PDCA, Kaizen, Lean, Six Sigma, retrospectives, ceremonies, KPI procedures, operational metrics, dashboards, improvement tools, templates, task-management methods, feedback workflows, investigation procedures, experiment procedures, or tool-specific guidance.
+
+Lower-level Standards and operational documents shall implement those responsibilities. Chapter 16 remains reserved for Success Criteria and Constitutional Completion. Chapter 15 has no constitutional authority until explicitly reviewed, approved, and merged through PR #24; Chapter 16 remains unauthorized.
