@@ -9,7 +9,7 @@
 | Current phase | Master Charter Chapter 5 and Milestone Review |
 | Active backlog item | `GOV-015`, `GOV-017` |
 | Active branch | `agent/master-charter-chapter-5` |
-| Active pull request | Draft PR #6 pending creation |
+| Active pull request | Draft PR #6 |
 | Next approved action | Review Chapter 5 and Milestone Review; Chapter 6 remains blocked |
 | Blockers | None |
 
