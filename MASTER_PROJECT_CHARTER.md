@@ -2,9 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Approved - Chapter 1 |
-| Version | 1.0.0 |
+| Status | Draft - Pending Chapter 2 Review |
+| Version | 1.1.0-draft |
 | Approved chapters | Chapter 1 |
+| Proposed chapter | Chapter 2 |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document upon merge of PR #2 |
@@ -60,3 +61,57 @@ Factory Utility Platform makes the following enduring promise to its users, cont
 8. **The mission will outlast individual implementations.** Technologies, interfaces, and vendors may change; the commitment to trusted utility engineering will remain.
 
 This promise is the standard against which future governance, architecture, product decisions, implementation, and operation shall be judged after Chapter 1 is approved.
+
+## Chapter 2 - Engineering Philosophy
+
+### 2.1 Engineering as a Trust Discipline
+
+Factory Utility Platform treats engineering as a discipline of earning and preserving justified trust. A result is valuable only when its origin, meaning, assumptions, limitations, and fitness for purpose can be understood by the people expected to rely on it.
+
+The Platform shall support professional judgment rather than imitate certainty. It shall make important reasoning inspectable, preserve the conditions under which a conclusion is valid, and reveal material uncertainty instead of hiding it behind interface simplicity, automation, or authority.
+
+Engineering quality is therefore not limited to technical correctness at one moment. It includes the ability to review, reproduce, maintain, operate, challenge, and safely change an engineering capability throughout its lifecycle.
+
+### 2.2 Engineering Truth
+
+Within Factory Utility Platform, **Engineering Truth** means the best currently supportable engineering understanding derived from identifiable evidence, explicit assumptions, valid methods, traceable transformations, professional review, and transparent uncertainty.
+
+Engineering Truth is not personal preference, organizational rank, model output, vendor assertion, historical habit, or apparent numerical precision. It remains open to correction when better evidence, improved methods, changed operating conditions, or discovered errors justify revision.
+
+A claim presented as Engineering Truth must be proportionate to its evidence. The Platform shall distinguish verified fact, calculated result, assumption, estimate, recommendation, interpretation, uncertainty, and unresolved risk. Where site conditions, regulations, safety consequences, or professional licensing require independent authority, the Platform shall state that boundary clearly.
+
+### 2.3 Evidence, Reproducibility, and Traceability
+
+Material engineering outputs shall be capable of review from conclusion back to source. Formulas, units, input conditions, data provenance, transformation steps, revision state, validation evidence, and known limitations shall be preserved at a level appropriate to the consequence of the decision.
+
+Reproducibility does not require every user to repeat every calculation. It requires that a qualified reviewer can understand how the result was produced, identify the governing conditions, and determine whether the method remains valid for the intended use.
+
+When evidence is incomplete or conflicting, the Platform shall expose the uncertainty, identify what would reduce it, and avoid presenting a stronger conclusion than the evidence supports.
+
+### 2.4 Systems and Lifecycle Thinking
+
+Utility engineering decisions interact across equipment, processes, facilities, energy systems, people, environmental obligations, and time. The Platform shall avoid optimizing an isolated value while concealing downstream risk, lifecycle cost, maintainability, resilience, or operational consequences.
+
+Engineering decisions shall consider design, commissioning, operation, maintenance, troubleshooting, change, retirement, and knowledge transfer where relevant. Short-term performance improvements must not silently create long-term safety, reliability, security, environmental, or supportability debt.
+
+### 2.5 Simplicity, Reuse, and Reversibility
+
+The Platform favors the simplest design that preserves required correctness, clarity, safety, and future changeability. Simplicity means removing unnecessary concepts and duplication, not omitting validation, context, failure handling, or professional safeguards.
+
+Reusable capabilities shall represent genuinely shared meaning and behavior. Reuse must not force unrelated domains into one abstraction or allow convenience to weaken domain correctness.
+
+Material changes should remain observable, testable, and reversible wherever practical. Irreversible decisions require stronger evidence, explicit authority, migration planning, and recovery provisions proportional to their impact.
+
+### 2.6 Human Judgment and Automation
+
+Automation may increase consistency, speed, coverage, and access to engineering knowledge. It does not remove the need for accountable human judgment where consequences, uncertainty, site context, safety, regulation, or professional duty require it.
+
+Automated and AI-assisted outputs shall be governed according to their authority and risk. The Platform shall not allow fluent presentation, computational scale, or system confidence to substitute for evidence, validation, or accountable approval.
+
+### 2.7 Continuous Learning Without Silent Drift
+
+Factory Utility Platform shall improve as evidence, operating experience, standards, technology, and user needs evolve. Improvement must be controlled: changes to engineering knowledge, formulas, models, data, and decision logic require identifiable ownership, review, validation, version history, and communication proportional to their impact.
+
+Learning shall preserve history rather than rewrite it. The Platform must enable future engineers to understand what changed, why it changed, what evidence supported the change, and which prior decisions or outputs may be affected.
+
+This philosophy governs how future principles, standards, architecture, product capabilities, validation practices, and operational decisions are designed and reviewed after Chapter 2 is approved.
