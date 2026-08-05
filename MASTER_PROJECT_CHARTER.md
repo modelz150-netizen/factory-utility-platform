@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Chapters 1 through 10 Approved |
+| Status | Draft - Pending Chapter 11 Review |
 | Version | 0.3.0-draft |
 | Approved chapters | Chapters 1 through 10 |
-| Proposed chapter | None |
+| Proposed chapter | Chapter 11 |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
@@ -754,3 +754,99 @@ This chapter defines the constitutional principles of documentation authority, c
 It does not define Project Memory, institutional recall, retention schedules, archival storage, recovery procedures, Sprint or Workflow Governance, GitHub Governance, Release Governance, documentation templates, directory structures, metadata schemas, review schedules, publishing mechanics, or tool-specific guidance.
 
 The Document Standard and responsible operational documents implement these principles. Chapter 11 remains reserved for Project Memory and Institutional Continuity. This chapter becomes authoritative only after Chapter 10 is explicitly approved and merged; Chapter 11 and later chapters remain unauthorized.
+
+## Chapter 11 - Project Memory and Institutional Continuity
+
+### 11.1 Constitutional Purpose of Project Memory
+
+Project Memory is the governed continuity of consequential knowledge, context, and learning required for the Platform to remain trustworthy across changes in people, organizations, technology, vendors, and time. It shall prevent essential understanding from depending solely on individual recollection, informal access, or uninterrupted organizational membership.
+
+Institutional continuity does not require preservation of every artifact. It requires deliberate protection of knowledge whose loss would materially impair Engineering Truth, accountable authority, safety, quality, validation, lawful operation, maintainability, or the ability to understand past and present decisions.
+
+### 11.2 Institutional Memory Principles
+
+Consequential knowledge created through Platform Governance, engineering, product, quality, validation, security, privacy, release, and operational responsibility shall be treated as an institutional obligation rather than personal possession.
+
+Institutional Memory shall remain:
+
+1. attributable to its source and accountable context;
+2. understandable beyond the original contributor where consequence requires;
+3. connected to its authority, evidence, assumptions, limitations, and applicability;
+4. distinguishable as current, superseded, disputed, incomplete, or historical;
+5. accessible to authorized roles in proportion to responsibility; and
+6. protected against silent loss, distortion, or decontextualized reuse.
+
+Memory shall support responsible judgment without substituting historical precedent for current evidence or competent review.
+
+### 11.3 Knowledge Ownership and Stewardship
+
+The Organization holds a constitutional duty to steward accumulated knowledge necessary for the Platform's mission and obligations. This duty does not determine legal ownership of intellectual property, personal rights, confidentiality, or contractual title; those remain governed by applicable law and valid agreement.
+
+Each material knowledge domain shall have accountable stewardship. Stewards are responsible for continuity, contextual integrity, legitimate accessibility, and visible gaps within their mandate. Stewardship does not permit alteration of evidence, erasure of attribution, concealment of dissent, or expansion beyond the governing authority.
+
+Knowledge contributed by an individual shall not become institutionally unusable merely because that individual changes role or leaves. The Organization shall also respect attribution, privacy, security, professional duties, and lawful restrictions when establishing continuity.
+
+### 11.4 Preservation of Engineering Knowledge
+
+Engineering knowledge with material consequence shall retain the information necessary to understand its meaning and responsible use. This includes, as applicable, governing sources, formulas, units, assumptions, boundary conditions, uncertainty, validation state, known failure modes, site or vendor context, compatibility, and conditions requiring re-evaluation.
+
+Preservation shall be proportional to safety, operational, financial, environmental, regulatory, security, and long-term maintenance consequence. Convenience, apparent maturity, repeated use, or incorporation into software shall not justify loss of the knowledge needed to examine an engineering claim.
+
+Obsolete or superseded engineering knowledge may remain historically important, but it shall not be presented as current authority or valid application without its status and context.
+
+### 11.5 Engineering and Governance Decision Continuity
+
+A material decision shall remain reconstructable to the extent necessary to understand:
+
+- the accountable authority and affected responsibilities;
+- the problem, context, and decision boundary;
+- evidence, assumptions, uncertainty, and alternatives considered;
+- required consultation, validation, approval, dissent, or exception;
+- intended outcome, material consequence, and accepted residual risk; and
+- conditions for review, supersession, reversal, or revalidation.
+
+Decision continuity shall preserve rationale and accountability, not merely the selected outcome. A later result shall not be used to fabricate certainty that did not exist when the decision was made, and a later disagreement shall not erase the historical basis of a valid decision.
+
+### 11.6 Constitutional and Organizational Continuity
+
+The continuity of constitutional interpretation, authority, amendments, effective states, succession, delegation, and unresolved obligations shall survive changes in constitutional steward, organizational form, ownership, administration, or technical access.
+
+Transfer of responsibility shall include the knowledge reasonably necessary to exercise that responsibility competently. Possession of credentials, assets, repository access, or a role title alone does not demonstrate transfer of constitutional or professional understanding.
+
+Organizational restructuring shall not silently extinguish accountability, exceptions, residual risks, promised follow-up, or the context of decisions whose consequences remain active.
+
+### 11.7 Knowledge Integrity, Provenance, and Applicability
+
+Institutional knowledge shall preserve sufficient provenance to distinguish observation, validated claim, decision, requirement, recommendation, estimate, inference, and opinion. Its origin, authority, time, validation state, and applicable context shall remain discoverable in proportion to consequence.
+
+Knowledge integrity requires protection against selective omission, false attribution, unsupported synthesis, and reuse outside valid boundaries. Summaries, translations, migrations, visualizations, and AI-generated representations may improve access but shall not silently replace their governing source or remove material qualification.
+
+Continuity does not freeze knowledge. New evidence may correct, supersede, or narrow prior understanding through accountable change, while the relationship between prior and current states remains truthful.
+
+### 11.8 Knowledge Loss, Uncertainty, and Degradation
+
+Missing, inaccessible, corrupted, disputed, obsolete, or insufficiently contextualized knowledge shall be treated as a visible limitation. It shall not be reconstructed through assumption and then represented as verified memory.
+
+Where memory loss affects a material decision or obligation, the accountable authority shall assess consequence, establish proportionate controls, and determine whether evidence must be recovered, regenerated, revalidated, or replaced before reliance continues.
+
+Uncertainty about the past shall remain distinguishable from uncertainty about current engineering truth. Neither uncertainty may be hidden to preserve schedule, reputation, apparent continuity, or automation.
+
+### 11.9 Lawful, Ethical, and Proportionate Continuity
+
+The duty of continuity shall be balanced with privacy, security, confidentiality, intellectual-property, contractual, legal, regulatory, and professional obligations. Project Memory shall not become a justification for indiscriminate collection, indefinite retention, excessive access, or preservation of information that must lawfully be removed.
+
+Where duties conflict, accountable authorities shall preserve the minimum knowledge and evidence necessary to maintain legitimate continuity while respecting the higher applicable obligation. Restriction or removal shall remain accountable and shall not be used to conceal wrongdoing, material risk, or the existence of an obligation.
+
+### 11.10 Long-Term Organizational Learning
+
+Institutional Memory shall make relevant experience available for future judgment, including successful outcomes, failures, near misses, defects, debt, exceptions, reversals, and unresolved questions. Learning shall remain connected to evidence and applicable context rather than becoming folklore or unchallengeable tradition.
+
+This chapter preserves the inputs and continuity required for learning. Chapter 15 remains responsible for the constitutional principles governing feedback, corrective action, adaptation, and Continuous Improvement.
+
+### 11.11 Chapter Boundary
+
+This chapter defines the constitutional principles of Institutional Memory, knowledge continuity, constitutional and organizational continuity, stewardship, ownership boundaries, engineering and Governance decision continuity, provenance, integrity, visible knowledge loss, lawful preservation, and learning continuity.
+
+It does not prescribe Knowledge Base implementation, documentation templates, GitHub implementation, backup or restoration mechanisms, AI Memory, database architecture, workflow implementation, transfer checklists, retention schedules, storage technology, or operational procedures.
+
+Chapter 10 continues to govern documentation authority, classification, lifecycle, terminology, and interpretation. Lower-level Standards, Architecture, and operational documents implement memory mechanisms. Chapter 12 remains reserved for Sprint and Workflow Governance. This chapter becomes authoritative only after Chapter 11 is explicitly approved and merged; Chapter 12 and later chapters remain unauthorized.
