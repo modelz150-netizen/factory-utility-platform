@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-06 — Chapter 14 Drafted
+
+- Added Chapter 14, Release Governance, for PR #22 review under `GOV-033`.
+- Kept Approved Repository State, Release Authorization, Deployment Execution, and Operational Acceptance explicitly distinct.
+- Defined constitutional Release authority, accountability, readiness, evidence, residual risk, integrity, version identity, traceability, and continuity.
+- Preserved Chapters 1 through 13 and the frozen Governance Architecture; Chapter 15 was not started.
+- Recorded independent QA as PASS WITH RECOMMENDATIONS with no Critical or Major issue.
+
 ## 2026-08-06 — Chapter 14 Scope Approved
 
 - CTO approved the Chapter 14 Release Governance Scope Proposal through PR #21.

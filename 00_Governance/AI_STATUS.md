@@ -6,11 +6,11 @@
 | Architecture status | Approved and frozen |
 | Governance status | Approved and frozen; Phase 1 review passed |
 | Project status | Foundation Complete |
-| Current phase | Master Charter Chapter 14 Implementation |
+| Current phase | Master Charter Chapter 14 Review |
 | Active backlog item | `GOV-033` |
-| Active branch | Pending `agent/master-charter-chapter-14` after PR #21 merge |
-| Active pull request | PR #21 approved for merge; PR #22 authorized afterward |
-| Next approved action | Merge PR #21, then create Draft PR #22 implementing Chapter 14 only; do not begin Chapter 15 |
+| Active branch | `agent/master-charter-chapter-14` |
+| Active pull request | Draft PR #22 |
+| Next approved action | Independent QA is complete; obtain CTO review of Chapter 14 before merge and do not begin Chapter 15 |
 | Blockers | None |
 
 ## Scope Guard
@@ -41,6 +41,7 @@
 - Chapter 13 is approved and authoritative upon merge of PR #20; Chapters 1 through 13 are complete.
 - Chapter 14 Scope Proposal is approved and authorizes PR #22 for constitutional Release Governance only.
 - Approved Repository State, Release Authorization, Deployment Execution, and Operational Acceptance shall remain distinct responsibilities.
+- Chapter 14 is drafted for review in PR #22 and has no constitutional authority until approved and merged.
 - Chapter 15 is blocked until Chapter 14 is reviewed, approved, and merged.
 - Architecture Audit approved: PASS WITH RECOMMENDATIONS; Master Charter v1.0 is not yet ready.
 - Master Charter v1.0 Completion Plan approved with Milestones A, B, C, and a Final Constitutional Adoption Review.
