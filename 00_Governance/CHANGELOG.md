@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-06 — Chapter 14 Scope Approved
+
+- CTO approved the Chapter 14 Release Governance Scope Proposal through PR #21.
+- Closed `GOV-032` and authorized `GOV-033` for PR #22.
+- Required Approved Repository State, Release Authorization, Deployment Execution, and Operational Acceptance to remain constitutionally distinct.
+- Preserved the frozen Governance Architecture and did not begin Chapter 15.
+
 ## 2026-08-06 — Chapter 14 Scope Proposed
 
 - Added a formal scope proposal for Chapter 14, Release Governance, under `GOV-032`.

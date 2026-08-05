@@ -6,11 +6,11 @@
 | Architecture status | Approved and frozen |
 | Governance status | Approved and frozen; Phase 1 review passed |
 | Project status | Foundation Complete |
-| Current phase | Master Charter Chapter 14 Scope Review |
-| Active backlog item | `GOV-032` |
-| Active branch | agent/master-charter-chapter-14-scope |
-| Active pull request | Draft Chapter 14 Scope Proposal PR |
-| Next approved action | CTO review of the Chapter 14 Scope Proposal; do not draft Chapter 14 or begin Chapter 15 |
+| Current phase | Master Charter Chapter 14 Implementation |
+| Active backlog item | `GOV-033` |
+| Active branch | Pending `agent/master-charter-chapter-14` after PR #21 merge |
+| Active pull request | PR #21 approved for merge; PR #22 authorized afterward |
+| Next approved action | Merge PR #21, then create Draft PR #22 implementing Chapter 14 only; do not begin Chapter 15 |
 | Blockers | None |
 
 ## Scope Guard
@@ -39,7 +39,9 @@
 - Chapter 12 is approved and authoritative upon merge of PR #18; Chapters 1 through 12 are complete.
 - Chapter 13 Scope Proposal is approved; approved Repository state is the portable constitutional Source of Truth, while GitHub is the current implementation platform.
 - Chapter 13 is approved and authoritative upon merge of PR #20; Chapters 1 through 13 are complete.
-- Chapter 14 Scope Proposal covers constitutional Release Governance principles only and has no constitutional authority until approved.
+- Chapter 14 Scope Proposal is approved and authorizes PR #22 for constitutional Release Governance only.
+- Approved Repository State, Release Authorization, Deployment Execution, and Operational Acceptance shall remain distinct responsibilities.
+- Chapter 15 is blocked until Chapter 14 is reviewed, approved, and merged.
 - Architecture Audit approved: PASS WITH RECOMMENDATIONS; Master Charter v1.0 is not yet ready.
 - Master Charter v1.0 Completion Plan approved with Milestones A, B, C, and a Final Constitutional Adoption Review.
 - Accepted recommendations are backlog requirements, not retroactive Chapter 1 defects.
