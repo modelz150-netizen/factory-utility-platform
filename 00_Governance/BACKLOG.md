@@ -4,7 +4,8 @@
 |---|---|---|---|---|---|
 | GOV-001 | P0 | Done | Governance | Establish initial baseline governance documents | Initial governance files exist and have validation evidence. |
 | GOV-002 | P0 | Todo | Governance | Align repository guidance with governance baseline | `AGENTS.md` references active authoritative documents without duplicating policy. |
-| GOV-003 | P0 | Review | Governance | Implement the approved frozen Governance architecture | Approved directories and documents exist, active references resolve, legacy `PROJECT_CHARTER.md` is unchanged, Master Charter is absent, validation passes, and Draft PR #1 is updated. |
+| GOV-003 | P0 | Done | Governance | Implement the approved frozen Governance architecture | Approved directories and documents exist, active references resolve, legacy `PROJECT_CHARTER.md` is unchanged, Master Charter is absent, validation passes, and Draft PR #1 is approved. |
+| GOV-004 | P0 | Todo | Governance | Create Master Project Charter Chapter 1 | After PR #1 is merged, a separate PR creates only root `MASTER_PROJECT_CHARTER.md` with Vision, Mission, Founder Principle, and Project Promise; no additional chapter is included. |
 | DOC-001 | P0 | Todo | Documentation | Define documentation templates and lifecycle | Templates exist for requirements, architecture decisions, test reports, and release notes, with owners and status conventions. |
 | ARC-001 | P0 | Todo | Architecture | Define WordPress project and module architecture | Architecture documents define physical module boundaries, shared layers, data flow, extension points, security boundaries, and deployment assumptions. |
 | DES-001 | P0 | Todo | Design | Establish design system foundation | Tokens, responsive breakpoints, accessibility rules, and core shared components are specified and demonstrable. |

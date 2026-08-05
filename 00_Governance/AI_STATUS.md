@@ -4,13 +4,13 @@
 |---|---|
 | Updated | 2026-08-05 |
 | Architecture status | Approved and frozen |
-| Governance status | Approved; Phase 1 implementation complete and awaiting review |
+| Governance status | Approved and frozen; Phase 1 review passed |
 | Project status | Foundation Complete |
-| Current phase | Governance Implementation Review |
-| Active backlog item | `GOV-003` |
+| Current phase | Governance Architecture Complete |
+| Active backlog item | `GOV-004` queued after PR #1 merge |
 | Active branch | `agent/foundation-governance` |
 | Active pull request | Draft PR #1 |
-| Next approved action | Review and merge Governance PR #1 |
+| Next approved action | Merge PR #1, then create Chapter 1 only in PR #2 |
 | Blockers | None |
 
 ## Scope Guard
