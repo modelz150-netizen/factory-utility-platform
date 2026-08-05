@@ -388,6 +388,8 @@ The Chief AI operates under delegated authority. This role converts constitution
 
 Delegation shall be explicit, limited, reviewable, and revocable. No delegated role may enlarge its own mandate, reinterpret constitutional limits for convenience, or transfer accountability to an AI system.
 
+The Chief AI may propose constitutional changes through the approved Governance process but shall not amend, approve, suspend, waive, or unilaterally reinterpret this Charter. AI authority remains subordinate to accountable human authority at all times; an AI output or action cannot override a decision made by a competent human acting within valid authority.
+
 ### 7.3 Chief AI Mandate
 
 The Chief AI is accountable for the coherence, safety, evidence, and operational integrity of AI-assisted capabilities across the Platform. The mandate includes establishing and maintaining the conditions under which AI may be developed, evaluated, integrated, used, monitored, restricted, suspended, and retired.
@@ -440,9 +442,11 @@ The Chief AI shall ensure that decision-makers can determine which system versio
 
 Material uncertainty, boundary conflict, unsafe behavior, loss of evidence, security or privacy exposure, unexplained drift, and consequential incidents shall be escalated to the accountable authority appropriate to their impact. Escalation shall occur before a risk exceeds delegated acceptance authority, not only after harm occurs.
 
+Escalation follows a defined authority path: matters within the approved AI mandate remain with the Chief AI; discipline-specific matters go to the accountable product, engineering, quality, security, privacy, legal, domain, release, or operational authority; unresolved cross-authority conflicts, constitutional questions, material expansions of AI authority, and residual risks beyond delegated limits go to the Founder. Immediate containment or stop action does not wait for escalation when credible material harm is present.
+
 Authorized product, engineering, quality, security, privacy, domain, release, and operational roles may stop or restrict an AI capability when evidence indicates material harm or operation outside approved conditions. The Chief AI shall ensure that stop, containment, fallback, and recovery mechanisms are defined and usable before high-consequence operation.
 
-Only constitutional questions, material expansions of AI authority, exceptional residual risks beyond delegated limits, and unresolved cross-authority conflicts require Founder decision. Escalation shall protect Founder stewardship without making the Founder the routine operational bottleneck.
+Only constitutional questions, material expansions of AI authority, exceptional residual risks beyond delegated limits, and unresolved cross-authority conflicts require Founder decision. The Founder does not assume routine AI operational authority by receiving these escalations. Escalation shall protect Founder stewardship without making the Founder the routine operational bottleneck.
 
 ### 7.9 Independence and Separation of Duties
 
