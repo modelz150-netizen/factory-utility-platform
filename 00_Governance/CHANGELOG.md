@@ -4,6 +4,9 @@ All notable project changes are recorded here. Entries use calendar dates and re
 
 ## [Unreleased]
 
+- `GOV-007`, `GOV-020` Approved and merged Master Project Charter Chapter 8 through PR #9 after final constitutional scope validation.
+- `GOV-020` Recorded the v0.3 checkpoint with Chapters 7 and 8 complete; v0.3 remains in progress pending Chapter 9.
+
 ### Changed
 
 - `GOV-003` Governance architecture approved after README navigation and document authority hierarchy verification; PR #1 is ready to merge.
@@ -47,7 +50,7 @@ All notable project changes are recorded here. Entries use calendar dates and re
 - `GOV-015` Submit Chapter 5 only for independent review and complete the five-chapter Milestone Review before Chapter 6 begins.
 - `GOV-018` Obtain explicit CTO approval for Chapter 6 before merging PR #7 or beginning Chapter 7.
 - `GOV-019` Obtain explicit CTO approval for Chapter 7 before merging PR #8 or beginning Chapter 8.
-- `GOV-020` Obtain explicit CTO approval for Chapter 8 before merging PR #9 or beginning Chapter 9.
+- `GOV-020` Received explicit CTO approval and completed the Chapter 8 merge without beginning Chapter 9.
 
 ## [2026-08-05]
 

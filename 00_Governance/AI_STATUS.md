@@ -6,11 +6,11 @@
 | Architecture status | Approved and frozen |
 | Governance status | Approved and frozen; Phase 1 review passed |
 | Project status | Foundation Complete |
-| Current phase | Master Charter Chapter 8 Review |
-| Active backlog item | `GOV-007`, `GOV-020` |
-| Active branch | `agent/master-charter-chapter-8` |
-| Active pull request | Draft PR #9 |
-| Next approved action | CTO review of Chapter 8; merge only after explicit approval |
+| Current phase | Master Charter Chapter 8 Complete |
+| Active backlog item | None |
+| Active branch | None - Chapter 9 not started |
+| Active pull request | PR #9 - Approved and merged |
+| Next approved action | Define and approve Chapter 9 scope in a separate one-chapter Pull Request |
 | Blockers | None |
 
 ## Scope Guard
