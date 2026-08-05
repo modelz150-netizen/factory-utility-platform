@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-06 — Chapter 13 Scope Proposed
+
+- Added a formal scope proposal for Chapter 13, GitHub Governance, under `GOV-030`.
+- Limited the proposed chapter to constitutional Repository authority, stewardship, change integrity, traceability, version integrity, evidence, and continuity.
+- Excluded Git commands, CLI usage, procedures, merge strategies, CI/CD, Actions, settings, access configuration, and tool guidance.
+- Preserved Chapters 1 through 12 and the frozen Governance Architecture; Chapter 13 remains undrafted.
+
 ## 2026-08-06 — Chapter 12 Scope Approved
 
 - CTO approved the Chapter 12 Scope Proposal through PR #17.

@@ -6,11 +6,11 @@
 | Architecture status | Approved and frozen |
 | Governance status | Approved and frozen; Phase 1 review passed |
 | Project status | Foundation Complete |
-| Current phase | Master Charter Chapter 12 Complete |
-| Active backlog item | None |
-| Active branch | main after PR #18 merge |
-| Active pull request | PR #18 approved for merge |
-| Next approved action | Close Chapter 12 records; Chapter 13 requires its approved scope workflow before implementation |
+| Current phase | Master Charter Chapter 13 Scope Review |
+| Active backlog item | `GOV-030` |
+| Active branch | agent/master-charter-chapter-13-scope |
+| Active pull request | Draft Chapter 13 Scope Proposal PR |
+| Next approved action | CTO review of the Chapter 13 Scope Proposal; do not draft Chapter 13 or begin Chapter 14 |
 | Blockers | None |
 
 ## Scope Guard
@@ -37,6 +37,7 @@
 - Chapter 12 remains undrafted; Chapter 13 is blocked until Chapter 12 is reviewed, approved, and merged.
 - Chapter 12 Scope Proposal is approved and limits Chapter 12 to constitutional Sprint and Workflow Governance principles only.
 - Chapter 12 is approved and authoritative upon merge of PR #18; Chapters 1 through 12 are complete.
+- Chapter 13 Scope Proposal covers constitutional GitHub Governance principles only and has no constitutional authority until approved.
 - Architecture Audit approved: PASS WITH RECOMMENDATIONS; Master Charter v1.0 is not yet ready.
 - Master Charter v1.0 Completion Plan approved with Milestones A, B, C, and a Final Constitutional Adoption Review.
 - Accepted recommendations are backlog requirements, not retroactive Chapter 1 defects.
