@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Pending Chapter 7 Review |
+| Status | Draft - Pending Chapter 8 Review |
 | Version | 0.3.0-draft |
-| Approved chapters | Chapters 1 through 6 |
-| Proposed chapter | Chapter 7 |
+| Approved chapters | Chapters 1 through 7 |
+| Proposed chapter | Chapter 8 |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
@@ -473,3 +473,97 @@ This chapter defines the constitutional AI organization, the separation of Found
 Detailed AI architecture, data controls, evaluation methods, incident procedures, role assignments, and provider configurations shall be maintained in their responsible Architecture, Standards, ADR, Product, Engineering, QA, Release, and operational documents. Founder succession and constitutional stewardship continuity remain reserved for their designated future Governance chapter.
 
 This chapter becomes authoritative only after Chapter 7 is explicitly approved and merged. Chapter 8 and later chapters remain unauthorized.
+
+## Chapter 8 - Governance Structure and Constitutional Stewardship
+
+### 8.1 Purpose of Governance
+
+Governance exists to preserve the Platform's mission, Engineering Truth, accountable authority, and capacity for safe long-term change. It defines who may decide, who must be consulted, what evidence is required, how conflicts are resolved, and how constitutional stewardship continues when people or organizations change.
+
+Governance shall enable responsible action rather than substitute ceremony for judgment. Authority shall be explicit, proportionate, reviewable, and connected to accountability; no title, seniority, automation, urgency, or historical custom creates authority that has not been granted.
+
+### 8.2 Governance Authority Hierarchy
+
+Repository governance follows this authority order:
+
+1. the Master Project Charter defines the highest enduring constitutional authority;
+2. the AI Constitution, Product Charter, Architecture, and approved Standards derive authority within their stated responsibilities;
+3. Architecture Decision Records, product requirements, procedures, plans, and templates apply higher authority to bounded contexts;
+4. the Roadmap, Backlog, Changelog, AI Status, QA evidence, release records, and operational records describe approved work and observed state without becoming constitutional authority; and
+5. implementation and tool configuration remain subordinate to every applicable Governance layer.
+
+Lower-level documents may clarify and operationalize higher authority but shall not silently redefine, weaken, or bypass it. Conflict shall be resolved in favor of the higher applicable authority and recorded at the level responsible for correction.
+
+### 8.3 Founder Constitutional Stewardship
+
+The Founder is the constitutional steward of the Platform's enduring purpose, identity, and highest Governance direction. Founder authority is bounded by this Charter, Engineering Truth, professional and legal obligations, evidence, and the duty to protect affected people and long-term trust.
+
+The Founder approves constitutional direction, material changes to the Platform's mission or highest authority, and exceptional decisions expressly reserved by this Charter. The Founder does not own routine product, architecture, engineering, quality, security, privacy, release, operational, or AI execution merely by holding constitutional stewardship.
+
+Founder authority shall not be used to bypass required validation, conceal material risk, invalidate competent professional judgment without evidence, or convert personal preference into Engineering Truth.
+
+### 8.4 Delegated Governance Roles
+
+Accountable product, architecture, engineering, quality, security, privacy, legal, domain, documentation, release, operations, and AI roles exercise authority within explicit mandates. Each mandate shall identify its purpose, scope, decision rights, constraints, escalation boundary, and accountable owner.
+
+Delegation distributes decision-making but does not fragment the Platform into competing sovereign domains. A role may decide within its mandate, must consult other authorities whose responsibilities are materially affected, and must escalate when a decision exceeds its competence or authority.
+
+Delegated authority is limited, reviewable, and revocable. A delegate may further assign execution only when accountability, competence, evidence, and oversight remain clear.
+
+### 8.5 Decision Rights and Accountability
+
+Every material decision shall have one accountable approving authority, even when multiple roles contribute evidence or hold required concurrence rights. Shared work shall not create anonymous accountability, and consultation shall not be misrepresented as approval.
+
+Decision rights shall follow the responsibility most directly accountable for the consequence. No role may approve a matter outside its competence or mandate, and no role may use another authority's participation to conceal its own responsibility.
+
+Where multiple authorities must concur, each concurrence shall remain specific to its responsibility. Approval in one discipline does not imply approval in another.
+
+### 8.6 Conflicts, Appeals, and Escalation
+
+Governance conflicts shall first be resolved by the accountable roles through the Charter, applicable Standards, evidence, and explicit responsibility boundaries. Unresolved same-level conflicts shall be escalated to the authority accountable for the combined consequence.
+
+Conflicts involving constitutional meaning, mission, authority hierarchy, or an expansion beyond all delegated mandates shall be escalated to the Founder or valid constitutional steward. Legal, regulatory, safety, security, privacy, or professional constraints remain binding regardless of escalation outcome.
+
+An appeal shall identify the disputed decision, authorities involved, evidence, consequence, urgency, interim controls, and requested resolution. Escalation shall not suspend immediate containment when credible material harm exists.
+
+### 8.7 Checks, Independence, and Separation of Duties
+
+Governance shall preserve independent challenge where the consequence of error, bias, self-interest, or concealed evidence warrants it. No person or role shall unilaterally propose, validate, approve, release, and accept the residual risk of a high-consequence change without sufficient independent control.
+
+Authority to direct work, authority to validate evidence, authority to release, and authority to accept residual risk shall remain distinguishable. Separation may be organizational, procedural, technical, or evidentiary, but it must be effective rather than nominal.
+
+### 8.8 Temporary Delegation and Incapacity
+
+When an accountable authority is temporarily unavailable or unable to act, authority may transfer only through a documented temporary delegation consistent with this Charter. The delegation shall identify the triggering condition, scope, delegate, limitations, effective period, required consultation, and return condition.
+
+Temporary delegation shall grant only the minimum authority necessary for continuity. It shall not permit constitutional amendment, permanent succession, concealed conflicts of interest, or irreversible expansion of the delegate's normal mandate.
+
+Emergency continuity may precede complete documentation only when delay would create greater material harm. The decision, evidence, duration, and retrospective review shall then be recorded as soon as safely practical.
+
+### 8.9 Founder Succession and Constitutional Continuity
+
+Constitutional stewardship shall survive the unavailability, incapacity, resignation, or death of an individual Founder. A succession decision shall preserve the Platform's mission, institutional memory, legal continuity, independence of judgment, and accountability to this Charter.
+
+A valid successor or stewardship body must be explicitly designated through an approved constitutional record. Selection shall consider competence, integrity, freedom from disqualifying conflict, commitment to Engineering Truth, and ability to protect long-term Platform trust. Ownership of assets, repository administration, commercial control, or technical access alone does not confer constitutional stewardship.
+
+Until permanent succession is validly established, a documented interim steward may exercise only the constitutional authority necessary to preserve continuity, prevent material harm, and complete the succession process. The interim steward shall not use temporary authority to alter the mission, entrench personal control, or bypass the future Charter Change Policy.
+
+### 8.10 Governance Records and Transparency
+
+Material governance decisions shall preserve the authority exercised, responsible roles, evidence, alternatives, conflicts, approvals, exceptions, effective date, affected documents, and follow-up obligations. Records shall make it possible to distinguish constitutional decision, delegated decision, consultation, recommendation, dissent, and operational execution.
+
+Governance status shall be truthful and discoverable. Confidentiality may protect sensitive information, but it shall not be used to erase accountability, conceal the existence of material risk, or create undocumented authority.
+
+### 8.11 Emergency Governance
+
+An emergency may justify accelerated action but does not suspend the Charter, human accountability, legal and professional duties, or the obligation to preserve evidence. Emergency authority shall be narrow, time-bounded, proportionate to the threatened harm, and subject to independent retrospective review.
+
+Emergency decisions shall define the trigger, authorized actions, prohibited actions, responsible authority, communication path, expiration, recovery condition, and required review. Temporary emergency power shall not silently become permanent Governance policy.
+
+### 8.12 Chapter Boundary
+
+This chapter defines the Governance hierarchy, constitutional stewardship, delegated roles, decision accountability, conflict resolution, continuity, and Founder succession. It does not prescribe organization charts, meeting schedules, approval software, ticket workflows, or operational checklists.
+
+Detailed role assignments, decision matrices, procedures, and evidence formats belong in the responsible Governance, Standard, Architecture, Product, QA, Release, and operational documents. The formal process for amending, versioning, approving, and activating this Charter remains reserved for the future Charter Change Policy under `GOV-008`.
+
+This chapter becomes authoritative only after Chapter 8 is explicitly approved and merged. Chapter 9 and later chapters remain unauthorized.
