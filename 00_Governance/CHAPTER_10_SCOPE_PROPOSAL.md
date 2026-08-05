@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 0.1.0 |
+| Status | Approved |
+| Version | 1.0.0 |
 | Updated | 2026-08-06 |
 | Owner | Constitutional steward |
 | Backlog ID | GOV-024 |
@@ -156,3 +156,13 @@ This Scope Proposal is accepted only when the CTO confirms that:
 10. approval authorizes Chapter 10 drafting only, not Chapter 11 or later work.
 
 Until all acceptance criteria receive explicit approval, Chapter 10 remains unauthorized.
+
+## 9. Approval Record
+
+| Field | Value |
+|---|---|
+| Date | 2026-08-06 |
+| Result | APPROVED |
+| Authorized next action | Create one Pull Request implementing Chapter 10 only |
+
+Approval authorizes Documentation Governance drafting within this proposal. It does not authorize Chapter 11, operational procedures, templates, tool guidance, or modification of Chapters 1 through 9.
