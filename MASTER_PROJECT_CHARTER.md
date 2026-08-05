@@ -2,15 +2,15 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Pending Chapter 1 Review |
-| Version | 0.1.0 |
-| Chapter scope | Chapter 1 only |
+| Status | Approved - Chapter 1 |
+| Version | 1.0.0 |
+| Approved chapters | Chapter 1 |
 | Document owner | Founder |
-| Effective date | Pending approval |
-| Authority | Becomes the repository's highest governance document only after approval |
+| Effective date | 2026-08-05 upon merge of PR #2 |
+| Authority | Repository's highest governance document upon merge of PR #2 |
 | Review model | One chapter per pull request with explicit approval before continuation |
 
-This Charter defines the enduring identity and highest governing intent of the Factory Utility Platform. During this review stage, only Chapter 1 is proposed. No unapproved future chapter is implied, drafted, or made authoritative by this document.
+This Charter defines the enduring identity and highest governing intent of the Factory Utility Platform. Only explicitly approved and merged chapters are authoritative. No unapproved future chapter is implied, drafted, or made authoritative by this document.
 
 ## Chapter 1 - Foundational Identity
 
