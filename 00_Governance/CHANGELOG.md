@@ -7,6 +7,11 @@ All notable project changes are recorded here. Entries use calendar dates and re
 ### Changed
 
 - `GOV-003` Governance architecture approved after README navigation and document authority hierarchy verification; PR #1 is ready to merge.
+- `GOV-004` Chapter 1 approved and merged through PR #2 without expanding its approved scope.
+- `GOV-005` through `GOV-011` Recorded accepted CTO review recommendations as future Governance requirements rather than Chapter 1 defects.
+- `GOV-012` Started Chapter 2, Engineering Philosophy, under the one-chapter-per-PR policy.
+- `GOV-009`, `GOV-012` Completed Chapter 2 drafting and validation for independent review.
+- `GOV-009`, `GOV-012` Independent CTO and Engineering Review Board result: `PASS WITH RECOMMENDATIONS`; PR #3 is merge-ready.
 
 ### Planned
 
@@ -14,6 +19,8 @@ All notable project changes are recorded here. Entries use calendar dates and re
 - `DOC-001` Define reusable documentation templates and lifecycle.
 - `ARC-001` Define the physical WordPress application and module architecture.
 - `GOV-004` Create only Chapter 1 of the root Master Project Charter in a separate PR after PR #1 merges.
+- `GOV-005` through `GOV-011` Implement accepted Governance requirements in their responsible future chapters.
+- `GOV-012` Submit Chapter 2 only for independent review before any later chapter begins.
 
 ## [2026-08-05]
 

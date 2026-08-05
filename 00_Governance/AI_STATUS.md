@@ -6,20 +6,20 @@
 | Architecture status | Approved and frozen |
 | Governance status | Approved and frozen; Phase 1 review passed |
 | Project status | Foundation Complete |
-| Current phase | Governance Architecture Complete |
-| Active backlog item | `GOV-004` queued after PR #1 merge |
-| Active branch | `agent/foundation-governance` |
-| Active pull request | Draft PR #1 |
-| Next approved action | Merge PR #1, then create Chapter 1 only in PR #2 |
+| Current phase | Master Charter Chapter 2 Review |
+| Active backlog item | `GOV-009`, `GOV-012` |
+| Active branch | `agent/master-charter-chapter-2` |
+| Active pull request | Draft PR #3 |
+| Next approved action | Merge approved Chapter 2 PR #3; do not begin Chapter 3 before merge |
 | Blockers | None |
 
 ## Scope Guard
 
 - `MASTER_PROJECT_CHARTER.md` must not be created during Phase 1.
-- Chapter 1 may begin only after Phase 1 PR #1 is reviewed and merged.
-- Chapter 1 is limited to Vision, Mission, Founder Principle, and Project Promise.
-- Chapter 2 and all later chapters require separate sequential approval.
-- `PROJECT_CHARTER.md` remains unchanged until Chapter 1 is accepted.
+- Chapter 1 is approved and must not be modified without a true defect.
+- Chapter 2 is limited to Engineering Philosophy and its direct definition of Engineering Truth.
+- Chapter 3 and all later chapters require separate sequential approval.
+- Accepted recommendations are backlog requirements, not retroactive Chapter 1 defects.
 - Governance architecture changes require a separate proposal and explicit approval.
 
 ## Completed Foundation
