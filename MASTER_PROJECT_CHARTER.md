@@ -2,9 +2,9 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Chapters 1 through 8 Approved |
+| Status | Draft - Chapters 1 through 9 Approved |
 | Version | 0.3.0-draft |
-| Approved chapters | Chapters 1 through 8 |
+| Approved chapters | Chapters 1 through 9 |
 | Proposed chapter | None |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
@@ -561,3 +561,78 @@ This chapter defines the Governance hierarchy, constitutional stewardship, deleg
 Detailed role assignments, decision matrices, procedures, and evidence formats belong in the responsible Governance, Standard, Architecture, Product, QA, Release, and operational documents. The formal process for amending, versioning, approving, and activating this Charter remains reserved for the future Charter Change Policy under `GOV-008`.
 
 This chapter becomes authoritative only after Chapter 8 is explicitly approved and merged. Chapter 9 and later chapters remain unauthorized.
+
+## Chapter 9 - Constitutional Change and Integrity
+
+### 9.1 Constitutional Change Principles
+
+The Master Project Charter shall remain stable enough to provide enduring direction and capable of deliberate change when evidence, responsibility, or the Platform's long-term interests require it. Constitutional change is exceptional: it shall correct, clarify, or strengthen the highest Governance authority rather than serve transient preference, convenience, schedule pressure, or implementation fashion.
+
+Every amendment shall preserve institutional memory and make the constitutional change distinguishable from interpretation, operational policy, and ordinary project execution. Silence, custom, lower-level documents, technical configuration, or repeated noncompliance shall not amend this Charter.
+
+### 9.2 Amendment Authority
+
+Only the Founder or a valid constitutional steward established under Chapter 8 may approve an amendment to this Charter. Proposal, analysis, consultation, drafting, validation, or recommendation by any person, role, organization, or AI system does not constitute constitutional approval.
+
+Amendment authority is fiduciary stewardship, not personal sovereignty. It shall be exercised within Engineering Truth, applicable law, professional duties, human accountability, and the obligation to protect affected people and the Platform's enduring trust.
+
+No delegated operational authority, including the Chief AI, may amend, waive, suspend, or self-expand the Charter. Temporary delegation or interim stewardship may authorize constitutional change only when Chapter 8 expressly grants that authority and the change is necessary to preserve constitutional continuity or prevent material harm.
+
+### 9.3 Amendment Constraints
+
+An amendment shall have a stated constitutional purpose, defined scope, evidence proportionate to its consequences, identified affected authorities, and explicit treatment of material risks, conflicts, dependencies, and transitional effects. It shall be no broader than necessary to achieve its legitimate purpose.
+
+No amendment may:
+
+1. assign constitutional sovereignty or final human accountability to an AI system;
+2. erase material history, evidence, dissent, obligations, or known risk;
+3. retroactively legitimize conduct that violated the authority effective when the conduct occurred;
+4. use lower-level implementation concerns to bypass constitutional review;
+5. remove binding legal, safety, security, privacy, or professional duties; or
+6. conceal a transfer or concentration of authority through ambiguous language.
+
+### 9.4 Constitutional Stability
+
+Approved constitutional text shall carry a presumption of continuity. A change requires a material reason that outweighs the loss of stability, interpretive certainty, and institutional memory created by amendment.
+
+Editorial correction may simplify language without changing meaning or authority. Any change that alters rights, duties, scope, precedence, accountability, approval authority, or constitutional interpretation is substantive regardless of its size or label and shall be governed as an amendment.
+
+Urgency may shorten the time available for consideration but shall not lower the authority, evidence, integrity, or accountability required for constitutional change. Temporary measures shall not silently become permanent constitutional rules.
+
+### 9.5 Constitutional Review Requirements
+
+Before approval, a proposed amendment shall receive review proportionate to its effect on mission, authority, safety, quality, legal duties, affected stakeholders, existing commitments, and long-term maintainability. Review shall test consistency with the Charter as a whole, identify conflicts and unintended authority shifts, and distinguish constitutional necessity from matters owned by lower Governance layers.
+
+Material amendments require independent challenge by competent reviewers who did not exercise sole authorship and approval authority. Known disagreement, uncertainty, and unresolved consequence shall remain visible to the approving constitutional steward.
+
+Review evidence supports the decision but does not replace the accountable human approval required by Section 9.2.
+
+### 9.6 Version Governance
+
+Each authoritative Charter state shall have a unique, ordered version identity. Version significance shall reflect constitutional impact: changes to meaning, authority, responsibility, or compatibility shall be distinguishable from non-substantive corrections.
+
+A version shall identify the constitutional text it contains, its approval state, approving authority, effective date, and relationship to the version it replaces. Draft, proposed, approved, effective, superseded, and withdrawn states shall not be represented as interchangeable.
+
+Milestones, product releases, repository branches, and implementation versions may reference a Charter version but shall not determine constitutional authority or silently change it.
+
+### 9.7 Effective Date and Transition
+
+An amendment becomes binding only when it has been validly approved and assigned an explicit effective date. Approval and effectiveness may be separated when affected responsibilities, commitments, or controls require an orderly transition.
+
+The amendment shall state whether existing decisions remain valid, require review, or must be replaced. Unless the approved amendment expressly and lawfully provides otherwise, it governs future authority and does not rewrite the historical Governance basis of prior decisions.
+
+No gap between constitutional versions shall create unbounded authority. Until a successor version becomes effective, the last effective version remains authoritative.
+
+### 9.8 Constitutional Integrity and Preservation
+
+The authoritative Charter shall remain complete, internally coherent, attributable, reviewable, and recoverable across organizational, technical, and personnel change. Superseded constitutional text shall remain available as historical authority and shall identify the version that replaced it.
+
+Interpretation shall consider the Charter as a whole, its authority hierarchy, defined responsibilities, and the purpose of the relevant provision. A lower-level document may resolve operational detail but shall not cure, override, or conceal a constitutional conflict.
+
+If an approved amendment creates an unforeseen contradiction or material loss of protection, responsible authorities shall preserve safety, evidence, and human accountability while escalating the defect for constitutional resolution. The defect does not grant authority to disregard unrelated Charter obligations.
+
+### 9.9 Chapter Boundary
+
+This chapter defines the constitutional principles, authority, constraints, review obligations, version identity, effectiveness, and integrity requirements governing change to the Master Project Charter. It does not prescribe proposal forms, review schedules, repository operations, documentation workflows, release processes, approval tools, or publication mechanics.
+
+Lower-level Governance documents may implement those mechanics only within this chapter and the Governance hierarchy established by Chapter 8. This chapter becomes authoritative only after Chapter 9 is explicitly approved and merged. Chapter 10 and later chapters remain unauthorized.
