@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Pending Chapter 8 Review |
+| Status | Draft - Chapters 1 through 8 Approved |
 | Version | 0.3.0-draft |
-| Approved chapters | Chapters 1 through 7 |
-| Proposed chapter | Chapter 8 |
+| Approved chapters | Chapters 1 through 8 |
+| Proposed chapter | None |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
@@ -554,13 +554,7 @@ Material governance decisions shall preserve the authority exercised, responsibl
 
 Governance status shall be truthful and discoverable. Confidentiality may protect sensitive information, but it shall not be used to erase accountability, conceal the existence of material risk, or create undocumented authority.
 
-### 8.11 Emergency Governance
-
-An emergency may justify accelerated action but does not suspend the Charter, human accountability, legal and professional duties, or the obligation to preserve evidence. Emergency authority shall be narrow, time-bounded, proportionate to the threatened harm, and subject to independent retrospective review.
-
-Emergency decisions shall define the trigger, authorized actions, prohibited actions, responsible authority, communication path, expiration, recovery condition, and required review. Temporary emergency power shall not silently become permanent Governance policy.
-
-### 8.12 Chapter Boundary
+### 8.11 Chapter Boundary
 
 This chapter defines the Governance hierarchy, constitutional stewardship, delegated roles, decision accountability, conflict resolution, continuity, and Founder succession. It does not prescribe organization charts, meeting schedules, approval software, ticket workflows, or operational checklists.
 
