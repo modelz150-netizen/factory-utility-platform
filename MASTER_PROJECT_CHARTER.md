@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Chapter 14 Pending Review |
+| Status | Draft - Chapters 1 through 14 Approved |
 | Version | 0.3.0-draft |
-| Approved chapters | Chapters 1 through 13 |
-| Proposed chapter | Chapter 14 - Release Governance |
+| Approved chapters | Chapters 1 through 14 |
+| Proposed chapter | None |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
@@ -1095,4 +1095,4 @@ This chapter defines constitutional Release Governance: Release authority, accou
 
 It does not prescribe Release checklists, Release workflows, deployment or rollback procedures, CI/CD, build pipelines, Release automation, Release tools, operational runbooks, environment configuration, Repository procedures, or product-specific rollout implementation.
 
-Lower-level Standards and operational documents shall implement those responsibilities. Chapter 15 remains reserved for Continuous Improvement and Chapter 16 for Success Criteria and Constitutional Completion. Chapter 14 has no constitutional authority until explicitly reviewed, approved, and merged through PR #22; Chapter 15 and later work remain unauthorized.
+Lower-level Standards and operational documents shall implement those responsibilities. Chapter 15 remains reserved for Continuous Improvement and Chapter 16 for Success Criteria and Constitutional Completion. Chapter 14 is approved and becomes authoritative upon merge of PR #22; Chapter 15 and later work remain unauthorized until separately scoped and approved.
