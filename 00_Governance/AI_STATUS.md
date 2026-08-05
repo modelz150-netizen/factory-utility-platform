@@ -6,11 +6,11 @@
 | Architecture status | Approved and frozen |
 | Governance status | Approved and frozen; Phase 1 review passed |
 | Project status | Foundation Complete |
-| Current phase | Master Charter Chapter 4 Review |
-| Active backlog item | `GOV-014` |
-| Active branch | `agent/master-charter-chapter-4` |
-| Active pull request | Draft PR #5 |
-| Next approved action | Review Chapter 4; do not begin Chapter 5 before approval and merge |
+| Current phase | Master Charter Chapter 5 and Milestone Review |
+| Active backlog item | `GOV-015`, `GOV-017` |
+| Active branch | `agent/master-charter-chapter-5` |
+| Active pull request | Draft PR #6 |
+| Next approved action | Review Chapter 5 and Milestone Review; Chapter 6 remains blocked |
 | Blockers | None |
 
 ## Scope Guard
@@ -19,8 +19,9 @@
 - Chapter 1 is approved and must not be modified without a true defect.
 - Chapter 2 is approved and must not be modified without a true defect.
 - Chapter 3 is approved and must not be modified without a true defect.
-- Chapter 4 is limited to Engineering Standards at the constitutional level.
-- Chapter 5 and all later chapters require separate sequential approval.
+- Chapter 4 is approved and must not be modified without a true defect.
+- Chapter 5 is limited to Quality Principles at the constitutional level.
+- Chapter 6 is blocked until Chapter 5 and the five-chapter Milestone Review are approved.
 - Accepted recommendations are backlog requirements, not retroactive Chapter 1 defects.
 - Governance architecture changes require a separate proposal and explicit approval.
 
