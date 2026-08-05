@@ -6,11 +6,11 @@
 | Architecture status | Approved and frozen |
 | Governance status | Approved and frozen; Phase 1 review passed |
 | Project status | Foundation Complete |
-| Current phase | Master Charter Chapter 10 Scope Planning |
-| Active backlog item | None |
-| Active branch | None - Chapter 10 not started |
-| Active pull request | PR #12 - Approved and merged |
-| Next approved action | Propose Chapter 10 scope separately; do not draft Chapter 10 without authorization |
+| Current phase | Master Charter Chapter 10 Scope Review |
+| Active backlog item | `GOV-024` |
+| Active branch | agent/master-charter-chapter-10-scope |
+| Active pull request | Draft Chapter 10 Scope Proposal PR |
+| Next approved action | CTO review of the Chapter 10 Scope Proposal; do not draft Chapter 10 |
 | Blockers | None |
 
 ## Scope Guard
@@ -29,6 +29,7 @@
 - Chapter 8 is approved and must not be modified without a constitutional defect.
 - Chapter 9 is approved and must not be modified without a constitutional defect.
 - Chapter 10 remains undrafted and requires a separately approved scope.
+- Chapter 10 Scope Proposal covers Documentation Governance only; it has no constitutional authority until approved.
 - Architecture Audit approved: PASS WITH RECOMMENDATIONS; Master Charter v1.0 is not yet ready.
 - Master Charter v1.0 Completion Plan approved with Milestones A, B, C, and a Final Constitutional Adoption Review.
 - Accepted recommendations are backlog requirements, not retroactive Chapter 1 defects.
