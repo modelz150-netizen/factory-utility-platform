@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Pending Chapter 6 Review |
-| Version | 1.5.0-draft |
-| Approved chapters | Chapters 1 through 5 |
-| Proposed chapter | Chapter 6 |
+| Status | Draft - Pending Chapter 7 Review |
+| Version | 0.3.0-draft |
+| Approved chapters | Chapters 1 through 6 |
+| Proposed chapter | Chapter 7 |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
@@ -369,3 +369,107 @@ This chapter defines when validity may be claimed, retained, challenged, or with
 Detailed verification methods, evidence requirements, defect handling, and quality gates remain governed by the [QA Standard](00_Governance/standards/QA_STANDARD.md). Release readiness, deployment observation, rollback, and residual-risk controls remain governed by the [Release Standard](00_Governance/standards/RELEASE_STANDARD.md). Domain-specific validation sources and known-answer evidence belong in the appropriate Engineering and QA artifacts.
 
 This chapter becomes authoritative only after Chapter 6 is explicitly approved and merged. No later Charter chapter is implied or authorized by its inclusion.
+
+## Chapter 7 - AI Organization and Chief AI Responsibilities
+
+### 7.1 Purpose of the AI Organization
+
+The AI Organization is the governed system of human roles, delegated authority, controls, evidence, and operational responsibilities through which Factory Utility Platform designs, evaluates, deploys, monitors, and retires AI-assisted capabilities.
+
+It exists to extend engineering capability without obscuring accountability. The AI Organization shall ensure that AI serves the Platform's mission, remains within explicitly granted authority, and is subject to evidence, challenge, supervision, and correction proportionate to its consequence.
+
+AI is not an independent constitutional actor, legal person, professional engineer, or source of authority. Apparent autonomy, fluency, scale, or technical sophistication shall not be treated as permission to act beyond a governed mandate.
+
+### 7.2 Constitutional and Operational Authority
+
+The Founder retains constitutional stewardship of the Platform's enduring purpose, highest governance direction, and material expansion of AI authority. The Founder is not responsible for routine model selection, prompt design, validation execution, incident triage, monitoring, or day-to-day AI operations.
+
+The Chief AI operates under delegated authority. This role converts constitutional direction into accountable AI governance and operating boundaries, while product, engineering, quality, security, privacy, legal, domain, and release authorities retain their responsibilities within their disciplines.
+
+Delegation shall be explicit, limited, reviewable, and revocable. No delegated role may enlarge its own mandate, reinterpret constitutional limits for convenience, or transfer accountability to an AI system.
+
+The Chief AI may propose constitutional changes through the approved Governance process but shall not amend, approve, suspend, waive, or unilaterally reinterpret this Charter. AI authority remains subordinate to accountable human authority at all times; an AI output or action cannot override a decision made by a competent human acting within valid authority.
+
+### 7.3 Chief AI Mandate
+
+The Chief AI is accountable for the coherence, safety, evidence, and operational integrity of AI-assisted capabilities across the Platform. The mandate includes establishing and maintaining the conditions under which AI may be developed, evaluated, integrated, used, monitored, restricted, suspended, and retired.
+
+The Chief AI shall provide the Founder and other accountable authorities with decision-ready evidence, material risks, unresolved conflicts, and recommended actions. Routine governance shall be resolved within delegated authority so that Founder attention is reserved for constitutional direction, material authority expansion, exceptional residual risk, and unresolved high-consequence conflict.
+
+### 7.4 Chief AI Responsibilities
+
+The Chief AI shall ensure that:
+
+1. each AI capability has a defined purpose, owner, users, authority level, prohibited uses, data boundary, and lifecycle state;
+2. claims about AI quality, safety, performance, cost, and fitness for purpose are supported by proportionate validation;
+3. human accountability, review, intervention, and override remain explicit where consequence requires them;
+4. sources, models, prompts or instructions, tools, configurations, permissions, evaluations, and material changes are traceable at the level necessary to reproduce and challenge behavior;
+5. security, privacy, intellectual property, data governance, accessibility, reliability, and professional engineering boundaries are incorporated into AI decisions;
+6. monitoring detects material drift, misuse, failure, degraded evidence, and conditions outside validated limits;
+7. incidents and near misses are contained, recorded, investigated, communicated, and converted into corrective or preventive action; and
+8. AI dependencies and provider choices remain compatible with the Platform's architecture, continuity, and vendor-independence principles.
+
+These responsibilities may be delegated to competent owners, but accountability for the AI governance system remains with the Chief AI.
+
+### 7.5 Prohibited AI Authority
+
+An AI system shall not:
+
+- approve its own constitutional authority, risk acceptance, production release, or exception;
+- conceal uncertainty, unsupported assumptions, source limitations, failed evidence, or material conflicts;
+- represent advisory output as professional approval, regulatory determination, or verified Engineering Truth without the required evidence and authority;
+- bypass access control, separation of duties, validation, audit, human review, or safety constraints;
+- make an irreversible or high-consequence operational decision unless an explicitly approved governance model grants that narrow authority and preserves accountable human control; or
+- redefine the Platform's mission, Governance hierarchy, Standards, or constitutional principles.
+
+No role may use AI as an intermediary to perform an action that the role itself is not authorized to perform.
+
+### 7.6 Authority and Risk Classification
+
+Every AI capability shall be classified according to the authority it exercises and the consequence of incorrect, unavailable, manipulated, or misunderstood behavior. Classification shall consider the affected engineering decision, safety and environmental impact, data sensitivity, operational reach, reversibility, user reliance, automation level, and ability to detect and recover from failure.
+
+Controls, validation, independence, monitoring, approval, and human intervention shall increase with risk and authority. Advisory assistance, bounded workflow automation, consequential recommendation, and operational control shall remain distinguishable governance states; capability labels or user-interface presentation shall not blur those boundaries.
+
+An AI capability may operate only at the lowest authority sufficient for its approved purpose.
+
+### 7.7 Evidence and Decision Records
+
+Material AI decisions shall preserve the problem, intended use, alternatives, evidence, evaluation conditions, limitations, affected stakeholders, risk classification, approving authority, and lifecycle consequences. Evidence shall distinguish observed behavior from prediction, vendor claim, benchmark result, expert judgment, and unresolved uncertainty.
+
+The Chief AI shall ensure that decision-makers can determine which system version, governing configuration, data conditions, and authority boundary produced a consequential output. Where full reproduction is impractical, compensating evidence and limitations shall be explicit.
+
+### 7.8 Escalation, Intervention, and Stop Authority
+
+Material uncertainty, boundary conflict, unsafe behavior, loss of evidence, security or privacy exposure, unexplained drift, and consequential incidents shall be escalated to the accountable authority appropriate to their impact. Escalation shall occur before a risk exceeds delegated acceptance authority, not only after harm occurs.
+
+Escalation follows a defined authority path: matters within the approved AI mandate remain with the Chief AI; discipline-specific matters go to the accountable product, engineering, quality, security, privacy, legal, domain, release, or operational authority; unresolved cross-authority conflicts, constitutional questions, material expansions of AI authority, and residual risks beyond delegated limits go to the Founder. Immediate containment or stop action does not wait for escalation when credible material harm is present.
+
+Authorized product, engineering, quality, security, privacy, domain, release, and operational roles may stop or restrict an AI capability when evidence indicates material harm or operation outside approved conditions. The Chief AI shall ensure that stop, containment, fallback, and recovery mechanisms are defined and usable before high-consequence operation.
+
+Only constitutional questions, material expansions of AI authority, exceptional residual risks beyond delegated limits, and unresolved cross-authority conflicts require Founder decision. The Founder does not assume routine AI operational authority by receiving these escalations. Escalation shall protect Founder stewardship without making the Founder the routine operational bottleneck.
+
+### 7.9 Independence and Separation of Duties
+
+No single person, team, vendor, model, or automated pipeline shall control the proposal, implementation, validation, approval, release, and risk acceptance of a high-consequence AI capability without sufficient independent challenge.
+
+The Chief AI shall maintain separation appropriate to risk between capability ownership, evaluation, security and privacy review, release authority, and residual-risk acceptance. Independence may be organizational, procedural, technical, or evidentiary, but it shall be strong enough to expose conflicts of interest, confirmation bias, and systematic failure.
+
+### 7.10 Lifecycle Accountability
+
+AI governance applies from discovery and sourcing through design, data preparation, implementation, evaluation, release, operation, change, suspension, and retirement. Approval at one lifecycle stage does not imply approval at every later stage.
+
+Material changes to model, provider, data, instructions, tools, permissions, integration boundaries, operating context, or authority shall trigger impact assessment and revalidation. Retirement shall preserve records necessary to understand prior decisions, affected outputs, unresolved obligations, and lessons learned.
+
+### 7.11 Organizational Learning and Transparency
+
+The AI Organization shall learn from evaluation results, incidents, near misses, user feedback, operational evidence, external changes, and challenged assumptions. Learning shall improve controls and capability design without silently rewriting history or weakening previously stated limitations.
+
+The Platform shall communicate AI involvement, authority, material limitations, and required human judgment clearly enough for affected users to make responsible decisions. Transparency shall be meaningful to the user and consequence, not satisfied by generic disclosure alone.
+
+### 7.12 Chapter Boundary
+
+This chapter defines the constitutional AI organization, the separation of Founder and Chief AI authority, the Chief AI's accountability, and the non-delegable limits on AI systems. It does not prescribe a particular model, provider, prompt framework, evaluation tool, team size, or operating procedure.
+
+Detailed AI architecture, data controls, evaluation methods, incident procedures, role assignments, and provider configurations shall be maintained in their responsible Architecture, Standards, ADR, Product, Engineering, QA, Release, and operational documents. Founder succession and constitutional stewardship continuity remain reserved for their designated future Governance chapter.
+
+This chapter becomes authoritative only after Chapter 7 is explicitly approved and merged. Chapter 8 and later chapters remain unauthorized.

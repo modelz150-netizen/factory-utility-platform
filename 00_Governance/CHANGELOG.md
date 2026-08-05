@@ -26,6 +26,9 @@ All notable project changes are recorded here. Entries use calendar dates and re
 - `GOV-015`, `GOV-017` Chapter 5 and Milestone 1 approved; PR #6 merged and Chapter 6 was authorized.
 - `GOV-018` Added Chapter 6, Validation Rules, defining constitutional validity, evidence, traceability, independence, uncertainty, revalidation, and authority boundaries.
 - `GOV-018` Completed QA and independent CTO-style review for Draft PR #7 without modifying approved Chapters 1 through 5.
+- `GOV-018` Chapter 6 approved and merged through PR #7; Master Charter milestone v0.2 is complete.
+- `GOV-005`, `GOV-006`, `GOV-019` Added Chapter 7, AI Organization and Chief AI Responsibilities, with explicit Founder, Chief AI, human authority, evidence, escalation, and lifecycle boundaries.
+- `GOV-019` Completed Chapter 7 QA and independent review and recorded the v0.2 constitutional milestone validation.
 
 ### Planned
 
@@ -39,6 +42,7 @@ All notable project changes are recorded here. Entries use calendar dates and re
 - `GOV-014` Submit Chapter 4 only for independent review before Chapter 5 begins.
 - `GOV-015` Submit Chapter 5 only for independent review and complete the five-chapter Milestone Review before Chapter 6 begins.
 - `GOV-018` Obtain explicit CTO approval for Chapter 6 before merging PR #7 or beginning Chapter 7.
+- `GOV-019` Obtain explicit CTO approval for Chapter 7 before merging PR #8 or beginning Chapter 8.
 
 ## [2026-08-05]
 
