@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Chapters 1 through 11 Approved |
+| Status | Draft - Chapter 12 Pending Review |
 | Version | 0.3.0-draft |
 | Approved chapters | Chapters 1 through 11 |
-| Proposed chapter | None |
+| Proposed chapter | Chapter 12 |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
@@ -850,3 +850,75 @@ This chapter defines the constitutional principles of Institutional Memory, know
 It does not prescribe Knowledge Base implementation, documentation templates, GitHub implementation, backup or restoration mechanisms, AI Memory, database architecture, workflow implementation, transfer checklists, retention schedules, storage technology, or operational procedures.
 
 Chapter 10 continues to govern documentation authority, classification, lifecycle, terminology, and interpretation. Lower-level Standards, Architecture, and operational documents implement memory mechanisms. Chapter 12 remains reserved for Sprint and Workflow Governance. This chapter becomes authoritative only after Chapter 11 is explicitly approved and merged; Chapter 12 and later chapters remain unauthorized.
+
+## Chapter 12 - Sprint and Workflow Governance
+
+### 12.1 Constitutional Purpose
+
+Sprint and Workflow Governance shall ensure that material work advances from approved intent to accountable completion without concealing authority, evidence, uncertainty, risk, or unfinished obligation.
+
+This chapter governs enduring execution responsibilities only. It does not prescribe a delivery methodology, cadence, ceremony, tool, or operating procedure.
+
+### 12.2 Sprint Governance
+
+A Sprint is a bounded planning and review horizon. It may organize commitments and learning, but it shall not create authority, waive Governance obligations, or guarantee completion.
+
+Sprint scope shall remain aligned with approved purpose, known capacity, material dependencies, and consequence. Unfinished or changed work shall remain visible and shall not be represented as completed merely because a planning period has ended.
+
+### 12.3 Workflow Governance
+
+Material work shall progress through explicit and meaningful states whose entry, transition, and exit conditions are accountable. A workflow state shall represent the best supported truth about the work, not desired appearance, organizational pressure, or automated system output.
+
+Methods for naming, sequencing, or automating states belong to lower-level Governance. No state transition may create decision authority or substitute for required judgment.
+
+### 12.4 Planning Accountability
+
+Planned material work shall identify an accountable owner, governing purpose, scope boundary, priority basis, dependencies, constraints, and acceptance basis proportionate to consequence.
+
+A plan is an accountable statement of intent based on current knowledge. It shall not be treated as certainty, and material changes to its assumptions shall remain visible to affected authorities.
+
+### 12.5 Review and Approval Accountability
+
+Execution, review, validation, approval, acceptance, and completion are distinct responsibilities. They may be combined only where consequence, competence, and applicable Governance permit, and the accountable authority remains explicit.
+
+Review shall provide competent challenge. Approval shall be granted only by the authority defined under Chapter 8 and applicable lower-level Governance. Workflow participation alone shall not imply approval authority.
+
+### 12.6 Work Traceability and Visibility
+
+Material work shall remain traceable to its originating need, governing authority, relevant decisions, applicable Standards, evidence, changes, and outcome.
+
+Status, blockers, uncertainty, scope change, decision needs, known limitations, and residual work shall be truthfully visible to affected authorities. Visibility shall be sufficient for responsible intervention without requiring indiscriminate disclosure.
+
+Chapter 10 governs documentary integrity and Chapter 11 governs continuity of the resulting Project Memory.
+
+### 12.7 Governance Checkpoints
+
+Governance checkpoints shall be proportionate to consequence and shall occur before a material obligation can be silently bypassed. Applicable architecture, quality, validation, security, privacy, legal, regulatory, domain, release, or constitutional review shall remain effective regardless of schedule pressure or workflow design.
+
+A checkpoint is a decision boundary, not a mandatory ceremony. Lower-level Governance shall define its implementation and evidence without converting proportional control into uniform process overhead.
+
+### 12.8 Completion Accountability
+
+Completion shall mean that the approved acceptance basis is satisfied, required evidence and documentation exist, known limitations are visible, and remaining obligations have an accountable disposition.
+
+Activity, elapsed time, status labels, automation, partial delivery, or stakeholder optimism shall not by themselves establish completion. Chapters 5 and 6 continue to govern quality and validation; this chapter governs the truthful workflow claim that their applicable conditions have been addressed.
+
+### 12.9 Handover Accountability
+
+A handover shall preserve the authority, context, decisions, dependencies, evidence, risks, known limitations, and unresolved duties required for responsible continuation.
+
+Transfer of work shall identify the receiving accountability and any retained accountability. Receipt shall not erase the responsibility of the originating party for false, concealed, or materially incomplete information.
+
+### 12.10 Scope Change and Workflow Integrity
+
+A material change to purpose, consequence, dependency, constraint, acceptance basis, or accountable ownership shall be made explicit and shall re-enter the appropriate Governance decision.
+
+Urgency, automation, organizational rank, process labels, or repeated practice shall not create authority, waive an obligation, or convert incomplete work into completed work. Escalation and conflict resolution remain governed by Chapter 8.
+
+### 12.11 Chapter Boundary
+
+This chapter defines constitutional Sprint and Workflow Governance: planning, review, approval, traceability, visibility, checkpoints, completion, handover, scope change, and integrity of execution accountability.
+
+It does not prescribe Agile implementation, Scrum ceremonies, Kanban implementation, daily meetings, task management, Git workflow, Pull Request workflow, CI/CD, Release workflow, operational checklists, templates, dashboards, or tool-specific guidance.
+
+Lower-level Standards and operational documents shall implement these principles. Chapter 13 remains reserved for GitHub Governance, Chapter 14 for Release Governance, Chapter 15 for Continuous Improvement, and Chapter 16 for Success Criteria and Constitutional Completion. This chapter becomes authoritative only after explicit approval and merge; Chapter 13 and later chapters remain unauthorized.
