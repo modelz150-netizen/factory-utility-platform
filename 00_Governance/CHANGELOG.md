@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-06 — Chapter 14 Scope Proposed
+
+- Added a formal scope proposal for Chapter 14, Release Governance, under `GOV-032`.
+- Limited the proposed chapter to Release authority, accountability, readiness, evidence, residual risk, integrity, version identity, traceability, and continuity.
+- Excluded checklists, workflows, deployment and rollback procedures, CI/CD, pipelines, automation, tools, runbooks, and environment configuration.
+- Preserved Chapters 1 through 13 and the frozen Governance Architecture; Chapter 14 remains undrafted.
+
 ## 2026-08-06 — Chapter 13 Scope Proposed
 
 - Added a formal scope proposal for Chapter 13, GitHub Governance, under `GOV-030`.
