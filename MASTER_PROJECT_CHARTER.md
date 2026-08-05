@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Pending Chapter 5 Review |
-| Version | 1.4.0-draft |
-| Approved chapters | Chapters 1 through 4 |
-| Proposed chapter | Chapter 5 |
+| Status | Draft - Pending Chapter 6 Review |
+| Version | 1.5.0-draft |
+| Approved chapters | Chapters 1 through 5 |
+| Proposed chapter | Chapter 6 |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
@@ -293,3 +293,79 @@ Quality shall improve through measured outcomes, defect patterns, incidents, nea
 Quality measures shall be interpreted in context. Metrics may support decisions, but targets shall not encourage hiding defects, reducing meaningful coverage, avoiding difficult work, or optimizing reported performance at the expense of actual engineering outcomes.
 
 This chapter defines the constitutional meaning and ownership of quality after Chapter 5 is approved. The active QA and Release Standards own detailed validation methods, evidence requirements, gates, and operational procedures.
+
+## Chapter 6 - Validation Rules
+
+### 6.1 Purpose and Scope of Validation
+
+Validation establishes whether a claim, capability, dataset, calculation, decision rule, or change has sufficient evidence to be trusted for a defined use under defined conditions. It does not create certainty beyond the evidence or transfer accountability from the people who produce, review, approve, or use the result.
+
+Validation shall be proportionate to consequence and shall preserve the distinction between demonstrated validity, conditional validity, unresolved uncertainty, and unsupported assertion. A result is not validated merely because it executes successfully, resembles an expected answer, was produced by an authoritative source, or has been used before without a reported failure.
+
+### 6.2 Claims Requiring Validation
+
+Material claims that can affect engineering decisions, safety, operations, compliance, security, financial outcomes, environmental performance, or user trust shall be validated before they are represented as fit for their intended use.
+
+This requirement applies to engineering formulas and calculations, reference knowledge, source data, transformations, software behavior, interfaces, configuration, migrations, automated decisions, AI-assisted outputs, and material documentation claims according to their risk and authority. Reuse of a previously validated asset does not remove the obligation to confirm that its context, version, assumptions, and limitations remain applicable.
+
+### 6.3 Defined Context and Acceptance Basis
+
+Validation shall identify the intended use, governing conditions, acceptance basis, assumptions, units, boundaries, dependencies, data state, and material exclusions. A result validated for one context shall not be presented as universally valid when site conditions, operating ranges, regulations, source revisions, or user authority can change its meaning.
+
+Acceptance criteria shall be established before the final validity decision wherever practical. When criteria must change, the reason, authority, impact, and resulting revalidation shall be visible; criteria shall not be weakened after observing an unfavorable result merely to obtain a pass.
+
+### 6.4 Evidence Sufficiency and Proportionality
+
+Evidence shall be sufficient in relevance, quality, coverage, independence, and recency for the claim and its consequence. The required strength of evidence shall increase with uncertainty, safety impact, operational criticality, security exposure, irreversibility, scale, novelty, and dependence by other capabilities.
+
+No single evidence form is universally sufficient. Source review, analysis, known-answer comparison, boundary evaluation, experimentation, inspection, simulation, operational observation, and independent review may contribute according to context. Detailed methods and evidence formats remain the responsibility of applicable Standards and domain guidance.
+
+### 6.5 Traceability and Reproducibility
+
+A validation decision shall be traceable from the accepted or rejected claim to the evidence, method, inputs, environment, assumptions, reviewer, authority, date, version, and known limitations that support it. The record shall allow a qualified reviewer to understand what was evaluated and why the conclusion was justified.
+
+Reproducibility shall be required to the degree necessary to challenge, investigate, maintain, and safely change the validated subject. Evidence that cannot be connected to the evaluated version or governing conditions shall not be treated as proof of current validity.
+
+### 6.6 Independence and Competence
+
+Validation shall be performed or challenged by people and methods competent for the subject and sufficiently independent for the risk. The producer may supply essential evidence, but high-consequence claims shall not rely solely on unchallenged self-attestation or on the same automated mechanism that produced the claim.
+
+Independence may be achieved through separate review, authoritative comparison, diverse methods, controlled evidence, or other safeguards appropriate to the consequence. Independent review strengthens a decision; it does not assume the decision-maker's accountability.
+
+### 6.7 Boundaries, Failure Conditions, and Uncertainty
+
+Validation shall consider normal use, relevant boundaries, credible misuse, failure conditions, degraded dependencies, incomplete or conflicting data, and conditions outside the validated range. The depth of challenge shall be proportionate to the harm that an incorrect result or unsafe interpretation could cause.
+
+Known limitations, uncertainty, residual risk, and unsupported conditions shall accompany the result where they can affect use. Passing evidence within a defined range shall not conceal failure outside that range or imply authority the Platform has not granted.
+
+### 6.8 Failed, Missing, and Inconclusive Evidence
+
+Failed, missing, skipped, obsolete, contradictory, and inconclusive evidence are distinct states. None shall be converted into a pass by schedule pressure, seniority, automation, commercial need, or confidence unsupported by observation.
+
+A conditional acceptance or exception requires explicit scope, rationale, accountable authority, compensating controls, residual-risk visibility, duration where applicable, and an exit or revalidation condition. An unknown state shall remain visible until evidence resolves it or an authorized decision accepts its consequence.
+
+### 6.9 Change, Revalidation, and Validity Expiration
+
+Validation remains attached to the evaluated subject, version, context, and conditions. Material changes to formulas, sources, data, code, configuration, dependencies, interfaces, environments, operating conditions, regulations, assumptions, or acceptance criteria shall trigger impact assessment and revalidation proportionate to the affected claim.
+
+Validity may expire when evidence becomes obsolete, source authority changes, operating conditions drift, incidents reveal unsupported behavior, or monitoring shows that assumptions no longer hold. Prior approval shall not be used to preserve a claim whose validity conditions have materially changed.
+
+### 6.10 Operational Evidence and Continuous Validity
+
+Pre-release validation cannot prove every future operating condition. Capabilities whose correctness or safety can degrade after release shall provide operational evidence sufficient to detect material drift, failure, misuse, or invalid assumptions and to support containment, correction, rollback, or revalidation.
+
+Operational success may strengthen evidence but shall not erase untested boundaries or known limitations. Incidents, near misses, defect patterns, user feedback, and changed domain knowledge shall be evaluated for their effect on previously accepted validity.
+
+### 6.11 Validation Decision and Authority
+
+Every material validation conclusion shall state the decision, scope, evidence status, limitations, residual risk, and accountable approving authority. Approval authority shall be proportionate to consequence and shall not exceed the reviewer's competence, organizational mandate, or professional authority.
+
+The Platform shall distinguish technical evidence from the decision to accept residual risk. Neither AI output nor automated checks may independently grant authority beyond an explicitly approved governance boundary.
+
+### 6.12 Validation Boundary
+
+This chapter defines when validity may be claimed, retained, challenged, or withdrawn. It does not prescribe particular test tools, templates, thresholds, environments, or release workflows.
+
+Detailed verification methods, evidence requirements, defect handling, and quality gates remain governed by the [QA Standard](00_Governance/standards/QA_STANDARD.md). Release readiness, deployment observation, rollback, and residual-risk controls remain governed by the [Release Standard](00_Governance/standards/RELEASE_STANDARD.md). Domain-specific validation sources and known-answer evidence belong in the appropriate Engineering and QA artifacts.
+
+This chapter becomes authoritative only after Chapter 6 is explicitly approved and merged. No later Charter chapter is implied or authorized by its inclusion.
