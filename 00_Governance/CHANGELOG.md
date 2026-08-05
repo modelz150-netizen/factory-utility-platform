@@ -14,6 +14,13 @@
 - Clarified that approved Repository state is the constitutional Source of Truth; GitHub remains the current portable implementation platform.
 - Preserved the frozen Governance Architecture and did not begin Chapter 14.
 
+## 2026-08-06 — Chapter 13 Drafted
+
+- Added Chapter 13, GitHub Governance, for PR #20 review.
+- Defined approved Repository state as the portable constitutional Source of Truth and GitHub as the current implementation platform.
+- Preserved approved Chapters 1 through 12 and the frozen Governance Architecture.
+- Recorded independent QA as PASS WITH RECOMMENDATIONS; no Critical or Major issue remains.
+
 ## 2026-08-06 — Chapter 12 Scope Approved
 
 - CTO approved the Chapter 12 Scope Proposal through PR #17.
