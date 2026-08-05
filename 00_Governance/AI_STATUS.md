@@ -6,11 +6,11 @@
 | Architecture status | Approved and frozen |
 | Governance status | Approved and frozen; Phase 1 review passed |
 | Project status | Foundation Complete |
-| Current phase | Master Charter Chapter 14 Review |
-| Active backlog item | `GOV-033` |
-| Active branch | `agent/master-charter-chapter-14` |
-| Active pull request | Draft PR #22 |
-| Next approved action | Independent QA is complete; obtain CTO review of Chapter 14 before merge and do not begin Chapter 15 |
+| Current phase | Master Charter Chapter 15 Scope Review |
+| Active backlog item | `GOV-034` |
+| Active branch | `agent/master-charter-chapter-15-scope` |
+| Active pull request | Draft Chapter 15 Scope Proposal PR |
+| Next approved action | CTO review of the Chapter 15 Scope Proposal; do not implement Chapter 15 or begin Chapter 16 |
 | Blockers | None |
 
 ## Scope Guard
@@ -41,8 +41,9 @@
 - Chapter 13 is approved and authoritative upon merge of PR #20; Chapters 1 through 13 are complete.
 - Chapter 14 Scope Proposal is approved and authorizes PR #22 for constitutional Release Governance only.
 - Approved Repository State, Release Authorization, Deployment Execution, and Operational Acceptance shall remain distinct responsibilities.
-- Chapter 14 is drafted for review in PR #22 and has no constitutional authority until approved and merged.
-- Chapter 15 is blocked until Chapter 14 is reviewed, approved, and merged.
+- Chapter 14 is approved and authoritative upon merge of PR #22; Chapters 1 through 14 are complete.
+- Chapter 15 Scope Proposal covers constitutional Continuous Improvement principles only and has no constitutional authority until approved.
+- Chapter 15 implementation is blocked until its Scope Proposal is reviewed and approved; Chapter 16 is not authorized.
 - Architecture Audit approved: PASS WITH RECOMMENDATIONS; Master Charter v1.0 is not yet ready.
 - Master Charter v1.0 Completion Plan approved with Milestones A, B, C, and a Final Constitutional Adoption Review.
 - Accepted recommendations are backlog requirements, not retroactive Chapter 1 defects.
