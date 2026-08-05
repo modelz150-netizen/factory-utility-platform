@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-08-06 — Chapter 15 Scope Proposed
+
+- Added a formal scope proposal for Chapter 15, Continuous Improvement, under `GOV-034`.
+- Limited the proposed chapter to evidence-based learning, feedback integrity, corrective and preventive improvement, debt visibility, accountable change, and improvement without silent constitutional drift.
+- Excluded ceremonies, operational workflows, metrics implementation, dashboards, tools, templates, task management, and implementation-specific experimentation procedures.
+- Preserved Chapters 1 through 14 and the frozen Governance Architecture; Chapter 15 remains undrafted.
+
+## 2026-08-06 — Chapter 14 Approved
+
+- CTO approved Chapter 14, Release Governance, through PR #22.
+- Marked Chapters 1 through 14 complete and closed `GOV-033`.
+- Confirmed that Approved Repository State, Release Authorization, Deployment Execution, and Operational Acceptance remain constitutionally distinct.
+- Preserved the frozen Governance Architecture and did not implement Chapter 15.
+
 ## 2026-08-06 — Chapter 14 Drafted
 
 - Added Chapter 14, Release Governance, for PR #22 review under `GOV-033`.
