@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 0.1.0 |
+| Status | Approved |
+| Version | 1.0.0 |
 | Updated | 2026-08-06 |
 | Owner | Constitutional steward |
 | Backlog ID | GOV-030 |
@@ -153,4 +153,10 @@ This Scope Proposal is accepted only when the CTO confirms that:
 9. no approved chapter or frozen Governance structure requires change; and
 10. approval authorizes Chapter 13 drafting only, not Chapter 14 or later work.
 
-Until explicit approval is recorded, Chapter 13 remains unauthorized.
+## 10. Approval Record
+
+- **Review date:** 2026-08-06
+- **Result:** APPROVED
+- **Constitutional clarification:** The approved Repository state, not GitHub itself, is the constitutional Source of Truth. GitHub is the current implementation platform, and the principle shall remain portable.
+- **Authorized next action:** Create PR #20 implementing Chapter 13 only.
+- **Scope constraint:** Operational Git and GitHub procedures and Chapter 14 are not authorized.
