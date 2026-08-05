@@ -12,6 +12,9 @@ All notable project changes are recorded here. Entries use calendar dates and re
 - `GOV-012` Started Chapter 2, Engineering Philosophy, under the one-chapter-per-PR policy.
 - `GOV-009`, `GOV-012` Completed Chapter 2 drafting and validation for independent review.
 - `GOV-009`, `GOV-012` Independent CTO and Engineering Review Board result: `PASS WITH RECOMMENDATIONS`; PR #3 is merge-ready.
+- `GOV-009`, `GOV-012` Chapter 2 approved and merged through PR #3; existing recommendations remain future requirements, not Chapter 2 defects.
+- `GOV-013` Started Chapter 3, Core Principles, under the one-chapter-per-PR policy.
+- `GOV-013` Completed Chapter 3 drafting and pre-review validation; approved Chapters 1 and 2 remain unchanged.
 
 ### Planned
 
@@ -21,6 +24,7 @@ All notable project changes are recorded here. Entries use calendar dates and re
 - `GOV-004` Create only Chapter 1 of the root Master Project Charter in a separate PR after PR #1 merges.
 - `GOV-005` through `GOV-011` Implement accepted Governance requirements in their responsible future chapters.
 - `GOV-012` Submit Chapter 2 only for independent review before any later chapter begins.
+- `GOV-013` Submit Chapter 3 only for independent review before Chapter 4 begins.
 
 ## [2026-08-05]
 

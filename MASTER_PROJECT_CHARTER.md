@@ -2,13 +2,13 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Pending Chapter 2 Review |
-| Version | 1.1.0-draft |
-| Approved chapters | Chapter 1 |
-| Proposed chapter | Chapter 2 |
+| Status | Draft - Pending Chapter 3 Review |
+| Version | 1.2.0-draft |
+| Approved chapters | Chapters 1 and 2 |
+| Proposed chapter | Chapter 3 |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
-| Authority | Repository's highest governance document upon merge of PR #2 |
+| Authority | Repository's highest governance document |
 | Review model | One chapter per pull request with explicit approval before continuation |
 
 This Charter defines the enduring identity and highest governing intent of the Factory Utility Platform. Only explicitly approved and merged chapters are authoritative. No unapproved future chapter is implied, drafted, or made authoritative by this document.
@@ -115,3 +115,57 @@ Factory Utility Platform shall improve as evidence, operating experience, standa
 Learning shall preserve history rather than rewrite it. The Platform must enable future engineers to understand what changed, why it changed, what evidence supported the change, and which prior decisions or outputs may be affected.
 
 This philosophy governs how future principles, standards, architecture, product capabilities, validation practices, and operational decisions are designed and reviewed after Chapter 2 is approved.
+
+## Chapter 3 - Core Principles
+
+The following principles translate the Charter's identity and Engineering Philosophy into durable constraints for governance, product direction, architecture, implementation, and operation. They define what the Platform must protect even as technologies, teams, vendors, and delivery methods change.
+
+### 3.1 Safety and Responsible Human Authority
+
+The Platform shall protect human safety, environmental responsibility, professional duty, and accountable decision-making. Automation may inform and assist, but it shall not conceal who is authorized, who reviewed the evidence, or who remains responsible for consequential decisions.
+
+### 3.2 Evidence and Traceability
+
+Material engineering claims, calculations, data, recommendations, and decisions shall be proportionate to identifiable evidence and traceable to their sources, assumptions, transformations, limitations, validation, and revision state. Confidence shall never be manufactured through presentation alone.
+
+### 3.3 Mission and User Outcome Alignment
+
+Work shall serve the Platform's mission and produce meaningful outcomes for utility engineers or the systems that support them. Feature volume, novelty, internal activity, and technical sophistication are not substitutes for verified user and engineering value.
+
+### 3.4 One Coherent Platform
+
+Factory Utility Platform shall operate as a coherent engineering system with clear ownership and authoritative sources of truth. Existing capabilities shall be reused or extended where appropriate; duplicated logic, parallel records, and disconnected feature silos require explicit justification and a convergence plan.
+
+### 3.5 Modular Boundaries and Explicit Contracts
+
+The Platform shall separate responsibilities through cohesive modules, stable interfaces, governed data contracts, and replaceable integration boundaries. Internal details shall not leak across boundaries in ways that create hidden coupling or prevent safe independent change.
+
+### 3.6 Simplicity and Proportionality
+
+Solutions shall be no more complex than the problem and its risk require. Process, abstraction, validation, documentation, and control shall be proportionate to consequence while preserving essential correctness, clarity, security, and maintainability.
+
+### 3.7 Security and Privacy by Design
+
+Security, privacy, access control, data minimization, and safe failure shall be designed into every relevant lifecycle stage. Trust boundaries must be explicit, privileges minimized, sensitive information protected, and security assumptions reviewable.
+
+### 3.8 Accessible and Context-Aware Use
+
+The Platform shall be usable across field, mobile, desktop, and operational contexts without excluding people through preventable accessibility barriers. Interface simplicity shall not remove engineering context required for correct interpretation.
+
+### 3.9 Reliability, Performance, and Observability
+
+Critical capabilities shall behave predictably under defined conditions, fail visibly and safely, and provide evidence needed to understand their health and behavior. Performance, availability, resilience, and observability requirements shall reflect user and operational consequence.
+
+### 3.10 Controlled Change and Recoverability
+
+Material change shall be explicit, reviewable, validated, versioned, and reversible wherever practical. Migrations and irreversible actions require stronger authority, evidence, communication, recovery planning, and preservation of affected history.
+
+### 3.11 Technology and Vendor Independence
+
+Technologies and vendors shall serve the Platform's mission rather than define it. Provider-specific capabilities shall remain behind explicit boundaries where practical so that strategic knowledge, engineering rules, data provenance, and product continuity are not surrendered to avoidable lock-in.
+
+### 3.12 Institutional Memory and Continuous Improvement
+
+The Platform shall preserve decisions, evidence, lessons, defects, operational experience, and change history so knowledge compounds rather than resets. Improvement shall be measurable, controlled, and incorporated without silently changing previously trusted behavior.
+
+These Core Principles apply collectively. A decision shall not claim compliance by optimizing one principle while concealing material harm to another. Tradeoffs must be visible, evidence-based, proportionate, and approved at the authority level appropriate to their consequence after Chapter 3 is approved.
