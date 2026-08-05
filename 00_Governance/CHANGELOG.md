@@ -4,6 +4,7 @@ All notable project changes are recorded here. Entries use calendar dates and re
 
 ## [Unreleased]
 
+- `GOV-026` Added and independently validated the Chapter 11 Project Memory and Institutional Continuity Scope Proposal without modifying the Master Charter.
 - `GOV-024` Added and independently validated the Chapter 10 Documentation Governance Scope Proposal without modifying the Master Charter.
 - `GOV-024` Chapter 10 Scope Proposal approved through PR #13; Chapter 10 drafting authorized within Documentation Governance only.
 - `GOV-025` Authorized PR #14 to implement Chapter 10 only.
