@@ -18,6 +18,11 @@ All notable project changes are recorded here. Entries use calendar dates and re
 - `GOV-013` Chapter 3 approved and merged through PR #4 without modification.
 - `GOV-014` Started Chapter 4, Engineering Standards, after reviewing Chapters 1 through 3 and lower-level Standards responsibilities.
 - `GOV-014` Completed Chapter 4 drafting and independent pre-review validation; clarified that ADRs cannot bypass Standards without an approved exception.
+- `GOV-014` Chapter 4 approved and merged through PR #5 without further modification.
+- `GOV-015` Started Chapter 5, Quality Principles, after reviewing Chapters 1 through 4 and the lower-level QA Standard boundary.
+- `GOV-015` Completed Chapter 5 drafting and independent validation without changing approved Chapters 1 through 4.
+- `GOV-016` Recorded the need to mark the legacy Project Charter as Superseded in a separately approved maintenance change.
+- `GOV-017` Completed the Chapters 1 through 5 Milestone Review for approval before Chapter 6.
 
 ### Planned
 
@@ -29,6 +34,7 @@ All notable project changes are recorded here. Entries use calendar dates and re
 - `GOV-012` Submit Chapter 2 only for independent review before any later chapter begins.
 - `GOV-013` Submit Chapter 3 only for independent review before Chapter 4 begins.
 - `GOV-014` Submit Chapter 4 only for independent review before Chapter 5 begins.
+- `GOV-015` Submit Chapter 5 only for independent review and complete the five-chapter Milestone Review before Chapter 6 begins.
 
 ## [2026-08-05]
 

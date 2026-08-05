@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Pending Chapter 4 Review |
-| Version | 1.3.0-draft |
-| Approved chapters | Chapters 1 through 3 |
-| Proposed chapter | Chapter 4 |
+| Status | Draft - Pending Chapter 5 Review |
+| Version | 1.4.0-draft |
+| Approved chapters | Chapters 1 through 4 |
+| Proposed chapter | Chapter 5 |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
@@ -235,3 +235,61 @@ Standards shall state required outcomes and controls without prescribing a singl
 New Standards require a demonstrated responsibility not already owned by an existing document. Before creating one, the project shall evaluate whether the need is better served by clarifying an existing Standard, recording an architecture decision, updating a procedure, or adding validation guidance.
 
 This chapter governs the authority and lifecycle of Engineering Standards after Chapter 4 is approved. It does not replace the detailed requirements maintained by the active Standards system.
+
+## Chapter 5 - Quality Principles
+
+### 5.1 Quality as Demonstrated Fitness for Purpose
+
+Quality is the demonstrated ability of the Platform and its engineering capabilities to remain fit for their intended purpose under defined conditions. It includes correctness, safety, security, privacy, accessibility, performance, reliability, maintainability, recoverability, usability, and traceability to the degree required by consequence.
+
+Quality is not feature volume, absence of reported defects, test execution alone, or confidence expressed without evidence. A capability may be technically functional and still lack quality if users cannot interpret it correctly, operators cannot recover it safely, maintainers cannot change it reliably, or evidence cannot justify trust.
+
+### 5.2 Quality Is Built In and Shared
+
+Quality shall be designed into product intent, engineering knowledge, architecture, implementation, documentation, validation, release, and operation. It shall not be delegated to a final inspection stage or treated as the exclusive responsibility of a QA role.
+
+Everyone who defines, builds, reviews, approves, releases, or operates a capability owns the quality consequences of their decisions within their authority. Clear ownership does not eliminate collaboration, and shared responsibility does not permit accountability to become anonymous.
+
+### 5.3 Prevention, Detection, and Recovery
+
+The Platform shall prefer preventing defects and unsafe conditions through clear requirements, simple design, explicit contracts, secure defaults, review, and controlled change. Prevention reduces avoidable failure but does not justify assuming failure is impossible.
+
+Detection and recovery remain essential. Relevant failures shall be observable, diagnosable, contained, and recoverable at a level proportionate to their consequence. Quality planning shall consider how the Platform responds when assumptions are wrong, dependencies fail, data is incomplete, or users act outside expected paths.
+
+### 5.4 Risk- and Consequence-Based Assurance
+
+The strength and independence of quality evidence shall increase with safety impact, engineering consequence, uncertainty, operational criticality, security exposure, irreversibility, and scale of affected users or data.
+
+Low-risk work may use lightweight assurance when it remains reviewable and reversible. High-consequence work requires stronger validation, independent challenge, controlled authority, and explicit residual-risk acceptance. Process uniformity shall not replace risk judgment.
+
+### 5.5 Independent Challenge
+
+Material claims of readiness or correctness shall be open to competent challenge independent of the person or system that produced them. Independence may be organizational, procedural, technical, or evidentiary, but it must be sufficient to expose confirmation bias, hidden assumptions, and conflicts of interest appropriate to the risk.
+
+Independent review does not transfer ownership from the creator, decision-maker, or approving authority. It strengthens the evidence on which accountable decisions are made.
+
+### 5.6 Truthful Quality State
+
+Quality status shall reflect observed evidence. Passed, failed, blocked, skipped, not applicable, unknown, and not yet tested are materially different states and shall remain distinguishable.
+
+No schedule, seniority, automation, prior success, or commercial pressure may convert missing or unfavorable evidence into a pass. Uncertainty and residual risk shall be visible to the people authorized to accept their consequences.
+
+### 5.7 Defects, Debt, and Known Limitations
+
+Defects, technical debt, documentation debt, validation gaps, and known limitations shall be recorded with enough context to understand their impact and disposition. Concealing them, normalizing them without review, or allowing them to disappear from operational visibility violates the Project Promise.
+
+Not every imperfection requires immediate correction. Deferral may be responsible when the risk is understood, ownership and rationale are explicit, compensating controls are adequate, and the decision is reviewed at an authority level proportionate to consequence.
+
+### 5.8 Release Quality and Residual Risk
+
+A release decision shall be based on evidence that the defined quality gates and acceptance conditions appropriate to its scope have been satisfied. The absence of a known blocking defect does not by itself demonstrate readiness.
+
+Residual risk shall be accepted explicitly by an accountable authority with visibility into evidence, uncertainty, operational impact, recovery readiness, and known limitations. Detailed release gates and QA procedures remain governed by the [Release Standard](00_Governance/standards/RELEASE_STANDARD.md) and [QA Standard](00_Governance/standards/QA_STANDARD.md).
+
+### 5.9 Quality Learning and Improvement
+
+Quality shall improve through measured outcomes, defect patterns, incidents, near misses, operational evidence, user feedback, review findings, and changes in engineering knowledge. Improvement shall address contributing systems and incentives rather than assigning blame as a substitute for learning.
+
+Quality measures shall be interpreted in context. Metrics may support decisions, but targets shall not encourage hiding defects, reducing meaningful coverage, avoiding difficult work, or optimizing reported performance at the expense of actual engineering outcomes.
+
+This chapter defines the constitutional meaning and ownership of quality after Chapter 5 is approved. The active QA and Release Standards own detailed validation methods, evidence requirements, gates, and operational procedures.
