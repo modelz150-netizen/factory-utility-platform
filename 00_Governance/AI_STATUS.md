@@ -6,11 +6,11 @@
 | Architecture status | Approved and frozen |
 | Governance status | Approved and frozen; Phase 1 review passed |
 | Project status | Foundation Complete |
-| Current phase | Master Charter Chapter 12 Scope Review |
-| Active backlog item | `GOV-028` |
-| Active branch | agent/master-charter-chapter-12-scope |
-| Active pull request | Draft Chapter 12 Scope Proposal PR |
-| Next approved action | CTO review of the Chapter 12 Scope Proposal; do not draft Chapter 12 or begin Chapter 13 |
+| Current phase | Master Charter Chapter 12 Review |
+| Active backlog item | `GOV-029` |
+| Active branch | agent/master-charter-chapter-12 |
+| Active pull request | Draft PR #18 |
+| Next approved action | Independent QA complete; request CTO review of Chapter 12 and do not begin Chapter 13 |
 | Blockers | None |
 
 ## Scope Guard
@@ -35,7 +35,8 @@
 - Chapter 11 Scope Proposal approved; Chapter 11 is limited to Project Memory and Institutional Continuity only.
 - Chapter 11 approved; Chapters 1 through 11 are complete.
 - Chapter 12 remains undrafted; Chapter 13 is blocked until Chapter 12 is reviewed, approved, and merged.
-- Chapter 12 Scope Proposal covers Sprint and Workflow Governance principles only and has no constitutional authority until approved.
+- Chapter 12 Scope Proposal is approved and limits Chapter 12 to constitutional Sprint and Workflow Governance principles only.
+- Chapter 12 is drafted in PR #18 and remains non-authoritative until CTO approval and merge.
 - Architecture Audit approved: PASS WITH RECOMMENDATIONS; Master Charter v1.0 is not yet ready.
 - Master Charter v1.0 Completion Plan approved with Milestones A, B, C, and a Final Constitutional Adoption Review.
 - Accepted recommendations are backlog requirements, not retroactive Chapter 1 defects.

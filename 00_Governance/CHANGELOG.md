@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-08-06 — Chapter 12 Scope Approved
+
+- CTO approved the Chapter 12 Scope Proposal through PR #17.
+- Closed `GOV-028` and authorized `GOV-029` for PR #18.
+- Limited Chapter 12 to constitutional Sprint and Workflow Governance; Chapter 13 and operational methods remain unauthorized.
+
+## 2026-08-06 — Chapter 12 Drafted
+
+- Added Chapter 12, Sprint and Workflow Governance, for PR #18 review.
+- Preserved approved Chapters 1 through 11 and the frozen Governance Architecture.
+- Recorded independent QA as PASS WITH RECOMMENDATIONS; no Critical or Major issue remains.
+
 All notable project changes are recorded here. Entries use calendar dates and reference backlog IDs where applicable.
 
 ## [Unreleased]

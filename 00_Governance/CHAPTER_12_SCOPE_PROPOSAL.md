@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 0.1.0 |
+| Status | Approved |
+| Version | 1.0.0 |
 | Updated | 2026-08-06 |
 | Owner | Constitutional steward |
 | Backlog ID | GOV-028 |
@@ -154,4 +154,9 @@ This Scope Proposal is accepted only when the CTO confirms that:
 9. no approved chapter or frozen Governance structure requires change; and
 10. approval authorizes Chapter 12 drafting only, not Chapter 13 or later work.
 
-Until explicit approval is recorded, Chapter 12 remains unauthorized.
+## 10. Approval Record
+
+- **Review date:** 2026-08-06
+- **Result:** APPROVED
+- **Authorized next action:** Create PR #18 implementing Chapter 12 only.
+- **Scope constraint:** Chapter 12 shall remain limited to Sprint and Workflow Governance at the constitutional level. Operational methods and Chapter 13 are not authorized.
