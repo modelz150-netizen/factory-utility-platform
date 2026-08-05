@@ -9,7 +9,7 @@
 | Current phase | Master Charter Chapter 4 Review |
 | Active backlog item | `GOV-014` |
 | Active branch | `agent/master-charter-chapter-4` |
-| Active pull request | Draft PR #5 pending creation |
+| Active pull request | Draft PR #5 |
 | Next approved action | Review Chapter 4; do not begin Chapter 5 before approval and merge |
 | Blockers | None |
 
