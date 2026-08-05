@@ -12,7 +12,7 @@
 | REF-001 | P0 | Todo | Reference | Define engineering reference framework | Taxonomy, content model, search, citations, revision status, SEO, and relationships are specified. |
 | QA-001 | P0 | Todo | Quality | Establish QA strategy and result template | QA documents define test levels, environments, evidence requirements, severity, and release gates. |
 | OPS-001 | P0 | Done | Repository | Connect the local project to the approved GitHub repository | Local Git repository uses `main`, `origin` points to `modelz150-netizen/factory-utility-platform`, remote history is inspected without overwriting local files, and connection verification is recorded. |
-| OPS-002 | P0 | In Progress | Repository | Publish the local project files to GitHub | Governance, QA, and repository guidance files are committed on a publication branch, pushed to GitHub, and submitted through the approved publish workflow. |
+| OPS-002 | P0 | Done | Repository | Publish the local project files to GitHub | Governance, QA, and repository guidance files are committed on a publication branch, pushed to GitHub, and submitted through the approved publish workflow. |
 
 ## Status Definitions
 

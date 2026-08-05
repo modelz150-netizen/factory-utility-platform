@@ -16,6 +16,8 @@ All notable project changes are recorded here. Entries use calendar dates and re
 
 - `OPS-002` Authenticated the portable GitHub CLI as `modelz150-netizen` and prepared the initial project publication branch.
 - `OPS-002` Added `.gitignore` to keep the local portable GitHub CLI under `.tools/` out of version control.
+- `OPS-002` Published the project foundation to `agent/foundation-governance` and opened draft pull request `#1` against `main`.
+- `OPS-002` Added a passing GitHub publication verification record under `05_QA`.
 - `OPS-001` Initialized the local Git repository and connected `origin` to `https://github.com/modelz150-netizen/factory-utility-platform.git`.
 - `OPS-001` Configured local `main` to track `origin/main` after confirming the remote contained only `README.md` and did not conflict with local project files.
 - `OPS-001` Added a repository connection verification record under `05_QA`.
