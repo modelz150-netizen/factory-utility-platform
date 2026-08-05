@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 0.1.0 |
+| Status | Approved |
+| Version | 1.0.0 |
 | Updated | 2026-08-06 |
 | Owner | Constitutional steward |
 | Backlog ID | GOV-026 |
@@ -156,3 +156,13 @@ This Scope Proposal is accepted only when the CTO confirms that:
 10. approval authorizes Chapter 11 drafting only, not Chapter 12 or later work.
 
 Until explicit approval is recorded, Chapter 11 remains unauthorized.
+
+## 9. Approval Record
+
+| Field | Value |
+|---|---|
+| Date | 2026-08-06 |
+| Result | APPROVED |
+| Authorized next action | Create one Pull Request implementing Chapter 11 only |
+
+Approval authorizes Project Memory and Institutional Continuity drafting within this proposal. It does not authorize Chapter 12, implementation mechanisms, operational procedures, or modification of Chapters 1 through 10.

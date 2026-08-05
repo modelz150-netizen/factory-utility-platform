@@ -6,11 +6,11 @@
 | Architecture status | Approved and frozen |
 | Governance status | Approved and frozen; Phase 1 review passed |
 | Project status | Foundation Complete |
-| Current phase | Master Charter Chapter 11 Scope Review |
-| Active backlog item | `GOV-026` |
-| Active branch | agent/master-charter-chapter-11-scope |
-| Active pull request | Draft Chapter 11 Scope Proposal PR |
-| Next approved action | CTO review of the Chapter 11 Scope Proposal; do not draft Chapter 11 or begin Chapter 12 |
+| Current phase | Master Charter Chapter 11 Implementation |
+| Active backlog item | `GOV-027` |
+| Active branch | Pending Chapter 11 branch after PR #15 merge |
+| Active pull request | PR #15 - Approved and merged |
+| Next approved action | Create PR #16 implementing Chapter 11 only; do not begin Chapter 12 |
 | Blockers | None |
 
 ## Scope Guard
@@ -32,7 +32,7 @@
 - Chapter 10 Scope Proposal approved; Chapter 10 is limited to Documentation Governance only.
 - Chapter 10 approved; GOV-010 and GOV-011 are closed.
 - Chapter 11 remains undrafted; Chapter 12 is blocked until Chapter 11 is reviewed, approved, and merged.
-- Chapter 11 Scope Proposal covers Project Memory and Institutional Continuity only and has no constitutional authority until approved.
+- Chapter 11 Scope Proposal approved; Chapter 11 is limited to Project Memory and Institutional Continuity only.
 - Architecture Audit approved: PASS WITH RECOMMENDATIONS; Master Charter v1.0 is not yet ready.
 - Master Charter v1.0 Completion Plan approved with Milestones A, B, C, and a Final Constitutional Adoption Review.
 - Accepted recommendations are backlog requirements, not retroactive Chapter 1 defects.
