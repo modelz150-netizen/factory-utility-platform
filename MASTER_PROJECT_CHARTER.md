@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Pending Chapter 10 Review |
+| Status | Draft - Chapters 1 through 10 Approved |
 | Version | 0.3.0-draft |
-| Approved chapters | Chapters 1 through 9 |
-| Proposed chapter | Chapter 10 |
+| Approved chapters | Chapters 1 through 10 |
+| Proposed chapter | None |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
