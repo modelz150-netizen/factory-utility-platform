@@ -6,11 +6,11 @@
 | Architecture status | Approved and frozen |
 | Governance status | Approved and frozen; Phase 1 review passed |
 | Project status | Foundation Complete |
-| Current phase | Master Charter Chapter 3 Review |
-| Active backlog item | `GOV-013` |
-| Active branch | `agent/master-charter-chapter-3` |
-| Active pull request | Draft PR #4 |
-| Next approved action | Review Chapter 3; do not begin Chapter 4 before approval and merge |
+| Current phase | Master Charter Chapter 4 Review |
+| Active backlog item | `GOV-014` |
+| Active branch | `agent/master-charter-chapter-4` |
+| Active pull request | Draft PR #5 pending creation |
+| Next approved action | Review Chapter 4; do not begin Chapter 5 before approval and merge |
 | Blockers | None |
 
 ## Scope Guard
@@ -18,8 +18,9 @@
 - `MASTER_PROJECT_CHARTER.md` must not be created during Phase 1.
 - Chapter 1 is approved and must not be modified without a true defect.
 - Chapter 2 is approved and must not be modified without a true defect.
-- Chapter 3 is limited to Core Principles.
-- Chapter 4 and all later chapters require separate sequential approval.
+- Chapter 3 is approved and must not be modified without a true defect.
+- Chapter 4 is limited to Engineering Standards at the constitutional level.
+- Chapter 5 and all later chapters require separate sequential approval.
 - Accepted recommendations are backlog requirements, not retroactive Chapter 1 defects.
 - Governance architecture changes require a separate proposal and explicit approval.
 

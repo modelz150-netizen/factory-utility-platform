@@ -14,7 +14,8 @@
 | GOV-010 | P1 | Todo | Governance | Normalize Project and Platform terminology | The appropriate Documentation chapter defines when to use Project, Product, Platform, Repository, and Organization. |
 | GOV-011 | P1 | Todo | Governance | Standardize Governance modal terminology | The appropriate Documentation or Governance chapter defines the normative meaning of `shall`, `must`, `may`, `should`, and related terms. |
 | GOV-012 | P0 | Done | Governance | Create Master Project Charter Chapter 2 | PR #3 merged approved Chapter 2, Engineering Philosophy, while preserving Chapter 1 and the frozen Governance architecture. |
-| GOV-013 | P0 | Review | Governance | Create Master Project Charter Chapter 3 | A separate PR adds only Chapter 3, Core Principles, preserves approved Chapters 1 and 2, and introduces no later chapter. |
+| GOV-013 | P0 | Done | Governance | Create Master Project Charter Chapter 3 | PR #4 merged approved Chapter 3, Core Principles, while preserving Chapters 1 and 2 and the frozen Governance architecture. |
+| GOV-014 | P0 | Review | Governance | Create Master Project Charter Chapter 4 | A separate PR adds only Chapter 4, Engineering Standards, preserves approved Chapters 1 through 3, and introduces no later chapter. |
 | DOC-001 | P0 | Todo | Documentation | Define documentation templates and lifecycle | Templates exist for requirements, architecture decisions, test reports, and release notes, with owners and status conventions. |
 | ARC-001 | P0 | Todo | Architecture | Define WordPress project and module architecture | Architecture documents define physical module boundaries, shared layers, data flow, extension points, security boundaries, and deployment assumptions. |
 | DES-001 | P0 | Todo | Design | Establish design system foundation | Tokens, responsive breakpoints, accessibility rules, and core shared components are specified and demonstrable. |

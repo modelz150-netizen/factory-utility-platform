@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Pending Chapter 3 Review |
-| Version | 1.2.0-draft |
-| Approved chapters | Chapters 1 and 2 |
-| Proposed chapter | Chapter 3 |
+| Status | Draft - Pending Chapter 4 Review |
+| Version | 1.3.0-draft |
+| Approved chapters | Chapters 1 through 3 |
+| Proposed chapter | Chapter 4 |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
@@ -169,3 +169,69 @@ Technologies and vendors shall serve the Platform's mission rather than define i
 The Platform shall preserve decisions, evidence, lessons, defects, operational experience, and change history so knowledge compounds rather than resets. Improvement shall be measurable, controlled, and incorporated without silently changing previously trusted behavior.
 
 These Core Principles apply collectively. A decision shall not claim compliance by optimizing one principle while concealing material harm to another. Tradeoffs must be visible, evidence-based, proportionate, and approved at the authority level appropriate to their consequence after Chapter 3 is approved.
+
+## Chapter 4 - Engineering Standards
+
+### 4.1 Constitutional Purpose of Standards
+
+Engineering Standards translate this Charter into consistent, reviewable expectations for how the Platform is designed, built, documented, validated, released, operated, and improved. They protect Engineering Truth and the Core Principles from becoming optional when schedules, teams, tools, or commercial conditions change.
+
+The Charter defines enduring authority and intent. Standards define mandatory cross-project expectations. Architecture decisions, product requirements, procedures, templates, and implementation guidance apply those expectations within their narrower responsibilities. Lower-level documents shall not redefine or weaken higher-level authority.
+
+### 4.2 Standards System
+
+The active Standards system consists of responsibility-specific documents rather than one undifferentiated rule set:
+
+- [Development Standard](00_Governance/standards/DEVELOPMENT_STANDARD.md) governs production implementation and engineering data practices.
+- [Document Standard](00_Governance/standards/DOCUMENT_STANDARD.md) governs knowledge structure, ownership, lifecycle, and reference integrity.
+- [GitHub Standard](00_Governance/standards/GITHUB_STANDARD.md) governs repository collaboration, review, traceability, and merge controls.
+- [Release Standard](00_Governance/standards/RELEASE_STANDARD.md) governs release readiness, deployment evidence, observation, and recovery.
+- [QA Standard](00_Governance/standards/QA_STANDARD.md) governs risk-based validation, evidence, defects, and quality gates.
+
+Each Standard shall maintain a single primary responsibility, identify its owner and authority, and reference rather than duplicate requirements owned elsewhere.
+
+### 4.3 Applicability and Proportionality
+
+Applicable Standards are mandatory for work within their stated scope. The depth of process, evidence, review, and control shall be proportionate to consequence, uncertainty, reversibility, security exposure, operational criticality, and lifecycle impact.
+
+Proportionality may reduce unnecessary ceremony; it shall not remove essential correctness, safety, traceability, accountability, security, accessibility, or recovery requirements. High-consequence work requires stronger independent evidence and authority than low-risk, easily reversible work.
+
+### 4.4 Ownership and Stewardship
+
+Every Standard shall have an accountable owner responsible for clarity, consistency, review, maintenance, and alignment with the Charter. Ownership may be delegated, but the accountable role remains visible.
+
+Standard owners shall consult affected engineering disciplines and downstream users before material changes. Ownership does not permit unilateral exceptions, concealed weakening, or changes outside the approved Governance process.
+
+### 4.5 Compliance and Evidence
+
+Compliance shall be demonstrated through evidence appropriate to the Standard and risk. Statements of intent, tool output, automation, seniority, or prior success do not replace required evidence.
+
+Where Standards define gates, completion requires observed satisfaction of those gates or an approved, recorded exception. Missing, failed, skipped, and not-applicable checks shall remain distinguishable.
+
+### 4.6 Exceptions and Temporary Deviations
+
+An exception is permitted only when strict application would create disproportionate harm, conflict with higher authority, or prevent a necessary outcome that cannot reasonably be achieved otherwise. Convenience, schedule pressure, or undocumented custom are not sufficient justification.
+
+Every material exception shall identify scope, rationale, risk, approving authority, compensating controls, evidence, duration, owner, and exit condition. Exceptions shall be narrow, reviewable, time-bounded where practical, and prohibited from silently becoming permanent policy.
+
+### 4.7 Conflicts and Precedence
+
+When requirements conflict, the higher-authority document prevails. Within the same authority level, the more specific applicable requirement prevails unless it contradicts the Charter.
+
+An architecture decision records how the Platform satisfies applicable authority; it does not silently override a Standard. A decision that cannot comply requires an explicit exception under Section 4.6 approved by authority accountable for both the Standard and the affected architecture scope.
+
+Material ambiguity or conflict shall be raised for resolution rather than interpreted for convenience. The resolution shall identify affected documents and create a traceable correction, clarification, or approved decision.
+
+### 4.8 Change and Version Control
+
+Standards shall evolve through explicit proposals, impact analysis, review, version history, effective dates, migration consideration, and communication proportional to the change. Material changes require Backlog and Changelog traceability and validation before activation.
+
+Historical versions and supersession relationships shall remain discoverable when necessary to interpret prior decisions, releases, calculations, or evidence. A Standard shall not be rewritten in a way that silently changes the meaning of already approved work.
+
+### 4.9 Standards Boundary
+
+Standards shall state required outcomes and controls without prescribing a single technology or workflow when multiple compliant approaches can satisfy the requirement. Procedures and implementation guidance may be more specific, but they remain replaceable and subordinate.
+
+New Standards require a demonstrated responsibility not already owned by an existing document. Before creating one, the project shall evaluate whether the need is better served by clarifying an existing Standard, recording an architecture decision, updating a procedure, or adding validation guidance.
+
+This chapter governs the authority and lifecycle of Engineering Standards after Chapter 4 is approved. It does not replace the detailed requirements maintained by the active Standards system.

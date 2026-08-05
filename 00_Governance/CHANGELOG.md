@@ -15,6 +15,9 @@ All notable project changes are recorded here. Entries use calendar dates and re
 - `GOV-009`, `GOV-012` Chapter 2 approved and merged through PR #3; existing recommendations remain future requirements, not Chapter 2 defects.
 - `GOV-013` Started Chapter 3, Core Principles, under the one-chapter-per-PR policy.
 - `GOV-013` Completed Chapter 3 drafting and pre-review validation; approved Chapters 1 and 2 remain unchanged.
+- `GOV-013` Chapter 3 approved and merged through PR #4 without modification.
+- `GOV-014` Started Chapter 4, Engineering Standards, after reviewing Chapters 1 through 3 and lower-level Standards responsibilities.
+- `GOV-014` Completed Chapter 4 drafting and independent pre-review validation; clarified that ADRs cannot bypass Standards without an approved exception.
 
 ### Planned
 
@@ -25,6 +28,7 @@ All notable project changes are recorded here. Entries use calendar dates and re
 - `GOV-005` through `GOV-011` Implement accepted Governance requirements in their responsible future chapters.
 - `GOV-012` Submit Chapter 2 only for independent review before any later chapter begins.
 - `GOV-013` Submit Chapter 3 only for independent review before Chapter 4 begins.
+- `GOV-014` Submit Chapter 4 only for independent review before Chapter 5 begins.
 
 ## [2026-08-05]
 
