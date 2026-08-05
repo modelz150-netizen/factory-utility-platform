@@ -4,6 +4,8 @@ All notable project changes are recorded here. Entries use calendar dates and re
 
 ## [Unreleased]
 
+- `GOV-023` Completion Plan approved through PR #12 with seven remaining chapters, Milestones A through C, and the Final Constitutional Adoption Review.
+- `GOV-023` Confirmed that v1.0 requires all planned chapters and reviews, closure of GOV-010, GOV-011, and GOV-016, no unresolved Critical Issues, and a passing Final Adoption Review.
 - `GOV-008`, `GOV-021` Chapter 9 approved and merged through PR #10 without modification after CTO review.
 - `GOV-022` Authorized the comprehensive Chapters 1 through 9 Master Charter Architecture Audit before Chapter 10.
 - `GOV-022` Completed the formal Architecture Audit with result `PASS WITH RECOMMENDATIONS`; no constitutional defect was found and Master Charter v1.0 remains not ready.

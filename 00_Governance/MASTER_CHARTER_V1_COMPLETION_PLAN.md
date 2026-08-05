@@ -2,9 +2,9 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 0.1.0 |
-| Updated | 2026-08-05 |
+| Status | Active |
+| Version | 1.0.0 |
+| Updated | 2026-08-06 |
 | Owner | Constitutional steward |
 | Backlog ID | GOV-023 |
 | Authority | Operational plan derived from the approved Architecture Audit |
@@ -58,10 +58,10 @@ Milestones are evidence gates, not target dates.
 
 | Milestone | Entry condition | Review scope | Exit condition | Estimated review effort |
 |---|---|---|---|---|
-| M1 — Knowledge and Delivery Foundation | Chapters 10–12 individually approved and merged | Terminology, documentation-memory boundary, workflow truth, duplication, and dependency review | No blocking inconsistency; GOV-010 and GOV-011 resolved | Three chapter reviews plus one milestone audit |
-| M2 — Repository and Operational Accountability | Chapters 13–15 individually approved and merged | GitHub–release boundary, evidence chain, recovery, continuous learning, and lower-level Standards alignment | No blocking authority or lifecycle gap | Three chapter reviews plus one milestone audit |
-| M3 — Constitutional Completion | Chapter 16 approved and merged | Whole-Charter consistency, completeness, terminology, dependencies, references, and success criteria | Candidate satisfies every v1.0 gate | One chapter review plus one comprehensive audit |
-| v1.0 Adoption Review | M3 passed and GOV-016 completed | Version metadata, effective date, supersession, final QA, and authority publication | Explicit CTO and constitutional steward approval | One final adoption review |
+| Milestone A — Documentation and Memory | Chapters 10–11 individually approved and merged | Documentation Governance, Project Memory, terminology, duplication, and dependency review | No blocking inconsistency; GOV-010 and GOV-011 resolved | Two chapter reviews plus one milestone audit |
+| Milestone B — Delivery Governance | Chapters 12–14 individually approved and merged | Sprint and Workflow, GitHub, Release, evidence chain, recovery, and Standards alignment | No blocking authority or lifecycle gap | Three chapter reviews plus one milestone audit |
+| Milestone C — Constitutional Completion | Chapters 15–16 individually approved and merged | Continuous Improvement, Success Criteria, constitutional completion, and legacy authority disposition | No blocking completeness gap; GOV-016 completed | Two chapter reviews plus one milestone audit |
+| Final Constitutional Adoption Review | Milestone C passed | Completeness, Governance consistency, references, terminology, authority, maintainability, metadata, effective date, and final QA | Result PASS with explicit CTO and constitutional steward approval | One final adoption review |
 
 Each chapter is expected to require at least one independent QA review and one CTO review cycle. A failed or materially revised review adds another complete cycle; no fixed calendar commitment overrides this rule.
 
@@ -86,14 +86,16 @@ Master Charter v1.0 is complete only when all of the following are observed:
 2. The seven completion areas identified by the Architecture Audit have explicit constitutional ownership.
 3. GOV-010 and GOV-011 are resolved through approved terminology definitions.
 4. GOV-016 is completed: the legacy Project Charter is marked Superseded with a valid reference to the Master Project Charter and preserved history.
-5. No verified Critical or Major constitutional defect remains.
-6. The final whole-Charter audit passes consistency, duplication, hierarchy, authority, terminology, cross-reference, dependency, completeness, and simplification checks.
+5. No unresolved Critical Issue or verified Major constitutional defect remains.
+6. Every required Architecture Audit and Constitutional Review has passed.
 7. Applicable lower-level Governance documents are aligned without duplicating constitutional text.
 8. Required QA evidence exists and truthfully records executed review results and known gaps.
 9. Charter metadata identifies version 1.0.0, approval state, constitutional steward, and explicit effective date.
 10. Superseded and historical authority remains accessible and unambiguous.
-11. The constitutional steward and CTO explicitly approve v1.0 adoption.
-12. AI Status, Backlog, Changelog, and related operational records accurately reflect the adopted state.
+11. The Final Constitutional Adoption Review passes completeness, Governance consistency, cross-reference integrity, terminology consistency, authority boundaries, long-term maintainability, and v1.0 readiness.
+12. The constitutional steward and CTO explicitly approve v1.0 adoption.
+13. AI Status, Backlog, Changelog, and related operational records accurately reflect the adopted state.
+14. The approved Governance Architecture remains frozen unless a separately approved Architecture Audit justifies change.
 
 Completion of chapter writing alone does not satisfy this Definition of Done.
 
