@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Chapter 13 Pending Review |
+| Status | Draft - Chapters 1 through 13 Approved |
 | Version | 0.3.0-draft |
-| Approved chapters | Chapters 1 through 12 |
-| Proposed chapter | Chapter 13 |
+| Approved chapters | Chapters 1 through 13 |
+| Proposed chapter | None |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
@@ -1003,4 +1003,4 @@ This chapter defines constitutional Repository Governance: approved Repository s
 
 It does not prescribe Git commands, GitHub CLI, branch procedures, Pull Request procedures, merge strategies, CI/CD, GitHub Actions, Repository configuration, access management, release procedures, operational checklists, or tool-specific implementation.
 
-Lower-level Standards and operational documents shall implement these principles. Chapter 14 remains reserved for Release Governance, Chapter 15 for Continuous Improvement, and Chapter 16 for Success Criteria and Constitutional Completion. This chapter becomes authoritative only after explicit approval and merge; Chapter 14 and later chapters remain unauthorized.
+Lower-level Standards and operational documents shall implement these principles. Chapter 14 remains reserved for Release Governance, Chapter 15 for Continuous Improvement, and Chapter 16 for Success Criteria and Constitutional Completion. Chapter 13 is approved and becomes authoritative upon merge of PR #20; Chapter 14 and later chapters remain unauthorized.
