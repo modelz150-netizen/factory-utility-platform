@@ -8,9 +8,9 @@
 | Project status | Foundation Complete |
 | Current phase | Master Charter Architecture Audit |
 | Active backlog item | `GOV-022` |
-| Active branch | Pending audit branch after PR #10 merge |
-| Active pull request | PR #10 - Approved and merged |
-| Next approved action | Perform the comprehensive Master Charter Architecture Audit; do not begin Chapter 10 |
+| Active branch | agent/master-charter-architecture-audit |
+| Active pull request | Draft architecture audit PR |
+| Next approved action | CTO review of the Master Charter Architecture Audit; do not begin Chapter 10 |
 | Blockers | None |
 
 ## Scope Guard
@@ -29,6 +29,7 @@
 - Chapter 8 is approved and must not be modified without a constitutional defect.
 - Chapter 9 is approved and must not be modified without a constitutional defect.
 - Chapter 10 is blocked until the comprehensive Master Charter Architecture Audit is reviewed and approved.
+- Architecture Audit result: PASS WITH RECOMMENDATIONS; Master Charter v1.0 is not yet ready.
 - Accepted recommendations are backlog requirements, not retroactive Chapter 1 defects.
 - Governance architecture changes require a separate proposal and explicit approval.
 
