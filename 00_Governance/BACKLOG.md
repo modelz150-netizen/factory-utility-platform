@@ -9,7 +9,7 @@
 | GOV-005 | P0 | Done | Governance | Separate Founder and Chief AI authority | Approved Chapter 7 distinguishes constitutional stewardship from delegated AI authority without adding routine operational burden to the Founder. |
 | GOV-006 | P0 | Done | Governance | Define Chief AI accountability and operational boundaries | Approved Chapter 7 defines responsibilities, prohibited authority, escalation, evidence, lifecycle accountability, and human authority boundaries. |
 | GOV-007 | P0 | Done | Governance | Define Founder succession and constitutional stewardship | Chapter 8 defines continuity, temporary delegation, incapacity, succession, and transfer of constitutional stewardship and was approved and merged through PR #9. |
-| GOV-008 | P0 | Todo | Governance | Define the constitutional amendment process | The Charter Change Policy defines proposal, impact review, approval, versioning, effective date, supersession, and emergency limitations. |
+| GOV-008 | P0 | Review | Governance | Define the constitutional amendment process | Chapter 9 defines constitutional change principles, authority, constraints, review, versioning, effective date, and integrity without prescribing operational workflows. |
 | GOV-009 | P0 | Done | Governance | Define Engineering Truth | Approved Chapter 2 defines Engineering Truth as evidence-based, traceable, professionally reviewable, uncertainty-aware engineering knowledge. |
 | GOV-010 | P1 | Todo | Governance | Normalize Project and Platform terminology | The appropriate Documentation chapter defines when to use Project, Product, Platform, Repository, and Organization. |
 | GOV-011 | P1 | Todo | Governance | Standardize Governance modal terminology | The appropriate Documentation or Governance chapter defines the normative meaning of `shall`, `must`, `may`, `should`, and related terms. |
@@ -22,6 +22,7 @@
 | GOV-018 | P0 | Done | Governance | Create Master Project Charter Chapter 6 | PR #7 merged approved Chapter 6, Validation Rules, after QA and CTO review while preserving Chapters 1 through 5. |
 | GOV-019 | P0 | Done | Governance | Create Master Project Charter Chapter 7 | PR #8 merged approved Chapter 7 after final authority-boundary validation while preserving Chapters 1 through 6. |
 | GOV-020 | P0 | Done | Governance | Create Master Project Charter Chapter 8 | PR #9 added only Chapter 8, preserved approved Chapters 1 through 7, passed independent validation and CTO review, and was merged without introducing a later chapter. |
+| GOV-021 | P0 | Review | Governance | Create Master Project Charter Chapter 9 | Draft PR #10 adds only Chapter 9, preserves approved Chapters 1 through 8, passes independent validation, and introduces no later chapter. |
 | DOC-001 | P0 | Todo | Documentation | Define documentation templates and lifecycle | Templates exist for requirements, architecture decisions, test reports, and release notes, with owners and status conventions. |
 | ARC-001 | P0 | Todo | Architecture | Define WordPress project and module architecture | Architecture documents define physical module boundaries, shared layers, data flow, extension points, security boundaries, and deployment assumptions. |
 | DES-001 | P0 | Todo | Design | Establish design system foundation | Tokens, responsive breakpoints, accessibility rules, and core shared components are specified and demonstrable. |

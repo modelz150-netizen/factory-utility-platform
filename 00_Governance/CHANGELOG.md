@@ -4,6 +4,8 @@ All notable project changes are recorded here. Entries use calendar dates and re
 
 ## [Unreleased]
 
+- `GOV-008`, `GOV-021` Added Chapter 9, Constitutional Change and Integrity, covering amendment authority, constraints, stability, review, version governance, effective date, and preservation.
+- `GOV-021` Completed independent Chapter 9 validation without modifying approved Chapters 1 through 8 or introducing Chapter 10.
 - `GOV-007`, `GOV-020` Approved and merged Master Project Charter Chapter 8 through PR #9 after final constitutional scope validation.
 - `GOV-020` Recorded the v0.3 checkpoint with Chapters 7 and 8 complete; v0.3 remains in progress pending Chapter 9.
 
