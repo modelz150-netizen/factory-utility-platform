@@ -4,6 +4,7 @@ All notable project changes are recorded here. Entries use calendar dates and re
 
 ## [Unreleased]
 
+- `GOV-028` Added and independently validated the Chapter 12 Sprint and Workflow Governance Scope Proposal without modifying the Master Charter.
 - `GOV-026` Added and independently validated the Chapter 11 Project Memory and Institutional Continuity Scope Proposal without modifying the Master Charter.
 - `GOV-026` Chapter 11 Scope Proposal approved through PR #15; Chapter 11 drafting authorized within Project Memory and Institutional Continuity only.
 - `GOV-027` Authorized PR #16 to implement Chapter 11 only.
