@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Chapter 12 Pending Review |
+| Status | Draft - Chapters 1 through 12 Approved |
 | Version | 0.3.0-draft |
-| Approved chapters | Chapters 1 through 11 |
-| Proposed chapter | Chapter 12 |
+| Approved chapters | Chapters 1 through 12 |
+| Proposed chapter | None |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
@@ -921,4 +921,4 @@ This chapter defines constitutional Sprint and Workflow Governance: planning, re
 
 It does not prescribe Agile implementation, Scrum ceremonies, Kanban implementation, daily meetings, task management, Git workflow, Pull Request workflow, CI/CD, Release workflow, operational checklists, templates, dashboards, or tool-specific guidance.
 
-Lower-level Standards and operational documents shall implement these principles. Chapter 13 remains reserved for GitHub Governance, Chapter 14 for Release Governance, Chapter 15 for Continuous Improvement, and Chapter 16 for Success Criteria and Constitutional Completion. This chapter becomes authoritative only after explicit approval and merge; Chapter 13 and later chapters remain unauthorized.
+Lower-level Standards and operational documents shall implement these principles. Chapter 13 remains reserved for GitHub Governance, Chapter 14 for Release Governance, Chapter 15 for Continuous Improvement, and Chapter 16 for Success Criteria and Constitutional Completion. Chapter 12 is approved and becomes authoritative upon merge of PR #18; Chapter 13 and later chapters remain unauthorized.
