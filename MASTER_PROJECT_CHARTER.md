@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Chapters 1 through 13 Approved |
+| Status | Draft - Chapter 14 Pending Review |
 | Version | 0.3.0-draft |
 | Approved chapters | Chapters 1 through 13 |
-| Proposed chapter | None |
+| Proposed chapter | Chapter 14 - Release Governance |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
@@ -1004,3 +1004,95 @@ This chapter defines constitutional Repository Governance: approved Repository s
 It does not prescribe Git commands, GitHub CLI, branch procedures, Pull Request procedures, merge strategies, CI/CD, GitHub Actions, Repository configuration, access management, release procedures, operational checklists, or tool-specific implementation.
 
 Lower-level Standards and operational documents shall implement these principles. Chapter 14 remains reserved for Release Governance, Chapter 15 for Continuous Improvement, and Chapter 16 for Success Criteria and Constitutional Completion. Chapter 13 is approved and becomes authoritative upon merge of PR #20; Chapter 14 and later chapters remain unauthorized.
+
+## Chapter 14 - Release Governance
+
+### 14.1 Constitutional Purpose
+
+Release Governance shall ensure that placing an approved Platform state into a defined lifecycle context is an explicit, evidence-supported, human-accountable decision.
+
+This chapter governs Release authorization, readiness, evidence, residual risk, identity, traceability, integrity, and continuity. It does not govern deployment execution, operational acceptance, or the procedures by which lower-level Release activities are performed.
+
+### 14.2 Release as a Lifecycle Decision
+
+A Release is an authorized decision to make an identified approved Repository state available for a defined purpose, audience, environment class, or lifecycle context under stated conditions and obligations.
+
+A Release is not established merely by the existence of approved Repository state, a version identifier, a successful build, completion of automation, deployment execution, distribution, installation, or operational use. Each of those states may provide relevant evidence or perform a separate function, but none shall silently substitute for Release authorization.
+
+### 14.3 Distinct Governance Responsibilities
+
+The following responsibilities shall remain explicit and separate:
+
+1. **Approved Repository State** identifies governed content whose Repository authority and integrity are established under Chapter 13.
+2. **Release Authorization** is the accountable decision that a specific approved Repository state may enter a defined lifecycle context under stated conditions.
+3. **Deployment Execution** is the operational act of placing or promoting an authorized state into an environment or distribution channel.
+4. **Operational Acceptance** is the accountable determination that the deployed or distributed result is fit to enter or continue its intended operational use.
+
+One person or role may perform more than one responsibility only where applicable Governance permits it and preserves competent review, separation of duties, and visible accountability proportionate to consequence. Completion of one responsibility shall not be represented as completion of another.
+
+### 14.4 Release Authority
+
+Release authorization shall be exercised only by a competent human authority holding explicitly delegated decision rights appropriate to the Release consequence. The authority shall understand the approved basis, material evidence, limitations, dependencies, residual risk, and resulting obligations.
+
+The Founder retains constitutional authority under Chapters 1 and 8 but is not required to perform routine Release authorization unless consequence, unresolved conflict, or reserved authority requires escalation. AI, automation, provider permissions, Repository status, organizational rank, schedule pressure, or technical control shall not create Release authority.
+
+### 14.5 Release Accountability
+
+Every material Release shall identify the authority accountable for the authorization decision and the parties accountable for evidence, communication, execution, acceptance, support, and unresolved obligations within their respective responsibilities.
+
+Delegation, handover, deployment, distribution, or operational acceptance shall not erase accountability for false claims, concealed limitations, unsupported readiness, or unauthorized risk acceptance. Chapter 8 governs decision accountability and escalation; this chapter applies those duties to Release decisions.
+
+### 14.6 Release Readiness
+
+Release readiness is a reasoned judgment that an identified approved Repository state satisfies the applicable purpose, acceptance basis, Standards, validation, security, privacy, legal, regulatory, operational, support, and continuity obligations for the proposed lifecycle context.
+
+Readiness shall be proportionate to consequence, uncertainty, exposure, reversibility, and recovery capability. A schedule target, workflow status, stakeholder expectation, passed automation, absence of reported defects, or prior success shall not by itself establish readiness.
+
+Chapter 5 governs Quality Principles and Chapter 6 governs Validation Rules. Chapter 14 shall consume their applicable evidence without creating a competing quality or validation system.
+
+### 14.7 Release Evidence
+
+Release authorization shall be supported by evidence sufficient to identify:
+
+- the exact approved Repository state and intended lifecycle context;
+- the approved purpose, scope, acceptance basis, and accountable authority;
+- applicable validation results, limitations, exceptions, dependencies, and unresolved issues;
+- material security, privacy, safety, regulatory, operational, support, and continuity considerations;
+- known residual risk and its accountable disposition; and
+- the decision, conditions, obligations, and supersession relationship created by authorization.
+
+Evidence shall remain attributable, reviewable, truthful, and durable under Chapters 10, 11, and 13. Missing, failed, waived, not-applicable, disputed, and incomplete evidence shall remain distinguishable.
+
+### 14.8 Residual Risk Acceptance
+
+Known residual risk shall be visible, evaluated in the intended lifecycle context, and accepted only by competent human authority with accountability proportionate to its consequence. Acceptance shall identify scope, rationale, affected parties, conditions, compensating controls, owner, review need, and disposition where material.
+
+Risk shall not be transferred implicitly to users, operators, maintainers, vendors, communities, or future contributors through silence, ambiguous language, urgency, or incomplete handover. Acceptance of risk does not convert uncertainty into fact, waive higher authority, or prevent later correction when evidence changes.
+
+### 14.9 Version Identity and Release Traceability
+
+Every material Release shall have an identity that resolves to the exact approved Repository state and distinguishes the Release from proposals, builds, deployments, operational instances, and later superseding states.
+
+Release identity shall not be reused, silently redirected, or described in a manner that misrepresents contents, authority, readiness, conditions, validation, risk, deployment status, operational acceptance, or support state.
+
+Traceability shall connect the Release to purpose, scope, authority, evidence, decisions, exceptions, residual risk, deployment outcomes where applicable, operational acceptance where applicable, incidents, corrections, withdrawal, and supersession without redefining those separate responsibilities.
+
+### 14.10 Constitutional Release Integrity
+
+A Release shall not be authorized through concealed evidence, misrepresented state, unauthorized exception, coercion, automation-as-authority, or the conflation of approval with execution. Material conflicts, uncertainty, failed obligations, and dissent shall be made visible to the appropriate authority before authorization.
+
+Where evidence no longer supports the authorization basis, the accountable authority shall ensure proportionate restriction, correction, revalidation, withdrawal, supersession, or escalation. Commercial pressure, elapsed time, technical irreversibility, or installed use shall not make an unsupported Release constitutionally valid.
+
+### 14.11 Release Continuity
+
+Release knowledge, identity, evidence, ownership, conditions, residual obligations, support expectations, and supersession history shall remain available across changes in personnel, provider, tool, environment, deployment model, and organizational structure.
+
+Continuity shall preserve the ability to determine what was authorized, by whom, for what purpose, on what evidence, under which conditions, with which known risks, and what later occurred. Chapter 11 governs preservation of this Project Memory.
+
+### 14.12 Chapter Boundary
+
+This chapter defines constitutional Release Governance: Release authority, accountability, readiness, evidence, residual risk acceptance, integrity, version identity, traceability, continuity, and the separation of approved Repository state, Release authorization, deployment execution, and operational acceptance.
+
+It does not prescribe Release checklists, Release workflows, deployment or rollback procedures, CI/CD, build pipelines, Release automation, Release tools, operational runbooks, environment configuration, Repository procedures, or product-specific rollout implementation.
+
+Lower-level Standards and operational documents shall implement those responsibilities. Chapter 15 remains reserved for Continuous Improvement and Chapter 16 for Success Criteria and Constitutional Completion. Chapter 14 has no constitutional authority until explicitly reviewed, approved, and merged through PR #22; Chapter 15 and later work remain unauthorized.
