@@ -4,7 +4,7 @@
 |---|---|
 | Status | Working roadmap |
 | Updated | 2026-08-05 |
-| Current milestone | Sprint 1 - Foundation |
+| Current milestone | Governance Implementation |
 
 The roadmap expresses sequencing, not fixed delivery dates. Dates and commitments require explicit product approval.
 
@@ -72,4 +72,4 @@ The roadmap expresses sequencing, not fixed delivery dates. Dates and commitment
 
 ## Roadmap Governance
 
-Roadmap items become executable work only after they receive a backlog ID, priority, acceptance criteria, dependencies, and user approval when scope is material.
+Roadmap items become executable work only after they receive a backlog ID, priority, acceptance criteria, dependencies, and approval when scope is material.

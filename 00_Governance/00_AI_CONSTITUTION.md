@@ -10,14 +10,14 @@
 
 ## Purpose
 
-This constitution defines the mandatory operating rules for AI-assisted work in this repository. It has precedence over convenience, speed, and undocumented conversational decisions. User instructions have the highest authority; this document governs execution when those instructions do not explicitly override it.
+This constitution defines mandatory AI-assisted operating rules. Explicit user approval has highest authority. After acceptance, the root `MASTER_PROJECT_CHARTER.md` will become the highest repository document; until then this constitution is the highest active repository policy. Governance structure is defined by `README.md` and cannot be changed without a separately approved proposal.
 
 ## Non-negotiable Rules
 
 1. Store every material decision and deliverable in the actual project repository. A chat response alone is not a completed deliverable.
 2. Before writing code, inspect the applicable governance documents, repository structure, and existing implementation for overlap.
-3. Update `04_BACKLOG.md` and `05_CHANGELOG.md` whenever project files or scope change.
-4. Save each artifact in the designated folder defined by `01_PROJECT.md` and `02_STANDARDS.md`.
+3. Update `BACKLOG.md` and `CHANGELOG.md` whenever project files or scope change.
+4. Save each artifact in the designated folder defined by `README.md`, `03_PRODUCT_CHARTER.md`, and `standards/DOCUMENT_STANDARD.md`.
 5. After implementation, run proportionate verification and record results under `05_QA`.
 6. Never delete, replace, or destructively reset a working file without explicit user approval.
 7. Do not duplicate functionality. Extend or reuse existing components, services, utilities, schemas, and documentation where practical.
@@ -27,7 +27,7 @@ This constitution defines the mandatory operating rules for AI-assisted work in 
 
 ## Required Work Sequence
 
-1. Read the six governance baseline documents.
+1. Read the Governance index, AI Constitution, Product Charter, Architecture, applicable standards, Roadmap, Backlog, Changelog, and AI Status.
 2. Inspect relevant files and search for existing functionality.
 3. Identify the related backlog item or add one before implementation.
 4. Design the smallest reusable change consistent with project architecture.
