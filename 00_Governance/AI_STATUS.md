@@ -6,11 +6,11 @@
 | Architecture status | Approved and frozen |
 | Governance status | Approved and frozen; Phase 1 review passed |
 | Project status | Foundation Complete |
-| Current phase | GOV-016 Constitutional Transition Review |
-| Active backlog item | `GOV-016` |
-| Active branch | `agent/gov-016-supersede-project-charter` |
-| Active pull request | Draft GOV-016 transition PR |
-| Next approved action | Obtain CTO review and merge approval for `GOV-016`; keep the Final Constitutional Adoption Review and Version 1.0 declaration blocked |
+| Current phase | Final Constitutional Adoption Review Authorized |
+| Active backlog item | None — Master Charter Completion Plan items are complete |
+| Active branch | None |
+| Active pull request | None; PR #29 merged |
+| Next approved action | Perform the Final Constitutional Adoption Review without constitutional modification; Version 1.0 remains blocked until the review result is PASS |
 | Blockers | None |
 
 ## Scope Guard
@@ -46,9 +46,9 @@
 - Chapter 15 is approved and authoritative upon merge of PR #24; Chapters 1 through 15 are complete.
 - Chapter 16 Scope Proposal is approved and authorizes PR #27 for Success Criteria and Constitutional Completion only.
 - Chapter 16 is approved and authoritative upon merge of PR #27; Chapters 1 through 16 are complete.
-- `GOV-016` transition is implemented for review: the legacy Project Charter is marked Superseded, remains available, and points to the Master Project Charter.
-- The Final Constitutional Adoption Review remains blocked until `GOV-016` is complete and all applicable QA evidence is finalized.
-- Master Charter v1.0 remains blocked by Chapter 16 approval, completion of `GOV-016`, and a passing Final Constitutional Adoption Review.
+- `GOV-016` is complete through approved and merged PR #29: the legacy Project Charter is marked Superseded, remains available for historical reference, and points to the Master Project Charter.
+- The Master Charter Completion Plan is complete, all applicable pre-adoption QA evidence is finalized, and the Final Constitutional Adoption Review is authorized but not yet performed.
+- Master Charter v1.0 remains blocked until the Final Constitutional Adoption Review achieves PASS and constitutional adoption is recorded.
 - Architecture Audit approved: PASS WITH RECOMMENDATIONS; Master Charter v1.0 is not yet ready.
 - Master Charter v1.0 Completion Plan approved with Milestones A, B, C, and a Final Constitutional Adoption Review.
 - Accepted recommendations are backlog requirements, not retroactive Chapter 1 defects.
