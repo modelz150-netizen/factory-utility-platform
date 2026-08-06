@@ -9,7 +9,7 @@
 | Current phase | Phase 2 — Platform Implementation Readiness Review |
 | Active backlog item | `ARC-005` |
 | Active branch | `agent/platform-implementation-readiness` |
-| Active pull request | Draft Pull Request — Platform Implementation Readiness Package |
+| Active pull request | Draft PR #35 — Platform Implementation Readiness Package |
 | Next approved action | Obtain CTO review of the four implementation-readiness proposals; do not implement production Dashboard code or live integrations |
 | Blockers | None |
 
