@@ -2,14 +2,15 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Chapters 1 through 16 Approved |
-| Version | 0.3.0-draft |
+| Status | Active - Version 1.0 Adopted |
+| Version | 1.0.0 |
 | Approved chapters | Chapters 1 through 16 |
 | Proposed chapter | None |
 | Document owner | Founder |
-| Effective date | 2026-08-05 upon merge of PR #2 |
+| Effective date | 2026-08-06 |
 | Authority | Repository's highest governance document |
 | Review model | One chapter per pull request with explicit approval before continuation |
+| Adoption evidence | [Final Constitutional Adoption Review](05_QA/2026-08-06_GOV-038_FINAL_CONSTITUTIONAL_ADOPTION_REVIEW.md) |
 
 This Charter defines the enduring identity and highest governing intent of the Factory Utility Platform. Only explicitly approved and merged chapters are authoritative. No unapproved future chapter is implied, drafted, or made authoritative by this document.
 
