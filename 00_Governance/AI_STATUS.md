@@ -9,7 +9,7 @@
 | Current phase | Phase 2 — Platform Architecture v1.0 Review |
 | Active backlog item | `ARC-004` |
 | Active branch | `agent/platform-architecture-v1` |
-| Active pull request | Draft Pull Request — Platform Architecture v1.0 |
+| Active pull request | Draft PR #34 — Platform Architecture v1.0 |
 | Next approved action | Obtain CTO review of Platform Architecture v1.0; do not implement Dashboard production code or live AI/SCADA integration |
 | Blockers | None |
 
