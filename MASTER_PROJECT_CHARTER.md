@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Chapters 1 through 15 Approved |
+| Status | Draft - Chapter 16 Pending Review |
 | Version | 0.3.0-draft |
 | Approved chapters | Chapters 1 through 15 |
-| Proposed chapter | None |
+| Proposed chapter | Chapter 16 - Success Criteria and Constitutional Completion |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
@@ -1206,3 +1206,121 @@ This chapter defines constitutional Continuous Improvement: evidence-based learn
 It does not prescribe PDCA, Kaizen, Lean, Six Sigma, retrospectives, ceremonies, KPI procedures, operational metrics, dashboards, improvement tools, templates, task-management methods, feedback workflows, investigation procedures, experiment procedures, or tool-specific guidance.
 
 Lower-level Standards and operational documents shall implement those responsibilities. Chapter 16 remains reserved for Success Criteria and Constitutional Completion. Chapter 15 is approved and authoritative upon merge of PR #24; Chapter 16 remains unauthorized until separately scoped, reviewed, and approved.
+
+## Chapter 16 - Success Criteria and Constitutional Completion
+
+### 16.1 Constitutional Purpose
+
+This chapter defines the conditions under which the Master Project Charter may be considered constitutionally complete, fit for accountable adoption, and ready to enter continuing stewardship as an identified constitutional baseline.
+
+Constitutional completion shall establish confidence that the Charter can govern responsibly. It shall not claim perfection, permanent compliance, completion of all Product or Platform work, or the end of validation, learning, maintenance, and lawful amendment.
+
+### 16.2 Constitutional Success
+
+Constitutional success means that the Charter expresses a coherent and maintainable system of purpose, principles, authority, responsibility, evidence, accountability, continuity, change, and stewardship sufficient to govern the Platform over the long term.
+
+Success shall be judged against the Mission, Engineering Truth, Core Principles, Project Promise, Governance hierarchy, human accountability, and the collective protections of this Charter. Chapter count, document length, elapsed time, approval activity, repository state, popularity, or a version label shall not alone establish success.
+
+Success may coexist with visible non-Critical limitations, improvement opportunities, implementation obligations, and residual uncertainty when they are truthfully recorded, responsibly owned, and do not prevent the Charter from fulfilling its constitutional purpose.
+
+### 16.3 Constitutional Completion
+
+The Charter is constitutionally complete only when its approved scope is present as one identifiable state; its chapters are mutually consistent; authority and responsibility boundaries are explicit; active references resolve; material terminology is coherent; and no unresolved Critical constitutional defect remains.
+
+Completion requires evidence sufficient to determine whether each applicable adoption gate is satisfied. Unsupported assertion, silence, assumed consensus, procedural activity, technical access, automation, or prior momentum shall not convert an incomplete state into a complete one.
+
+Constitutional completion is distinct from completion of Standards, Architecture, Product delivery, implementation, migration, Release, operation, business planning, or every Governance backlog item. Those responsibilities continue under their own authority and completion criteria.
+
+### 16.4 Constitutional Adoption
+
+Adoption is the accountable human decision to recognize an identified, constitutionally complete Charter state as the governing baseline. It shall occur only after applicable readiness conditions have been satisfied and the approving constitutional steward has considered the evidence, known limitations, residual obligations, and consequences of adoption.
+
+Authorship, review, validation, recommendation, repository administration, technical publication, or AI assistance does not constitute adoption. AI systems may assist analysis and evidence preparation only within Chapter 7; they shall not approve, adopt, activate, or sovereignly steward the Constitution.
+
+Adoption shall not retroactively fabricate authority, erase the Governance basis of prior decisions, or represent lower-level implementation as complete.
+
+### 16.5 Version 1.0 Readiness
+
+Master Project Charter Version 1.0 is ready for adoption only when all of the following are true:
+
+1. Chapters 1 through 16 have each been explicitly reviewed, approved, and merged into one approved Repository state.
+2. `GOV-016` is complete and the legacy `PROJECT_CHARTER.md` is truthfully marked Superseded with a reference to this Charter.
+3. the Final Constitutional Adoption Review has completed with a result of **PASS**;
+4. no unresolved Critical Issue affecting constitutional completeness, integrity, authority, or adoption remains;
+5. active constitutional and Governance references required for adoption resolve to their intended authority;
+6. the Governance Architecture remains in its approved frozen state, unless a separately authorized structural change has been fully reconciled before adoption; and
+7. the accountable constitutional steward explicitly approves the identified Version 1.0 state for adoption.
+
+Failure, absence, ambiguity, or unverifiable status of any mandatory condition prevents Version 1.0 readiness. Schedule, symbolic significance, prior approval effort, or desire for closure shall not waive a readiness condition.
+
+### 16.6 Evidence-Capable Success Criteria
+
+Each constitutional success and readiness condition shall be capable of objective determination from an identified approved state, accountable record, validation evidence, resolved reference, or explicit disposition appropriate to the condition.
+
+Measurable does not require a numerical target. A condition may be evidenced by a truthful state such as present or absent, approved or unapproved, resolved or unresolved, consistent or conflicting, complete or incomplete, provided the decision basis and authority remain reviewable.
+
+Operational metrics, dashboards, checklists, audit formats, repository indicators, and automated results may support assessment but shall not become constitutional authority or replace competent human judgment.
+
+### 16.7 Constitutional Integrity at Adoption
+
+The adopted Charter state shall be complete, internally coherent, attributable, version-identifiable, reviewable, recoverable, and consistent with the authority hierarchy. Defined terms, normative language, cross-references, lifecycle state, approval basis, and effective relationship to prior authority shall not materially conflict.
+
+Known disagreement, limitation, residual obligation, and non-Critical uncertainty shall remain visible at a level proportionate to consequence. Adoption shall not depend on concealed qualification, fabricated consensus, selective evidence, or reclassification of a constitutional defect as an implementation concern.
+
+Chapter 9 retains authority over version identity, effective state, amendment, transition, and preservation. Chapter 10 retains authority over documentation integrity, lifecycle, terminology, and traceability.
+
+### 16.8 Stewardship after Completion
+
+Constitutional completion transitions the Charter from planned construction to continuing stewardship. It does not terminate Founder responsibility, human accountability, competent review, interpretation, maintenance, succession, or the obligation to protect the Platform's Mission and trust.
+
+The Founder or valid constitutional steward shall preserve the Charter's fitness, integrity, accessibility, continuity, and alignment with higher legal and professional obligations. Stewardship shall remain within the authority, delegation, conflict, and succession boundaries of Chapter 8.
+
+Completion shall not create authority to ignore a later defect, evidence, change in applicable obligation, or material threat to constitutional fitness.
+
+### 16.9 Long-Term Governance Sustainability
+
+The Organization shall preserve the capacity required to understand, apply, challenge, validate, maintain, and lawfully amend the Charter across personnel, organizational, ownership, provider, tool, and technology change.
+
+Sustainable Governance requires accountable stewardship, sufficient competence, preserved Project Memory, accessible authoritative state, decision continuity, and freedom from avoidable dependence that would prevent responsible interpretation or change.
+
+Sustainability does not require permanent preservation of an implementation, platform, organizational form, or operating method. It requires preservation of constitutional purpose, authority, evidence, and the practical capacity to govern.
+
+### 16.10 Constitutional Legacy
+
+The basis on which a constitutional state was proposed, reviewed, adopted, amended, superseded, or withdrawn shall remain historically understandable. Superseded text, adoption evidence, material interpretations, dissent, exceptions, and unresolved obligations shall remain distinguishable from current authority.
+
+Legacy preserves accountability and learning; it shall not create competing active constitutions. The currently effective state shall remain identifiable, while historical states retain the context necessary to understand decisions governed under them.
+
+Chapters 9, 10, 11, and 13 retain authority over constitutional preservation, documentation lifecycle, Project Memory, and approved Repository state.
+
+### 16.11 Long-Term Maintainability
+
+The Charter shall remain understandable, bounded, internally navigable, and maintainable by competent future stewards without dependence on undocumented custom, a single individual, one AI system, one provider, or one technical platform.
+
+Constitutional responsibilities shall remain separated from Standards and operational procedures so implementation may evolve without unnecessary constitutional amendment. Ambiguity, duplication, obsolete references, and unnecessary complexity that materially weaken interpretation or stewardship shall receive accountable disposition.
+
+Maintainability shall not be used to simplify away necessary authority, evidence, accountability, safety, continuity, or protection.
+
+### 16.12 Completion without Finality
+
+Version 1.0 adoption establishes a trusted constitutional baseline, not an immutable endpoint. Chapters 9 and 15 continue to govern deliberate constitutional change and Continuous Improvement after adoption.
+
+Recommendations do not automatically constitute defects, and adoption does not require approved chapters to absorb every improvement opportunity. Verified defects and authorized amendments shall be handled through their responsible Governance path while constitutional stability remains protected.
+
+The Charter's continued fitness shall remain subject to proportionate review and revalidation when material evidence, obligations, authority, operating conditions, or organizational continuity change.
+
+### 16.13 Failed or Incomplete Readiness
+
+When a completion or adoption condition is not satisfied, the Charter shall remain in its truthful pre-adoption state. The failed or incomplete condition, consequence, accountable owner, decision authority, and required disposition shall remain visible.
+
+A failed adoption review is evidence requiring resolution; it is not authority to weaken the gate, rename the result, conceal the issue, or declare a version through another channel. Non-Critical recommendations may be accepted as future obligations when they do not undermine constitutional completeness and their disposition remains explicit.
+
+No partial, provisional, customary, technical, or AI-generated declaration shall substitute for accountable Version 1.0 adoption.
+
+### 16.14 Chapter Boundary
+
+This chapter defines constitutional Success Criteria, Completion, Adoption, Version 1.0 readiness, evidence-capable outcomes, integrity, continuing stewardship, Governance sustainability, legacy, maintainability, and incomplete-readiness handling.
+
+It does not prescribe adoption procedures, audit procedures, KPI implementation, operational Governance, Release procedures, Workflow implementation, publication mechanics, review templates, checklists, repository operations, tools, or provider-specific guidance.
+
+Lower-level Governance shall implement the evidence, review, publication, and continuing-maintenance procedures required by these principles. Chapter 16 has no constitutional authority until explicitly reviewed, approved, and merged through PR #27. Its merge shall not complete `GOV-016`, perform the Final Constitutional Adoption Review, or declare Version 1.0.
