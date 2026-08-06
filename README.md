@@ -7,10 +7,11 @@ Production engineering platform for semiconductor and industrial utility enginee
 - Foundation: Complete
 - Current phase: Governance Implementation
 - Governance architecture: Approved and frozen
-- Master Project Charter: Not yet created; Chapter 1 requires a separate approved phase after Governance PR #1 is merged
+- Master Project Charter: Chapters 1–16 approved; draft constitutional baseline pending Final Constitutional Adoption Review
 
 ## Start Here
 
+- [Master Project Charter](MASTER_PROJECT_CHARTER.md)
 - [Governance index](00_Governance/README.md)
 - [Product Charter](00_Governance/03_PRODUCT_CHARTER.md)
 - [Architecture](00_Governance/ARCHITECTURE.md)
