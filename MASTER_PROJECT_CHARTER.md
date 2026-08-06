@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Chapter 16 Pending Review |
+| Status | Draft - Chapters 1 through 16 Approved |
 | Version | 0.3.0-draft |
-| Approved chapters | Chapters 1 through 15 |
-| Proposed chapter | Chapter 16 - Success Criteria and Constitutional Completion |
+| Approved chapters | Chapters 1 through 16 |
+| Proposed chapter | None |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
@@ -1323,4 +1323,4 @@ This chapter defines constitutional Success Criteria, Completion, Adoption, Vers
 
 It does not prescribe adoption procedures, audit procedures, KPI implementation, operational Governance, Release procedures, Workflow implementation, publication mechanics, review templates, checklists, repository operations, tools, or provider-specific guidance.
 
-Lower-level Governance shall implement the evidence, review, publication, and continuing-maintenance procedures required by these principles. Chapter 16 has no constitutional authority until explicitly reviewed, approved, and merged through PR #27. Its merge shall not complete `GOV-016`, perform the Final Constitutional Adoption Review, or declare Version 1.0.
+Lower-level Governance shall implement the evidence, review, publication, and continuing-maintenance procedures required by these principles. Chapter 16 is approved and authoritative upon merge of PR #27. Its approval does not complete `GOV-016`, perform the Final Constitutional Adoption Review, or declare Version 1.0.

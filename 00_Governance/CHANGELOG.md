@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-06 — Chapter 16 Approved
+
+- CTO approved Chapter 16, Success Criteria and Constitutional Completion, through PR #27.
+- Marked Chapters 1 through 16 complete and closed `GOV-037`.
+- Confirmed that the approved Charter remains a draft constitutional baseline and is not yet Version 1.0.
+- Preserved the frozen Governance Architecture and did not change approved Chapter 16 principles.
+- Retained `GOV-016` completion and a passing Final Constitutional Adoption Review as mandatory remaining adoption gates.
+
 ## 2026-08-06 — Chapter 16 Drafted
 
 - Added Chapter 16, Success Criteria and Constitutional Completion, for PR #27 review under `GOV-037`.

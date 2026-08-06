@@ -52,3 +52,17 @@ This recommendation is a future adoption-review requirement and is not a Chapter
 **PASS WITH RECOMMENDATIONS**
 
 Chapter 16 is constitutionally consistent and ready for CTO review. Do not merge until explicit CTO approval is recorded. Do not complete `GOV-016`, begin the Final Constitutional Adoption Review, or declare Version 1.0 through PR #27.
+
+## CTO Approval
+
+| Field | Result |
+|---|---|
+| Date | 2026-08-06 |
+| Result | APPROVED |
+| Critical issues | None |
+| Major issues | None |
+| Authorized action | Merge PR #27 and mark Chapter 16 approved |
+| Remaining gates | Complete `GOV-016`, finalize applicable QA evidence, and obtain Final Constitutional Adoption Review PASS |
+| Version status | Version 1.0 remains undeclared |
+
+Chapter 16 became authoritative upon merge of PR #27. The Master Charter remains a draft constitutional baseline pending all remaining adoption gates.
