@@ -6,11 +6,11 @@
 | Architecture status | Approved and frozen |
 | Governance status | Active and frozen |
 | Project status | Foundation Complete |
-| Current phase | Constitutional Stewardship — Version 1.0 |
-| Active backlog item | None — Master Charter adoption work is complete |
-| Active branch | None |
-| Active pull request | None |
-| Next approved action | Continue approved Platform foundation work and maintain the Constitution through Chapters 8, 9, 15, and 16 |
+| Current phase | Phase 2 — Platform Architecture v1.0 Scope Review |
+| Active backlog item | `ARC-002` |
+| Active branch | `agent/platform-architecture-v1-scope` |
+| Active pull request | Draft PR #32 — Platform Architecture v1.0 Scope Proposal |
+| Next approved action | Obtain CTO review of the Platform Architecture v1.0 Scope Proposal; do not draft the architecture or implement the Dashboard before approval |
 | Blockers | None |
 
 ## Constitutional State
