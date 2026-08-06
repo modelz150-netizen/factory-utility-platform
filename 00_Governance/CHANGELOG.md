@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-08-06 — Architecture Readiness Package Proposed
+
+- Recorded CTO approval and merge of PR #32 and marked `ARC-002` Done.
+- Proposed one six-phase operational Roadmap with Phase 2 Platform Engineering and Phase 3 Core Engineering Tools.
+- Added ADR-001 evaluating WordPress plugin/package-centric, modular-monolith, and hybrid styles and recommending a WordPress-hosted modular monolith with hybrid-ready boundaries.
+- Added measurable performance, availability, reliability, responsiveness, accessibility, security, observability, browser/device, and recovery targets.
+- Defined architecture dependency order, risks, open decisions, and the recommended implementation sequence under `ARC-003`.
+- Did not write Platform Architecture v1.0, implement Dashboard code, authorize live AI or SCADA integration, or change the frozen Governance Architecture.
+
 ## 2026-08-06 — Platform Architecture v1.0 Scope Proposed
 
 - Started Phase 2 Platform Engineering with the formal `ARC-002` Scope Proposal under `03_Development/architecture`.
