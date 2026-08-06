@@ -5,9 +5,9 @@ Production engineering platform for semiconductor and industrial utility enginee
 ## Project Status
 
 - Foundation: Complete
-- Current phase: Governance Implementation
+- Current phase: Constitutional Stewardship
 - Governance architecture: Approved and frozen
-- Master Project Charter: Chapters 1–16 approved; draft constitutional baseline pending Final Constitutional Adoption Review
+- Master Project Charter: Version 1.0 adopted on 2026-08-06 after the Final Constitutional Adoption Review passed
 
 ## Start Here
 
