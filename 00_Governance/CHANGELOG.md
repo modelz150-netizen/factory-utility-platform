@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-08-06 — GOV-016 Constitutional Transition Proposed
+
+- Marked the legacy `00_Governance/PROJECT_CHARTER.md` as Superseded and linked the root `MASTER_PROJECT_CHARTER.md` as its replacement.
+- Preserved the complete legacy Charter body, file path, historical context, and backward-compatible reference behavior.
+- Aligned root and Governance navigation, AI Constitution derivation, and Product Charter derivation with the current constitutional authority hierarchy.
+- Recorded independent QA as PASS WITH RECOMMENDATIONS with no Critical or Major issue.
+- Made no constitutional content, Chapter, Governance rule, architecture, structure, or operational-procedure change.
+- Kept the Final Constitutional Adoption Review blocked and did not declare Version 1.0.
+
 ## 2026-08-06 — Chapter 16 Approved
 
 - CTO approved Chapter 16, Success Criteria and Constitutional Completion, through PR #27.

@@ -10,7 +10,7 @@
 
 ## Purpose
 
-This constitution defines mandatory AI-assisted operating rules. Explicit user approval has highest authority. After acceptance, the root `MASTER_PROJECT_CHARTER.md` will become the highest repository document; until then this constitution is the highest active repository policy. Governance structure is defined by `README.md` and cannot be changed without a separately approved proposal.
+This constitution defines mandatory AI-assisted operating rules derived from the root [`MASTER_PROJECT_CHARTER.md`](../MASTER_PROJECT_CHARTER.md), the repository's highest Governance document beneath explicit owner authority. Governance structure is defined by `README.md` and cannot be changed without a separately approved proposal.
 
 ## Non-negotiable Rules
 
