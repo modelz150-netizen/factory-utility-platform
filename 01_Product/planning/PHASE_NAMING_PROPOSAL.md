@@ -2,12 +2,13 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
+| Status | Active |
 | Version | 0.1.0 |
 | Date | 2026-08-06 |
 | Backlog | `ARC-003` |
 | Owner | Product owner |
 | Authority | [Product Charter](../../00_Governance/03_PRODUCT_CHARTER.md) and [Master Project Charter](../../MASTER_PROJECT_CHARTER.md) |
+| Approval | CTO-approved and merged through PR #33 |
 
 ## Decision Required
 
