@@ -4,76 +4,44 @@
 |---|---|
 | Updated | 2026-08-06 |
 | Architecture status | Approved and frozen |
-| Governance status | Approved and frozen; Phase 1 review passed |
+| Governance status | Active and frozen |
 | Project status | Foundation Complete |
-| Current phase | Final Constitutional Adoption Review Authorized |
-| Active backlog item | None — Master Charter Completion Plan items are complete |
+| Current phase | Constitutional Stewardship — Version 1.0 |
+| Active backlog item | None — Master Charter adoption work is complete |
 | Active branch | None |
-| Active pull request | None; PR #29 merged |
-| Next approved action | Perform the Final Constitutional Adoption Review without constitutional modification; Version 1.0 remains blocked until the review result is PASS |
+| Active pull request | None |
+| Next approved action | Continue approved Platform foundation work and maintain the Constitution through Chapters 8, 9, 15, and 16 |
 | Blockers | None |
 
-## Scope Guard
+## Constitutional State
 
-- `MASTER_PROJECT_CHARTER.md` must not be created during Phase 1.
-- Chapter 1 is approved and must not be modified without a true defect.
-- Chapter 2 is approved and must not be modified without a true defect.
-- Chapter 3 is approved and must not be modified without a true defect.
-- Chapter 4 is approved and must not be modified without a true defect.
-- Chapter 5 is approved and must not be modified without a true defect.
-- Milestone 1 is complete; accepted follow-up items remain `GOV-010`, `GOV-011`, and `GOV-016`.
-- Chapter 6 is approved and must not be modified without a constitutional defect.
-- Master Charter milestone v0.2, Chapters 4 through 6, is complete.
-- Chapter 7 is approved and must not be modified without a constitutional defect.
-- Master Charter v0.3 checkpoint records Chapters 7 and 8 complete; the Chapters 7 through 9 milestone remains in progress.
-- Chapter 8 is approved and must not be modified without a constitutional defect.
-- Chapter 9 is approved and must not be modified without a constitutional defect.
-- Chapter 10 remains undrafted and requires a separately approved scope.
-- Chapter 10 Scope Proposal approved; Chapter 10 is limited to Documentation Governance only.
-- Chapter 10 approved; GOV-010 and GOV-011 are closed.
-- Chapter 11 remains undrafted; Chapter 12 is blocked until Chapter 11 is reviewed, approved, and merged.
-- Chapter 11 Scope Proposal approved; Chapter 11 is limited to Project Memory and Institutional Continuity only.
-- Chapter 11 approved; Chapters 1 through 11 are complete.
-- Chapter 12 remains undrafted; Chapter 13 is blocked until Chapter 12 is reviewed, approved, and merged.
-- Chapter 12 Scope Proposal is approved and limits Chapter 12 to constitutional Sprint and Workflow Governance principles only.
-- Chapter 12 is approved and authoritative upon merge of PR #18; Chapters 1 through 12 are complete.
-- Chapter 13 Scope Proposal is approved; approved Repository state is the portable constitutional Source of Truth, while GitHub is the current implementation platform.
-- Chapter 13 is approved and authoritative upon merge of PR #20; Chapters 1 through 13 are complete.
-- Chapter 14 Scope Proposal is approved and authorizes PR #22 for constitutional Release Governance only.
-- Approved Repository State, Release Authorization, Deployment Execution, and Operational Acceptance shall remain distinct responsibilities.
-- Chapter 14 is approved and authoritative upon merge of PR #22; Chapters 1 through 14 are complete.
-- Chapter 15 Scope Proposal is approved and authorizes PR #24 for constitutional Continuous Improvement only.
-- Chapter 15 is approved and authoritative upon merge of PR #24; Chapters 1 through 15 are complete.
-- Chapter 16 Scope Proposal is approved and authorizes PR #27 for Success Criteria and Constitutional Completion only.
-- Chapter 16 is approved and authoritative upon merge of PR #27; Chapters 1 through 16 are complete.
-- `GOV-016` is complete through approved and merged PR #29: the legacy Project Charter is marked Superseded, remains available for historical reference, and points to the Master Project Charter.
-- The Master Charter Completion Plan is complete, all applicable pre-adoption QA evidence is finalized, and the Final Constitutional Adoption Review is authorized but not yet performed.
-- Master Charter v1.0 remains blocked until the Final Constitutional Adoption Review achieves PASS and constitutional adoption is recorded.
-- Architecture Audit approved: PASS WITH RECOMMENDATIONS; Master Charter v1.0 is not yet ready.
-- Master Charter v1.0 Completion Plan approved with Milestones A, B, C, and a Final Constitutional Adoption Review.
-- Accepted recommendations are backlog requirements, not retroactive Chapter 1 defects.
-- Governance architecture changes require a separate proposal and explicit approval.
+- `MASTER_PROJECT_CHARTER.md` Version 1.0 was adopted on 2026-08-06 and is the constitutional Source of Truth.
+- Chapters 1 through 16 are approved and authoritative.
+- The Final Constitutional Adoption Review achieved PASS across all ten required validation categories.
+- `GOV-010`, `GOV-011`, and `GOV-016` are complete.
+- The Master Charter v1.0 Completion Plan is complete.
+- The legacy `PROJECT_CHARTER.md` remains Superseded and available for historical reference.
+- No outstanding Critical or Major constitutional issue exists.
+- Governance Architecture remains approved and frozen.
 
-## Completed Foundation
+## Stewardship Guard
 
-- Repository folder structure established
-- Baseline Governance documents created
-- GitHub repository connected
-- Initial project foundation published for review
-- Long-term Governance architecture approved
+- Approved constitutional text shall not be modified without a verified defect or an amendment authorized under Chapter 9.
+- No additional constitutional chapter may be added outside the Charter Change Policy.
+- AI may assist analysis and evidence preparation but cannot approve, adopt, amend, suspend, waive, or sovereignly steward the Constitution.
+- Human constitutional authority, professional accountability, evidence, and the Governance hierarchy remain controlling.
+- Recommendations are not automatically defects and shall be handled by their responsible lower-level Governance path.
 
-## Current Deliverables
+## Current Foundation Deliverables
 
 - Governance index and authority map
-- Product Charter migration
+- Active Master Project Charter Version 1.0
+- Product Charter and AI Constitution derived from the Master Charter
 - First-class Architecture document
-- Dedicated Development, Document, GitHub, Release, and QA standards
+- Dedicated Development, Document, GitHub, Release, and QA Standards
 - ADR and template directories
-- Updated repository references
-- Phase 1 validation evidence
-
-All Phase 1 deliverables are implemented and awaiting owner review in Draft PR #1.
+- Finalized Master Charter QA and adoption evidence
 
 ## Update Rules
 
-Update this dashboard when the active phase, approved next action, pull request, blocker, or architecture status changes. It summarizes operational state but does not replace the Backlog, Changelog, QA evidence, or approval record.
+Update this dashboard when the active phase, approved next action, pull request, blocker, constitutional state, or Architecture status changes. It summarizes operational state but does not replace the Master Project Charter, Backlog, Changelog, QA evidence, or approval record.
