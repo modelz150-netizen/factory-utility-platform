@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-06 — Chapter 16 Scope Proposed
+
+- Added the Chapter 16 Success Criteria and Constitutional Completion Scope Proposal under `GOV-036`.
+- Defined constitutional completion, adoption, stewardship, integrity, legacy, maintainability, and objectively determinable Version 1.0 readiness gates.
+- Preserved Chapters 1 through 15, the frozen Governance Architecture, and the authority boundaries of Chapters 8, 9, and 15.
+- Recorded independent QA as PASS WITH RECOMMENDATIONS with no Critical or Major issue.
+- Did not draft Chapter 16, complete `GOV-016`, perform the Final Constitutional Adoption Review, or declare Version 1.0.
+
 ## 2026-08-06 — Chapter 15 Approved
 
 - CTO approved Chapter 15, Continuous Improvement, through PR #24.

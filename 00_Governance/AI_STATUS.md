@@ -6,11 +6,11 @@
 | Architecture status | Approved and frozen |
 | Governance status | Approved and frozen; Phase 1 review passed |
 | Project status | Foundation Complete |
-| Current phase | Master Charter Chapter 15 Complete |
-| Active backlog item | None; `GOV-016` remains outstanding for v1.0 |
-| Active branch | None |
-| Active pull request | None; PR #24 merged |
-| Next approved action | Prepare the Chapter 16 Scope Proposal only; do not draft Chapter 16 or declare v1.0 before scope approval and completion of all adoption gates |
+| Current phase | Master Charter Chapter 16 Scope Review |
+| Active backlog item | `GOV-036`; `GOV-016` remains outstanding for v1.0 |
+| Active branch | `agent/master-charter-chapter-16-scope` |
+| Active pull request | Draft Chapter 16 Scope Proposal PR |
+| Next approved action | Obtain CTO review of the Chapter 16 Scope Proposal; do not draft Chapter 16, complete `GOV-016`, perform the Final Adoption Review, or declare v1.0 |
 | Blockers | None |
 
 ## Scope Guard
@@ -45,6 +45,7 @@
 - Chapter 15 Scope Proposal is approved and authorizes PR #24 for constitutional Continuous Improvement only.
 - Chapter 15 is approved and authoritative upon merge of PR #24; Chapters 1 through 15 are complete.
 - Chapter 16 remains undrafted and requires a separately reviewed and approved Scope Proposal.
+- Chapter 16 Scope Proposal defines Success Criteria and Constitutional Completion only and has no constitutional authority until approved.
 - Master Charter v1.0 remains blocked by Chapter 16 approval, completion of `GOV-016`, and a passing Final Constitutional Adoption Review.
 - Architecture Audit approved: PASS WITH RECOMMENDATIONS; Master Charter v1.0 is not yet ready.
 - Master Charter v1.0 Completion Plan approved with Milestones A, B, C, and a Final Constitutional Adoption Review.
