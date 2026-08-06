@@ -1,5 +1,14 @@
 # Factory Utility Platform
 
+| Field | Value |
+|---|---|
+| Status | Superseded |
+| Superseded by | [Factory Utility Platform Master Project Charter](../MASTER_PROJECT_CHARTER.md) |
+| Transition date | 2026-08-06 |
+| Historical role | Original project charter retained for traceability and backward-compatible references |
+
+> This document is no longer current Governance authority. Its original content is preserved below as historical context. Existing references to this path remain valid for historical traceability and shall follow the replacement link above for current constitutional authority.
+
 ## Mission
 
 Build a production-quality engineering platform for semiconductor and industrial utility engineers. The product is a long-term engineering workspace and operational platform, not a blog.
