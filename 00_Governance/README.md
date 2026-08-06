@@ -12,7 +12,7 @@
 
 This directory contains the authoritative governance system for the Factory Utility Platform. It separates durable policy, product direction, architecture, standards, operational registers, decisions, and templates so that each document has one responsibility.
 
-The root [`MASTER_PROJECT_CHARTER.md`](../MASTER_PROJECT_CHARTER.md) is the repository's highest Governance document. Chapters 1 through 16 are approved; the Charter remains a draft constitutional baseline until all Version 1.0 adoption gates pass. The former `PROJECT_CHARTER.md` remains available as Superseded historical context.
+The root [`MASTER_PROJECT_CHARTER.md`](../MASTER_PROJECT_CHARTER.md) is the repository's highest Governance document. Version 1.0 was adopted on 2026-08-06 after the Final Constitutional Adoption Review passed. The former `PROJECT_CHARTER.md` remains available as Superseded historical context.
 
 ## Authority and Document Map
 
@@ -54,7 +54,7 @@ flowchart TD
     B --> CL["Changelog"]
 ```
 
-The Master Project Charter is the current constitutional Source of Truth. Its Version 1.0 declaration remains blocked until all adoption gates defined by the Charter are satisfied.
+The Master Project Charter Version 1.0 is the current constitutional Source of Truth. Future constitutional changes are governed by the Charter Change Policy in Chapter 9.
 
 ## Frozen Architecture Policy
 

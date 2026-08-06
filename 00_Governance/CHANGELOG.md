@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-08-06 — Master Project Charter Version 1.0 Adopted
+
+- Completed the Final Constitutional Adoption Review with an overall result of PASS across all ten required validation categories.
+- Confirmed Chapters 1 through 16, the completed v1.0 Completion Plan, `GOV-016`, the authority hierarchy, active references, and the frozen Governance Architecture.
+- Found no Critical or Major constitutional issue and recorded the complete review evidence under `GOV-038` in `05_QA`.
+- Declared `MASTER_PROJECT_CHARTER.md` Version `1.0.0` Active with an adoption and effective date of 2026-08-06.
+- Changed only Charter lifecycle metadata; no approved Chapter or constitutional principle was modified.
+- Entered continuing constitutional stewardship under Chapters 8, 9, 15, and 16; future constitutional changes require the Charter Change Policy.
+
 ## 2026-08-06 — GOV-016 Completed
 
 - CTO approved the constitutional transition and PR #29 was merged.
