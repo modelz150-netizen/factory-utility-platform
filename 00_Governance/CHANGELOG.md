@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-06 — Chapter 15 Approved
+
+- CTO approved Chapter 15, Continuous Improvement, through PR #24.
+- Marked Chapters 1 through 15 complete and closed `GOV-035`.
+- Accepted lower-level improvement-governance recommendations as non-blocking implementation requirements.
+- Preserved the frozen Governance Architecture and did not begin Chapter 16.
+- Confirmed that v1.0 remains blocked by Chapter 16 approval, completion of `GOV-016`, and a passing Final Constitutional Adoption Review.
+
 ## 2026-08-06 — Chapter 15 Drafted
 
 - Added Chapter 15, Continuous Improvement, for PR #24 review under `GOV-035`.
