@@ -7,7 +7,7 @@
 | Version | 1.0.0 |
 | Effective date | 2026-08-05 |
 | Owner | Product owner |
-| Derived from | Approved governance architecture; future Master Project Charter |
+| Derived from | [Master Project Charter](../MASTER_PROJECT_CHARTER.md) and approved Governance architecture |
 
 ## Product Mission
 
