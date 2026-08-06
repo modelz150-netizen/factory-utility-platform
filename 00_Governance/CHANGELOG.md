@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-08-06 — Platform Architecture v1.0 Scope Proposed
+
+- Started Phase 2 Platform Engineering with the formal `ARC-002` Scope Proposal under `03_Development/architecture`.
+- Defined Product and user scope, Platform and module boundaries, information architecture, conceptual data flow, WordPress, AI, SCADA, responsive, security, and non-functional boundaries.
+- Included scope-level Platform Context, Module Architecture, Data Flow, AI Integration, SCADA Integration, Deployment Concept, and User Navigation views.
+- Limited the MVP to the Home Dashboard shell, utility navigation, Calculator and Reference entry, responsive web layout, WordPress boundary, and future AI/SCADA readiness.
+- Identified no existing Dashboard implementation to duplicate and recorded the Roadmap Phase 2 naming conflict for approval before execution planning.
+- Implemented no Dashboard, schema, API, formula, live integration, authentication, production deployment, detailed UI, or native mobile application.
+- Preserved Master Project Charter Version 1.0 and the frozen Governance Architecture unchanged.
+
 ## 2026-08-06 — Master Project Charter Version 1.0 Adopted
 
 - Completed the Final Constitutional Adoption Review with an overall result of PASS across all ten required validation categories.
