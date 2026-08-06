@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft - Chapter 15 Pending Review |
+| Status | Draft - Chapters 1 through 15 Approved |
 | Version | 0.3.0-draft |
-| Approved chapters | Chapters 1 through 14 |
-| Proposed chapter | Chapter 15 - Continuous Improvement |
+| Approved chapters | Chapters 1 through 15 |
+| Proposed chapter | None |
 | Document owner | Founder |
 | Effective date | 2026-08-05 upon merge of PR #2 |
 | Authority | Repository's highest governance document |
@@ -1205,4 +1205,4 @@ This chapter defines constitutional Continuous Improvement: evidence-based learn
 
 It does not prescribe PDCA, Kaizen, Lean, Six Sigma, retrospectives, ceremonies, KPI procedures, operational metrics, dashboards, improvement tools, templates, task-management methods, feedback workflows, investigation procedures, experiment procedures, or tool-specific guidance.
 
-Lower-level Standards and operational documents shall implement those responsibilities. Chapter 16 remains reserved for Success Criteria and Constitutional Completion. Chapter 15 has no constitutional authority until explicitly reviewed, approved, and merged through PR #24; Chapter 16 remains unauthorized.
+Lower-level Standards and operational documents shall implement those responsibilities. Chapter 16 remains reserved for Success Criteria and Constitutional Completion. Chapter 15 is approved and authoritative upon merge of PR #24; Chapter 16 remains unauthorized until separately scoped, reviewed, and approved.

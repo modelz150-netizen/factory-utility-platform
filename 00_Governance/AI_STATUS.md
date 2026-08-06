@@ -6,11 +6,11 @@
 | Architecture status | Approved and frozen |
 | Governance status | Approved and frozen; Phase 1 review passed |
 | Project status | Foundation Complete |
-| Current phase | Master Charter Chapter 15 Review |
-| Active backlog item | `GOV-035` |
-| Active branch | `agent/master-charter-chapter-15` |
-| Active pull request | Draft PR #24 |
-| Next approved action | Independent QA is complete; obtain CTO review of Chapter 15 before merge and do not begin Chapter 16 |
+| Current phase | Master Charter Chapter 15 Complete |
+| Active backlog item | None; `GOV-016` remains outstanding for v1.0 |
+| Active branch | None |
+| Active pull request | None; PR #24 merged |
+| Next approved action | Prepare the Chapter 16 Scope Proposal only; do not draft Chapter 16 or declare v1.0 before scope approval and completion of all adoption gates |
 | Blockers | None |
 
 ## Scope Guard
@@ -43,8 +43,9 @@
 - Approved Repository State, Release Authorization, Deployment Execution, and Operational Acceptance shall remain distinct responsibilities.
 - Chapter 14 is approved and authoritative upon merge of PR #22; Chapters 1 through 14 are complete.
 - Chapter 15 Scope Proposal is approved and authorizes PR #24 for constitutional Continuous Improvement only.
-- Chapter 15 is drafted for review in PR #24 and has no constitutional authority until approved and merged.
-- Chapter 16 is blocked until Chapter 15 is reviewed, approved, and merged.
+- Chapter 15 is approved and authoritative upon merge of PR #24; Chapters 1 through 15 are complete.
+- Chapter 16 remains undrafted and requires a separately reviewed and approved Scope Proposal.
+- Master Charter v1.0 remains blocked by Chapter 16 approval, completion of `GOV-016`, and a passing Final Constitutional Adoption Review.
 - Architecture Audit approved: PASS WITH RECOMMENDATIONS; Master Charter v1.0 is not yet ready.
 - Master Charter v1.0 Completion Plan approved with Milestones A, B, C, and a Final Constitutional Adoption Review.
 - Accepted recommendations are backlog requirements, not retroactive Chapter 1 defects.
