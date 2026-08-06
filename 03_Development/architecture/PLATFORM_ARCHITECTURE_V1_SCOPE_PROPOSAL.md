@@ -2,13 +2,14 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
+| Status | Active |
 | Version | 0.1.0 |
 | Date | 2026-08-06 |
 | Backlog | `ARC-002` |
 | Owner | Chief architect |
 | Scope | Architecture definition only; no Dashboard or Platform implementation |
 | Authority | [Master Project Charter](../../MASTER_PROJECT_CHARTER.md), [Product Charter](../../00_Governance/03_PRODUCT_CHARTER.md), and [Architecture baseline](../../00_Governance/ARCHITECTURE.md) |
+| Approval | CTO-approved and merged through PR #32 |
 
 ## Executive Decision Requested
 
@@ -394,7 +395,7 @@ The Scope Proposal is acceptable only when review confirms:
 
 This scope-proposal task is Done only when:
 
-1. this document exists under `03_Development/architecture` with truthful Review metadata;
+1. this document exists under `03_Development/architecture` with truthful Active and approval metadata;
 2. all requested scope sections and architecture views are included;
 3. repository analysis and duplication findings are recorded;
 4. independent documentation and architecture QA is stored under `05_QA`;
@@ -485,9 +486,9 @@ See Section 6. The final view shall validate navigation depth, cross-module cont
 
 ## Approval Gate
 
-Until this Scope Proposal is explicitly approved:
+The Scope Proposal is approved. The following downstream gates remain effective:
 
-- Platform Architecture v1.0 shall not be drafted as Active architecture;
+- Platform Architecture v1.0 shall not be drafted before the Architecture Readiness Package is approved;
 - the existing Architecture baseline remains authoritative;
 - `ARC-001` and Dashboard implementation remain unstarted;
 - no excluded technical decision or implementation is authorized; and
