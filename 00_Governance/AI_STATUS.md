@@ -6,11 +6,11 @@
 | Architecture status | Approved and frozen |
 | Governance status | Active and frozen |
 | Project status | Foundation Complete |
-| Current phase | Phase 2 — Platform Architecture v1.0 Scope Review |
-| Active backlog item | `ARC-002` |
-| Active branch | `agent/platform-architecture-v1-scope` |
-| Active pull request | Draft PR #32 — Platform Architecture v1.0 Scope Proposal |
-| Next approved action | Obtain CTO review of the Platform Architecture v1.0 Scope Proposal; do not draft the architecture or implement the Dashboard before approval |
+| Current phase | Phase 2 — Architecture Readiness Review |
+| Active backlog item | `ARC-003` |
+| Active branch | `agent/platform-architecture-readiness` |
+| Active pull request | Draft Architecture Readiness Package PR |
+| Next approved action | Obtain CTO approval for phase naming, ADR-001, and the non-functional baseline; do not write Platform Architecture v1.0 or Dashboard code before approval |
 | Blockers | None |
 
 ## Constitutional State
