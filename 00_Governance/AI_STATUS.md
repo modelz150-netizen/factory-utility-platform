@@ -9,7 +9,7 @@
 | Current phase | Phase 2 — Architecture Readiness Review |
 | Active backlog item | `ARC-003` |
 | Active branch | `agent/platform-architecture-readiness` |
-| Active pull request | Draft Architecture Readiness Package PR |
+| Active pull request | Draft PR #33 — Architecture Readiness Package |
 | Next approved action | Obtain CTO approval for phase naming, ADR-001, and the non-functional baseline; do not write Platform Architecture v1.0 or Dashboard code before approval |
 | Blockers | None |
 
