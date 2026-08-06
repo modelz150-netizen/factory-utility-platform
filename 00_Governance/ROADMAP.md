@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Status | Review — Phase normalization proposed |
+| Status | Active |
 | Updated | 2026-08-06 |
 | Current phase | Phase 2 — Platform Engineering |
 | Decision source | [Phase Naming Normalization Proposal](../01_Product/planning/PHASE_NAMING_PROPOSAL.md) |
