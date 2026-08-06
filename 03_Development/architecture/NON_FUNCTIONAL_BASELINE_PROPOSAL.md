@@ -2,16 +2,19 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
+| Status | Active |
 | Version | 0.1.0 |
 | Date | 2026-08-06 |
 | Backlog | `ARC-003` |
 | Owner | Chief architect with QA, Security, Accessibility, and Operations review |
 | Applies to | Platform foundation and first Dashboard MVP when separately authorized |
+| Approval | CTO-approved and merged through PR #33 |
 
 ## Purpose
 
 Define measurable minimum quality targets that Platform Architecture v1.0 and later implementation must design for. These are proposal-stage engineering budgets, not evidence that a production system currently meets them.
+
+The monthly availability target of 99.5% or higher, initial RTO of 4 hours, and initial RPO of 24 hours are approved initial baselines. They shall be reviewed and strengthened before live SCADA integration, production operational-data ingestion, high-consequence alarm functions, or enterprise service commitments.
 
 ## Measurement Principles
 

@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-08-06 — Platform Architecture v1.0 Proposed
+
+- Recorded CTO approval and merge of PR #33, marked `ARC-003` Done, and activated the six-phase Roadmap, ADR-001, and Non-functional Baseline.
+- Defined the WordPress-hosted modular-monolith context, module ownership, inward dependency direction, host and provider adapters, shared services, data flow, security zones, deployment, observability, recovery, responsive/accessibility, and MVP boundaries under `ARC-004`.
+- Added all eight required architecture views and explicit review gates for the initial availability, RTO, and RPO baselines.
+- Recorded independent architecture QA with no Critical or Major issue.
+- Created no production Dashboard code, live AI/SCADA implementation, database schema, API code, authentication system, or production deployment.
+- Preserved the frozen Governance Architecture and approved Master Project Charter unchanged.
+
 ## 2026-08-06 — Architecture Readiness Package Proposed
 
 - Recorded CTO approval and merge of PR #32 and marked `ARC-002` Done.

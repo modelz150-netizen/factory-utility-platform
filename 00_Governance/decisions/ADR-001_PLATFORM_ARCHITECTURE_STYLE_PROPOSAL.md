@@ -2,13 +2,14 @@
 
 | Field | Value |
 |---|---|
-| Status | Proposed |
+| Status | Active |
 | Date | 2026-08-06 |
 | Backlog | `ARC-003` |
 | Decision owner | Chief architect |
 | Scope | Platform architecture style and WordPress dependency boundary |
 | Supersedes | None |
-| Decision | Not effective until CTO approval |
+| Decision | WordPress-hosted modular monolith with hybrid-ready adapter boundaries |
+| Approval | CTO-approved and merged through PR #33 |
 
 ## Context
 
