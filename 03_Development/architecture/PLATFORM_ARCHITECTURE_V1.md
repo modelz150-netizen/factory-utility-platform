@@ -2,14 +2,15 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 1.0.0-rc.1 |
+| Status | Active |
+| Version | 1.0.0 |
 | Date | 2026-08-06 |
 | Backlog | `ARC-004` |
 | Owner | Chief architect |
 | Scope authority | [Platform Architecture v1.0 Scope Proposal](PLATFORM_ARCHITECTURE_V1_SCOPE_PROPOSAL.md) |
 | Style decision | [ADR-001 — Platform Architecture Style](../../00_Governance/decisions/ADR-001_PLATFORM_ARCHITECTURE_STYLE_PROPOSAL.md) |
 | Quality baseline | [Platform Non-functional Baseline](NON_FUNCTIONAL_BASELINE_PROPOSAL.md) |
+| Approval | CTO-approved and merged through PR #34 |
 
 ## 1. Purpose and Authority
 
