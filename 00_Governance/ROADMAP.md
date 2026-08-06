@@ -2,74 +2,96 @@
 
 | Field | Value |
 |---|---|
-| Status | Working roadmap |
-| Updated | 2026-08-05 |
-| Current milestone | Governance Implementation |
+| Status | Review — Phase normalization proposed |
+| Updated | 2026-08-06 |
+| Current phase | Phase 2 — Platform Engineering |
+| Decision source | [Phase Naming Normalization Proposal](../01_Product/planning/PHASE_NAMING_PROPOSAL.md) |
 
-The roadmap expresses sequencing, not fixed delivery dates. Dates and commitments require explicit product approval.
+The Roadmap is the authoritative operational phase sequence after approval of `ARC-003`. It expresses sequencing, not fixed delivery dates. Dates and material commitments require explicit Product approval.
 
-## Phase 1 - Foundation
+## Phase 1 — Constitutional and Governance Foundation
 
-**Outcome:** A documented, reusable WordPress foundation on which product modules can be built safely.
+**Status:** Complete
 
-- Governance and documentation system
-- Project and module architecture
-- Design tokens and shared component system
-- Dashboard shell and widget framework
-- Calculator definition and execution framework
-- Engineering reference content framework
-- Baseline testing, accessibility, performance, and release processes
+**Outcome:** The Platform has an adopted Constitution and a stable Governance system that supports accountable long-term engineering.
 
-**Exit criteria:** Architecture is documented; shared frameworks have acceptance criteria; a representative vertical slice is tested; backlog and release process are operational.
+- Master Project Charter Version 1.0
+- approved and frozen Governance Architecture
+- Product Charter, Architecture baseline, and responsibility-specific Standards
+- Backlog, Changelog, AI Status, ADR, QA, and document-lifecycle foundations
+- historical continuity from the Superseded Project Charter
 
-## Phase 2 - Core Engineering Tools
+## Phase 2 — Platform Engineering
 
-**Outcome:** Engineers can perform trusted calculations and use structured reference material.
+**Status:** Current
 
-- Initial calculator catalog
-- Units, conversions, validation, and source traceability
-- Engineering reference taxonomy and search
-- Equipment library foundation
-- Mobile usability validation
+**Outcome:** A validated, reusable WordPress-first Platform foundation exists before Product feature implementation expands.
 
-## Phase 3 - Troubleshooting and Vendor Knowledge
+- Platform Architecture v1.0 scope and architecture definition
+- architecture-style ADR and module dependency rules
+- measurable non-functional baseline
+- physical WordPress module and package architecture
+- design-system and responsive experience-shell foundation
+- Dashboard, Calculator, Reference, and Knowledge framework boundaries
+- security, accessibility, performance, observability, and recovery foundations
+- one representative vertical architecture slice using approved fixture or governed content
 
-**Outcome:** Engineers can move from a symptom to structured diagnostic guidance and relevant equipment information.
+**Exit criteria:** Platform Architecture v1.0 and prerequisite decisions are approved; shared framework acceptance criteria exist; a representative foundation slice is validated; no excluded live SCADA or AI integration is introduced.
+
+## Phase 3 — Core Engineering Tools
+
+**Outcome:** Engineers can use trusted calculations, structured references, knowledge, and asset foundations through the shared Platform.
+
+- initial Calculator catalog
+- units, conversions, validation, and source traceability
+- Engineering Reference taxonomy and search
+- Knowledge Library foundation
+- Asset Library foundation
+- mobile and field usability validation
+
+## Phase 4 — Troubleshooting and Engineering Knowledge
+
+**Outcome:** Engineers can move from symptoms and assets to structured diagnostic and vendor knowledge.
 
 - Trouble Guide framework and workflows
-- Equipment-to-symptom relationships
-- Vendor library and normalized vendor metadata
-- Content governance and review lifecycle
+- equipment-to-symptom relationships
+- preventive-maintenance knowledge context
+- vendor library and normalized vendor metadata
+- governed review and knowledge lifecycle
 
-## Phase 4 - Operational Intelligence
+## Phase 5 — Operational and Energy Intelligence
 
-**Outcome:** The platform supports operational visibility with safe integration boundaries.
+**Outcome:** The Platform introduces operational visibility through approved safe integration boundaries.
 
-- SCADA dashboard architecture and connectors
-- Time-series visualization patterns
-- Alarm and operational context
-- Energy and carbon data model
-- Reporting and baseline comparisons
+- read-oriented SCADA architecture and approved connectors
+- time-series and freshness-aware visualization patterns
+- alarm and operational context
+- energy and carbon information model
+- governed reports and baseline comparisons
+- CAPEX/OPEX analytical context
 
-## Phase 5 - AI Copilot
+## Phase 6 — Governed AI Assistance
 
-**Outcome:** A governed assistant helps users navigate trusted platform knowledge and workflows.
+**Outcome:** AI assistance helps users navigate approved Platform knowledge while preserving citations, permissions, validation, and human accountability.
 
-- Retrieval from approved sources
-- Citations and uncertainty handling
-- Permissions, privacy, auditability, and feedback
-- Engineering workflow assistance
-- Safety evaluation and production monitoring
+- retrieval from approved sources
+- citations, limitations, and uncertainty handling
+- permissions, privacy, auditability, and feedback
+- bounded engineering workflow assistance
+- safety evaluation, monitoring, stop, and fallback controls
 
 ## Cross-cutting Tracks
 
-- Security and privacy
-- Accessibility and responsive design
-- Performance and SEO
-- Engineering data governance
-- Observability and quality assurance
-- Release, migration, backup, and rollback readiness
+- security and privacy
+- accessibility and responsive design
+- performance and SEO
+- engineering data and knowledge Governance
+- observability and quality assurance
+- Release, migration, backup, and recovery readiness
+- Project Memory and Continuous Improvement
 
 ## Roadmap Governance
 
-Roadmap items become executable work only after they receive a backlog ID, priority, acceptance criteria, dependencies, and approval when scope is material.
+Roadmap outcomes become executable only through approved Backlog items with acceptance criteria, dependencies, authority, and proportionate QA evidence. Phase placement does not itself authorize implementation, live integration, production Release, or acceptance of residual risk.
+
+Historical records retain the phase names effective when they were created. The Master Project Charter and Product Charter are not changed by this operational normalization.
