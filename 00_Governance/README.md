@@ -12,11 +12,11 @@
 
 This directory contains the authoritative governance system for the Factory Utility Platform. It separates durable policy, product direction, architecture, standards, operational registers, decisions, and templates so that each document has one responsibility.
 
-`MASTER_PROJECT_CHARTER.md` is intentionally absent during Phase 1. After this governance architecture is reviewed and merged, Chapter 1 will be proposed separately at the repository root. No additional charter chapter may be written without sequential review and approval.
+The root [`MASTER_PROJECT_CHARTER.md`](../MASTER_PROJECT_CHARTER.md) is the repository's highest Governance document. Chapters 1 through 16 are approved; the Charter remains a draft constitutional baseline until all Version 1.0 adoption gates pass. The former `PROJECT_CHARTER.md` remains available as Superseded historical context.
 
 ## Authority and Document Map
 
-Until the Master Project Charter is accepted, `00_AI_CONSTITUTION.md` is the highest active repository policy beneath explicit user approval. After acceptance, the Master Project Charter will become the highest repository document and all documents below will derive authority from it.
+The Master Project Charter is the highest repository document beneath explicit owner authority. The AI Constitution, Product Charter, Architecture, Standards, decisions, operational registers, and historical records derive their authority through the hierarchy defined by the Master Charter.
 
 | Document | Responsibility | Change pattern |
 |---|---|---|
@@ -34,13 +34,13 @@ Until the Master Project Charter is accepted, `00_AI_CONSTITUTION.md` is the hig
 | `CHANGELOG.md` | Notable repository changes | Every material change |
 | `decisions/` | Durable architecture decision records | One ADR per material decision |
 | `templates/` | Reusable governance artifact templates | Standards review |
-| `PROJECT_CHARTER.md` | Legacy project charter retained unchanged pending Master Charter acceptance | No change during Phase 1 |
+| `PROJECT_CHARTER.md` | Superseded legacy project charter retained for historical traceability and backward-compatible references | Historical preservation only |
 
 ## Repository Governance Flow
 
 ```mermaid
 flowchart TD
-    U["Explicit owner approval"] --> C["Master Project Charter - planned"]
+    U["Explicit owner approval"] --> C["Master Project Charter"]
     C --> A["AI Constitution"]
     C --> P["Product Charter"]
     C --> R["Architecture"]
@@ -54,7 +54,7 @@ flowchart TD
     B --> CL["Changelog"]
 ```
 
-The planned Master Project Charter node does not become active authority until its first approved chapter is merged.
+The Master Project Charter is the current constitutional Source of Truth. Its Version 1.0 declaration remains blocked until all adoption gates defined by the Charter are satisfied.
 
 ## Frozen Architecture Policy
 
