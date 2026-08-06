@@ -2,13 +2,14 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
+| Status | Active |
 | Version | 0.1.0 |
 | Date | 2026-08-06 |
 | Backlog | `ARC-003` |
 | Owner | Chief architect |
 | Prerequisite | Approved [Platform Architecture v1.0 Scope Proposal](PLATFORM_ARCHITECTURE_V1_SCOPE_PROPOSAL.md) |
 | Decision authority | CTO review |
+| Approval | CTO-approved and merged through PR #33 |
 
 ## Purpose
 
