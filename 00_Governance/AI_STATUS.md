@@ -9,7 +9,7 @@
 | Current phase | Phase 2 — Platform Architecture v1.0 Scope Review |
 | Active backlog item | `ARC-002` |
 | Active branch | `agent/platform-architecture-v1-scope` |
-| Active pull request | Draft Platform Architecture v1.0 Scope Proposal PR |
+| Active pull request | Draft PR #32 — Platform Architecture v1.0 Scope Proposal |
 | Next approved action | Obtain CTO review of the Platform Architecture v1.0 Scope Proposal; do not draft the architecture or implement the Dashboard before approval |
 | Blockers | None |
 
