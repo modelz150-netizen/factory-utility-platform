@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-08-06 — Chapter 16 Drafted
+
+- Added Chapter 16, Success Criteria and Constitutional Completion, for PR #27 review under `GOV-037`.
+- Defined constitutional success, completion, adoption, Version 1.0 readiness, evidence-capable outcomes, integrity, stewardship, sustainability, legacy, maintainability, and incomplete-readiness handling.
+- Preserved approved Chapters 1 through 15 and the authority boundaries of Chapters 8, 9, 10, 11, 13, and 15.
+- Excluded adoption, audit, KPI, Release, Workflow, template, repository-operation, and tool-specific procedures.
+- Recorded independent QA as PASS WITH RECOMMENDATIONS with no Critical or Major issue.
+- Did not complete `GOV-016`, perform the Final Constitutional Adoption Review, declare Version 1.0, or change the frozen Governance Architecture.
+
+## 2026-08-06 — Chapter 16 Scope Approved
+
+- CTO approved the Chapter 16 Success Criteria and Constitutional Completion Scope Proposal through PR #26.
+- Closed `GOV-036` and authorized `GOV-037` for PR #27.
+- Limited Chapter 16 to constitutional completion, adoption principles, stewardship, integrity, legacy, maintainability, and Version 1.0 readiness.
+- Preserved the frozen Governance Architecture and retained all remaining Version 1.0 gates.
+
 ## 2026-08-06 — Chapter 16 Scope Proposed
 
 - Added the Chapter 16 Success Criteria and Constitutional Completion Scope Proposal under `GOV-036`.

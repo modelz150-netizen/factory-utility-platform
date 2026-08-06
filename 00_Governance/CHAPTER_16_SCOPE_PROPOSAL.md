@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 0.1.0 |
+| Status | Approved |
+| Version | 1.0.0 |
 | Updated | 2026-08-06 |
 | Owner | Constitutional steward |
 | Backlog ID | GOV-036 |
@@ -179,4 +179,14 @@ This Scope Proposal is accepted only when the CTO confirms that:
 11. no frozen Governance structure requires change; and
 12. approval authorizes Chapter 16 drafting only, not `GOV-016` completion, Final Constitutional Adoption Review execution, or Version 1.0 declaration.
 
-Until explicit approval is recorded, Chapter 16 remains unauthorized.
+## 10. Approval Record
+
+| Field | Value |
+|---|---|
+| Decision date | 2026-08-06 |
+| CTO review result | Approved |
+| Authorized implementation | PR #27, Chapter 16 only |
+| Approved responsibility | Constitutional Success Criteria and Constitutional Completion only |
+| Excluded continuation | Final Constitutional Adoption Review remains unauthorized until Chapter 16 is reviewed, approved, and merged. |
+
+This approval authorizes implementation of Chapter 16 within the accepted scope. It does not authorize `GOV-016` completion, the Final Constitutional Adoption Review, Version 1.0 declaration, operational procedures, or changes to the frozen Governance Architecture.
