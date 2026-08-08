@@ -1,0 +1,42 @@
+{
+  "name": "factory-utility/platform",
+  "description": "Physical package foundation for the Factory Utility Platform WordPress-hosted modular monolith.",
+  "type": "wordpress-plugin",
+  "license": "proprietary",
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^2.1",
+    "phpunit/phpunit": "^11.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "FactoryUtility\\Platform\\": "src/Platform/",
+      "FactoryUtility\\Modules\\": "src/Modules/",
+      "FactoryUtility\\Experience\\": "src/Experience/",
+      "FactoryUtility\\Adapters\\": "src/Adapters/",
+      "FactoryUtility\\Shared\\": "src/Shared/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FactoryUtility\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "allow-plugins": false,
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "scripts": {
+    "analyse": "phpstan analyse --configuration=phpstan.neon --no-progress",
+    "architecture": "phpunit --testsuite architecture",
+    "test": "phpunit",
+    "check": [
+      "@composer validate --strict",
+      "@analyse",
+      "@test"
+    ]
+  }
+}

@@ -5,12 +5,12 @@
 | Updated | 2026-08-08 |
 | Architecture status | Approved and frozen |
 | Governance status | Active and frozen |
-| Project status | Platform Implementation Readiness Approved |
-| Current phase | Phase 2 — Documentation Synchronization |
-| Active backlog item | `ARC-005` |
-| Active branch | `agent/synchronize-pr35-governance` |
-| Active pull request | Draft PR #36 — Synchronize PR #35 governance records |
-| Next approved action | Merge the documentation synchronization PR, then prepare the exact physical package design and Design System implementation plan in the approved dependency order; implementation remains separately gated |
+| Project status | Physical Package Foundation in Review |
+| Current phase | Phase 2-A — Physical Package Foundation |
+| Active backlog item | `ARC-001` |
+| Active branch | `agent/physical-package-foundation` |
+| Active pull request | Draft PR #37 — Physical Package Foundation |
+| Next approved action | Obtain architecture, QA, and CTO review of the Physical Package Foundation; do not begin Design System or Dashboard implementation before approval and merge |
 | Blockers | None |
 
 ## Constitutional State
@@ -45,11 +45,12 @@
 - Active Platform Architecture v1.0, CTO-approved and merged through PR #34
 - Platform Implementation Readiness Package approved by the CTO and merged through PR #35
 - Physical WordPress Package Architecture, Design System Foundation, Dashboard Framework, and First Vertical Slice proposals approved as planning authority only
+- Physical Package Foundation implemented on its dedicated branch with architecture and QA evidence pending CTO approval
 
 ## Platform Implementation Guard
 
 - `ARC-005` approval permits the next detailed-design and implementation-authorization work in the approved dependency order.
-- Exact physical packages, namespaces, tooling, and dependency-fitness checks require an approved physical design before scaffolding.
+- Exact physical packages, namespaces, tooling, and dependency-fitness checks are defined in the Physical Package Foundation and remain in Review until its dedicated PR is approved and merged.
 - Design System component code requires an approved implementation plan with Accessibility and QA sign-off roles.
 - Dashboard Framework implementation depends on the approved physical and Design System foundations.
 - The fixture-based vertical slice remains unimplemented until a separate authorization gate.
