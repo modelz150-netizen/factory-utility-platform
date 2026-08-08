@@ -45,7 +45,7 @@
 | ARC-002 | P0 | Done | Architecture | Define Platform Architecture v1.0 scope | CTO approved the complete 20-item scope and seven architecture views; PR #32 merged with no Dashboard implementation, Critical or Major issue, broken link, or Governance Architecture change. |
 | ARC-003 | P0 | Done | Architecture | Complete the Platform Architecture v1.0 Readiness Package | CTO approved the normalized six-phase Roadmap, WordPress-hosted modular-monolith ADR, measurable initial non-functional baseline, decision sequence, and implementation guard through PR #33. |
 | ARC-004 | P0 | Done | Architecture | Define Platform Architecture v1.0 | CTO approved all required boundaries and eight architecture views through PR #34; the document is Active Version 1.0.0 with no production Dashboard code or live AI/SCADA implementation. |
-| ARC-005 | P0 | Review | Architecture | Complete the Platform Implementation Readiness Package | Physical WordPress packaging, Design System foundation, Dashboard Framework, and fixture-based vertical-slice proposals define dependencies, acceptance, QA, risks, open decisions, implementation order, and Definition of Done without implementation. |
+| ARC-005 | P0 | Approved | Architecture | Complete the Platform Implementation Readiness Package | CTO approved the physical WordPress packaging, Design System foundation, Dashboard Framework, and fixture-based vertical-slice proposals through merged PR #35; the package defines dependencies, acceptance, QA, risks, open decisions, implementation order, and Definition of Done without authorizing implementation. |
 | DES-001 | P0 | Todo | Design | Establish design system foundation | Tokens, responsive breakpoints, accessibility rules, and core shared components are specified and demonstrable. |
 | DASH-001 | P0 | Todo | Dashboard | Define dashboard and widget framework | Requirements and architecture cover layout, widget registration, states, permissions, responsiveness, and extensibility. |
 | CALC-001 | P0 | Todo | Calculator | Define calculator framework | Schema covers variables, units, validation, formulas, precision, source traceability, errors, and test vectors. |
@@ -60,6 +60,7 @@
 - `In Progress`: Active work with an identified owner or current execution.
 - `Blocked`: Cannot proceed until a recorded dependency or decision is resolved.
 - `Review`: Implementation is complete and awaits verification or approval.
+- `Approved`: A proposal or decision package has received its required approval and evidence, while any separately gated downstream implementation remains unauthorized.
 - `Done`: Acceptance criteria and required evidence are satisfied.
 
 ## Backlog Rules

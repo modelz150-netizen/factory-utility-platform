@@ -2,12 +2,13 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 0.1.0 |
+| Status | Active — Approved |
+| Version | 1.0.0 |
 | Date | 2026-08-06 |
 | Backlog | `ARC-001`, `ARC-005` |
 | Owner | Chief architect |
 | Authority | [Platform Architecture v1.0](PLATFORM_ARCHITECTURE_V1.md) |
+| Approval | CTO-approved and merged through PR #35 |
 
 ## Purpose
 
