@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-08 — PR #35 Governance Records Synchronized
+
+- Recorded CTO approval and the completed merge of PR #35 for the Platform Implementation Readiness Package.
+- Marked `ARC-005` Approved and synchronized its Backlog and AI Status records.
+- Activated the approved physical WordPress package, Design System foundation, Dashboard Framework, and fixture-based vertical-slice proposals as planning authority only.
+- Preserved the separate gates for physical design, Design System implementation planning, Dashboard Framework implementation, the fixture-based vertical slice, and production promotion.
+- Added documentation synchronization validation evidence with no production code, live integration, schema, API, authentication, deployment, Platform Architecture, Governance Architecture, or Charter change.
+
 ## 2026-08-06 — Platform Implementation Readiness Proposed
 
 - Recorded CTO approval and merge of PR #34, marked `ARC-004` Done, and activated Platform Architecture Version 1.0.0.

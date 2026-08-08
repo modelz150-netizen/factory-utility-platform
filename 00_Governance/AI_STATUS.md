@@ -2,15 +2,15 @@
 
 | Field | Current value |
 |---|---|
-| Updated | 2026-08-06 |
+| Updated | 2026-08-08 |
 | Architecture status | Approved and frozen |
 | Governance status | Active and frozen |
-| Project status | Foundation Complete |
-| Current phase | Phase 2 — Platform Implementation Readiness Review |
+| Project status | Platform Implementation Readiness Approved |
+| Current phase | Phase 2 — Documentation Synchronization |
 | Active backlog item | `ARC-005` |
-| Active branch | `agent/platform-implementation-readiness` |
-| Active pull request | Draft PR #35 — Platform Implementation Readiness Package |
-| Next approved action | Obtain CTO review of the four implementation-readiness proposals; do not implement production Dashboard code or live integrations |
+| Active branch | `agent/synchronize-pr35-governance` |
+| Active pull request | Draft PR #36 — Synchronize PR #35 governance records |
+| Next approved action | Merge the documentation synchronization PR, then prepare the exact physical package design and Design System implementation plan in the approved dependency order; implementation remains separately gated |
 | Blockers | None |
 
 ## Constitutional State
@@ -43,7 +43,17 @@
 - Finalized Master Charter QA and adoption evidence
 - Approved six-phase operational Roadmap, ADR-001, and initial Non-functional Baseline through PR #33
 - Active Platform Architecture v1.0, CTO-approved and merged through PR #34
-- Platform Implementation Readiness Package in independent review under `ARC-005`
+- Platform Implementation Readiness Package approved by the CTO and merged through PR #35
+- Physical WordPress Package Architecture, Design System Foundation, Dashboard Framework, and First Vertical Slice proposals approved as planning authority only
+
+## Platform Implementation Guard
+
+- `ARC-005` approval permits the next detailed-design and implementation-authorization work in the approved dependency order.
+- Exact physical packages, namespaces, tooling, and dependency-fitness checks require an approved physical design before scaffolding.
+- Design System component code requires an approved implementation plan with Accessibility and QA sign-off roles.
+- Dashboard Framework implementation depends on the approved physical and Design System foundations.
+- The fixture-based vertical slice remains unimplemented until a separate authorization gate.
+- Production Dashboard code, live integrations, schemas, APIs, authentication, and deployment remain unauthorized.
 
 ## Update Rules
 
