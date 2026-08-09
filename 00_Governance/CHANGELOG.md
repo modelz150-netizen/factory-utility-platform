@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-08-09 — Dashboard Framework Implementation Plan Approved
+
+- Recorded final CTO approval of revised PR #40 and activated the multilingual Dashboard Framework Implementation Plan Version 1.0.0.
+- Kept `DASH-001` In Progress because framework implementation remains a separate approval gate.
+- Authorized one dedicated implementation Pull Request after PR #40 merge and successful `main` validation.
+- Preserved production dashboards, utility business screens, KPI calculations, alarms, SCADA, AI, operational data, authentication, schema, and deployment outside the authorized implementation scope.
+
+## 2026-08-09 — Dashboard Framework Multilingual Architecture Added
+
+- Revised the `DASH-001` implementation plan after CTO review to make English the canonical language and `ko-KR`, `vi-VN`, and `en-US` the initial user-interface locales.
+- Defined the shared Shell language selector, centralized translation/fallback/formatting contracts, replaceable preference persistence, Unicode typography, truthful terminology, and three-locale fixture requirements.
+- Added QA gates for dictionary completeness, missing keys, parameters, plurals, locale-aware formatting, text expansion, focus retention, and prohibition of translated-text business logic.
+- Added no Dashboard Framework code, platform-wide translation, utility terminology catalogue, SCADA/AI translation, production data, or business Dashboard.
+
+## 2026-08-09 — Dashboard Framework Implementation Plan Proposed
+
+- Confirmed PR #39 merged and recorded complete post-merge Design System Foundation validation on `main`.
+- Proposed the `DASH-001` Dashboard Framework implementation plan covering architecture boundaries, shell/layout, navigation, module and widget registration, routing, truthful states, fixtures, responsive behavior, accessibility, testing, budgets, sequence, risks, and Definition of Done.
+- Required a separately approved implementation Pull Request and later separate business Dashboard or vertical-slice gate.
+- Introduced no Dashboard Framework code, business Dashboard UI, utility-specific screen, production operational data, SCADA, AI, schema, authentication, chart dependency, deployment, or release behavior.
+- Preserved the Master Project Charter, Platform Architecture v1.0, and frozen Governance Architecture unchanged.
+
 ## 2026-08-09 — Design System Foundation Approved
 
 - Recorded final CTO approval of PR #39 and activated Design System Foundation Version 1.0.0.
