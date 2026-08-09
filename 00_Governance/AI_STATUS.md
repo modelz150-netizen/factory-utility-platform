@@ -5,12 +5,12 @@
 | Updated | 2026-08-09 |
 | Architecture status | Approved and frozen |
 | Governance status | Active and frozen |
-| Project status | Home Dashboard First Vertical Slice Implementation Plan Version 1.0.0 Approved |
-| Current phase | Phase 2-B — Home Dashboard Implementation Plan Approved |
-| Active backlog item | None; `DASH-003` Done |
-| Active branch | `agent/dash-003-home-dashboard-implementation-plan` |
-| Active pull request | Draft PR #43 |
-| Next approved action | Merge PR #43, validate `main`, then begin the Home Dashboard implementation on a dedicated branch and Draft PR using simulated fixtures only |
+| Project status | Home Dashboard First Vertical Slice implementation in progress |
+| Current phase | Phase 2-B — Home Dashboard First Vertical Slice Implementation |
+| Active backlog item | `DASH-004` In Progress |
+| Active branch | `agent/dash-004-home-dashboard-vertical-slice` |
+| Active pull request | Draft PR pending publication |
+| Next approved action | Complete automated and browser evidence in a dedicated Draft PR; keep Draft until CTO and Utility Manager visual approval |
 | Blockers | None; Dashboard Framework actual 200% zoom and 400% browser reflow remain NOT VERIFIED, and VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain NOT RUN / Deferred |
 
 ## Constitutional State
@@ -53,6 +53,7 @@
 - Dashboard Framework and multilingual foundation Version 1.0.0 CTO-approved and merged through PR #41; `DASH-001` Done
 - Home Dashboard First Vertical Slice Scope Proposal Version 0.2.0 approved by the CTO and Utility Manager through PR #42; `DASH-002` Done
 - Home Dashboard First Vertical Slice Implementation Plan Version 1.0.0 approved by the CTO and Utility Manager through PR #43; `DASH-003` Done, with implementation authorized only after merge and post-merge validation
+- Home Dashboard First Vertical Slice implementation started as `DASH-004` with simulated fixtures only after PR #43 merge and successful post-merge validation
 
 ## Platform Implementation Guard
 

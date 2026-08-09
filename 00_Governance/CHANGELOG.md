@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-09 — Home Dashboard First Vertical Slice Implemented for Review
+
+- Implemented the `overall-health/1.0` fail-safe Domain policy, Application read/projection contracts, and isolated deterministic simulated fixture adapter.
+- Added a manager-first Home Dashboard fixture with Overall Health, alarms, supplied-priority attention, eight Utilities, four P0 KPIs, reliability risk, maintenance truth, subordinate P1 context, provenance, plant-local time, three locales, responsive layout, and contained failure scenarios.
+- Added contract, Domain, fixture, architecture, asset-budget, localization, and truth-boundary tests; kept `DASH-004` In Progress and the implementation Pull Request Draft pending required visual review.
+- Added no live integration/data, real alarm/KPI calculation, database, authentication, AI, CMMS/workflow, notification, control, detailed Utility screen, or deployment behavior.
+
 ## 2026-08-09 — Home Dashboard Implementation Plan Approved
 
 - Recorded final CTO and Utility Manager approval of PR #43 and activated the DASH-003 Home Dashboard First Vertical Slice Implementation Plan Version 1.0.0.
