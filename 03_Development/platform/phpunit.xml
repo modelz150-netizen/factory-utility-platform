@@ -13,5 +13,8 @@
         <testsuite name="architecture">
             <directory>tests/Architecture</directory>
         </testsuite>
+        <testsuite name="experience">
+            <directory>tests/Experience</directory>
+        </testsuite>
     </testsuites>
 </phpunit>

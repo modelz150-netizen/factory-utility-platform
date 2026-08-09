@@ -1,0 +1,10 @@
+@layer layout {
+  .fup-container { inline-size: min(100% - 2rem, 90rem); margin-inline: auto; }
+  .fup-stack { display: flex; flex-direction: column; gap: var(--fup-space-4); }
+  .fup-cluster { display: flex; flex-wrap: wrap; gap: var(--fup-space-3); align-items: center; }
+  .fup-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: var(--fup-space-4); }
+  .fup-shell { min-block-size: 100dvh; display: grid; grid-template: auto auto 1fr auto / minmax(0, 1fr); }
+  .fup-shell__header, .fup-shell__nav, .fup-shell__footer { padding: var(--fup-space-4); }
+  .fup-shell__main { min-inline-size: 0; padding: var(--fup-space-4); }
+  @media (min-width: 64rem) { .fup-shell { grid-template: auto 1fr auto / 15rem minmax(0, 1fr); } .fup-shell__header, .fup-shell__footer { grid-column: 1 / -1; } .fup-shell__nav { grid-row: 2; } }
+}

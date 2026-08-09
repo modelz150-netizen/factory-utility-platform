@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Design System Foundation — Demo</title>
+  <link rel="stylesheet" href="../../../assets/design-system/css/index.css">
+  <script src="fixture.js" defer></script>
+</head>
+<body>
+  <a class="fup-skip-link" href="#main">Skip to main content</a>
+  <div class="fup-shell">
+    <header class="fup-shell__header fup-cluster"><strong>Foundation Demo</strong><span class="fup-status" data-status="simulated">Simulated content</span></header>
+    <nav class="fup-shell__nav" aria-label="Demo sections"><a href="#states">States</a> · <a href="#form">Form</a> · <a href="#table">Table</a></nav>
+    <main class="fup-shell__main fup-stack" id="main" tabindex="-1">
+      <div><p class="fup-hint">Non-production fixture · fictional values only</p><h1>Design System Foundation</h1><p>This page validates reusable presentation primitives. It is not a Dashboard and contains no operational data.</p></div>
+      <section class="fup-panel fup-stack" id="states" aria-labelledby="states-title"><h2 id="states-title">Truthful presentation states</h2><div class="fup-cluster">
+        <span class="fup-status" data-status="neutral">Neutral</span><span class="fup-status" data-status="information">Information</span><span class="fup-status" data-status="success">Success</span><span class="fup-status" data-status="warning">Warning</span><span class="fup-status" data-status="critical">Critical</span><span class="fup-status" data-status="unknown">Unknown</span><span class="fup-status" data-status="loading">Loading</span><span class="fup-status" data-status="empty">Empty</span><span class="fup-status" data-status="partial">Partial</span><span class="fup-status" data-status="stale">Stale</span><span class="fup-status" data-status="unavailable">Unavailable</span><span class="fup-status" data-status="simulated">Simulated</span>
+      </div></section>
+      <div class="fup-grid">
+        <section class="fup-panel fup-stack" id="form" aria-labelledby="form-title"><h2 id="form-title">Form primitives</h2><div class="fup-field"><label for="demo-name">Demo label</label><span class="fup-hint" id="demo-hint">Fictional text for validation.</span><input class="fup-input" id="demo-name" aria-describedby="demo-hint" value="Example only"></div><div class="fup-cluster"><button class="fup-button" type="button">Primary action</button><button class="fup-button fup-button--secondary" type="button" id="open-dialog">Open dialog</button><button class="fup-button" type="button" disabled>Disabled</button></div></section>
+        <section class="fup-panel fup-stack" aria-labelledby="panel-title"><h2 id="panel-title">Generic data panel</h2><p class="fup-data">Demo value: 12.34 units</p><div class="fup-status" data-status="simulated">Simulation disclosure: no source authority</div></section>
+      </div>
+      <section id="table" aria-labelledby="table-title"><h2 id="table-title">Responsive table primitive</h2><div class="fup-table-wrap" tabindex="0" role="region" aria-label="Scrollable demo table"><table class="fup-table"><caption>Fictional component examples</caption><thead><tr><th scope="col">Item</th><th scope="col">State</th><th scope="col">Value</th></tr></thead><tbody><tr><th scope="row">Example A</th><td>Simulated</td><td class="fup-data">12.34</td></tr><tr><th scope="row">Example B</th><td>Unavailable</td><td>Not provided</td></tr></tbody></table></div></section>
+    </main>
+    <footer class="fup-shell__footer">Design System fixture · not registered by WordPress</footer>
+  </div>
+  <dialog class="fup-dialog" id="demo-dialog" aria-labelledby="dialog-title"><form method="dialog" class="fup-stack"><h2 id="dialog-title">Dialog primitive</h2><p>Escape or the close button returns focus to the opener.</p><button class="fup-button" value="close">Close dialog</button></form></dialog>
+</body>
+</html>
