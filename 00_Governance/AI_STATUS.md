@@ -9,7 +9,7 @@
 | Current phase | Phase 2-B — Design System Foundation Implementation |
 | Active backlog item | `DES-001` |
 | Active branch | `agent/design-system-foundation` |
-| Active pull request | Dedicated Design System Foundation Draft Pull Request pending creation |
+| Active pull request | Draft PR #39 — Design System Foundation Implementation |
 | Next approved action | Review and validate the Design System Foundation implementation; keep `DES-001` In Progress and do not implement Dashboard Framework or Dashboard business UI |
 | Blockers | None |
 
