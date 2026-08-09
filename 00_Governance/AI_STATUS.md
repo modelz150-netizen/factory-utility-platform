@@ -5,13 +5,13 @@
 | Updated | 2026-08-09 |
 | Architecture status | Approved and frozen |
 | Governance status | Active and frozen |
-| Project status | Design System Foundation Approved |
-| Current phase | Phase 2-B — Design System Foundation Approval and Merge |
+| Project status | Dashboard Framework Implementation Plan in Review |
+| Current phase | Phase 2-C — Dashboard Framework Planning |
 | Active backlog item | `DASH-001` |
-| Active branch | `agent/design-system-foundation` |
-| Active pull request | PR #39 — Design System Foundation Implementation; CTO-approved pending merge |
-| Next approved action | Mark PR #39 ready, merge, synchronize and validate `main`, then prepare the dedicated Dashboard Framework implementation plan only |
-| Blockers | None; VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain accepted NOT RUN / Deferred limitations |
+| Active branch | `agent/dashboard-framework-plan` |
+| Active pull request | Dedicated Dashboard Framework Implementation Plan Draft Pull Request pending creation |
+| Next approved action | Review and approve the Dashboard Framework implementation plan; do not implement framework code or Dashboard business UI |
+| Blockers | None; Design System VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain accepted NOT RUN / Deferred limitations |
 
 ## Constitutional State
 
@@ -48,6 +48,7 @@
 - Physical Package Foundation Version 1.0.0 approved and merged through PR #37; complete post-merge validation passed on `main`
 - Design System Foundation Implementation Plan Version 1.0.0 approved and merged through PR #38
 - Design System Foundation Version 1.0.0 CTO-approved through PR #39 with three explicitly deferred accessibility limitations
+- Design System Foundation PR #39 merged and complete post-merge validation passed on `main`
 
 ## Platform Implementation Guard
 
