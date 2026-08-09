@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 0.1.0 |
+| Status | Active / Approved |
+| Version | 1.0.0 |
 | Backlog | `DASH-003` |
 
 This catalogue defines implementation-neutral Application projection contracts. Field names are canonical English concepts; concrete PHP names may be refined without weakening semantics. No contract authorizes a database or external integration.

@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-09 — Home Dashboard Implementation Plan Approved
+
+- Recorded final CTO and Utility Manager approval of PR #43 and activated the DASH-003 Home Dashboard First Vertical Slice Implementation Plan Version 1.0.0.
+- Accepted the exact `overall-health/1.0` fail-safe precedence and preserved presentation-only Experience responsibilities, simulated-fixture truth, multilingual behavior, failure isolation, and maintenance limitations.
+- Marked `DASH-003` Done and authorized implementation only after PR #43 merge and successful post-merge validation, on a separate branch and Draft Pull Request.
+- Preserved all live integrations, production data, real alarm/KPI behavior, schema, authentication, AI, CMMS, notifications, controls, detailed Utility screens, and deployment outside scope.
+
 ## 2026-08-09 — Home Dashboard Implementation Plan Proposed
 
 - Proposed the `DASH-003` Home Dashboard First Vertical Slice Implementation Plan with page composition, widget ownership, Application read ports, projection contracts, fixture adapters, truthful states, multilingual presentation, responsive/accessibility requirements, performance budgets, fitness rules, test and visual matrices, and Definition of Done.

@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 0.1.0 |
+| Status | Active / Approved |
+| Version | 1.0.0 |
 | Backlog | `DASH-003` |
 
 All scenarios are deterministic, fictional, and visibly `SIMULATED`. Names describe test intent, not a real factory condition.

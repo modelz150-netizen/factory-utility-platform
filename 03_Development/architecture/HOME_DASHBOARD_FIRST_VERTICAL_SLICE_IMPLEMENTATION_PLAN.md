@@ -2,12 +2,13 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 0.1.0 |
+| Status | Active / Approved |
+| Version | 1.0.0 |
 | Date | 2026-08-09 |
 | Backlog | `DASH-003` |
 | Approval authority | CTO and Utility Manager |
 | Scope authority | [Home Dashboard First Vertical Slice Scope Proposal](../../01_Product/dashboard/HOME_DASHBOARD_FIRST_VERTICAL_SLICE_SCOPE_PROPOSAL.md) Version 0.2.0 |
+| Approval record | Final CTO + Utility Manager approval, PR #43, 2026-08-09 |
 
 ## 1. Purpose and authorization boundary
 
