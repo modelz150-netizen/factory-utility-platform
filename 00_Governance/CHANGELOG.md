@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-09 — WordPress Integration Plan Proposed
+
+- Proposed `ARC-006` for a plugin-owned authenticated frontend application at `/factory-utility/`, with WordPress admin limited to an authorized launcher/status boundary.
+- Defined activation/bootstrap, route delivery, asset/localization integration, deny-by-default capability translation, permalink fallback, package/update, environment, rollback/uninstall, security, performance, testing, and deployment-package contracts.
+- Required production fixture fallback to fail closed and retained the existing composition root, Domain/Application authority, three locales, plant timezone, accessibility, truthful states, and failure isolation.
+- Added independent QA and six explicit review decisions without adding WordPress hooks, routes, capabilities, schemas, production configuration, integration, or deployment behavior.
+
 ## 2026-08-09 — Home Dashboard First Vertical Slice Approved
 
 - Recorded final CTO and Utility Manager approval of PR #44 and recognized the Home Dashboard First Vertical Slice as Active / Approved / 1.0.0 upon merge.
