@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-08-09 — Physical Package Foundation Approved
+
+- Recorded CTO approval of PR #37 and accepted all Phase 2-A architecture, QA, security, dependency-fitness, and scope validation evidence.
+- Activated the Physical Package Foundation as Version 1.0.0 and marked `ARC-001` Done.
+- Preserved one WordPress plugin/package boundary, one composition root, inward dependency rules, PSR-4 ownership, and replaceable development tooling.
+- Authorized PR #37 merge and mandatory post-merge validation before Design System Foundation planning.
+- Kept Design System implementation, Dashboard Framework, Dashboard UI, Product behavior, integrations, schemas, authentication, operational features, and deployment automation outside this change.
+- Preserved the Master Project Charter, Platform Architecture v1.0, and frozen Governance Architecture unchanged.
+
 ## 2026-08-08 — Physical Package Foundation Implemented
 
 - Started Phase 2-A under `ARC-001` after CTO authorization and confirmed that no prior Physical Package Foundation implementation existed in GitHub.

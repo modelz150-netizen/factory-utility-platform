@@ -2,12 +2,13 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 0.1.0 |
+| Status | Active |
+| Version | 1.0.0 |
 | Date | 2026-08-08 |
 | Backlog | `ARC-001` |
 | Owner | Engineering lead |
 | Authority | [Physical WordPress Package Architecture](PHYSICAL_WORDPRESS_PACKAGE_ARCHITECTURE_PROPOSAL.md) |
+| Approval | CTO-approved through PR #37 on 2026-08-09 |
 
 ## Purpose
 
@@ -56,4 +57,4 @@ This foundation contains no Dashboard UI, Design System implementation, business
 
 ## Validation and Promotion Gate
 
-The foundation remains in Review until Composer validation, autoload generation, PHPUnit, dependency fitness tests, PHPStan, link validation, scope inspection, and independent architecture review are recorded in QA evidence. Approval of this foundation is required before Design System work begins.
+The foundation is Active after Composer validation, autoload generation, PHPUnit, dependency fitness tests, PHPStan, link validation, scope inspection, architecture review, and CTO approval were recorded. Design System work requires its own implementation plan and dedicated approval gate.
