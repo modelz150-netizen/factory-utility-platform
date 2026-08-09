@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Dashboard — Simulated Fixture</title>
+  <link rel="stylesheet" href="../../../assets/design-system/css/index.css">
+  <link rel="stylesheet" href="../../../assets/dashboard-framework/css/framework.css">
+  <link rel="stylesheet" href="../../../assets/home-dashboard/css/home-dashboard.css">
+  <script src="fixture.js" defer></script>
+</head>
+<body>
+  <a class="fup-skip-link" href="#main" data-i18n="a11y.skip">Skip to dashboard</a>
+  <div class="fup-shell fup-dashboard-shell">
+    <header class="fup-shell__header fup-dashboard-shell__header">
+      <div class="fup-dashboard-shell__brand"><strong>Factory Utility Platform</strong><div class="fup-hint" data-i18n="shell.home">Home Dashboard</div></div>
+      <div class="fup-dashboard-shell__commands"><span class="fup-command-placeholder"><strong data-i18n="shell.site">Site</strong><span>FAB-07 · Fixture</span></span><span class="fup-command-placeholder"><strong data-i18n="shell.time">Plant time</strong><time data-plant-time datetime="2026-08-09T14:20:00+07:00"></time></span><span class="fup-simulation" role="status">SIMULATED / FIXTURE</span></div>
+      <div class="fup-locale-selector" role="group" aria-label="Language"><button type="button" data-locale="ko-KR">한국어</button><button type="button" data-locale="vi-VN">Tiếng Việt</button><button type="button" data-locale="en-US">English</button></div>
+    </header>
+    <button class="fup-mobile-menu" type="button" aria-controls="home-navigation" aria-expanded="false" data-i18n="nav.menu">Menu</button>
+    <nav class="fup-shell__nav fup-dashboard-nav" id="home-navigation" aria-label="Primary navigation"><div class="fup-dashboard-nav__group"><span class="fup-dashboard-nav__label" data-i18n="nav.overview">Overview</span><a href="#main" aria-current="page" data-i18n="nav.home">Home</a><a href="#utilities" data-i18n="nav.utilities">Utilities</a></div><div class="fup-dashboard-nav__group"><span class="fup-dashboard-nav__label" data-i18n="nav.future">Future modules</span><span class="fup-nav-disabled" data-i18n="nav.details">Utility details — unavailable</span></div></nav>
+    <main class="fup-shell__main fup-dashboard-shell__main fup-home" id="main" tabindex="-1">
+      <div class="fup-home__intro"><div><p class="fup-eyebrow" data-i18n="page.eyebrow">MANAGEMENT DECISION SUPPORT</p><h1 data-i18n="page.title">Utility condition overview</h1><p data-i18n="page.description">Abnormality, severity, location, duration and reliability impact.</p></div><label class="fup-scenario"><span data-i18n="scenario.label">Fixture scenario</span><select id="scenario"><option value="manager_attention_default" data-i18n="scenario.default">Critical management attention</option><option value="partial_stale_unavailable" data-i18n="scenario.partial">Partial / stale / unavailable</option><option value="widget_source_failure" data-i18n="scenario.failure">Widget / source failure</option></select></label></div>
+      <div class="fup-truthbar"><strong>SIMULATED</strong><span data-i18n="truth.message">Fictional fixture data — not an operational source.</span><span><span data-i18n="truth.updated">As of</span> <time data-plant-time></time> · Asia/Ho_Chi_Minh</span></div>
+      <section class="fup-decision-grid" aria-label="Primary management decisions">
+        <article class="fup-home-card fup-home-card--hero" id="overall"><div class="fup-card-heading"><h2 data-i18n="overall.title">Overall Utility Health</h2><span class="fup-state" data-bind="overall.state">CRITICAL</span></div><div class="fup-overall-body"><p class="fup-hero-state" data-bind="overall.label">Critical</p><div class="fup-abnormal-summary" aria-label="Abnormal summary"><span><strong data-bind="overall.critical">1</strong><small data-i18n="state.critical">Critical</small></span><span><strong data-bind="overall.warning">2</strong><small data-i18n="state.warning">Warning</small></span><span><strong data-bind="overall.dataRisk">1</strong><small data-i18n="overall.dataRisk">Data risk</small></span></div></div><p class="fup-overall-affected"><strong data-bind="overall.count">3</strong> <span data-i18n="overall.affected">Utilities require attention</span></p><p class="fup-meta" data-bind="overall.meta">Electrical · CDA · WWT stale</p></article>
+        <article class="fup-home-card" id="alarms"><div class="fup-card-heading"><h2 data-i18n="alarms.title">Critical Alarm Summary</h2><span class="fup-state" data-state="critical" data-bind="alarms.badge">2 CRITICAL</span></div><div class="fup-stat-row"><div><strong data-bind="alarms.critical">2</strong><span data-i18n="state.critical">Critical</span></div><div><strong data-bind="alarms.warning">5</strong><span data-i18n="state.warning">Warning</span></div><div><strong data-bind="alarms.unack">3</strong><span data-i18n="alarms.unack">Unacknowledged</span></div></div><p class="fup-event"><strong data-i18n="alarms.latest">Latest major event</strong><span data-bind="alarms.event">Electrical · Feed A unavailable</span><small data-bind="alarms.age">42 min · SIMULATED</small></p></article>
+        <article class="fup-home-card" id="attention"><div class="fup-card-heading"><h2 data-i18n="attention.title">Management Attention</h2><span class="fup-count" data-bind="attention.count">2</span></div><ol class="fup-attention" data-bind-list="attention"></ol></article>
+      </section>
+      <section id="utilities" aria-labelledby="utilities-title"><div class="fup-section-heading"><div><p class="fup-eyebrow" data-i18n="utilities.eyebrow">SECOND PRIORITY</p><h2 id="utilities-title" data-i18n="utilities.title">Utility System Overview</h2></div><span class="fup-meta" data-i18n="utilities.order">Management order · configurable</span></div><div class="fup-utility-grid" data-bind-list="utilities"></div></section>
+      <section class="fup-support-grid">
+        <article class="fup-home-card fup-support-grid__kpis"><div class="fup-card-heading"><h2 data-i18n="kpi.title">P0 Management KPIs</h2><span class="fup-meta" data-i18n="kpi.noTargets">No invented targets</span></div><div class="fup-kpi-grid" data-bind-list="kpis"></div></article>
+        <article class="fup-home-card"><div class="fup-card-heading"><h2 data-i18n="risk.title">Reliability Risk</h2><span class="fup-state" data-state="critical" data-i18n="state.critical">Critical</span></div><div data-bind="risk"><p><strong data-i18n="risk.redundancy">Redundancy degraded</strong></p><p data-i18n="risk.detail">Electrical Feed A unavailable; single-feed exposure.</p><small>42 min · SIMULATED</small></div></article>
+        <article class="fup-home-card"><div class="fup-card-heading"><h2 data-i18n="maintenance.title">Work / Maintenance</h2><span class="fup-state" data-state="simulated" data-bind="maintenance.state">SIMULATED</span></div><div class="fup-stat-row" data-bind="maintenance"><div><strong>4</strong><span data-i18n="maintenance.due">PM due</span></div><div><strong>1</strong><span data-i18n="maintenance.overdue">Overdue</span></div><div><strong>3</strong><span data-i18n="maintenance.actions">Open actions</span></div></div></article>
+        <article class="fup-home-card fup-home-card--subordinate"><div class="fup-card-heading"><h2 data-i18n="p1.title">P1 Resource Context</h2><span class="fup-meta" data-i18n="p1.subordinate">Subordinate context</span></div><div class="fup-p1"><p><span data-i18n="p1.energy">Energy consumption</span><strong>SIMULATED</strong></p><p><span data-i18n="p1.water">Water consumption</span><strong data-i18n="state.unavailable">Unavailable</strong></p></div></article>
+      </section>
+    </main>
+    <footer class="fup-shell__footer">SIMULATED / FIXTURE · <span data-i18n="footer.note">No production operational data</span></footer>
+  </div>
+</body>
+</html>
