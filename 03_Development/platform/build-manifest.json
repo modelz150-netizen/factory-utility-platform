@@ -1,0 +1,16 @@
+{
+  "name": "factory-utility-platform",
+  "version": "1.0.0",
+  "surface": "/factory-utility/",
+  "capability": "view_factory_utility_dashboard",
+  "fixturePolicy": {
+    "development": "allowed",
+    "staging": "allowed when explicitly configured",
+    "production": "prohibited-fail-closed"
+  },
+  "assets": [
+    "assets/design-system/css/index.css",
+    "assets/dashboard-framework/css/framework.css",
+    "assets/home-dashboard/css/home-dashboard.css"
+  ]
+}

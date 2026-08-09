@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-08-09 — WordPress Integration Foundation Approved
+
+- Recorded final CTO and Utility Manager visual approval of PR #46 and recognized the WordPress Integration Foundation as Active / Approved / 1.0.0 upon merge.
+- Accepted the WordPress-integrated Home Dashboard presentation, deny-by-default access boundary, production fixture fail-closed behavior, actual WordPress evidence, and reproducible installable QA ZIP.
+- Marked `ARC-007` Done effective on successful merge and authorized no additional functionality during the approval workflow.
+- Preserved actual 200% zoom, applicable 400% reflow, VoiceOver, forced-colors/high-contrast, and OS reduced-motion as explicitly unverified deferred evidence; none is represented as PASS.
+- Added no live integration, production data, schema, external authentication, AI/Gemma, CMMS/workflow, notification, control, detailed Utility screen, or production deployment.
+
+## 2026-08-09 — WordPress Integration Foundation Implemented for Review
+
+- Implemented the versioned plugin bootstrap, safe lifecycle hooks, `/factory-utility/` and query-fallback delivery, authenticated deny-by-default capability boundary, admin launcher/status, environment separation, and production fixture fail-closed behavior.
+- Delivered the approved Home Dashboard through actual disposable WordPress in Korean, Vietnamese, English, and mobile views while preserving the Dashboard Framework, fail-safe Domain authority, simulation disclosure, and fixture-only boundary.
+- Added routing, capability, environment, lifecycle, security, architecture, and packaging tests plus actual WordPress activation/admin/authorized/unauthorized/production-failure evidence.
+- Produced a checksummed installable Version 1.0.0 QA ZIP without development dependencies; production deployment remains unauthorized and production fixture fallback remains prohibited.
+- Kept `ARC-007` In Progress and the implementation PR Draft pending CTO and Utility Manager visual and integration approval.
+
 ## 2026-08-09 — WordPress Integration Plan Approved
 
 - Recorded final CTO and Utility Manager approval of PR #45 and activated the WordPress Integration Plan Version 1.0.0.

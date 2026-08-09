@@ -1,0 +1,25 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "landingPage": "/wp-admin/plugins.php",
+  "login": true,
+  "steps": [
+    {
+      "step": "defineWpConfigConsts",
+      "consts": {
+        "WP_ENVIRONMENT_TYPE": "development"
+      }
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "/wordpress/wp-content/plugins/factory-utility-platform/factory-utility-platform.php"
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; $role = get_role('administrator'); if ($role) { $role->add_cap('view_factory_utility_dashboard'); } flush_rewrite_rules(false);"
+    }
+  ]
+}
