@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 0.1.0 |
+| Status | Review — Product Decisions Recorded |
+| Version | 0.2.0 |
 | Date | 2026-08-09 |
 | Backlog | `DASH-002` |
 | Phase | Phase 2-B — Home Dashboard First Vertical Slice Scope |
@@ -12,6 +12,7 @@
 | Framework dependency | Dashboard Framework Version 1.0.0 |
 | Experience dependency | Design System Foundation Version 1.0.0 |
 | Decision authority | CTO and Utility Manager review |
+| Review record | PR #42 — APPROVED WITH DECISIONS; final review pending |
 
 ## 1. Purpose and Authorization Boundary
 
@@ -30,15 +31,21 @@ The Home Dashboard shall answer these questions in order:
 5. Is redundancy, availability, or reliability affected?
 6. Does management action need to occur?
 
+The binding product priority is:
+
+**ABNORMALITY → SEVERITY → AFFECTED UTILITY → DURATION → REDUNDANCY / AVAILABILITY IMPACT → MANAGEMENT ACTION**
+
+Operational reliability shall visually and semantically outrank cost analytics. Energy and water consumption remain important secondary management context, but shall never outrank Critical operational or reliability conditions.
+
 It is a management and engineering decision-support view, not a SCADA mimic. Raw sensor grids, process graphics, control commands, and detailed engineering analysis belong outside the Home Dashboard.
 
 ## 3. Proposed Information Hierarchy
 
 ### Level 1 — Immediate condition
 
-1. **Overall Utility Health** — authoritative presented state, affected-system count, data confidence/freshness, and visible Simulated marker.
-2. **Critical Alarm Summary** — critical, warning, and unacknowledged counts plus the latest major event and its age.
-3. **Management attention queue** — concise ordered conditions requiring immediate, near-term, or monitoring action.
+1. **Overall Utility Health** — authoritative supplied aggregate state, affected-system count, data confidence/freshness, and visible Simulated marker. An Application/Domain-owned fail-safe aggregation policy supplies this projection; Experience never computes it.
+2. **Critical Alarm Summary** — critical, warning, and unacknowledged counts plus the latest major event, duration-based age, and affected Utility/system. Alarm evaluation, severity assignment, and acknowledgement remain outside the Home Dashboard.
+3. **Management Attention Queue** — supplied, already-prioritized conditions requiring management attention. Experience displays but never calculates priority.
 
 ### Level 2 — Management impact
 
@@ -68,19 +75,21 @@ On desktop, Levels 1 and 2 should be visible with minimal scrolling at represent
 
 All keys remain canonical English identifiers. Display names and descriptions use centralized translation resources. The Home Dashboard shall not infer system state from translated text.
 
+The initial display order is binding for the first slice: Electrical, CDA, DI / RO, PCW, Chiller / Cooling Tower, AHU / HVAC, WWT, and Energy. Ordering shall be supplied as configuration or registration metadata so future changes do not require rewriting Dashboard composition.
+
 ## 5. Candidate KPI and State Catalogue
 
 ### 5.1 Candidate management KPIs
 
 | Canonical key | Management question | Minimum presentation metadata | Initial decision |
 |---|---|---|---|
-| `utility_availability` | Are essential Utility services available? | value, unit, period, source class, as-of time, quality/state | Candidate |
-| `energy_consumption` | What is the current energy-consumption context? | value, unit, period, comparison basis, as-of time | Candidate; target not authoritative |
-| `water_consumption` | What is the current water-consumption context? | value, unit, period, comparison basis, as-of time | Candidate; target not authoritative |
-| `major_equipment_availability` | Is major equipment capacity available? | available/required count or ratio, scope, as-of time | Candidate |
-| `active_abnormalities` | How many active conditions require attention? | count by severity, oldest age, affected systems | Required |
-| `overdue_maintenance` | Is deferred maintenance increasing exposure? | overdue count, oldest age, affected systems | Candidate pending maintenance source |
-| `data_freshness` | Can management trust the displayed view? | freshest/oldest timestamps, stale/unavailable counts | Required |
+| `utility_availability` | Are essential Utility services available? | value, unit, period, source class, as-of time, quality/state | P0 — first slice |
+| `active_abnormalities` | How many active conditions require attention? | count by severity, oldest age, affected systems | P0 — first slice |
+| `major_equipment_availability` | Is major equipment capacity available? | available/required count or ratio, scope, as-of time | P0 — first slice |
+| `data_freshness` | Can management trust the displayed view? | freshest/oldest timestamps, stale/unavailable counts | P0 — first slice |
+| `energy_consumption` | What is the current energy-consumption context? | value, unit, period, comparison basis, as-of time | P1 — secondary context |
+| `water_consumption` | What is the current water-consumption context? | value, unit, period, comparison basis, as-of time | P1 — secondary context |
+| `overdue_maintenance` | Is deferred maintenance increasing exposure? | overdue count, oldest age, affected systems | Conditional on authoritative maintenance contract |
 
 No proposed target, threshold, baseline, comparison period, formula, or service level is authoritative until separately owned, validated, and approved. The initial fixture may demonstrate shapes using conspicuously fictional values only.
 
@@ -97,7 +106,7 @@ No proposed target, threshold, baseline, comparison period, formula, or service 
 | `partial` | Some required contributing projections are unavailable or incomplete |
 | `simulated` | The displayed record is fixture data and is not operational truth |
 
-The Home Dashboard presents supplied states; it does not calculate freshness, alarm severity, authority, redundancy, or business priority. State aggregation rules belong to module-owned Application/Domain policies defined in later implementation work.
+The Home Dashboard presents supplied states; it does not calculate freshness, alarm severity, authority, redundancy, or business priority. Overall Utility Health shall be supplied by an Application/Domain-owned fail-safe aggregation policy. That policy must never allow averaging, scoring, or normalization to conceal a Critical Utility condition. Its exact algorithm is unauthorized here and must be defined and tested during implementation planning.
 
 ### 5.3 Reliability and work conditions
 
@@ -117,9 +126,9 @@ These are candidate stable condition keys, not finalized domain schemas or workf
 
 | Home Dashboard region/widget | Home Dashboard responsibility | Owning authority / future port | Prohibited ownership |
 |---|---|---|---|
-| Overall Utility Health | compose and present supplied aggregate state and affected count | module-owned aggregate/read model | deriving plant health or freshness |
-| Alarm Summary | present supplied counts, latest event, age, and drill-down target | future alarm Application port | alarm evaluation, acknowledgement, notification |
-| Management Attention | order already-prioritized supplied attention items | module/application projection | inventing priority or action policy |
+| Overall Utility Health | present supplied fail-safe aggregate state and affected count | Application/Domain aggregation policy and read model | deriving, averaging, scoring, or hiding Critical plant health; calculating freshness |
+| Alarm Summary | present critical, warning, unacknowledged counts, latest major event, duration age, affected Utility/system, and drill-down target | future alarm Application port | alarm evaluation, severity assignment, acknowledgement, notification |
+| Management Attention | present already-prioritized supplied attention items | module/application projection | inventing, reordering, or calculating priority/action policy |
 | Utility Overview Grid | register and present comparable module summaries | each Utility module owns its projection | direct adapter queries or utility calculations |
 | KPI Summary | present approved KPI projections with provenance and period | KPI-owning module/application port | formulas, targets, or comparisons |
 | Reliability Risk | present supplied equipment/redundancy risk summaries | asset/reliability application port | reliability inference or maintenance decisions |
@@ -161,6 +170,12 @@ Each fixture projection shall include, as applicable:
 
 Fixture values, equipment names, alarms, timestamps, thresholds, and targets must be conspicuously fictional and must not be copied from a production factory.
 
+Maintenance/work fixtures may use clearly marked Simulated data. When demonstrating a missing authoritative maintenance source, the projection shall be explicitly `unavailable`. Neither case may imply operational maintenance truth.
+
+The plant operational timezone is `Asia/Ho_Chi_Minh` (`UTC+07:00`). Alarm and event age is duration based. Absolute timestamps are displayed in plant local time by default while preserving the source instant and timezone provenance internally. Localization may format presentation without changing the underlying instant.
+
+Each Management Attention item shall be capable of presenting supplied severity, affected Utility, concise condition, duration/age, reliability or redundancy impact, required management-attention category, and data freshness.
+
 ## 8. Drill-down and Navigation Map
 
 | Home Dashboard source | Future destination contract | Current proposal behavior |
@@ -180,6 +195,7 @@ Candidate Utility route keys mirror the stable system keys in Section 4. Routing
 - Supported presentation locales are `ko-KR` — 한국어, `vi-VN` — Tiếng Việt, and `en-US` — English.
 - All Home Dashboard user-facing text uses the centralized localization service and deterministic English fallback.
 - Dates, times, numbers, percentages, quantities, and units use locale-aware presentation formatting while underlying engineering values remain locale independent.
+- Absolute operational timestamps default to `Asia/Ho_Chi_Minh` presentation and retain the original instant/timezone provenance; alarm and event age remains duration based in every locale.
 - Alarm and engineering translations must preserve supplied technical meaning; translated labels never control logic.
 - Cards, tables, badges, action labels, and mobile summaries shall tolerate Korean, Vietnamese, and English text expansion without fixed English-width assumptions.
 - Fixture evidence shall demonstrate all three locales with Unicode-safe typography and no unnecessary external font dependency.
@@ -266,15 +282,19 @@ The proposal is acceptable when:
 
 Dependencies are the approved Physical Package Foundation, Design System Foundation Version 1.0.0, Dashboard Framework Version 1.0.0, centralized localization foundation, and future approval of module-owned projection contracts. No external adapter is a dependency for the fixture implementation.
 
-## 14. Decisions Required Before an Implementation Plan
+## 14. Recorded CTO and Utility Manager Decisions
 
-1. **Overall health authority:** Which module or cross-module policy owns overall Utility Health and affected-system aggregation?
-2. **Alarm source semantics:** What counts as critical, warning, and unacknowledged, and which future authority supplies alarm age and latest-event selection?
-3. **Initial KPI set:** Which candidates are mandatory in the first slice, and which must wait for approved source/formula ownership?
-4. **System criticality/order:** Is the proposed eight-system order correct for management scanning, or should factory-specific criticality determine ordering?
-5. **Management attention policy:** Should the first slice display supplied priorities only, or omit the attention queue until prioritization ownership is approved?
-6. **Maintenance summary availability:** Should maintenance/work cards remain explicit unavailable fixtures until a maintenance source contract exists?
-7. **Time basis:** Which plant timezone and age-display conventions shall be canonical for fixture review and future deployment?
+| Decision | Binding disposition |
+|---|---|
+| Overall Utility Health authority | Application/Domain-owned fail-safe aggregation supplies the projection; Experience only presents it; no algorithm is authorized in this Scope PR |
+| Alarm semantics | Include critical, warning, unacknowledged, latest major event, duration age, and affected Utility/system; evaluation, severity, and acknowledgement remain external |
+| Initial KPIs | P0: Utility Availability, Active Abnormalities, Major Equipment Availability, Data Freshness; P1: Energy and Water Consumption; maintenance conditional |
+| Utility ordering | Electrical, CDA, DI / RO, PCW, Chiller / Cooling Tower, AHU / HVAC, WWT, Energy; ordering must remain configurable |
+| Management Attention Queue | Included using already-prioritized Application projections; Home Dashboard does not calculate priority |
+| Maintenance data | Clearly Simulated fixture data or explicit Unavailable behavior until an authoritative contract exists |
+| Time basis | `Asia/Ho_Chi_Minh` / `UTC+07:00`; duration-based age; local-time display with preserved instant/timezone provenance |
+
+These decisions close the seven open scope questions. The implementation planning gate must define and test the exact aggregation algorithm, projection contracts, fixture cases, configuration mechanism, and validation evidence without expanding this Scope Proposal into implementation.
 
 ## 15. Definition of Done
 

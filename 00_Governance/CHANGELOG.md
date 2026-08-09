@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-09 — Home Dashboard Scope Product Decisions Recorded
+
+- Recorded the PR #42 CTO and Utility Manager decisions for fail-safe Application/Domain health aggregation, alarm presentation semantics, P0/P1 KPI priority, configurable Utility ordering, the supplied-priority Management Attention Queue, truthful maintenance fixtures, and `Asia/Ho_Chi_Minh` time handling.
+- Made operational reliability explicitly outrank energy and water cost context and prohibited averaging or scoring from concealing a Critical Utility condition.
+- Updated independent QA to PASS FOR FINAL REVIEW while preserving the separate implementation-planning gate and all production implementation exclusions.
+- Changed no Home Dashboard code, Design System, Dashboard Framework, Master Project Charter, Platform Architecture, or frozen Governance Architecture.
+
 ## 2026-08-09 — Home Dashboard First Vertical Slice Scope Proposed
 
 - Proposed a manager-first Home Dashboard information hierarchy covering overall Utility health, alarms, Utility summaries, candidate management KPIs, reliability risks, maintenance/work summaries, and controlled future drill-downs.

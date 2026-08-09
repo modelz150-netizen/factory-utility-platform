@@ -7,7 +7,7 @@
 | Backlog | `DASH-002` |
 | Subject | [Home Dashboard First Vertical Slice Scope Proposal](../01_Product/dashboard/HOME_DASHBOARD_FIRST_VERTICAL_SLICE_SCOPE_PROPOSAL.md) |
 | Review type | Independent scope, architecture, truthfulness, localization, accessibility, and documentation validation |
-| Result | PASS FOR DRAFT REVIEW |
+| Result | PASS FOR FINAL REVIEW |
 
 ## Validation Results
 
@@ -17,7 +17,7 @@
 | Manager-first purpose | Six management questions govern hierarchy; raw sensor and SCADA-mimic behavior excluded | PASS |
 | Information hierarchy | Immediate condition, management impact, and controlled drill-down levels are explicit | PASS |
 | Utility coverage | Electrical, CDA, DI/RO, PCW, Chiller/Cooling Tower, AHU/HVAC, WWT, and Energy scopes are bounded | PASS |
-| KPI truthfulness | Candidates require provenance, period, unit, quality, and source ownership; no target/formula is authoritative | PASS |
+| KPI truthfulness | P0/P1/conditional catalogue is recorded with provenance, period, unit, quality, and source ownership; no target/formula is authoritative | PASS |
 | State truthfulness | Stable English states are presented, not calculated by Experience code; degraded and simulated states are explicit | PASS |
 | Responsibility map | Home Dashboard composition is separated from Utility, alarm, KPI, reliability, and maintenance authorities | PASS |
 | Data-source independence | Replaceable Application read-port and fixture adapter boundary allows future sources without source coupling | PASS |
@@ -25,7 +25,11 @@
 | Navigation boundary | Future drill-down contracts are named without implementing destinations or authorization | PASS |
 | Multilingual architecture | `ko-KR`, `vi-VN`, and `en-US` reuse centralized localization and English canonical keys | PASS |
 | Responsive/accessibility | Desktop/mobile hierarchy, seven widths, 44px targets, keyboard/focus, zoom/reflow, contrast, motion, and semantics required | PASS |
-| Risks and decisions | Ten risks and seven CTO/Utility Manager decisions are visible before implementation planning | PASS |
+| Overall health authority | Application/Domain fail-safe aggregation owns the projection; Critical cannot be concealed by averaging/scoring; algorithm remains unauthorized | PASS |
+| Alarm semantics | Required counts, latest major event, duration age, and affected system are explicit; evaluation/severity/acknowledgement remain external | PASS |
+| Management attention | Included with seven supplied fields and no Experience-owned priority calculation | PASS |
+| Ordering and time | Eight-system configurable order and `Asia/Ho_Chi_Minh` time basis are explicit | PASS |
+| Risks and decisions | Ten risks and all seven CTO/Utility Manager decisions are recorded for implementation planning | PASS |
 | Scope exclusions | Production Dashboard, real data/integrations, AI, schema, auth, alarms, control, formulas, modules, CMMS, notifications, and deployment excluded | PASS |
 | Architecture alignment | Design System, Dashboard Framework, application ports, module ownership, and inward dependencies preserved | PASS |
 | Protected documents | Master Charter, Platform Architecture, and frozen Governance Architecture unchanged | PASS |
@@ -36,15 +40,11 @@ The proposal provides a coherent manager-first first-slice boundary while preser
 
 No Critical or Major issue was identified.
 
-## Recommendations for CTO / Utility Manager Decision
+## Decision Verification
 
-1. Name the future owner of overall Utility Health aggregation before implementation planning.
-2. Approve alarm counting, acknowledgement, age, and latest-event semantics or defer the Alarm Summary to explicit unavailable fixtures.
-3. Select the smallest first-slice KPI set only after source and formula ownership are identified.
-4. Confirm system ordering and the plant timezone used in fixture review.
-5. Decide whether management attention ordering and maintenance summaries are present, unavailable, or omitted in the first implementation.
+All seven requested decisions are now represented without authorizing implementation. The review preserves the distinction between supplied Application projections and Experience presentation, gives operational reliability precedence over cost context, and retains truthful Simulated/Unavailable maintenance behavior.
 
-These are required scope decisions or explicit deferrals, not implementation defects.
+The implementation plan must still define the health aggregation algorithm, alarm/application contracts, configuration mechanism, fixture catalogue, and test evidence. These are downstream planning obligations, not open Scope Proposal decisions.
 
 ## Scope Integrity
 
@@ -57,6 +57,6 @@ These are required scope decisions or explicit deferrals, not implementation def
 
 ## Independent Review Result
 
-**PASS FOR DRAFT REVIEW**
+**PASS FOR FINAL REVIEW**
 
-The proposal is ready for CTO and Utility Manager scope review. Home Dashboard implementation remains unauthorized.
+The revised proposal is ready for final CTO and Utility Manager review. Home Dashboard implementation remains unauthorized.

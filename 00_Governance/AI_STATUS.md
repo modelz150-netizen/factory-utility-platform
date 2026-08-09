@@ -10,7 +10,7 @@
 | Active backlog item | `DASH-002` |
 | Active branch | `agent/home-dashboard-first-vertical-slice-scope` |
 | Active pull request | Draft PR #42 — Home Dashboard First Vertical Slice Scope Proposal |
-| Next approved action | CTO and Utility Manager review of the Home Dashboard Scope Proposal; do not begin implementation |
+| Next approved action | Final CTO and Utility Manager review of revised Draft PR #42; do not begin implementation |
 | Blockers | None; Dashboard Framework actual 200% zoom and 400% browser reflow remain NOT VERIFIED, and VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain NOT RUN / Deferred |
 
 ## Constitutional State
