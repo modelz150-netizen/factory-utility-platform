@@ -9,7 +9,7 @@
 | Current phase | WordPress Integration Implementation |
 | Active backlog item | `ARC-007` In Progress |
 | Active branch | `agent/wordpress-integration-foundation` |
-| Active pull request | Draft PR pending publication |
+| Active pull request | Draft PR #46 |
 | Next approved action | CTO and Utility Manager visual and integration review; keep Draft and do not deploy to production WordPress |
 | Blockers | None; Dashboard Framework actual 200% zoom and 400% browser reflow remain NOT VERIFIED, and VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain NOT RUN / Deferred |
 

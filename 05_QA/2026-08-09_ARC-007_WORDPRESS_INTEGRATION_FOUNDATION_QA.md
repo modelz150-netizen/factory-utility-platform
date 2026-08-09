@@ -5,7 +5,7 @@
 | Date | 2026-08-09 |
 | Status | PASS FOR CTO + UTILITY MANAGER VISUAL AND INTEGRATION REVIEW |
 | Deliverable | WordPress Integration Foundation Version 0.1.0 |
-| Pull request | Draft pending publication |
+| Pull request | Draft PR #46 |
 | Runtime | Official WordPress Playground CLI, latest WordPress resolved at execution, PHP 8.3, SQLite test runtime |
 
 ## Implemented boundary
