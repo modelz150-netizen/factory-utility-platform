@@ -41,7 +41,7 @@ Every page region carries:
 - completeness/freshness/provenance envelope;
 - concise condition key and parameters.
 
-Invariant: a Critical contributing condition forces Critical aggregate. The projection cannot be constructed with a non-Critical aggregate while declaring a Critical contributor. Unknown, stale, unavailable, and partial inputs remain explicit. Experience cannot construct this projection from cards.
+Invariant: the `overall-health/1.0` precedence is Critical, Warning, all-unavailable, missing/unavailable/unknown, stale, then Normal-only-completeness, exactly as defined by the Implementation Plan. Operational severity and freshness are separate dimensions, so stale Critical remains Critical with a stale limitation. The projection cannot be constructed with a lower aggregate while declaring a higher-precedence contributor. Experience cannot construct this projection from cards.
 
 ## Alarm Summary projection
 

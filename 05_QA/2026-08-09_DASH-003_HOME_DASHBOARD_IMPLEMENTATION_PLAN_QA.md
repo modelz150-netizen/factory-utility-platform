@@ -22,6 +22,7 @@
 | Reliability outranks cost analytics | PASS |
 | Application/Domain owns aggregate health; Experience presentation-only | PASS |
 | Critical cannot be hidden by averaging/scoring | PASS |
+| Exact `overall-health/1.0` precedence and degraded-data behavior defined | PASS |
 | Alarm and attention semantics preserved | PASS |
 | P0/P1 priorities and eight-Utility order preserved | PASS |
 | `Asia/Ho_Chi_Minh` time basis and duration age defined | PASS |

@@ -96,11 +96,16 @@ Fixture adapters shall implement the same Application read ports intended for fu
 
 Application/Domain policy supplies the projection. Experience presents it without calculation. The implementation plan requires a versioned, exhaustively tested aggregation policy before code is accepted. At minimum:
 
-- any contributing `critical` Utility condition forces aggregate `critical`;
-- averaging, numeric scoring, or majority voting shall not conceal a Critical condition;
-- missing or untrusted inputs shall be surfaced through `partial`, `unknown`, `stale`, or `unavailable` truthfully;
-- affected Utility keys and count shall be supplied, not inferred by Experience;
-- the policy identifier/version and as-of instant shall be traceable.
+The initial `overall-health/1.0` policy evaluates the configured eight expected Utility inputs in this exact order:
+
+1. If any trustworthy supplied operational state is `critical`, aggregate state is `critical`.
+2. Otherwise, if any trustworthy supplied operational state is `warning`, aggregate state is `warning`.
+3. Otherwise, if all expected Utility inputs are unavailable, aggregate state is `unavailable`.
+4. Otherwise, if any expected input is missing, unavailable, or operationally unknown, aggregate state is `unknown` and completeness is `partial`.
+5. Otherwise, if any input is stale, aggregate state is `stale`.
+6. Only when every expected input is present, trustworthy, fresh, and `normal` is aggregate state `normal`.
+
+The state decision is a precedence policy, never an average, numeric score, percentage, or majority vote. A Critical or Warning operational state therefore remains dominant even when another input is stale or unavailable; the projection simultaneously carries the degraded completeness/freshness limitation. A stale last-known Critical/Warning input retains its supplied operational severity and separately carries stale freshness. Affected Utility keys include every non-Normal, missing, stale, unknown, or unavailable contributor and are supplied with the count. Policy identifier/version and as-of instant are traceable. Any future policy change requires versioning, decision-table regression evidence, and approval.
 
 ### 8.2 Alarm summary
 
