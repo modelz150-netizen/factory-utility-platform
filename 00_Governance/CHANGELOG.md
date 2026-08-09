@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-09 — Home Dashboard Utility Manager Refinement
+
+- Refined Overall Utility Health with compact supplied abnormal counts while preserving the large Critical state and fail-safe Domain authority.
+- Reworked Management Attention presentation to expose Utility/asset, issue, supplied severity, elapsed duration, operational impact, and required management action without Experience calculations.
+- Extended the Utility summary projection contract with an optional representative value/unit/state; fixtures invent no numeric operational values and render truthful unavailability where applicable.
+- Improved P0 KPI scan hierarchy and reduced desktop whitespace while retaining responsive behavior, three locales, fixture-only data, failure isolation, and the approved architecture.
+- Captured revised Korean critical desktop/mobile evidence and kept PR #44 Draft pending final Utility Manager visual approval.
+
 ## 2026-08-09 — Home Dashboard First Vertical Slice Implemented for Review
 
 - Implemented the `overall-health/1.0` fail-safe Domain policy, Application read/projection contracts, and isolated deterministic simulated fixture adapter.

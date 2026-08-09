@@ -23,7 +23,7 @@
 |---|---|
 | Composer strict and token check | PASS |
 | PHPStan maximum configured level | PASS — 0 errors |
-| PHPUnit | PASS — 88 tests / 556 assertions |
+| PHPUnit | PASS — 88 tests / 557 assertions |
 | Fail-safe precedence tests | PASS |
 | Fixture/read-port contracts | PASS |
 | Dependency architecture fitness | PASS |
@@ -41,6 +41,15 @@
 | [English mobile](evidence/DASH-004/home-dashboard-en-US-mobile.png) | PASS — captured at narrow viewport; global overflow 0 |
 | [Partial/stale/unavailable](evidence/DASH-004/home-dashboard-partial-stale-unavailable.png) | PASS — truth states remain explicit |
 | [Widget/source failure](evidence/DASH-004/home-dashboard-widget-source-failure.png) | PASS — attention-source failure is contained and other widgets remain visible |
+
+## Utility Manager refinement evidence
+
+| Evidence | Result |
+|---|---|
+| [Refined Korean desktop — critical](evidence/DASH-004/home-dashboard-ko-KR-desktop-refined.png) | PASS FOR FINAL VISUAL REVIEW — large Critical state plus compact Critical/Warning/Data-risk counts; structured attention hierarchy; denser layout; global overflow 0 |
+| [Refined Korean mobile — critical](evidence/DASH-004/home-dashboard-ko-KR-mobile-refined.png) | PASS FOR FINAL VISUAL REVIEW — priority order and truth cues retained; global overflow 0 |
+
+The Utility Overview projection now supports optional `representativeValue`, `representativeUnitKey`, and `representativeValueState` fields. Fixture projections provide no invented numeric value and report the optional value as unavailable where presented. Experience performs no calculation.
 
 ## Accessibility evidence
 

@@ -58,7 +58,15 @@ final class FixtureHomeDashboardReadAdapter implements HomeDashboardReadPort
                 ['rank' => 1, 'severity' => 'critical', 'utilityKey' => 'electrical', 'conditionKey' => 'fixture.condition.feed', 'ageSeconds' => 2520, 'reliabilityImpact' => 'redundancy_degraded', 'attentionCategory' => 'management_action'],
                 ['rank' => 2, 'severity' => 'warning', 'utilityKey' => 'cda', 'conditionKey' => 'fixture.condition.pressure', 'ageSeconds' => 5100, 'reliabilityImpact' => 'availability_at_risk', 'attentionCategory' => 'engineering_review'],
             ],
-            array_map(static fn (string $key, int $order): array => ['utilityKey' => $key, 'displayOrder' => $order + 1, 'state' => $states[$order]->value, 'freshness' => $states[$order] === OperationalState::Stale ? 'stale' : 'fresh'], OverallHealthPolicy::UTILITY_ORDER, array_keys(OverallHealthPolicy::UTILITY_ORDER)),
+            array_map(static fn (string $key, int $order): array => [
+                'utilityKey' => $key,
+                'displayOrder' => $order + 1,
+                'state' => $states[$order]->value,
+                'freshness' => $states[$order] === OperationalState::Stale ? 'stale' : 'fresh',
+                'representativeValue' => null,
+                'representativeUnitKey' => null,
+                'representativeValueState' => 'unavailable',
+            ], OverallHealthPolicy::UTILITY_ORDER, array_keys(OverallHealthPolicy::UTILITY_ORDER)),
             [
                 ['key' => 'utility_availability', 'value' => '99.2', 'unit' => 'percent', 'state' => 'warning'],
                 ['key' => 'active_abnormalities', 'value' => '7', 'unit' => 'count', 'state' => 'critical'],

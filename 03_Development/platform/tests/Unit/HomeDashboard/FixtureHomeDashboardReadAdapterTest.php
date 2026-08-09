@@ -20,6 +20,7 @@ final class FixtureHomeDashboardReadAdapterTest extends TestCase
         self::assertSame('Asia/Ho_Chi_Minh', $projection->plantTimezone);
         self::assertSame(OperationalState::Critical, $projection->overallHealth->state);
         self::assertSame(OverallHealthPolicy::UTILITY_ORDER, array_column($projection->utilities, 'utilityKey'));
+        self::assertSame(array_fill(0, 8, null), array_column($projection->utilities, 'representativeValue'));
         self::assertSame([1, 2], array_column($projection->attention, 'rank'));
         self::assertCount(4, $projection->kpis);
         self::assertCount(2, $projection->p1Context);
