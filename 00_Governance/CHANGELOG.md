@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-09 — WordPress Integration Plan Approved
+
+- Recorded final CTO and Utility Manager approval of PR #45 and activated the WordPress Integration Plan Version 1.0.0.
+- Accepted the plugin-owned authenticated frontend, `/factory-utility/`, admin launcher/status, `view_factory_utility_dashboard`, deny-by-default authorization, controlled query fallback, production fixture fail-closed behavior, versioned ZIP deployment, and non-destructive uninstall decisions.
+- Marked `ARC-006` Done effective on successful merge and authorized a dedicated implementation Draft PR only after post-merge validation.
+- Added no production WordPress integration, hook, route, capability, live source, schema, authentication provider, or deployment behavior.
+
 ## 2026-08-09 — WordPress Integration Plan Proposed
 
 - Proposed `ARC-006` for a plugin-owned authenticated frontend application at `/factory-utility/`, with WordPress admin limited to an authorized launcher/status boundary.

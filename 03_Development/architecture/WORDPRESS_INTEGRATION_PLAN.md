@@ -2,12 +2,13 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 0.1.0 |
+| Status | Active / Approved |
+| Version | 1.0.0 |
 | Date | 2026-08-09 |
 | Backlog | `ARC-006` |
 | Review authority | CTO and Utility Manager |
 | Implementation authorization | Not granted |
+| Approval record | Final CTO + Utility Manager approval, PR #45, 2026-08-09 |
 
 ## 1. Purpose and boundary
 
