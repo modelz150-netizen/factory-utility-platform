@@ -9,7 +9,7 @@
 | Current phase | WordPress Integration Planning Gate |
 | Active backlog item | `ARC-006` Review |
 | Active branch | `agent/wordpress-integration-plan` |
-| Active pull request | Draft PR pending publication |
+| Active pull request | Draft PR #45 |
 | Next approved action | CTO and Utility Manager review of the WordPress Integration Plan; production WordPress integration remains unauthorized |
 | Blockers | None; Dashboard Framework actual 200% zoom and 400% browser reflow remain NOT VERIFIED, and VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain NOT RUN / Deferred |
 
