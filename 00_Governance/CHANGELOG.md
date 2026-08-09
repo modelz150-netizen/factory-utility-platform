@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-09 — Home Dashboard First Vertical Slice Scope Proposed
+
+- Proposed a manager-first Home Dashboard information hierarchy covering overall Utility health, alarms, Utility summaries, candidate management KPIs, reliability risks, maintenance/work summaries, and controlled future drill-downs.
+- Defined stable English state/system keys, centralized `ko-KR` / `vi-VN` / `en-US` presentation, responsive and WCAG 2.2 AA requirements, and a replaceable fixture-only Application-port boundary for future source adapters.
+- Added `DASH-002` in Review with explicit CTO and Utility Manager decisions for aggregate health, alarms, KPI selection, system ordering, attention policy, maintenance availability, and time basis.
+- Added independent scope QA with no Critical or Major issue and no Home Dashboard, external integration, database, authentication, alarm, calculation, control, CMMS, notification, or deployment implementation.
+- Preserved the Master Project Charter, Platform Architecture v1.0, frozen Governance Architecture, Design System, and Dashboard Framework unchanged.
+
 ## 2026-08-09 — Dashboard Framework Approved
 
 - Recorded final CTO approval of PR #41 after the focused Experience Shell refinement passed architecture, automated, responsive, multilingual, and visual review with no Critical or Major issue.
