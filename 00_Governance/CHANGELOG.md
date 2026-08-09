@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-09 — Dashboard Framework Multilingual Architecture Added
+
+- Revised the `DASH-001` implementation plan after CTO review to make English the canonical language and `ko-KR`, `vi-VN`, and `en-US` the initial user-interface locales.
+- Defined the shared Shell language selector, centralized translation/fallback/formatting contracts, replaceable preference persistence, Unicode typography, truthful terminology, and three-locale fixture requirements.
+- Added QA gates for dictionary completeness, missing keys, parameters, plurals, locale-aware formatting, text expansion, focus retention, and prohibition of translated-text business logic.
+- Added no Dashboard Framework code, platform-wide translation, utility terminology catalogue, SCADA/AI translation, production data, or business Dashboard.
+
 ## 2026-08-09 — Dashboard Framework Implementation Plan Proposed
 
 - Confirmed PR #39 merged and recorded complete post-merge Design System Foundation validation on `main`.
