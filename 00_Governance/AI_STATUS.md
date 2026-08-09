@@ -5,12 +5,12 @@
 | Updated | 2026-08-09 |
 | Architecture status | Approved and frozen |
 | Governance status | Active and frozen |
-| Project status | WordPress Integration Plan Active / Approved / 1.0.0 |
-| Current phase | WordPress Integration Planning Complete |
-| Active backlog item | None; `ARC-006` Done upon PR #45 merge |
-| Active branch | `agent/wordpress-integration-plan` |
-| Active pull request | Draft PR #45 |
-| Next approved action | Merge PR #45, validate `main`, then implement the approved WordPress integration foundation on a dedicated Draft PR without production deployment |
+| Project status | WordPress Integration Foundation Version 0.1.0 in Review |
+| Current phase | WordPress Integration Implementation |
+| Active backlog item | `ARC-007` In Progress |
+| Active branch | `agent/wordpress-integration-foundation` |
+| Active pull request | Draft PR pending publication |
+| Next approved action | CTO and Utility Manager visual and integration review; keep Draft and do not deploy to production WordPress |
 | Blockers | None; Dashboard Framework actual 200% zoom and 400% browser reflow remain NOT VERIFIED, and VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain NOT RUN / Deferred |
 
 ## Constitutional State
@@ -55,6 +55,7 @@
 - Home Dashboard First Vertical Slice Implementation Plan Version 1.0.0 approved by the CTO and Utility Manager through PR #43; `DASH-003` Done, with implementation authorized only after merge and post-merge validation
 - Home Dashboard First Vertical Slice Version 1.0.0 approved by the CTO and Utility Manager through PR #44 with simulated fixtures only; `DASH-004` Done upon merge
 - WordPress Integration Plan Version 1.0.0 approved by the CTO and Utility Manager through PR #45; `ARC-006` Done upon merge
+- WordPress Integration Foundation Version 0.1.0 implemented for review with actual disposable WordPress evidence and a QA-only installable ZIP; `ARC-007` In Progress
 
 ## Platform Implementation Guard
 

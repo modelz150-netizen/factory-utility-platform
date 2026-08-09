@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-09 — WordPress Integration Foundation Implemented for Review
+
+- Implemented the versioned plugin bootstrap, safe lifecycle hooks, `/factory-utility/` and query-fallback delivery, authenticated deny-by-default capability boundary, admin launcher/status, environment separation, and production fixture fail-closed behavior.
+- Delivered the approved Home Dashboard through actual disposable WordPress in Korean, Vietnamese, English, and mobile views while preserving the Dashboard Framework, fail-safe Domain authority, simulation disclosure, and fixture-only boundary.
+- Added routing, capability, environment, lifecycle, security, architecture, and packaging tests plus actual WordPress activation/admin/authorized/unauthorized/production-failure evidence.
+- Produced a checksummed installable Version 1.0.0 QA ZIP without development dependencies; production deployment remains unauthorized and production fixture fallback remains prohibited.
+- Kept `ARC-007` In Progress and the implementation PR Draft pending CTO and Utility Manager visual and integration approval.
+
 ## 2026-08-09 — WordPress Integration Plan Approved
 
 - Recorded final CTO and Utility Manager approval of PR #45 and activated the WordPress Integration Plan Version 1.0.0.

@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Factory Utility Platform
  * Description: Composition root for the Factory Utility Platform modular monolith.
- * Version: 0.1.0
+ * Version: 1.0.0
  * Requires PHP: 8.2
  */
 
@@ -20,4 +20,11 @@ if (! is_file($autoload)) {
 
 require $autoload;
 
-FactoryUtility\Platform\Bootstrap\Plugin::empty()->boot();
+$module = new FactoryUtility\Adapters\WordPress\WordPressIntegrationModule(__FILE__);
+
+if (function_exists('register_activation_hook')) {
+    register_activation_hook(__FILE__, [FactoryUtility\Adapters\WordPress\PluginLifecycle::class, 'activate']);
+    register_deactivation_hook(__FILE__, [FactoryUtility\Adapters\WordPress\PluginLifecycle::class, 'deactivate']);
+}
+
+FactoryUtility\Platform\Bootstrap\Plugin::fromModules($module)->boot();
