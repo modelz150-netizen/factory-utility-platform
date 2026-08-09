@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
+| Status | Active |
 | Date | 2026-08-09 |
 | Backlog | `DES-001` |
 | Subject | [Design System Foundation Implementation Plan](../04_Design/DESIGN_SYSTEM_FOUNDATION_IMPLEMENTATION_PLAN.md) |
@@ -32,8 +32,12 @@
 - Critical issues: 0
 - Major issues: 0
 - Implementation introduced: none
-- Remaining authority: CTO approval of the plan before the dedicated Design System implementation Pull Request
+- Remaining authority: separate CTO approval of the implementation before merge and before Dashboard Framework work
+
+## CTO Approval
+
+The CTO approved PR #38 on 2026-08-09, accepted the plan scope and validation evidence, and authorized one dedicated Design System Foundation implementation Pull Request after merge and `main` synchronization. `DES-001` remains In Progress until that implementation is approved and merged.
 
 ## Conclusion
 
-The plan is complete and reviewable for the authorized planning gate. It does not authorize Dashboard work and does not itself introduce Design System implementation.
+The plan is Active Version 1.0.0 and authorizes the separately gated Design System Foundation implementation only. It does not authorize Dashboard work and does not itself introduce implementation.

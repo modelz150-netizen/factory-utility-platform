@@ -5,12 +5,12 @@
 | Updated | 2026-08-09 |
 | Architecture status | Approved and frozen |
 | Governance status | Active and frozen |
-| Project status | Design System Foundation Plan in Review |
-| Current phase | Phase 2-B — Design System Foundation Planning |
+| Project status | Design System Foundation Plan Approved |
+| Current phase | Phase 2-B — Design System Foundation Plan Approval and Merge |
 | Active backlog item | `DES-001` |
 | Active branch | `agent/design-system-foundation-plan` |
-| Active pull request | Draft PR #38 — Design System Foundation Implementation Plan |
-| Next approved action | Obtain Product Design, Accessibility, Engineering, QA, and CTO approval of the Design System Foundation implementation plan; do not implement Design System or Dashboard code yet |
+| Active pull request | PR #38 — Design System Foundation Implementation Plan; CTO-approved pending merge |
+| Next approved action | Mark PR #38 ready, merge it, synchronize and validate `main`, then create one dedicated Design System Foundation implementation Pull Request; do not implement Dashboard Framework or Dashboard business UI |
 | Blockers | None |
 
 ## Constitutional State

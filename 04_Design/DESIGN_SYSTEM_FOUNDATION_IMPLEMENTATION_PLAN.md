@@ -2,18 +2,19 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 0.1.0 |
+| Status | Active |
+| Version | 1.0.0 |
 | Date | 2026-08-09 |
 | Backlog | `DES-001` |
 | Owner | Product design with Accessibility, Engineering, and QA sign-off |
 | Scope authority | [Design System Foundation Scope](DESIGN_SYSTEM_FOUNDATION_SCOPE_PROPOSAL.md) |
 | Architecture dependency | [Physical Package Foundation](../03_Development/architecture/PHYSICAL_PACKAGE_FOUNDATION.md) |
 | Decision authority | CTO review |
+| Approval | CTO-approved through PR #38 on 2026-08-09 |
 
 ## 1. Purpose and Authorization Boundary
 
-Define the implementation contract, sequence, evidence, and approval gates for the minimum reusable Design System required before Dashboard Framework work. This plan authorizes no CSS, JavaScript, component, Dashboard, WordPress theme, or Product UI implementation by itself.
+Define the approved implementation contract, sequence, evidence, and approval gates for the minimum reusable Design System required before Dashboard Framework work. Approval of this plan authorizes only the dedicated Design System Foundation implementation Pull Request defined below.
 
 The future implementation shall be delivered in one dedicated Pull Request after this plan is approved. Dashboard Framework and Dashboard business UI remain outside that Pull Request.
 
