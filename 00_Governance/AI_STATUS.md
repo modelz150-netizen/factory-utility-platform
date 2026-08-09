@@ -9,7 +9,7 @@
 | Current phase | Phase 2-C — Dashboard Framework Planning |
 | Active backlog item | `DASH-001` |
 | Active branch | `agent/dashboard-framework-plan` |
-| Active pull request | Dedicated Dashboard Framework Implementation Plan Draft Pull Request pending creation |
+| Active pull request | Draft PR #40 — Dashboard Framework Implementation Plan |
 | Next approved action | Review and approve the Dashboard Framework implementation plan; do not implement framework code or Dashboard business UI |
 | Blockers | None; Design System VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain accepted NOT RUN / Deferred limitations |
 
