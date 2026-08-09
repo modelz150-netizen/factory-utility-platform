@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-09 — Dashboard Framework Approved
+
+- Recorded final CTO approval of PR #41 after the focused Experience Shell refinement passed architecture, automated, responsive, multilingual, and visual review with no Critical or Major issue.
+- Completed `DASH-001` and recognized the Dashboard Framework and multilingual foundation as Version 1.0.0 upon merge.
+- Preserved actual 200% zoom and actual 400% browser reflow as NOT VERIFIED and VoiceOver, forced-colors/high-contrast, and OS reduced-motion as NOT RUN / Deferred; none is represented as PASS.
+- Authorized Ready transition and merge only; no business Dashboard, vertical slice, utility-specific screen, production data, SCADA, AI, authentication, schema, or deployment was introduced or authorized.
+- Preserved the Master Project Charter, Platform Architecture v1.0, and frozen Governance Architecture unchanged.
+
 ## 2026-08-09 — Dashboard Experience Shell Refined for Visual Review
 
 - Refined the framework fixture with a compact grouped desktop navigation rail, reusable command-center header placeholders, and a denser aligned content grid.

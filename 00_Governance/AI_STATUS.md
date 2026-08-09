@@ -5,13 +5,13 @@
 | Updated | 2026-08-09 |
 | Architecture status | Approved and frozen |
 | Governance status | Active and frozen |
-| Project status | Dashboard Framework Implementation in Review |
-| Current phase | Phase 2-C — Dashboard Framework Implementation |
-| Active backlog item | `DASH-001` |
-| Active branch | `agent/dashboard-framework` |
-| Active pull request | Draft PR #41 — Dashboard Framework Implementation |
-| Next approved action | CTO visual review of the focused Experience Shell refinement in Draft PR #41; do not merge or begin a business Dashboard or vertical slice |
-| Blockers | Final visual CTO approval pending; Dashboard Framework actual 200% zoom and 400% browser reflow are NOT VERIFIED in the in-app browser; VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain NOT RUN / Deferred |
+| Project status | Dashboard Framework Version 1.0.0 Approved |
+| Current phase | Phase 2-C — Dashboard Framework Complete |
+| Active backlog item | None; `DASH-001` Done |
+| Active branch | `main` |
+| Active pull request | None; PR #41 approved and merged |
+| Next approved action | Prepare the separately authorized next-gate plan before any business Dashboard or vertical slice implementation |
+| Blockers | None; Dashboard Framework actual 200% zoom and 400% browser reflow remain NOT VERIFIED, and VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain NOT RUN / Deferred |
 
 ## Constitutional State
 
@@ -50,6 +50,7 @@
 - Design System Foundation Version 1.0.0 CTO-approved through PR #39 with three explicitly deferred accessibility limitations
 - Design System Foundation PR #39 merged and complete post-merge validation passed on `main`
 - Dashboard Framework Implementation Plan Version 1.0.0 approved and merged through PR #40; complete post-merge validation passed on `main`
+- Dashboard Framework and multilingual foundation Version 1.0.0 CTO-approved and merged through PR #41; `DASH-001` Done
 
 ## Platform Implementation Guard
 

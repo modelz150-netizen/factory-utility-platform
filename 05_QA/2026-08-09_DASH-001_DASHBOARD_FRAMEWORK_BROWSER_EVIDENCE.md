@@ -2,11 +2,11 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
+| Status | Approved with recorded limitations |
 | Date | 2026-08-09 |
 | Browser | Codex in-app Chromium browser |
 | Fixture | `tests/Fixtures/DashboardFramework` |
-| Result | PASS FOR DRAFT REVIEW |
+| Result | PASS — CTO APPROVED |
 
 ## Multilingual Evidence
 
