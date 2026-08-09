@@ -1,0 +1,24 @@
+@layer layout, components;
+
+@layer layout {
+  .fup-dashboard-shell__header { display: flex; flex-wrap: wrap; gap: var(--fup-space-3); align-items: center; justify-content: space-between; border-block-end: 1px solid var(--fup-color-border); background: var(--fup-color-surface); }
+  .fup-dashboard-shell__brand { min-inline-size: min(100%, 15rem); }
+  .fup-dashboard-nav { display: grid; gap: var(--fup-space-2); }
+  .fup-dashboard-nav a { min-block-size: var(--fup-size-target); display: flex; align-items: center; padding-inline: var(--fup-space-3); border-radius: var(--fup-radius-sm); }
+  .fup-dashboard-nav a[aria-current="page"] { color: var(--fup-color-white); background: var(--fup-color-action); }
+  .fup-dashboard-regions { display: grid; gap: var(--fup-space-4); }
+  .fup-dashboard-region { min-inline-size: 0; }
+  @media (min-width: 48rem) { .fup-dashboard-regions { grid-template-columns: repeat(2, minmax(0, 1fr)); } .fup-dashboard-region--primary { grid-column: 1 / -1; } }
+}
+
+@layer components {
+  .fup-locale-selector { display: flex; flex-wrap: wrap; gap: var(--fup-space-1); padding: var(--fup-space-1); border: 1px solid var(--fup-color-border); border-radius: var(--fup-radius-md); }
+  .fup-locale-selector button { min-block-size: var(--fup-size-target); min-inline-size: var(--fup-size-target); border: 0; border-radius: var(--fup-radius-sm); padding-inline: var(--fup-space-3); color: var(--fup-color-action); background: transparent; cursor: pointer; }
+  .fup-locale-selector button[aria-pressed="true"] { color: var(--fup-color-white); background: var(--fup-color-action); }
+  .fup-widget { block-size: 100%; }
+  .fup-widget__meta { display: flex; flex-wrap: wrap; gap: var(--fup-space-2); color: var(--fup-color-text-muted); font-size: .875rem; }
+  .fup-widget[data-state="error"] { border-inline-start: .3rem solid var(--fup-status-critical); }
+  .fup-widget[data-state="simulated"] { border-inline-start: .3rem solid var(--fup-status-simulated); }
+  .fup-widget[data-state="stale"] { border-inline-start: .3rem solid var(--fup-status-warning); }
+  @media (forced-colors: active) { .fup-locale-selector button[aria-pressed="true"], .fup-widget { border: 2px solid CanvasText; } }
+}

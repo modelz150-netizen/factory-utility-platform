@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-09 — Dashboard Framework Implemented for Review
+
+- Implemented Experience Shell navigation/routing contracts, deterministic widget registry/composition, truthful projection states, and renderer failure isolation.
+- Implemented centralized localization contracts with `ko-KR`, `vi-VN`, and `en-US`, deterministic English fallback, missing keys, escaped parameters, plurals, replaceable preference storage, and presentation-formatting port.
+- Added the global `한국어 | Tiếng Việt | English` selector and three-locale simulated fixture with localized date/number examples, truthful statuses, and an isolated widget failure.
+- Added architecture, unit, locale, fixture, responsive, accessibility-contract, and asset-budget tests plus desktop/mobile multilingual browser screenshots.
+- Kept `DASH-001` In Progress pending approval and merge; added no business Dashboard, utility screen, KPI, alarm, SCADA, AI, operational data, authentication, schema, deployment, or vertical slice.
+
 ## 2026-08-09 — Dashboard Framework Implementation Plan Approved
 
 - Recorded final CTO approval of revised PR #40 and activated the multilingual Dashboard Framework Implementation Plan Version 1.0.0.
