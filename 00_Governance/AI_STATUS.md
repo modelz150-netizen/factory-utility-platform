@@ -5,13 +5,13 @@
 | Updated | 2026-08-09 |
 | Architecture status | Approved and frozen |
 | Governance status | Active and frozen |
-| Project status | Dashboard Framework Implementation Plan Approved |
-| Current phase | Phase 2-C — Dashboard Framework Plan Approval and Merge |
-| Active backlog item | `DASH-001` |
-| Active branch | `agent/dashboard-framework-plan` |
-| Active pull request | PR #40 — Dashboard Framework Implementation Plan; CTO-approved pending merge |
-| Next approved action | Mark PR #40 ready, merge, synchronize and validate `main`, then create one dedicated Dashboard Framework implementation Pull Request |
-| Blockers | None; Design System VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain accepted NOT RUN / Deferred limitations |
+| Project status | Dashboard Framework Version 1.0.0 Approved |
+| Current phase | Phase 2-C — Dashboard Framework Complete |
+| Active backlog item | None; `DASH-001` Done |
+| Active branch | `main` |
+| Active pull request | None; PR #41 approved and merged |
+| Next approved action | Prepare the separately authorized next-gate plan before any business Dashboard or vertical slice implementation |
+| Blockers | None; Dashboard Framework actual 200% zoom and 400% browser reflow remain NOT VERIFIED, and VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain NOT RUN / Deferred |
 
 ## Constitutional State
 
@@ -49,6 +49,8 @@
 - Design System Foundation Implementation Plan Version 1.0.0 approved and merged through PR #38
 - Design System Foundation Version 1.0.0 CTO-approved through PR #39 with three explicitly deferred accessibility limitations
 - Design System Foundation PR #39 merged and complete post-merge validation passed on `main`
+- Dashboard Framework Implementation Plan Version 1.0.0 approved and merged through PR #40; complete post-merge validation passed on `main`
+- Dashboard Framework and multilingual foundation Version 1.0.0 CTO-approved and merged through PR #41; `DASH-001` Done
 
 ## Platform Implementation Guard
 
