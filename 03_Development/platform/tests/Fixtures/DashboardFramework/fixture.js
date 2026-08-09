@@ -28,6 +28,26 @@ async function applyLocale(locale, persist = true) {
 
 document.querySelectorAll('[data-locale]').forEach((button) => button.addEventListener('click', () => applyLocale(button.dataset.locale)));
 
+const menuButton = document.querySelector('.fup-mobile-menu');
+const navigation = document.querySelector('#framework-navigation');
+if (menuButton instanceof HTMLButtonElement && navigation instanceof HTMLElement) {
+  const compact = window.matchMedia('(max-width: 63.999rem)');
+  const synchronizeNavigation = () => {
+    if (compact.matches) {
+      navigation.hidden = menuButton.getAttribute('aria-expanded') !== 'true';
+    } else {
+      navigation.hidden = false;
+      menuButton.setAttribute('aria-expanded', 'false');
+    }
+  };
+  menuButton.addEventListener('click', () => {
+    menuButton.setAttribute('aria-expanded', String(menuButton.getAttribute('aria-expanded') !== 'true'));
+    synchronizeNavigation();
+  });
+  compact.addEventListener('change', synchronizeNavigation);
+  synchronizeNavigation();
+}
+
 const storedLocale = localStorage.getItem(preferenceKey);
 const browserLocale = navigator.languages.find((locale) => supportedLocales.includes(locale));
 applyLocale(storedLocale ?? browserLocale ?? fallbackLocale, false);

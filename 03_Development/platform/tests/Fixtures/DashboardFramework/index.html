@@ -10,18 +10,25 @@
 </head>
 <body>
   <a class="fup-skip-link" href="#main">Skip to main content</a>
-  <div class="fup-shell">
+  <div class="fup-shell fup-dashboard-shell">
     <header class="fup-shell__header fup-dashboard-shell__header">
       <div class="fup-dashboard-shell__brand"><strong data-i18n="shell.brand"></strong><div class="fup-hint" data-i18n="shell.demo"></div></div>
+      <div class="fup-dashboard-shell__commands" data-i18n-aria="shell.commands">
+        <span class="fup-command-placeholder"><strong data-i18n="shell.site"></strong><span data-i18n="shell.siteDemo"></span></span>
+        <span class="fup-command-placeholder"><strong data-i18n="shell.system"></strong><span class="fup-status" data-status="simulated" data-i18n="state.simulated"></span></span>
+        <span class="fup-command-placeholder" data-i18n="shell.notifications"></span><span class="fup-command-placeholder" data-i18n="shell.account"></span>
+      </div>
       <div class="fup-locale-selector" role="group" data-i18n-aria="shell.language">
         <button type="button" data-locale="ko-KR">한국어</button><button type="button" data-locale="vi-VN">Tiếng Việt</button><button type="button" data-locale="en-US">English</button>
       </div>
     </header>
-    <nav class="fup-shell__nav fup-dashboard-nav" data-i18n-aria="nav.primary">
-      <a href="#main" aria-current="page" data-i18n="nav.home"></a><a href="#engineering" data-i18n="nav.engineering"></a><a href="#operations" data-i18n="nav.operations"></a><a href="#reports" data-i18n="nav.reports"></a>
+    <button class="fup-mobile-menu" type="button" aria-controls="framework-navigation" aria-expanded="false" data-i18n="nav.menu"></button>
+    <nav class="fup-shell__nav fup-dashboard-nav" id="framework-navigation" data-i18n-aria="nav.primary">
+      <div class="fup-dashboard-nav__group"><span class="fup-dashboard-nav__label" data-i18n="nav.group.platform"></span><a href="#main" aria-current="page" data-i18n="nav.home"></a><a href="#engineering" data-i18n="nav.engineering"></a></div>
+      <div class="fup-dashboard-nav__group"><span class="fup-dashboard-nav__label" data-i18n="nav.group.insight"></span><a href="#operations" data-i18n="nav.operations"></a><a href="#reports" data-i18n="nav.reports"></a></div>
     </nav>
-    <main class="fup-shell__main fup-stack" id="main" tabindex="-1">
-      <div><h1 data-i18n="page.title"></h1><p data-i18n="page.description"></p></div>
+    <main class="fup-shell__main fup-dashboard-shell__main fup-stack" id="main" tabindex="-1">
+      <div class="fup-dashboard-intro"><h1 data-i18n="page.title"></h1><p data-i18n="page.description"></p></div>
       <div class="fup-dashboard-regions">
         <section class="fup-dashboard-region fup-dashboard-region--primary fup-panel fup-widget fup-stack" data-state="simulated" aria-labelledby="status-title"><h2 id="status-title" data-i18n="widget.status"></h2><div class="fup-cluster"><span class="fup-status" data-status="simulated" data-i18n="state.simulated"></span><span class="fup-status" data-status="stale" data-i18n="state.stale"></span><span class="fup-status" data-status="unavailable" data-i18n="state.unavailable"></span></div></section>
         <section class="fup-dashboard-region fup-panel fup-widget fup-stack" data-state="simulated" aria-labelledby="sample-title"><h2 id="sample-title" data-i18n="widget.sample"></h2><p><span data-i18n="label.value"></span>: <strong class="fup-data">12.34 demo-units</strong></p><div class="fup-widget__meta"><span class="fup-status" data-status="simulated" data-i18n="state.simulated"></span><time datetime="2026-08-09T09:00:00+07:00" data-date></time></div></section>

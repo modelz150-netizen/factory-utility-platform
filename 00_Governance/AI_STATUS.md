@@ -10,8 +10,8 @@
 | Active backlog item | `DASH-001` |
 | Active branch | `agent/dashboard-framework` |
 | Active pull request | Draft PR #41 — Dashboard Framework Implementation |
-| Next approved action | Review and validate Dashboard Framework and multilingual foundation implementation; do not begin a business Dashboard or vertical slice |
-| Blockers | None; Design System VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain accepted NOT RUN / Deferred limitations |
+| Next approved action | CTO visual review of the focused Experience Shell refinement in Draft PR #41; do not merge or begin a business Dashboard or vertical slice |
+| Blockers | Final visual CTO approval pending; Dashboard Framework actual 200% zoom and 400% browser reflow are NOT VERIFIED in the in-app browser; VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain NOT RUN / Deferred |
 
 ## Constitutional State
 

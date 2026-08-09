@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-09 — Dashboard Experience Shell Refined for Visual Review
+
+- Refined the framework fixture with a compact grouped desktop navigation rail, reusable command-center header placeholders, and a denser aligned content grid.
+- Added an accessible 44px mobile menu that keeps navigation collapsed initially so primary content appears earlier, while preserving responsive behavior and language selection.
+- Re-captured Korean, Vietnamese, and English desktop evidence plus Korean and English mobile evidence using simulated/non-production content only.
+- Recorded actual 200% browser zoom and actual 400% browser reflow as NOT VERIFIED because the in-app browser did not expose an observable zoom change; retained VoiceOver, forced-colors/high-contrast, and OS reduced-motion as NOT RUN / Deferred.
+- Kept PR #41 Draft and `DASH-001` In Progress pending final visual CTO approval; changed no Dashboard contracts, registration, routing, failure isolation, truthful-state, localization, persistence, Design System, protected Charter, or Architecture.
+
 ## 2026-08-09 — Dashboard Framework Implemented for Review
 
 - Implemented Experience Shell navigation/routing contracts, deterministic widget registry/composition, truthful projection states, and renderer failure isolation.

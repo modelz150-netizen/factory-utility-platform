@@ -28,6 +28,9 @@ final class DashboardFixtureContractTest extends TestCase
         self::assertStringContainsString('한국어', $html);
         self::assertStringContainsString('Tiếng Việt', $html);
         self::assertStringContainsString('English', $html);
+        self::assertStringContainsString('aria-controls="framework-navigation"', $html);
+        self::assertStringContainsString('aria-expanded="false"', $html);
+        self::assertStringContainsString('fup-dashboard-shell__commands', $html);
         foreach (['simulated', 'stale', 'unavailable', 'error'] as $state) {
             self::assertMatchesRegularExpression('/data-(?:state|status)="' . $state . '"/', $html);
         }
