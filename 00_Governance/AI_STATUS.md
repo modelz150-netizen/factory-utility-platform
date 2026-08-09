@@ -9,7 +9,7 @@
 | Current phase | Phase 2-B — Home Dashboard First Vertical Slice Implementation Planning |
 | Active backlog item | `DASH-003` Review |
 | Active branch | `agent/dash-003-home-dashboard-implementation-plan` |
-| Active pull request | Draft PR pending publication |
+| Active pull request | Draft PR #43 |
 | Next approved action | CTO and Utility Manager review of the DASH-003 plan; Home Dashboard implementation remains unauthorized |
 | Blockers | None; Dashboard Framework actual 200% zoom and 400% browser reflow remain NOT VERIFIED, and VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain NOT RUN / Deferred |
 
