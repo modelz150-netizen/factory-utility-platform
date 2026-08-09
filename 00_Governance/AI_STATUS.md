@@ -5,12 +5,12 @@
 | Updated | 2026-08-09 |
 | Architecture status | Approved and frozen |
 | Governance status | Active and frozen |
-| Project status | Home Dashboard First Vertical Slice Scope in Review |
-| Current phase | Phase 2-B — Home Dashboard First Vertical Slice Scope Proposal |
-| Active backlog item | `DASH-002` |
-| Active branch | `agent/home-dashboard-first-vertical-slice-scope` |
-| Active pull request | Draft PR #42 — Home Dashboard First Vertical Slice Scope Proposal |
-| Next approved action | Final CTO and Utility Manager review of revised Draft PR #42; do not begin implementation |
+| Project status | Home Dashboard First Vertical Slice Scope Version 0.2.0 Approved |
+| Current phase | Phase 2-B — Home Dashboard First Vertical Slice Scope Complete |
+| Active backlog item | None; `DASH-002` Done |
+| Active branch | `main` |
+| Active pull request | None; PR #42 approved and merged |
+| Next approved action | Prepare a dedicated Home Dashboard First Vertical Slice Implementation Plan; do not implement Home Dashboard code |
 | Blockers | None; Dashboard Framework actual 200% zoom and 400% browser reflow remain NOT VERIFIED, and VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain NOT RUN / Deferred |
 
 ## Constitutional State
@@ -51,7 +51,7 @@
 - Design System Foundation PR #39 merged and complete post-merge validation passed on `main`
 - Dashboard Framework Implementation Plan Version 1.0.0 approved and merged through PR #40; complete post-merge validation passed on `main`
 - Dashboard Framework and multilingual foundation Version 1.0.0 CTO-approved and merged through PR #41; `DASH-001` Done
-- Home Dashboard First Vertical Slice Scope Proposal Version 0.1.0 prepared for CTO and Utility Manager review under `DASH-002`
+- Home Dashboard First Vertical Slice Scope Proposal Version 0.2.0 approved by the CTO and Utility Manager through PR #42; `DASH-002` Done
 
 ## Platform Implementation Guard
 

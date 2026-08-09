@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-09 — Home Dashboard First Vertical Slice Scope Approved
+
+- Recorded final CTO and Utility Manager approval of PR #42 and activated the Home Dashboard First Vertical Slice Scope Proposal Version 0.2.0.
+- Confirmed the proposal branch is current with `main`, conflict-free, and mergeable after final consistency review.
+- Marked `DASH-002` Done for scope definition and authorized the next dedicated Implementation Plan gate only.
+- Kept Home Dashboard code, real integrations/data, alarms, calculations, schemas, authentication, control, CMMS, notifications, and deployment unauthorized.
+- Preserved the Master Project Charter, Platform Architecture v1.0, frozen Governance Architecture, Design System, and Dashboard Framework unchanged.
+
 ## 2026-08-09 — Home Dashboard Scope Product Decisions Recorded
 
 - Recorded the PR #42 CTO and Utility Manager decisions for fail-safe Application/Domain health aggregation, alarm presentation semantics, P0/P1 KPI priority, configurable Utility ordering, the supplied-priority Management Attention Queue, truthful maintenance fixtures, and `Asia/Ho_Chi_Minh` time handling.

@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Status | Review — Product Decisions Recorded |
+| Status | Active — Approved |
 | Version | 0.2.0 |
 | Date | 2026-08-09 |
 | Backlog | `DASH-002` |
@@ -12,7 +12,8 @@
 | Framework dependency | Dashboard Framework Version 1.0.0 |
 | Experience dependency | Design System Foundation Version 1.0.0 |
 | Decision authority | CTO and Utility Manager review |
-| Review record | PR #42 — APPROVED WITH DECISIONS; final review pending |
+| Review record | Final CTO + Utility Manager approval — PR #42 |
+| Approval | Approved Version 0.2.0 through PR #42 on 2026-08-09 |
 
 ## 1. Purpose and Authorization Boundary
 
