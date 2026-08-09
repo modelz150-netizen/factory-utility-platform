@@ -5,12 +5,12 @@
 | Updated | 2026-08-09 |
 | Architecture status | Approved and frozen |
 | Governance status | Active and frozen |
-| Project status | Home Dashboard First Vertical Slice implementation in progress |
-| Current phase | Phase 2-B — Home Dashboard First Vertical Slice Implementation |
-| Active backlog item | `DASH-004` In Progress |
+| Project status | Home Dashboard First Vertical Slice Active / Approved / 1.0.0 |
+| Current phase | Phase 2-B — Home Dashboard First Vertical Slice Complete |
+| Active backlog item | None; `DASH-004` Done upon PR #44 merge |
 | Active branch | `agent/dash-004-home-dashboard-vertical-slice` |
 | Active pull request | Draft PR #44 |
-| Next approved action | Complete automated and browser evidence in a dedicated Draft PR; keep Draft until CTO and Utility Manager visual approval |
+| Next approved action | Merge PR #44, validate `main`, then prepare a dedicated WordPress Integration Plan; do not integrate into production WordPress |
 | Blockers | None; Dashboard Framework actual 200% zoom and 400% browser reflow remain NOT VERIFIED, and VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain NOT RUN / Deferred |
 
 ## Constitutional State
@@ -53,7 +53,7 @@
 - Dashboard Framework and multilingual foundation Version 1.0.0 CTO-approved and merged through PR #41; `DASH-001` Done
 - Home Dashboard First Vertical Slice Scope Proposal Version 0.2.0 approved by the CTO and Utility Manager through PR #42; `DASH-002` Done
 - Home Dashboard First Vertical Slice Implementation Plan Version 1.0.0 approved by the CTO and Utility Manager through PR #43; `DASH-003` Done, with implementation authorized only after merge and post-merge validation
-- Home Dashboard First Vertical Slice implementation started as `DASH-004` with simulated fixtures only after PR #43 merge and successful post-merge validation
+- Home Dashboard First Vertical Slice Version 1.0.0 approved by the CTO and Utility Manager through PR #44 with simulated fixtures only; `DASH-004` Done upon merge
 
 ## Platform Implementation Guard
 
