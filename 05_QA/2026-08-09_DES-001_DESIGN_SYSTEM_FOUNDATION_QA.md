@@ -5,7 +5,7 @@
 | Status | Review |
 | Date | 2026-08-09 |
 | Backlog | `DES-001` |
-| Result | PASS FOR DRAFT REVIEW |
+| Result | CONDITIONAL — ACCESSIBILITY VALIDATION OPEN |
 
 ## Automated Validation
 
@@ -29,5 +29,6 @@
 - Dashboard Framework implementation: none
 - Production behavior or data: none
 - Remaining before activation: independent Product Design, Accessibility, Engineering, QA, and CTO review, including the manual screen-reader, 200% zoom, and OS forced-colors checks recorded in the accessibility evidence.
+- CTO-required actual 200% zoom, applicable 400% reflow, macOS VoiceOver, OS/browser high-contrast or forced-colors, and active reduced-motion checks remain unavailable in the current controlled environment and block Ready/merge.
 
-The implementation is suitable for a dedicated Draft Pull Request. `DES-001` remains In Progress until approval and merge.
+The implementation remains suitable for Draft review only. `DES-001` remains In Progress until the outstanding accessibility validation passes and the implementation is approved and merged.

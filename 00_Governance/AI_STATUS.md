@@ -11,7 +11,7 @@
 | Active branch | `agent/design-system-foundation` |
 | Active pull request | Draft PR #39 — Design System Foundation Implementation |
 | Next approved action | Review and validate the Design System Foundation implementation; keep `DES-001` In Progress and do not implement Dashboard Framework or Dashboard business UI |
-| Blockers | None |
+| Blockers | Final PR #39 approval requires actual 200% zoom, applicable 400% reflow, macOS VoiceOver, OS/browser high-contrast or forced-colors, and active reduced-motion evidence; the current controlled browser cannot execute or observe these OS-level modes |
 
 ## Constitutional State
 
