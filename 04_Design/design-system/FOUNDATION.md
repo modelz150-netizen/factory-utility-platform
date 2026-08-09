@@ -2,12 +2,13 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 0.1.0 |
+| Status | Active |
+| Version | 1.0.0 |
 | Date | 2026-08-09 |
 | Backlog | `DES-001` |
 | Owner | Product Design with Accessibility, Engineering, and QA sign-off |
 | Authority | [Implementation Plan](../DESIGN_SYSTEM_FOUNDATION_IMPLEMENTATION_PLAN.md) |
+| Approval | CTO-approved through PR #39 on 2026-08-09 |
 
 ## Contract
 
@@ -21,14 +22,14 @@ The foundation supplies presentation-only tokens, CSS, icons, and low-level prim
 
 | Primitive | Lifecycle | Purpose | Key accessibility contract | Forbidden use |
 |---|---|---|---|---|
-| Shell, container, stack, cluster, grid | Review | Structural layout | DOM order remains reading/focus order | Dashboard routing or authorization |
-| Skip link, link, button | Review | Navigation and actions | 44×44 target for buttons; visible focus; accessible name | Domain actions or hidden labels |
-| Field, input, select, textarea | Review | Native form structure | Explicit label, hint/error association, invalid state | Validation/business rules |
-| Status | Review | Present an explicit state | Text and shape in addition to color | Freshness calculation or authority inference |
-| Panel | Review | Generic grouping | Heading/landmark chosen by consumer | Widget or domain semantics |
-| Table wrapper | Review | Narrow-width containment | Caption, headers, named scroll region | Hiding columns without an alternative |
-| Dialog | Review | Native modal surface | Focus enters, Escape closes, focus returns | Workflow or authorization policy |
-| Visually hidden, numeric data | Review | Accessibility and formatting helpers | Content remains available to assistive technology | Concealing interactive controls |
+| Shell, container, stack, cluster, grid | Active | Structural layout | DOM order remains reading/focus order | Dashboard routing or authorization |
+| Skip link, link, button | Active | Navigation and actions | 44×44 target for buttons; visible focus; accessible name | Domain actions or hidden labels |
+| Field, input, select, textarea | Active | Native form structure | Explicit label, hint/error association, invalid state | Validation/business rules |
+| Status | Active | Present an explicit state | Text and shape in addition to color | Freshness calculation or authority inference |
+| Panel | Active | Generic grouping | Heading/landmark chosen by consumer | Widget or domain semantics |
+| Table wrapper | Active | Narrow-width containment | Caption, headers, named scroll region | Hiding columns without an alternative |
+| Dialog | Active | Native modal surface | Focus enters, Escape closes, focus returns | Workflow or authorization policy |
+| Visually hidden, numeric data | Active | Accessibility and formatting helpers | Content remains available to assistive technology | Concealing interactive controls |
 
 Supported presentation states are neutral, information, success, warning, critical, unknown, loading, empty, partial, stale, unavailable, and simulated. Consumers must supply truthful labels and any required source or timestamp disclosure.
 

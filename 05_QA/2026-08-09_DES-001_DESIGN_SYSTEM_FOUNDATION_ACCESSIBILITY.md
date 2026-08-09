@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
+| Status | Active |
 | Date | 2026-08-09 |
 | Target | WCAG 2.2 Level AA |
 | Browser | Codex in-app Chromium browser |
@@ -45,4 +45,8 @@ The subsequent manual Mac browser review supplied for final PR preparation super
 | OS/browser forced colors or high contrast | NOT RUN / DEFERRED | Essential state and interaction cue validation remains unavailable |
 | Actual reduced-motion preference | NOT RUN / DEFERRED | Active OS preference observation remains unavailable |
 
-PR #39 remains Draft pending final CTO review. VoiceOver, forced-colors/high-contrast, and OS reduced-motion validation are explicit deferred limitations and have not been marked PASS.
+VoiceOver, forced-colors/high-contrast, and OS reduced-motion validation remain explicit deferred limitations and have not been marked PASS.
+
+## Final CTO Approval
+
+The CTO approved the Design System Foundation for merge on 2026-08-09, accepting the completed automated, 200% zoom, and applicable 400% reflow evidence. VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain explicitly accepted as `NOT RUN / Deferred`; they are unverified and are not represented as PASS.
