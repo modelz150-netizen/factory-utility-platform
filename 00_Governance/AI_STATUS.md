@@ -9,7 +9,7 @@
 | Current phase | Phase 2-B — Home Dashboard First Vertical Slice Implementation |
 | Active backlog item | `DASH-004` In Progress |
 | Active branch | `agent/dash-004-home-dashboard-vertical-slice` |
-| Active pull request | Draft PR pending publication |
+| Active pull request | Draft PR #44 |
 | Next approved action | Complete automated and browser evidence in a dedicated Draft PR; keep Draft until CTO and Utility Manager visual approval |
 | Blockers | None; Dashboard Framework actual 200% zoom and 400% browser reflow remain NOT VERIFIED, and VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain NOT RUN / Deferred |
 
