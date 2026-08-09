@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Status | Review |
-| Version | 0.1.0 |
+| Status | Active — Approved |
+| Version | 1.0.0 |
 | Date | 2026-08-09 |
 | Backlog | `DASH-001` |
 | Owner | Engineering with Product, Architecture, Accessibility, and QA sign-off |
@@ -11,6 +11,7 @@
 | Architecture authority | [Platform Architecture v1.0](PLATFORM_ARCHITECTURE_V1.md) |
 | Experience dependency | [Design System Foundation](../../04_Design/design-system/FOUNDATION.md) |
 | Decision authority | CTO review |
+| Approval | CTO-approved through PR #40 on 2026-08-09 |
 
 ## 1. Purpose and Authorization Boundary
 

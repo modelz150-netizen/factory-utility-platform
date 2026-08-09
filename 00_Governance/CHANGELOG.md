@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-09 — Dashboard Framework Implementation Plan Approved
+
+- Recorded final CTO approval of revised PR #40 and activated the multilingual Dashboard Framework Implementation Plan Version 1.0.0.
+- Kept `DASH-001` In Progress because framework implementation remains a separate approval gate.
+- Authorized one dedicated implementation Pull Request after PR #40 merge and successful `main` validation.
+- Preserved production dashboards, utility business screens, KPI calculations, alarms, SCADA, AI, operational data, authentication, schema, and deployment outside the authorized implementation scope.
+
 ## 2026-08-09 — Dashboard Framework Multilingual Architecture Added
 
 - Revised the `DASH-001` implementation plan after CTO review to make English the canonical language and `ko-KR`, `vi-VN`, and `en-US` the initial user-interface locales.

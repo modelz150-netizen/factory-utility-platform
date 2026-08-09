@@ -5,12 +5,12 @@
 | Updated | 2026-08-09 |
 | Architecture status | Approved and frozen |
 | Governance status | Active and frozen |
-| Project status | Revised Dashboard Framework Implementation Plan in Final Review |
-| Current phase | Phase 2-C — Dashboard Framework Planning |
+| Project status | Dashboard Framework Implementation Plan Approved |
+| Current phase | Phase 2-C — Dashboard Framework Plan Approval and Merge |
 | Active backlog item | `DASH-001` |
 | Active branch | `agent/dashboard-framework-plan` |
-| Active pull request | Draft PR #40 — Dashboard Framework Implementation Plan |
-| Next approved action | Obtain final CTO review of revised PR #40 with multilingual architecture included; do not implement framework code or Dashboard business UI |
+| Active pull request | PR #40 — Dashboard Framework Implementation Plan; CTO-approved pending merge |
+| Next approved action | Mark PR #40 ready, merge, synchronize and validate `main`, then create one dedicated Dashboard Framework implementation Pull Request |
 | Blockers | None; Design System VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain accepted NOT RUN / Deferred limitations |
 
 ## Constitutional State
