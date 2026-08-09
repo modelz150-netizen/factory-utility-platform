@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-09 — Home Dashboard Implementation Plan Proposed
+
+- Proposed the `DASH-003` Home Dashboard First Vertical Slice Implementation Plan with page composition, widget ownership, Application read ports, projection contracts, fixture adapters, truthful states, multilingual presentation, responsive/accessibility requirements, performance budgets, fitness rules, test and visual matrices, and Definition of Done.
+- Added separate projection-contract and simulated fixture-scenario catalogues, including fail-safe Critical dominance, supplied attention priority, all eight Utilities, P0/P1 handling, `Asia/Ho_Chi_Minh` time, provenance, partial failure, and maintenance limitations.
+- Added independent QA with no Critical or Major issue and kept `DASH-003` in Review pending CTO and Utility Manager approval.
+- Introduced no Home Dashboard code, live integration/data, alarm evaluation, KPI formula, schema, authentication, AI, CMMS, notification, control, detailed Utility screen, or deployment behavior.
+- Preserved the Master Project Charter, Platform Architecture v1.0, frozen Governance Architecture, Design System Foundation, and Dashboard Framework unchanged.
+
 ## 2026-08-09 — Home Dashboard First Vertical Slice Scope Approved
 
 - Recorded final CTO and Utility Manager approval of PR #42 and activated the Home Dashboard First Vertical Slice Scope Proposal Version 0.2.0.
