@@ -5,13 +5,13 @@
 | Updated | 2026-08-09 |
 | Architecture status | Approved and frozen |
 | Governance status | Active and frozen |
-| Project status | Design System Foundation Plan Approved |
-| Current phase | Phase 2-B — Design System Foundation Plan Approval and Merge |
-| Active backlog item | `DES-001` |
-| Active branch | `agent/design-system-foundation-plan` |
-| Active pull request | PR #38 — Design System Foundation Implementation Plan; CTO-approved pending merge |
-| Next approved action | Mark PR #38 ready, merge it, synchronize and validate `main`, then create one dedicated Design System Foundation implementation Pull Request; do not implement Dashboard Framework or Dashboard business UI |
-| Blockers | None |
+| Project status | Design System Foundation Approved |
+| Current phase | Phase 2-B — Design System Foundation Approval and Merge |
+| Active backlog item | `DASH-001` |
+| Active branch | `agent/design-system-foundation` |
+| Active pull request | PR #39 — Design System Foundation Implementation; CTO-approved pending merge |
+| Next approved action | Mark PR #39 ready, merge, synchronize and validate `main`, then prepare the dedicated Dashboard Framework implementation plan only |
+| Blockers | None; VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain accepted NOT RUN / Deferred limitations |
 
 ## Constitutional State
 
@@ -46,6 +46,8 @@
 - Platform Implementation Readiness Package approved by the CTO and merged through PR #35
 - Physical WordPress Package Architecture, Design System Foundation, Dashboard Framework, and First Vertical Slice proposals approved as planning authority only
 - Physical Package Foundation Version 1.0.0 approved and merged through PR #37; complete post-merge validation passed on `main`
+- Design System Foundation Implementation Plan Version 1.0.0 approved and merged through PR #38
+- Design System Foundation Version 1.0.0 CTO-approved through PR #39 with three explicitly deferred accessibility limitations
 
 ## Platform Implementation Guard
 

@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "owner": "Factory Utility Platform",
+  "license": "Project proprietary",
+  "icons": [
+    {"name": "information", "file": "information.svg", "viewBox": "0 0 24 24", "source": "first-party"},
+    {"name": "check", "file": "check.svg", "viewBox": "0 0 24 24", "source": "first-party"},
+    {"name": "warning", "file": "warning.svg", "viewBox": "0 0 24 24", "source": "first-party"}
+  ]
+}

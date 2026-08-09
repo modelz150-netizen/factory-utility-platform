@@ -1,0 +1,6 @@
+@layer utilities {
+  .fup-visually-hidden { position: absolute !important; inline-size: 1px !important; block-size: 1px !important; padding: 0 !important; margin: -1px !important; overflow: hidden !important; clip-path: inset(50%) !important; white-space: nowrap !important; border: 0 !important; }
+  .fup-data { font-family: var(--fup-font-mono); font-variant-numeric: tabular-nums; }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
+  @media (forced-colors: active) { .fup-status, .fup-panel, .fup-button { border-color: CanvasText; } .fup-status::before { content: "[status]"; } }
+}

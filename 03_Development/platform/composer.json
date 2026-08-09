@@ -30,11 +30,14 @@
     "sort-packages": true
   },
   "scripts": {
+    "tokens:generate": "php tools/design-system/generate-tokens.php",
+    "tokens:check": "php tools/design-system/generate-tokens.php --check",
     "analyse": "phpstan analyse --configuration=phpstan.neon --no-progress",
     "architecture": "phpunit --testsuite architecture",
     "test": "phpunit",
     "check": [
       "@composer validate --strict",
+      "@tokens:check",
       "@analyse",
       "@test"
     ]

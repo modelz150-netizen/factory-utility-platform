@@ -1,0 +1,9 @@
+@layer base {
+  html { font-family: var(--fup-font-sans); line-height: 1.5; }
+  body { color: var(--fup-color-text); background: var(--fup-color-surface-subtle); }
+  h1, h2, h3 { line-height: 1.2; text-wrap: balance; }
+  p { max-inline-size: var(--fup-content-measure); }
+  a { color: var(--fup-color-action); text-underline-offset: 0.2em; }
+  :focus-visible { outline: var(--fup-focus-width) solid var(--fup-color-focus); outline-offset: 0.1875rem; }
+  ::selection { color: var(--fup-color-white); background: var(--fup-color-blue-700); }
+}
