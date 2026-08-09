@@ -5,12 +5,12 @@
 | Updated | 2026-08-09 |
 | Architecture status | Approved and frozen |
 | Governance status | Active and frozen |
-| Project status | WordPress Integration Foundation Version 0.1.0 in Review |
-| Current phase | WordPress Integration Implementation |
-| Active backlog item | `ARC-007` In Progress |
+| Project status | WordPress Integration Foundation Active / Approved / 1.0.0 |
+| Current phase | Phase 2 Platform Foundation Complete |
+| Active backlog item | None; `ARC-007` Done upon PR #46 merge |
 | Active branch | `agent/wordpress-integration-foundation` |
-| Active pull request | Draft PR #46 |
-| Next approved action | CTO and Utility Manager visual and integration review; keep Draft and do not deploy to production WordPress |
+| Active pull request | PR #46 approved for Ready transition and merge |
+| Next approved action | Merge PR #46, complete post-merge validation, then stop and report the final Phase 2 platform state before any Utility module gate |
 | Blockers | None; Dashboard Framework actual 200% zoom and 400% browser reflow remain NOT VERIFIED, and VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain NOT RUN / Deferred |
 
 ## Constitutional State
@@ -55,7 +55,7 @@
 - Home Dashboard First Vertical Slice Implementation Plan Version 1.0.0 approved by the CTO and Utility Manager through PR #43; `DASH-003` Done, with implementation authorized only after merge and post-merge validation
 - Home Dashboard First Vertical Slice Version 1.0.0 approved by the CTO and Utility Manager through PR #44 with simulated fixtures only; `DASH-004` Done upon merge
 - WordPress Integration Plan Version 1.0.0 approved by the CTO and Utility Manager through PR #45; `ARC-006` Done upon merge
-- WordPress Integration Foundation Version 0.1.0 implemented for review with actual disposable WordPress evidence and a QA-only installable ZIP; `ARC-007` In Progress
+- WordPress Integration Foundation Version 1.0.0 approved by the CTO and Utility Manager through PR #46 with actual disposable WordPress evidence and a QA-only installable ZIP; `ARC-007` Done upon merge
 
 ## Platform Implementation Guard
 
@@ -63,8 +63,8 @@
 - Exact physical packages, namespaces, tooling, and dependency-fitness checks are defined in the Active Physical Package Foundation Version 1.0.0.
 - Design System component code requires approval of the dedicated implementation plan with Product Design, Accessibility, Engineering, QA, and CTO sign-off roles.
 - Dashboard Framework implementation depends on the approved physical and Design System foundations.
-- The fixture-based vertical slice remains unimplemented until a separate authorization gate.
-- Production Dashboard code, live integrations, schemas, APIs, authentication, and deployment remain unauthorized.
+- The approved Home Dashboard vertical slice remains fixture-only and must not be represented as live operational data.
+- Live integrations, production operational data, schemas, external authentication, AI/Gemma, control behavior, and production deployment remain unauthorized.
 
 ## Update Rules
 
