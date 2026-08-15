@@ -1,0 +1,25 @@
+Phase,ArtifactType,CurrentPathPattern,Durability,GitRecommendation,CanonicalLocation
+RC6_RC61,Collector source,03_Development/tools/pcvue-offline-data-collector-v1,DURABLE,TRACK_IN_GIT,03_Development/tools
+RC6_RC61,USB package,usb/PCVue_Offline_Data_Collector*,GENERATED,MOVE_TO_FIELDDATA,UtilityAI_FieldData/USB_Staging
+RC6_RC61,QA report,05_QA/*RC61*REPORT.md,DURABLE,TRACK_IN_GIT,05_QA/reports
+RC6_RC61,Release ZIP,usb/*rc6*.zip,REPRODUCIBLE_BINARY,DO_NOT_TRACK_BINARY,Private GitHub Release
+RC6_RC61,SHA-256,usb/*rc6*.zip.sha256,DURABLE,TRACK_WITH_MANIFEST,07_Release/manifests
+Phase3,Collector source,03_Development/tools/pcvue-csv-header-sample-collector-rc5,DURABLE,TRACK_IN_GIT,03_Development/tools
+Phase3,Design Gate,07_Release/phase3_*,DURABLE,TRACK_IN_GIT,07_Release/design-gates
+Phase3,QA reports,05_QA/2026-08-13_PCV_PHASE3_*,DURABLE,TRACK_IN_GIT,05_QA/reports
+Phase3,Raw QA output,05_QA/rc5_nonproduction/*Output*,GENERATED,IGNORE_GENERATED,05_QA/generated
+Phase3,Synthetic fixture,05_QA/rc5_nonproduction/fixture_*,CONDITIONAL,MANUAL_REVIEW,05_QA/fixtures/synthetic
+Phase3,Expanded release,07_Release/PCVue_CSV_Header_Sample_Collector_*/,GENERATED,IGNORE_GENERATED,07_Release/packages
+Phase3,Release ZIP,07_Release/*.zip,REPRODUCIBLE_BINARY,DO_NOT_TRACK_BINARY,Private GitHub Release
+Phase3,Release SHA,07_Release/*.zip.sha256,DURABLE,TRACK_WITH_MANIFEST,07_Release/manifests
+Phase4,Collector source,03_Development/tools/pcvue-varexp-limited-tag-pilot-rc1,DURABLE,TRACK_IN_GIT,03_Development/tools
+Phase4,Design approval,07_Release/phase4_varexp_*,DURABLE,TRACK_IN_GIT,07_Release/design-gates
+Phase4,QA reports,05_QA/2026-08-14_PCV_PHASE4_*,DURABLE,TRACK_IN_GIT,05_QA/reports
+Phase4,Raw Pilot_Output,**/Pilot_Output/**,GENERATED,IGNORE_GENERATED,05_QA/generated
+Phase4.1,Design Gate,07_Release/phase4_1_varexp_identity_gate,DURABLE,TRACK_IN_GIT,07_Release/design-gates
+Phase4.2,Collector source,03_Development/tools/pcvue-varexp-minimal-hierarchy-pilot-rc1,DURABLE,TRACK_IN_GIT,03_Development/tools
+Phase4.2,Design Gate,07_Release/phase4_2_minimal_hierarchy_pilot_design,DURABLE,TRACK_IN_GIT,07_Release/design-gates
+Phase4.2,QA reports,05_QA/2026-08-14_PCV_PHASE42_*,DURABLE,TRACK_IN_GIT,05_QA/reports
+Phase4.2,Synthetic scenarios,05_QA/phase4_2_minimal_hierarchy_pilot_rc1/*/Project Files,CONDITIONAL,MANUAL_REVIEW,05_QA/fixtures/synthetic
+Phase4.2,Generated output,05_QA/phase4_2_minimal_hierarchy_pilot_rc1/*/Output*,GENERATED,IGNORE_GENERATED,05_QA/generated
+Phase4.2,Release ZIP,07_Release/PCVue_VAREXP_Minimal_Hierarchy_Pilot_*.zip,REPRODUCIBLE_BINARY,DO_NOT_TRACK_BINARY,Private GitHub Release

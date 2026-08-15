@@ -1,0 +1,3 @@
+PCVue VAREXP Limited Tag Pilot Collector
+Package version: 1.0.0-rc1
+Production execution: NOT APPROVED

@@ -1,0 +1,4 @@
+AssessmentUnit,SourceScope,RowsAccountedFor,Evidence,Classification,IdentityState,Action
+GROUP_01,"VAREXP_02 and VAREXP_05",2,"Class Domain and Nature are simultaneously position-like numeric values; aggregate evidence does not safely bind these to specific record indexes",NON_TAG_RECORD_CANDIDATE,UNRESOLVED,"Retain; do not delete or use as tag"
+GROUP_02,"VAREXP_02 and VAREXP_05",38,"Class is tag-class-like and Domain/Nature are categorical; Tagname remains numeric-only and hierarchy was not collected",TAG_RECORD_CANDIDATE,UNRESOLVED,"Retain provenance and require hierarchy review"
+TOTAL,"VAREXP_02 and VAREXP_05",40,"All rows accounted for without reproducing Production values",AMBIGUOUS,UNRESOLVED,"No deletion normalization merge or AI ingestion"

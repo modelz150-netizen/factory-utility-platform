@@ -1,2 +1,62 @@
 # Local project tools
 .tools/
+
+# Production / OT / external FieldData
+/02. Project Backup/
+/UtilityAI_FieldData/
+/FieldData/
+/Production_Evidence/
+/usb/
+
+# Collector runtime output
+**/Output/
+**/Output_*/
+**/Sample_Output/
+**/Pilot_Output/
+**/*_Collection_Output/
+
+# Local extraction and repeated validation
+**/release_recheck/
+**/*release_recheck*/
+**/debugout/
+**/direct-after-rebuild/
+/05_QA/generated/
+/07_Release/packages/
+
+# Raw collection products
+PCVue_Collection_*.zip
+PCVue_Collection_*.zip.sha256
+PCVue_CSV_Header_Sample_*.zip
+PCVue_CSV_Header_Sample_*.zip.sha256
+PCVue_VAREXP_*_Pilot_*.zip
+PCVue_VAREXP_*_Pilot_*.zip.sha256
+
+# Cache / temporary / OS files
+*.tmp
+*.temp
+*.cache
+.DS_Store
+Thumbs.db
+desktop.ini
+/.codex-write-test.txt
+
+# Preserve durable release checksums
+!/07_Release/*.zip.sha256
+
+# Known non-production execution products and extracted packages
+**/PCVue_CSV_Header_Sample_20*/
+**/PCVue_VAREXP_*_Pilot_20*/
+/05_QA/varexp_limited_pilot_rc1/out_*/
+/05_QA/phase4_2_minimal_hierarchy_pilot_rc1/credential/
+/05_QA/phase4_2_minimal_hierarchy_pilot_rc1/dataSecret/
+/05_QA/phase4_2_minimal_hierarchy_pilot_rc1/keyOnly/
+/05_QA/rc5_nonproduction/e2e_*/
+/05_QA/rc5_nonproduction/fixture_sensitive/
+/05_QA/rc5_nonproduction/main/
+/05_QA/rc5_nonproduction/pvbad/
+/05_QA/rc5_nonproduction/sensitive/
+/05_QA/rc5_nonproduction/fixture_before_hashes.json
+/05_QA/varexp_limited_pilot_rc1/sensitive/
+/05_QA/varexp_limited_pilot_rc1/BEFORE_HASHES.json
+/07_Release/PCVue_CSV_Header_Sample_Collector_*/
+/07_Release/PCVue_VAREXP_*_Pilot_*/

@@ -1,0 +1,8 @@
+PositionalId,OriginalHeaderVariants,OTSensitivity,EquipmentIdentifierPossibility,HierarchyPossibility,NetworkPLCAddressPossibility,CredentialPossibility,TagIdentityContribution,InitialProposal,Reason
+VAREXP_COL_003,"n1 | n1(Factory)",HIGH,HIGH,HIGH,LOW,LOW,HIGH,MANUAL_VALUE_REVIEW_REQUIRED,"Strong qualifier but no official evidence"
+VAREXP_COL_004,"n2 | n2(System)",HIGH,HIGH,HIGH,MEDIUM,LOW,HIGH,MANUAL_VALUE_REVIEW_REQUIRED,"System may be hierarchy or OT system identifier"
+VAREXP_COL_005,"n3 | n3(Name)",HIGH,HIGH,HIGH,LOW,LOW,HIGH,MANUAL_VALUE_REVIEW_REQUIRED,"Likely name component but unconfirmed"
+VAREXP_COL_006,"n4 | n4(Signal)",HIGH,MEDIUM,MEDIUM,LOW,LOW,HIGH,DEFER_PENDING_003_005_REVIEW,"Add only if 003-005 plus Tagname is insufficient"
+VAREXP_COL_007,"n5 | n5(Detail)",MEDIUM,MEDIUM,MEDIUM,LOW,LOW,MEDIUM,DEFER_PENDING_COLLISION_EVIDENCE,"Add only for demonstrated collision/incompleteness"
+VAREXP_COL_008,"n6 | n6(In1)",HIGH,MEDIUM,LOW,MEDIUM,LOW,UNKNOWN,EXCLUDE_INITIAL_PILOT,"May expose linked OT identifiers"
+VAREXP_COL_009,"n7 | n7(In2)",HIGH,MEDIUM,LOW,MEDIUM,LOW,UNKNOWN,EXCLUDE_INITIAL_PILOT,"May expose linked OT identifiers"

@@ -1,0 +1,263 @@
+ColumnIndex,HeaderName,Empty,AllFiveIdentical,FilesWithHeader,HeaderNameConflict,Classification,varexp_main.csv,plc_m_varexp.csv,G03_varexp.csv,BFU_varexp.csv,E02_varexp.csv
+1,Class,FALSE,TRUE,5,FALSE,Known,Class,Class,Class,Class,Class
+2,Tagname,FALSE,TRUE,5,FALSE,Known,Tagname,Tagname,Tagname,Tagname,Tagname
+3,n1 | n1(Factory),FALSE,FALSE,5,TRUE,Unknown,n1,n1(Factory),n1(Factory),n1(Factory),n1(Factory)
+4,n2 | n2(System),FALSE,FALSE,5,TRUE,Unknown,n2,n2(System),n2(System),n2(System),n2(System)
+5,n3 | n3(Name),FALSE,FALSE,5,TRUE,Unknown,n3,n3(Name),n3(Name),n3(Name),n3(Name)
+6,n4 | n4(Signal),FALSE,FALSE,5,TRUE,Unknown,n4,n4(Signal),n4(Signal),n4(Signal),n4(Signal)
+7,n5 | n5(Detail),FALSE,FALSE,5,TRUE,Unknown,n5,n5(Detail),n5(Detail),n5(Detail),n5(Detail)
+8,n6 | n6(In1),FALSE,FALSE,5,TRUE,Unknown,n6,n6(In1),n6(In1),n6(In1),n6(In1)
+9,n7 | n7(In2),FALSE,FALSE,5,TRUE,Unknown,n7,n7(In2),n7(In2),n7(In2),n7(In2)
+10,n8,FALSE,TRUE,5,FALSE,Known,n8,n8,n8,n8,n8
+11,n9,FALSE,TRUE,5,FALSE,Known,n9,n9,n9,n9,n9
+12,n10,FALSE,TRUE,5,FALSE,Known,n10,n10,n10,n10,n10
+13,n11,FALSE,TRUE,5,FALSE,Known,n11,n11,n11,n11,n11
+14,n12,FALSE,TRUE,5,FALSE,Known,n12,n12,n12,n12,n12
+15,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+16,Description,FALSE,TRUE,5,FALSE,Known,Description,Description,Description,Description,Description
+17,DescriptionAlt,FALSE,TRUE,5,FALSE,Known,DescriptionAlt,DescriptionAlt,DescriptionAlt,DescriptionAlt,DescriptionAlt
+18,Domain,FALSE,TRUE,5,FALSE,Known,Domain,Domain,Domain,Domain,Domain
+19,Nature,FALSE,TRUE,5,FALSE,Known,Nature,Nature,Nature,Nature,Nature
+20,Inhibited,FALSE,TRUE,5,FALSE,Known,Inhibited,Inhibited,Inhibited,Inhibited,Inhibited
+21,Simulated,FALSE,TRUE,5,FALSE,Known,Simulated,Simulated,Simulated,Simulated,Simulated
+22,Saved,FALSE,TRUE,5,FALSE,Known,Saved,Saved,Saved,Saved,Saved
+23,Source,FALSE,TRUE,5,FALSE,Known,Source,Source,Source,Source,Source
+24,Broadcast,FALSE,TRUE,5,FALSE,Known,Broadcast,Broadcast,Broadcast,Broadcast,Broadcast
+25,StationOrAssociationNumber,FALSE,TRUE,5,FALSE,Known,StationOrAssociationNumber,StationOrAssociationNumber,StationOrAssociationNumber,StationOrAssociationNumber,StationOrAssociationNumber
+26,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+27,PermanentScan,FALSE,TRUE,5,FALSE,Known,PermanentScan,PermanentScan,PermanentScan,PermanentScan,PermanentScan
+28,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+29,UseExtendedAttributes,FALSE,TRUE,5,FALSE,Known,UseExtendedAttributes,UseExtendedAttributes,UseExtendedAttributes,UseExtendedAttributes,UseExtendedAttributes
+30,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+31,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+32,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+33,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+34,ServerListName,FALSE,TRUE,5,FALSE,Known,ServerListName,ServerListName,ServerListName,ServerListName,ServerListName
+35,ClientListName,FALSE,TRUE,5,FALSE,Known,ClientListName,ClientListName,ClientListName,ClientListName,ClientListName
+36,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+37,Eqt_NetworkName,FALSE,TRUE,5,FALSE,Known,Eqt_NetworkName,Eqt_NetworkName,Eqt_NetworkName,Eqt_NetworkName,Eqt_NetworkName
+38,Eqt_EqtName,FALSE,TRUE,5,FALSE,Known,Eqt_EqtName,Eqt_EqtName,Eqt_EqtName,Eqt_EqtName,Eqt_EqtName
+39,Eqt_FrameName,FALSE,TRUE,5,FALSE,Known,Eqt_FrameName,Eqt_FrameName,Eqt_FrameName,Eqt_FrameName,Eqt_FrameName
+40,Eqt_Type,FALSE,TRUE,5,FALSE,Known,Eqt_Type,Eqt_Type,Eqt_Type,Eqt_Type,Eqt_Type
+41,Eqt_Index,FALSE,TRUE,5,FALSE,Known,Eqt_Index,Eqt_Index,Eqt_Index,Eqt_Index,Eqt_Index
+42,Eqt_IndexComp,FALSE,TRUE,5,FALSE,Known,Eqt_IndexComp,Eqt_IndexComp,Eqt_IndexComp,Eqt_IndexComp,Eqt_IndexComp
+43,Eqt_SizeBit,FALSE,TRUE,5,FALSE,Known,Eqt_SizeBit,Eqt_SizeBit,Eqt_SizeBit,Eqt_SizeBit,Eqt_SizeBit
+44,Eqt_TextEncoding,FALSE,TRUE,5,FALSE,Known,Eqt_TextEncoding,Eqt_TextEncoding,Eqt_TextEncoding,Eqt_TextEncoding,Eqt_TextEncoding
+45,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+46,AssociatedLabels,FALSE,TRUE,5,FALSE,Known,AssociatedLabels,AssociatedLabels,AssociatedLabels,AssociatedLabels,AssociatedLabels
+47,Log0_1,FALSE,TRUE,5,FALSE,Known,Log0_1,Log0_1,Log0_1,Log0_1,Log0_1
+48,Log1_0,FALSE,TRUE,5,FALSE,Known,Log1_0,Log1_0,Log1_0,Log1_0,Log1_0
+49,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+50,BitCommandLevel,FALSE,TRUE,5,FALSE,Known,BitCommandLevel,BitCommandLevel,BitCommandLevel,BitCommandLevel,BitCommandLevel
+51,AlarmLevel,FALSE,TRUE,5,FALSE,Known,AlarmLevel,AlarmLevel,AlarmLevel,AlarmLevel,AlarmLevel
+52,AlarmActiveAt1,FALSE,TRUE,5,FALSE,Known,AlarmActiveAt1,AlarmActiveAt1,AlarmActiveAt1,AlarmActiveAt1,AlarmActiveAt1
+53,MaskDependency,FALSE,TRUE,5,FALSE,Known,MaskDependency,MaskDependency,MaskDependency,MaskDependency,MaskDependency
+54,AlarmTemporization,FALSE,TRUE,5,FALSE,Known,AlarmTemporization,AlarmTemporization,AlarmTemporization,AlarmTemporization,AlarmTemporization
+55,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+56,ThresholdHysterisis,FALSE,TRUE,5,FALSE,Known,ThresholdHysterisis,ThresholdHysterisis,ThresholdHysterisis,ThresholdHysterisis,ThresholdHysterisis
+57,ThresholdValue | Thresholdvalue,FALSE,FALSE,5,TRUE,Unknown,ThresholdValue,Thresholdvalue,ThresholdValue,ThresholdValue,Thresholdvalue
+58,ThresholdHigh,FALSE,TRUE,5,FALSE,Known,ThresholdHigh,ThresholdHigh,ThresholdHigh,ThresholdHigh,ThresholdHigh
+59,ThresholdSource,FALSE,TRUE,5,FALSE,Known,ThresholdSource,ThresholdSource,ThresholdSource,ThresholdSource,ThresholdSource
+60,ThresholdSystem,FALSE,TRUE,5,FALSE,Known,ThresholdSystem,ThresholdSystem,ThresholdSystem,ThresholdSystem,ThresholdSystem
+61,ThresholdTypeInSystem,FALSE,TRUE,5,FALSE,Known,ThresholdTypeInSystem,ThresholdTypeInSystem,ThresholdTypeInSystem,ThresholdTypeInSystem,ThresholdTypeInSystem
+62,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+63,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+64,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+65,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+66,Unit,FALSE,TRUE,5,FALSE,Known,Unit,Unit,Unit,Unit,Unit
+67,DeadbandValue | Deadbandvalue,FALSE,FALSE,5,TRUE,Unknown,DeadbandValue,Deadbandvalue,DeadbandValue,DeadbandValue,Deadbandvalue
+68,MinimumValue | Minimumvalue,FALSE,FALSE,5,TRUE,Unknown,MinimumValue,Minimumvalue,MinimumValue,MinimumValue,Minimumvalue
+69,MaximumValue | Maximumvalue,FALSE,FALSE,5,TRUE,Unknown,MaximumValue,Maximumvalue,MaximumValue,MaximumValue,Maximumvalue
+70,ScaledValue | Scaledvalue,FALSE,FALSE,5,TRUE,Unknown,ScaledValue,Scaledvalue,ScaledValue,ScaledValue,Scaledvalue
+71,DeviceMinimumValue | DeviceMinimumvalue,FALSE,FALSE,5,TRUE,Unknown,DeviceMinimumValue,DeviceMinimumvalue,DeviceMinimumValue,DeviceMinimumValue,DeviceMinimumvalue
+72,DeviceMaximumValue | DeviceMaximumvalue,FALSE,FALSE,5,TRUE,Unknown,DeviceMaximumValue,DeviceMaximumvalue,DeviceMaximumValue,DeviceMaximumValue,DeviceMaximumvalue
+73,Format,FALSE,TRUE,5,FALSE,Known,Format,Format,Format,Format,Format
+74,VariableMinimumValue | VariableMinimumvalue,FALSE,FALSE,5,TRUE,Unknown,VariableMinimumValue,VariableMinimumvalue,VariableMinimumValue,VariableMinimumValue,VariableMinimumvalue
+75,VariableMaximumValue | VariableMaximumvalue,FALSE,FALSE,5,TRUE,Unknown,VariableMaximumValue,VariableMaximumvalue,VariableMaximumValue,VariableMaximumValue,VariableMaximumvalue
+76,ControlMinimumValue | ControlMinimumvalue,FALSE,FALSE,5,TRUE,Unknown,ControlMinimumValue,ControlMinimumvalue,ControlMinimumValue,ControlMinimumValue,ControlMinimumvalue
+77,ControlMaximumValue | ControlMaximumvalue,FALSE,FALSE,5,TRUE,Unknown,ControlMaximumValue,ControlMaximumvalue,ControlMaximumValue,ControlMaximumValue,ControlMaximumvalue
+78,RegisterCommandLevel,FALSE,TRUE,5,FALSE,Known,RegisterCommandLevel,RegisterCommandLevel,RegisterCommandLevel,RegisterCommandLevel,RegisterCommandLevel
+79,VariableControlMinimumValue | VariableControlMinimumvalue,FALSE,FALSE,5,TRUE,Unknown,VariableControlMinimumValue,VariableControlMinimumvalue,VariableControlMinimumValue,VariableControlMinimumValue,VariableControlMinimumvalue
+80,VariableControlMaximumValue | VariableControlMaximumvalue,FALSE,FALSE,5,TRUE,Unknown,VariableControlMaximumValue,VariableControlMaximumvalue,VariableControlMaximumValue,VariableControlMaximumValue,VariableControlMaximumvalue
+81,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+82,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+83,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+84,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+85,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+86,Counter_StepSize,FALSE,TRUE,5,FALSE,Known,Counter_StepSize,Counter_StepSize,Counter_StepSize,Counter_StepSize,Counter_StepSize
+87,Counter_Type,FALSE,TRUE,5,FALSE,Known,Counter_Type,Counter_Type,Counter_Type,Counter_Type,Counter_Type
+88,Counter_CountBitName,FALSE,TRUE,5,FALSE,Known,Counter_CountBitName,Counter_CountBitName,Counter_CountBitName,Counter_CountBitName,Counter_CountBitName
+89,Counter_CountBitTransition,FALSE,TRUE,5,FALSE,Known,Counter_CountBitTransition,Counter_CountBitTransition,Counter_CountBitTransition,Counter_CountBitTransition,Counter_CountBitTransition
+90,Counter_ResetBitName,FALSE,TRUE,5,FALSE,Known,Counter_ResetBitName,Counter_ResetBitName,Counter_ResetBitName,Counter_ResetBitName,Counter_ResetBitName
+91,Counter_ResetBitTransition,FALSE,TRUE,5,FALSE,Known,Counter_ResetBitTransition,Counter_ResetBitTransition,Counter_ResetBitTransition,Counter_ResetBitTransition,Counter_ResetBitTransition
+92,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+93,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+94,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+95,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+96,Chrono_Period,FALSE,TRUE,5,FALSE,Known,Chrono_Period,Chrono_Period,Chrono_Period,Chrono_Period,Chrono_Period
+97,Chrono_Type,FALSE,TRUE,5,FALSE,Known,Chrono_Type,Chrono_Type,Chrono_Type,Chrono_Type,Chrono_Type
+98,Chrono_EnableBitName | Chrono_enableBitName,FALSE,FALSE,5,TRUE,Unknown,Chrono_EnableBitName,Chrono_enableBitName,Chrono_EnableBitName,Chrono_EnableBitName,Chrono_enableBitName
+99,Chrono_EnableBitTransition | Chrono_enableBitTransition,FALSE,FALSE,5,TRUE,Unknown,Chrono_EnableBitTransition,Chrono_enableBitTransition,Chrono_EnableBitTransition,Chrono_EnableBitTransition,Chrono_enableBitTransition
+100,Chrono_ResetBitName,FALSE,TRUE,5,FALSE,Known,Chrono_ResetBitName,Chrono_ResetBitName,Chrono_ResetBitName,Chrono_ResetBitName,Chrono_ResetBitName
+101,Chrono_ResetBitTransition,FALSE,TRUE,5,FALSE,Known,Chrono_ResetBitTransition,Chrono_ResetBitTransition,Chrono_ResetBitTransition,Chrono_ResetBitTransition,Chrono_ResetBitTransition
+102,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+103,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+104,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+105,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+106,TextSize,FALSE,TRUE,5,FALSE,Known,TextSize,TextSize,TextSize,TextSize,TextSize
+107,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+108,TextCommandLevel,FALSE,TRUE,5,FALSE,Known,TextCommandLevel,TextCommandLevel,TextCommandLevel,TextCommandLevel,TextCommandLevel
+109,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+110,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+111,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+112,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+113,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+114,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+115,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+116,LNS_NetworkAlias,FALSE,TRUE,5,FALSE,Known,LNS_NetworkAlias,LNS_NetworkAlias,LNS_NetworkAlias,LNS_NetworkAlias,LNS_NetworkAlias
+117,LNS_NodeAlias,FALSE,TRUE,5,FALSE,Known,LNS_NodeAlias,LNS_NodeAlias,LNS_NodeAlias,LNS_NodeAlias,LNS_NodeAlias
+118,LNS_NvName,FALSE,TRUE,5,FALSE,Known,LNS_NvName,LNS_NvName,LNS_NvName,LNS_NvName,LNS_NvName
+119,LNS_PollingPeriod,FALSE,TRUE,5,FALSE,Known,LNS_PollingPeriod,LNS_PollingPeriod,LNS_PollingPeriod,LNS_PollingPeriod,LNS_PollingPeriod
+120,LNS_DefaultMonitoring,FALSE,TRUE,5,FALSE,Known,LNS_DefaultMonitoring,LNS_DefaultMonitoring,LNS_DefaultMonitoring,LNS_DefaultMonitoring,LNS_DefaultMonitoring
+121,LNS_FieldName,FALSE,TRUE,5,FALSE,Known,LNS_FieldName,LNS_FieldName,LNS_FieldName,LNS_FieldName,LNS_FieldName
+122,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+123,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+124,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+125,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+126,DDE_Server,FALSE,TRUE,5,FALSE,Known,DDE_Server,DDE_Server,DDE_Server,DDE_Server,DDE_Server
+127,DDE_Item,FALSE,TRUE,5,FALSE,Known,DDE_Item,DDE_Item,DDE_Item,DDE_Item,DDE_Item
+128,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+129,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+130,DDE_Format,FALSE,TRUE,5,FALSE,Known,DDE_Format,DDE_Format,DDE_Format,DDE_Format,DDE_Format
+131,DDE_RangBit,FALSE,TRUE,5,FALSE,Known,DDE_RangBit,DDE_RangBit,DDE_RangBit,DDE_RangBit,DDE_RangBit
+132,DDE_AutoItemName,FALSE,TRUE,5,FALSE,Known,DDE_AutoItemName,DDE_AutoItemName,DDE_AutoItemName,DDE_AutoItemName,DDE_AutoItemName
+133,DDE_Label,FALSE,TRUE,5,FALSE,Known,DDE_Label,DDE_Label,DDE_Label,DDE_Label,DDE_Label
+134,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+135,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+136,ExtBinary,FALSE,TRUE,5,FALSE,Known,ExtBinary,ExtBinary,ExtBinary,ExtBinary,ExtBinary
+137,ExtText3,FALSE,TRUE,5,FALSE,Known,ExtText3,ExtText3,ExtText3,ExtText3,ExtText3
+138,ExtText4,FALSE,TRUE,5,FALSE,Known,ExtText4,ExtText4,ExtText4,ExtText4,ExtText4
+139,ExtText5,FALSE,TRUE,5,FALSE,Known,ExtText5,ExtText5,ExtText5,ExtText5,ExtText5
+140,ExtText6,FALSE,TRUE,5,FALSE,Known,ExtText6,ExtText6,ExtText6,ExtText6,ExtText6
+141,ExtText7,FALSE,TRUE,5,FALSE,Known,ExtText7,ExtText7,ExtText7,ExtText7,ExtText7
+142,ExtText8,FALSE,TRUE,5,FALSE,Known,ExtText8,ExtText8,ExtText8,ExtText8,ExtText8
+143,ExtText9,FALSE,TRUE,5,FALSE,Known,ExtText9,ExtText9,ExtText9,ExtText9,ExtText9
+144,ExtText10,FALSE,TRUE,5,FALSE,Known,ExtText10,ExtText10,ExtText10,ExtText10,ExtText10
+145,ExtText11,FALSE,TRUE,5,FALSE,Known,ExtText11,ExtText11,ExtText11,ExtText11,ExtText11
+146,ExtText12,FALSE,TRUE,5,FALSE,Known,ExtText12,ExtText12,ExtText12,ExtText12,ExtText12
+147,ExtText13,FALSE,TRUE,5,FALSE,Known,ExtText13,ExtText13,ExtText13,ExtText13,ExtText13
+148,ExtText14,FALSE,TRUE,5,FALSE,Known,ExtText14,ExtText14,ExtText14,ExtText14,ExtText14
+149,ExtText15,FALSE,TRUE,5,FALSE,Known,ExtText15,ExtText15,ExtText15,ExtText15,ExtText15
+150,ExtText16,FALSE,TRUE,5,FALSE,Known,ExtText16,ExtText16,ExtText16,ExtText16,ExtText16
+151,OPC_Server,FALSE,TRUE,5,FALSE,Known,OPC_Server,OPC_Server,OPC_Server,OPC_Server,OPC_Server
+152,OPC_Group,FALSE,TRUE,5,FALSE,Known,OPC_Group,OPC_Group,OPC_Group,OPC_Group,OPC_Group
+153,OPC_ItemId,FALSE,TRUE,5,FALSE,Known,OPC_ItemId,OPC_ItemId,OPC_ItemId,OPC_ItemId,OPC_ItemId
+154,OPC_AccessPath,FALSE,TRUE,5,FALSE,Known,OPC_AccessPath,OPC_AccessPath,OPC_AccessPath,OPC_AccessPath,OPC_AccessPath
+155,OPC_IsArray,FALSE,TRUE,5,FALSE,Known,OPC_IsArray,OPC_IsArray,OPC_IsArray,OPC_IsArray,OPC_IsArray
+156,OPC_ArrayIndex,FALSE,TRUE,5,FALSE,Known,OPC_ArrayIndex,OPC_ArrayIndex,OPC_ArrayIndex,OPC_ArrayIndex,OPC_ArrayIndex
+157,OPC_CustomizationExpression,FALSE,TRUE,5,FALSE,Known,OPC_CustomizationExpression,OPC_CustomizationExpression,OPC_CustomizationExpression,OPC_CustomizationExpression,OPC_CustomizationExpression
+158,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+159,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+160,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+161,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+162,DeadbandType,FALSE,TRUE,5,FALSE,Known,DeadbandType,DeadbandType,DeadbandType,DeadbandType,DeadbandType
+163,Recorder,FALSE,TRUE,5,FALSE,Known,Recorder,Recorder,Recorder,Recorder,Recorder
+164,MaskExpressionBranch,FALSE,TRUE,5,FALSE,Known,MaskExpressionBranch,MaskExpressionBranch,MaskExpressionBranch,MaskExpressionBranch,MaskExpressionBranch
+165,MaskExpressionTemplate,FALSE,TRUE,5,FALSE,Known,MaskExpressionTemplate,MaskExpressionTemplate,MaskExpressionTemplate,MaskExpressionTemplate,MaskExpressionTemplate
+166,MessageAlarm,FALSE,TRUE,5,FALSE,Known,MessageAlarm,MessageAlarm,MessageAlarm,MessageAlarm,MessageAlarm
+167,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+168,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+169,BACnet_NetworkName,FALSE,TRUE,5,FALSE,Known,BACnet_NetworkName,BACnet_NetworkName,BACnet_NetworkName,BACnet_NetworkName,BACnet_NetworkName
+170,BACnet_DeviceName,FALSE,TRUE,5,FALSE,Known,BACnet_DeviceName,BACnet_DeviceName,BACnet_DeviceName,BACnet_DeviceName,BACnet_DeviceName
+171,BACnet_ObjectType,FALSE,TRUE,5,FALSE,Known,BACnet_ObjectType,BACnet_ObjectType,BACnet_ObjectType,BACnet_ObjectType,BACnet_ObjectType
+172,BACnet_ObjectInstance,FALSE,TRUE,5,FALSE,Known,BACnet_ObjectInstance,BACnet_ObjectInstance,BACnet_ObjectInstance,BACnet_ObjectInstance,BACnet_ObjectInstance
+173,BACnet_Property,FALSE,TRUE,5,FALSE,Known,BACnet_Property,BACnet_Property,BACnet_Property,BACnet_Property,BACnet_Property
+174,BACnet_Fields,FALSE,TRUE,5,FALSE,Known,BACnet_Fields,BACnet_Fields,BACnet_Fields,BACnet_Fields,BACnet_Fields
+175,BACnet_PollingPeriod,FALSE,TRUE,5,FALSE,Known,BACnet_PollingPeriod,BACnet_PollingPeriod,BACnet_PollingPeriod,BACnet_PollingPeriod,BACnet_PollingPeriod
+176,BACnet_MonitoringType,FALSE,TRUE,5,FALSE,Known,BACnet_MonitoringType,BACnet_MonitoringType,BACnet_MonitoringType,BACnet_MonitoringType,BACnet_MonitoringType
+177,BACnet_Priority,FALSE,TRUE,5,FALSE,Known,BACnet_Priority,BACnet_Priority,BACnet_Priority,BACnet_Priority,BACnet_Priority
+178,BACnet_Type,FALSE,TRUE,5,FALSE,Known,BACnet_Type,BACnet_Type,BACnet_Type,BACnet_Type,BACnet_Type
+179,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+180,BrowsingLevel,FALSE,TRUE,5,FALSE,Known,BrowsingLevel,BrowsingLevel,BrowsingLevel,BrowsingLevel,BrowsingLevel
+181,AlarmAcknowledgmentLevel,FALSE,TRUE,5,FALSE,Known,AlarmAcknowledgmentLevel,AlarmAcknowledgmentLevel,AlarmAcknowledgmentLevel,AlarmAcknowledgmentLevel,AlarmAcknowledgmentLevel
+182,AlarmMaskLevel,FALSE,TRUE,5,FALSE,Known,AlarmMaskLevel,AlarmMaskLevel,AlarmMaskLevel,AlarmMaskLevel,AlarmMaskLevel
+183,AlarmMaintenanceLevel,FALSE,TRUE,5,FALSE,Known,AlarmMaintenanceLevel,AlarmMaintenanceLevel,AlarmMaintenanceLevel,AlarmMaintenanceLevel,AlarmMaintenanceLevel
+184,WithInitialValue | WithInitialvalue,FALSE,FALSE,5,TRUE,Unknown,WithInitialValue,WithInitialvalue,WithInitialValue,WithInitialValue,WithInitialvalue
+185,InitialValue | Initialvalue,FALSE,FALSE,5,TRUE,Unknown,InitialValue,Initialvalue,InitialValue,InitialValue,Initialvalue
+186,104_NetworkName,FALSE,TRUE,5,FALSE,Known,104_NetworkName,104_NetworkName,104_NetworkName,104_NetworkName,104_NetworkName
+187,104_DeviceName,FALSE,TRUE,5,FALSE,Known,104_DeviceName,104_DeviceName,104_DeviceName,104_DeviceName,104_DeviceName
+188,104_SectorName,FALSE,TRUE,5,FALSE,Known,104_SectorName,104_SectorName,104_SectorName,104_SectorName,104_SectorName
+189,104_IOA,FALSE,TRUE,5,FALSE,Known,104_IOA,104_IOA,104_IOA,104_IOA,104_IOA
+190,104_Type,FALSE,TRUE,5,FALSE,Known,104_Type,104_Type,104_Type,104_Type,104_Type
+191,104_WriteIOA,FALSE,TRUE,5,FALSE,Known,104_WriteIOA,104_WriteIOA,104_WriteIOA,104_WriteIOA,104_WriteIOA
+192,104_SBO,FALSE,TRUE,5,FALSE,Known,104_SBO,104_SBO,104_SBO,104_SBO,104_SBO
+193,104_QLorQU,FALSE,TRUE,5,FALSE,Known,104_QLorQU,104_QLorQU,104_QLorQU,104_QLorQU,104_QLorQU
+194,104_WriteTimeTag,FALSE,TRUE,5,FALSE,Known,104_WriteTimeTag,104_WriteTimeTag,104_WriteTimeTag,104_WriteTimeTag,104_WriteTimeTag
+195,104_MappingBit,FALSE,TRUE,5,FALSE,Known,104_MappingBit,104_MappingBit,104_MappingBit,104_MappingBit,104_MappingBit
+196,IEC61850_MappingType,FALSE,TRUE,5,FALSE,Known,IEC61850_MappingType,IEC61850_MappingType,IEC61850_MappingType,IEC61850_MappingType,IEC61850_MappingType
+197,IEC61850_Network,FALSE,TRUE,5,FALSE,Known,IEC61850_Network,IEC61850_Network,IEC61850_Network,IEC61850_Network,IEC61850_Network
+198,IEC61850_PhysicalDevice,FALSE,TRUE,5,FALSE,Known,IEC61850_PhysicalDevice,IEC61850_PhysicalDevice,IEC61850_PhysicalDevice,IEC61850_PhysicalDevice,IEC61850_PhysicalDevice
+199,IEC61850_DataGroup,FALSE,TRUE,5,FALSE,Known,IEC61850_DataGroup,IEC61850_DataGroup,IEC61850_DataGroup,IEC61850_DataGroup,IEC61850_DataGroup
+200,IEC61850_DataGroupMember,FALSE,TRUE,5,FALSE,Known,IEC61850_DataGroupMember,IEC61850_DataGroupMember,IEC61850_DataGroupMember,IEC61850_DataGroupMember,IEC61850_DataGroupMember
+201,IEC61850_DataGroupMemberField,FALSE,TRUE,5,FALSE,Known,IEC61850_DataGroupMemberField,IEC61850_DataGroupMemberField,IEC61850_DataGroupMemberField,IEC61850_DataGroupMemberField,IEC61850_DataGroupMemberField
+202,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+203,IEC61850_CommonDataClass,FALSE,TRUE,5,FALSE,Known,IEC61850_CommonDataClass,IEC61850_CommonDataClass,IEC61850_CommonDataClass,IEC61850_CommonDataClass,IEC61850_CommonDataClass
+204,IEC61850_ControlModel,FALSE,TRUE,5,FALSE,Known,IEC61850_ControlModel,IEC61850_ControlModel,IEC61850_ControlModel,IEC61850_ControlModel,IEC61850_ControlModel
+205,IEC61850_NotUseTimeStamp,FALSE,TRUE,5,FALSE,Known,IEC61850_NotUseTimeStamp,IEC61850_NotUseTimeStamp,IEC61850_NotUseTimeStamp,IEC61850_NotUseTimeStamp,IEC61850_NotUseTimeStamp
+206,IEC61850_NotUseQuality,FALSE,TRUE,5,FALSE,Known,IEC61850_NotUseQuality,IEC61850_NotUseQuality,IEC61850_NotUseQuality,IEC61850_NotUseQuality,IEC61850_NotUseQuality
+207,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+208,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+209,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+210,BACnet_EDEFileName,FALSE,TRUE,5,FALSE,Known,BACnet_EDEFileName,BACnet_EDEFileName,BACnet_EDEFileName,BACnet_EDEFileName,BACnet_EDEFileName
+211,BACnet_EDEKeyname,FALSE,TRUE,5,FALSE,Known,BACnet_EDEKeyname,BACnet_EDEKeyname,BACnet_EDEKeyname,BACnet_EDEKeyname,BACnet_EDEKeyname
+212,104_Signed,FALSE,TRUE,5,FALSE,Known,104_Signed,104_Signed,104_Signed,104_Signed,104_Signed
+213,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+214,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+215,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+216,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+217,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+218,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+219,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+220,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+221,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+222,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+223,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+224,BACnet_VarType,FALSE,TRUE,5,FALSE,Known,BACnet_VarType,BACnet_VarType,BACnet_VarType,BACnet_VarType,BACnet_VarType
+225,BACnet_AlarmType,FALSE,TRUE,5,FALSE,Known,BACnet_AlarmType,BACnet_AlarmType,BACnet_AlarmType,BACnet_AlarmType,BACnet_AlarmType
+226,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+227,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+228,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+229,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+230,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+231,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+232,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+233,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+234,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+235,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+236,SNMP_NetworkName,FALSE,TRUE,5,FALSE,Known,SNMP_NetworkName,SNMP_NetworkName,SNMP_NetworkName,SNMP_NetworkName,SNMP_NetworkName
+237,SNMP_DeviceName,FALSE,TRUE,5,FALSE,Known,SNMP_DeviceName,SNMP_DeviceName,SNMP_DeviceName,SNMP_DeviceName,SNMP_DeviceName
+238,SNMP_ScanGroupName,FALSE,TRUE,5,FALSE,Known,SNMP_ScanGroupName,SNMP_ScanGroupName,SNMP_ScanGroupName,SNMP_ScanGroupName,SNMP_ScanGroupName
+239,SNMP_DataType,FALSE,TRUE,5,FALSE,Known,SNMP_DataType,SNMP_DataType,SNMP_DataType,SNMP_DataType,SNMP_DataType
+240,SNMP_OID,FALSE,TRUE,5,FALSE,Known,SNMP_OID,SNMP_OID,SNMP_OID,SNMP_OID,SNMP_OID
+241,SNMP_DisableReading,FALSE,TRUE,5,FALSE,Known,SNMP_DisableReading,SNMP_DisableReading,SNMP_DisableReading,SNMP_DisableReading,SNMP_DisableReading
+242,SNMP_WithInitialValue | SNMP_WithInitialvalue,FALSE,FALSE,5,TRUE,Unknown,SNMP_WithInitialValue,SNMP_WithInitialvalue,SNMP_WithInitialValue,SNMP_WithInitialValue,SNMP_WithInitialvalue
+243,SNMP_InitialValue | SNMP_Initialvalue,FALSE,FALSE,5,TRUE,Unknown,SNMP_InitialValue,SNMP_Initialvalue,SNMP_InitialValue,SNMP_InitialValue,SNMP_Initialvalue
+244,SNMP_Offset,FALSE,TRUE,5,FALSE,Known,SNMP_Offset,SNMP_Offset,SNMP_Offset,SNMP_Offset,SNMP_Offset
+245,SNMP_ExtractionField,FALSE,TRUE,5,FALSE,Known,SNMP_ExtractionField,SNMP_ExtractionField,SNMP_ExtractionField,SNMP_ExtractionField,SNMP_ExtractionField
+246,SNMP_RemoveNoPrintableCharacters,FALSE,TRUE,5,FALSE,Known,SNMP_RemoveNoPrintableCharacters,SNMP_RemoveNoPrintableCharacters,SNMP_RemoveNoPrintableCharacters,SNMP_RemoveNoPrintableCharacters,SNMP_RemoveNoPrintableCharacters
+247,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+248,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+249,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+250,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+251,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+252,104_ReadTimeTag,FALSE,TRUE,5,FALSE,Known,104_ReadTimeTag,104_ReadTimeTag,104_ReadTimeTag,104_ReadTimeTag,104_ReadTimeTag
+253,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+254,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+255,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+256,,TRUE,TRUE,0,FALSE,ReservedCandidate,,,,,
+257,OPCUA_NetworkName,FALSE,TRUE,5,FALSE,Known,OPCUA_NetworkName,OPCUA_NetworkName,OPCUA_NetworkName,OPCUA_NetworkName,OPCUA_NetworkName
+258,OPCUA_ClientName,FALSE,TRUE,5,FALSE,Known,OPCUA_ClientName,OPCUA_ClientName,OPCUA_ClientName,OPCUA_ClientName,OPCUA_ClientName
+259,OPCUA_MonitoringName,FALSE,TRUE,5,FALSE,Known,OPCUA_MonitoringName,OPCUA_MonitoringName,OPCUA_MonitoringName,OPCUA_MonitoringName,OPCUA_MonitoringName
+260,OPCUA_Identifier,FALSE,TRUE,5,FALSE,Known,OPCUA_Identifier,OPCUA_Identifier,OPCUA_Identifier,OPCUA_Identifier,OPCUA_Identifier
+261,OPCUA_IdentifierType,FALSE,TRUE,5,FALSE,Known,OPCUA_IdentifierType,OPCUA_IdentifierType,OPCUA_IdentifierType,OPCUA_IdentifierType,OPCUA_IdentifierType
+262,OPCUA_NamespaceIndex,FALSE,TRUE,5,FALSE,Known,OPCUA_NamespaceIndex,OPCUA_NamespaceIndex,OPCUA_NamespaceIndex,OPCUA_NamespaceIndex,OPCUA_NamespaceIndex

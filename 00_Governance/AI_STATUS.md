@@ -2,15 +2,15 @@
 
 | Field | Current value |
 |---|---|
-| Updated | 2026-08-09 |
+| Updated | 2026-08-14 |
 | Architecture status | Approved and frozen |
 | Governance status | Active and frozen |
 | Project status | WordPress Integration Foundation Active / Approved / 1.0.0 |
-| Current phase | Phase 2 Platform Foundation Complete |
-| Active backlog item | None; `ARC-007` Done upon PR #46 merge |
+| Current phase | PCVue Phase 4.2 complete through non-production QA; Migration Gate 3 baseline commit prepared and not pushed |
+| Active backlog item | `PCV-002` Phase 4.2 Production Minimal Hierarchy Pilot remains separately gated and not run |
 | Active branch | `agent/wordpress-integration-foundation` |
 | Active pull request | PR #46 approved for Ready transition and merge |
-| Next approved action | Merge PR #46, complete post-merge validation, then stop and report the final Phase 2 platform state before any Utility module gate |
+| Next approved action | Create the authorized local baseline commit, then obtain separate approval before GitHub push or the Phase 4.2 Production Pilot |
 | Blockers | None; Dashboard Framework actual 200% zoom and 400% browser reflow remain NOT VERIFIED, and VoiceOver, forced-colors/high-contrast, and OS reduced-motion remain NOT RUN / Deferred |
 
 ## Constitutional State

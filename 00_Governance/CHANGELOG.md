@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-08-14 — PCVue Phase 3–4.2 and Repository Migration Baseline
+
+- Confirmed RC6.1 Production project-root validation PASS and completed Phase 3 header/schema structure validation.
+- Recorded the Phase 4 limited VAREXP Production Pilot result without expanding to all VAREXP files, HISTO access, PLC/HMI mapping, or AI ingestion.
+- Completed the Phase 4.1 Tag Identity design Gate; identity remains evidence-bound and is not represented as officially confirmed.
+- Completed Phase 4.2 Minimal Hierarchy Pilot collector implementation and non-production PowerShell 5.1 QA; the Phase 4.2 Production Pilot has not been run or authorized.
+- Verified and externalized 3,618 FieldData files, then removed only the verified repository copies and approved generated/delete-candidate artifacts under Migration Gates 1–3.
+- Applied the governed `.gitignore` policy and prepared a local baseline commit; no GitHub push or Release upload is authorized by this entry.
+
+## 2026-08-12 — PCVue Collector RC6.1 Operator Configuration Integrity
+
+- `PCV-001` separated mutable `AdditionalProjectRoots.txt` from the immutable package checksum baseline without weakening executable/security-critical fail-closed validation.
+- Added runtime operator-configuration SHA-256 audit, per-root `OPERATOR_APPROVED` acceptance/rejection evidence, verified-local-drive enforcement and reparse-ancestor rejection.
+- Added the `D:\Project Files` fixture and Windows PowerShell 5.1 security regression covering mutable configuration, immutable tamper, prohibited paths, runtime Manifest and root evidence.
+- Produced a new checksummed RC6.1 deployment package for review only; no Production SCADA execution was performed or authorized.
+
 ## 2026-08-09 — WordPress Integration Foundation Approved
 
 - Recorded final CTO and Utility Manager visual approval of PR #46 and recognized the WordPress Integration Foundation as Active / Approved / 1.0.0 upon merge.

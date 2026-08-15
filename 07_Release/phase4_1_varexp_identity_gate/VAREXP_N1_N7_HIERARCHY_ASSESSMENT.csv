@@ -1,0 +1,8 @@
+PositionalId,Position,VAREXP_01_OriginalHeader,VAREXP_02_OriginalHeader,VAREXP_03_OriginalHeader,VAREXP_04_OriginalHeader,VAREXP_05_OriginalHeader,Variant,Qualifier,KnownMeaning,OfficialEvidence,StablePosition,AutomaticAliasAllowed,Assessment
+VAREXP_COL_003,3,n1,n1(Factory),n1(Factory),n1(Factory),n1(Factory),QUALIFIER_VARIANT,Factory,"Possible factory component; unconfirmed",NOT_FOUND,TRUE,FALSE,MANUAL_REVIEW_REQUIRED
+VAREXP_COL_004,4,n2,n2(System),n2(System),n2(System),n2(System),QUALIFIER_VARIANT,System,"Possible system/area component; unconfirmed",NOT_FOUND,TRUE,FALSE,MANUAL_REVIEW_REQUIRED
+VAREXP_COL_005,5,n3,n3(Name),n3(Name),n3(Name),n3(Name),QUALIFIER_VARIANT,Name,"Possible object/equipment name; unconfirmed",NOT_FOUND,TRUE,FALSE,MANUAL_REVIEW_REQUIRED
+VAREXP_COL_006,6,n4,n4(Signal),n4(Signal),n4(Signal),n4(Signal),QUALIFIER_VARIANT,Signal,"Possible signal/leaf component; unconfirmed",NOT_FOUND,TRUE,FALSE,MANUAL_REVIEW_REQUIRED
+VAREXP_COL_007,7,n5,n5(Detail),n5(Detail),n5(Detail),n5(Detail),QUALIFIER_VARIANT,Detail,"Possible detail/disambiguation component; unconfirmed",NOT_FOUND,TRUE,FALSE,MANUAL_REVIEW_REQUIRED
+VAREXP_COL_008,8,n6,n6(In1),n6(In1),n6(In1),n6(In1),QUALIFIER_VARIANT,In1,"Possible input/reference, not proven hierarchy",NOT_FOUND,TRUE,FALSE,EXCLUDE_FROM_INITIAL_HIERARCHY_PILOT
+VAREXP_COL_009,9,n7,n7(In2),n7(In2),n7(In2),n7(In2),QUALIFIER_VARIANT,In2,"Possible input/reference, not proven hierarchy",NOT_FOUND,TRUE,FALSE,EXCLUDE_FROM_INITIAL_HIERARCHY_PILOT

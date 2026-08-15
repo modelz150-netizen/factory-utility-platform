@@ -59,6 +59,10 @@
 | OPS-001 | P0 | Done | Repository | Connect the local project to the approved GitHub repository | Local `main` tracks the approved origin and connection evidence is recorded. |
 | OPS-002 | P0 | Done | Repository | Publish the local project foundation to GitHub | Project foundation is committed, pushed, and available in Draft PR #1. |
 
+| PCV-001 | P0 | Done | OT data collection | Separate RC6.1 mutable operator roots from immutable package integrity | `AdditionalProjectRoots.txt` is excluded and prohibited from the immutable baseline, runtime SHA-256 and root decisions are audited, prohibited paths remain fail-closed, executable tamper is rejected, Windows PowerShell 5.1 regression passes, and a checksummed non-production deployment ZIP is produced. |
+| PCV-002 | P0 | In Progress | OT data collection | Validate PCVue project data through the gated Phase 3 and Phase 4 pilots | RC6.1 Production root validation passed; Phase 3 structure validation completed; the Phase 4 limited VAREXP Production Pilot was assessed; Phase 4.1 Identity Gate completed; Phase 4.2 Minimal Hierarchy Pilot implementation and non-production QA passed; Phase 4.2 Production execution remains not run and separately gated. |
+| OPS-003 | P0 | In Progress | Repository | Establish a governed local repository baseline through PCVue Phase 4.2 | Verified FieldData is externalized, repository copies and generated artifacts are removed, the pre-commit security gate passes, and a local baseline commit is created without push. |
+
 ## Status Definitions
 
 - `Todo`: Approved concept but not started.

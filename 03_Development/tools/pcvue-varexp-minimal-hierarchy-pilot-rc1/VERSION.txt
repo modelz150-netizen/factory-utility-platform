@@ -1,0 +1,3 @@
+PCVue VAREXP Minimal Hierarchy Pilot Collector
+Version: 1.0.0-rc1
+Production execution requires separate approval.

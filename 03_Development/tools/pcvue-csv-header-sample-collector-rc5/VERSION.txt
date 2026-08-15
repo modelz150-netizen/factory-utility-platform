@@ -1,0 +1,5 @@
+PCVue CSV Limited Header Discovery Collector
+Package version: 1.0.0-rc5
+Target: approved 11-file Production sample only
+Field use: NOT APPROVED
+Production execution: NOT APPROVED

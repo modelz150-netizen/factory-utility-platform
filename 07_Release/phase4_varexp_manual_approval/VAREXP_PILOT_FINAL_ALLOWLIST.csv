@@ -1,0 +1,18 @@
+PositionalId,Position,OriginalHeaderVariants,NormalizedAlias,UtilityAIUsePurpose,OTSensitivity,OutputAllowed,SourceSpecificOriginalHeaderRequired,HeaderStringAsKeyProhibited
+VAREXP_COL_001,1,Class,CLASS,Tag classification and feature grouping,MEDIUM,TRUE,TRUE,TRUE
+VAREXP_COL_002,2,Tagname,TAGNAME,Tag identity and cross-source matching,HIGH,TRUE,TRUE,TRUE
+VAREXP_COL_016,16,Description,DESCRIPTION,Semantic labeling and AI-readable context,HIGH,TRUE,TRUE,TRUE
+VAREXP_COL_017,17,DescriptionAlt,DESCRIPTIONALT,Semantic labeling and AI-readable context,HIGH,TRUE,TRUE,TRUE
+VAREXP_COL_018,18,Domain,DOMAIN,Tag classification and feature grouping,MEDIUM,TRUE,TRUE,TRUE
+VAREXP_COL_019,19,Nature,NATURE,Tag classification and feature grouping,MEDIUM,TRUE,TRUE,TRUE
+VAREXP_COL_020,20,Inhibited,INHIBITED,Quality/state and acquisition behavior context,LOW,TRUE,TRUE,TRUE
+VAREXP_COL_021,21,Simulated,SIMULATED,Quality/state and acquisition behavior context,LOW,TRUE,TRUE,TRUE
+VAREXP_COL_022,22,Saved,SAVED,Quality/state and acquisition behavior context,LOW,TRUE,TRUE,TRUE
+VAREXP_COL_047,47,Log0_1,LOG0_1,Historian/logging eligibility assessment,LOW,TRUE,TRUE,TRUE
+VAREXP_COL_048,48,Log1_0,LOG1_0,Historian/logging eligibility assessment,LOW,TRUE,TRUE,TRUE
+VAREXP_COL_051,51,AlarmLevel,ALARMLEVEL,Alarm configuration understanding,MEDIUM,TRUE,TRUE,TRUE
+VAREXP_COL_052,52,AlarmActiveAt1,ALARMACTIVEAT1,Alarm configuration understanding,LOW,TRUE,TRUE,TRUE
+VAREXP_COL_066,66,Unit,UNIT,Engineering-unit interpretation and validation,MEDIUM,TRUE,TRUE,TRUE
+VAREXP_COL_073,73,Format,FORMAT,Data representation interpretation,LOW,TRUE,TRUE,TRUE
+VAREXP_COL_163,163,Recorder,RECORDER,Historian/logging eligibility assessment,MEDIUM,TRUE,TRUE,TRUE
+VAREXP_COL_166,166,MessageAlarm,MESSAGEALARM,Alarm configuration understanding,HIGH,TRUE,TRUE,TRUE
